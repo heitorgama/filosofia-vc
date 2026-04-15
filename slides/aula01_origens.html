@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="aula01_origens_files/libs/clipboard/clipboard.min.js"></script>
+<script src="aula01_origens_files/libs/quarto-html/tabby.min.js"></script>
+<script src="aula01_origens_files/libs/quarto-html/popper.min.js"></script>
+<script src="aula01_origens_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="aula01_origens_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="aula01_origens_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="aula01_origens_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <meta name="dcterms.date" content="2026-06-04">
+  <title>Origens da filosofia</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="aula01_origens_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="aula01_origens_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="aula01_origens_files/libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="aula01_origens_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="aula01_origens_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="aula01_origens_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="aula01_origens_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+  
+  <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Origens da filosofia</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+  <p class="date">06/04/2026</p>
+</section>
+<section>
+<section id="contexto-histórico-geográfico" class="title-slide slide level1 center">
+<h1>Contexto histórico-geográfico</h1>
+<style>
+:root {
+  --bg-image: url("imagens/aula01/o_nascimento_de_venus.jpg");
+}
+</style>
+<div class="smaller-list">
+<ul>
+<li class="fragment">Colônias gregas na costa do Mar Egeu, Ásia Menor e sul da Itália</li>
+<li class="fragment">Século VI a.C.</li>
+<li class="fragment">Contato com outras culturas (egípcia, babilônica, persa)</li>
+<li class="fragment">Desenvolvimento da escrita alfabética</li>
+<li class="fragment">Sociedade urbana e comércio ativo</li>
+</ul>
+</div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p><img data-src="imagens/aula01/mapa_mundo_grego.png" style="height:50.0%"></p>
+</section></section>
+<section>
+<section id="pensamento-mítico" class="title-slide slide level1 center">
+<h1>Pensamento mítico</h1>
+<div class="smaller-list">
+<ul>
+<li class="fragment"><strong><em>Mythos</em></strong> significa “narrativa”, mas também pode significar “mentira”.</li>
+<li class="fragment">Os mitos explicavam a origem do mundo (<strong>cosmogonia</strong>), dos deuses (<strong>teogonia</strong>), dos fenômenos naturais e dos seres humanos.</li>
+<li class="fragment">Os mitos eram <strong>transmitidos oralmente</strong> e tinham uma função social, religiosa e educativa.</li>
+<li class="fragment">Os mitos eram <strong>antropomórficos</strong>, ou seja, atribuíam características humanas aos deuses e aos fenômenos naturais.</li>
+<li class="fragment">Os mitos eram <strong>polissêmicos</strong>, ou seja, podiam ter múltiplas interpretações e significados.</li>
+<li class="fragment">Os mitos eram <strong>sagrados</strong>, ou seja, tinham um valor religioso e moral para os gregos.</li>
+<li class="fragment">Os mitos são <strong>produções coletivas</strong>, ou seja, não têm um autor específico e são resultado de um processo de construção social e cultural.</li>
+<li class="fragment">Os mitos são <strong>dinâmicos</strong>, ou seja, estão sujeitos a mudanças e adaptações ao longo do tempo e do espaço.</li>
+</ul>
+</div>
+</section>
+<section id="alguns-mitos-gregos" class="slide level2">
+<h2>Alguns mitos gregos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="smaller-list">
+<ul>
+<li class="fragment"><strong>Ilíada</strong> e <strong>Odisseia</strong>, de Homero
+<ul>
+<li class="fragment">A crise existencial do semi-Deus Aquiles durante a guerra de Troia é um dos temas centrais da Ilíada, onde ele se vê dividido entre a busca pela glória eterna e a vida longa e tranquila. A Odisseia narra a jornada de Odisseu para retornar à sua terra natal após a guerra, enfrentando diversos desafios e perigos, como o encontro com o ciclope Polifemo, a sedução das sereias e a visita ao mundo dos mortos.</li>
+<li class="fragment">A Odisseia também aborda temas como a hospitalidade, a fidelidade e a astúcia. <!-- *"Minha mãe diz que dois destinos me levam à morte. Se eu ficar aqui e lutar em torno da cidade de Troia, minha volta está perdida, mas minha glória será imortal. Mas, se eu voltar para a amada terra pátria, minha glória se perde, mas terei vida longa."* (Canto IX) --></li>
+</ul></li>
+<li class="fragment"><strong>Mito de Prometeu</strong>
+<ul>
+<li class="fragment">Prometeu é um titã que rouba o fogo dos deuses e o dá aos humanos, permitindo-lhes desenvolver a civilização. Como punição, Zeus o acorrenta a uma rocha, onde uma águia devora seu fígado diariamente, que se regenera à noite.</li>
+</ul></li>
+<li class="fragment"><strong>Mito de Pandora</strong>
+<ul>
+<li class="fragment">Pandora é a primeira mulher criada por Zeus, que lhe dá uma caixa (ou jarro) contendo todos os males do mundo. Curiosa, Pandora abre a caixa, liberando o sofrimento, a doença e a morte, mas também a esperança, que permanece dentro da caixa.</li>
+</ul></li>
+<li class="fragment"><strong>Mito de Narciso</strong>
+<ul>
+<li class="fragment">Narciso é um jovem belo que se apaixona por sua própria imagem refletida na água e acaba morrendo afogado. Em seu lugar nasce uma flor que leva seu nome.</li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="smaller-list">
+<ul>
+<li class="fragment"><strong>Mito de Édipo</strong>
+<ul>
+<li class="fragment">Édipo é um príncipe que, sem saber, mata seu pai e se casa com sua mãe, cumprindo uma profecia. Quando descobre a verdade, ele se cega e se exila.</li>
+</ul></li>
+<li class="fragment"><strong>Mito de Orfeu e Eurídice</strong>
+<ul>
+<li class="fragment">Orfeu é um músico talentoso que desce ao mundo dos mortos para resgatar sua esposa Eurídice, que morreu picada por uma serpente. Ele consegue encantá-los com sua música, mas falha ao olhar para trás antes de sair do submundo, perdendo Eurídice para sempre.</li>
+</ul></li>
+<li class="fragment"><strong>Mito de Ícaro</strong>
+<ul>
+<li class="fragment">Ícaro é um jovem que, junto com seu pai Dédalo, tenta escapar do labirinto onde estão presos usando asas feitas de penas e cera. Dédalo adverte Ícaro para não voar muito alto, mas ele se empolga e acaba derretendo as asas ao se aproximar do sol, caindo no mar e morrendo afogado.</li>
+</ul></li>
+<li class="fragment"><strong>Mito de Teseu e o Minotauro</strong>:
+<ul>
+<li class="fragment">Teseu é um herói que se voluntaria para entrar no labirinto onde vive o Minotauro, uma criatura metade homem e metade touro, para salvar os jovens atenienses que são sacrificados a ele. Com a ajuda de Ariadne, filha do rei Minos, que lhe dá um novelo de lã para marcar o caminho, Teseu consegue matar o Minotauro e escapar do labirinto.</li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+</section></section>
+<section id="nascimento-da-ciência" class="title-slide slide level1 smaller-list center">
+<h1>Nascimento da ciência</h1>
+<ul>
+<li class="fragment">Explicação racional dos fenômenos naturais, sem recorrer a causas sobrenaturais ou mitológicas.</li>
+<li class="fragment">Busca por <strong>princípios universais</strong> e <strong>leis naturais</strong> que governam o mundo.</li>
+<li class="fragment">Primeiro filósofo: Tales de Mileto (século VI a.C.).</li>
+<li class="fragment">O elemento primordial (<em>arqué</em>):
+<ul>
+<li class="fragment">Tales: água</li>
+<li class="fragment">Anaxímenes: ar</li>
+<li class="fragment">Anaximandro: o ilimitado (<em>ápeiron</em>)</li>
+<li class="fragment">Heráclito: fogo</li>
+<li class="fragment">Demócrito: átomo</li>
+<li class="fragment">Empédocles: os quatro elementos (terra, água, ar e fogo)</li>
+</ul></li>
+<li class="fragment"><em>Cosmo</em>: ordem, harmonia e beleza do universo (contrapõe-se ao <em>caos</em>).</li>
+<li class="fragment"><em>Logos</em>:
+<ul>
+<li class="fragment">Discurso racional argumentativo (contrapõe-se ao <em>mythos</em>).</li>
+<li class="fragment">Explicações justificadas e sujeitas a crítica (contrapõe-se à autoridade e à tradição).</li>
+</ul></li>
+<li class="fragment">Atitude crítica:
+<ul>
+<li class="fragment">Na Escola de Mileto, os discípulos de Tales não aceitaram suas explicações e buscaram outras alternativas.</li>
+<li class="fragment">Segundo Popper, a grande novidade da filosofia grega não foi tanto a <strong>substituição</strong> do mito pelo logos, mas a <strong>crítica</strong> do mito pelo logos.</li>
+</ul></li>
+</ul>
+</section>
+
+<section>
+<section id="pré-socráticos" class="title-slide slide level1 center">
+<h1>Pré-socráticos</h1>
+<div class="smaller-list">
+<ul>
+<li class="fragment">Filósofos que viveram antes de Sócrates (século VI a.C. a 399 a.C.).</li>
+<li class="fragment">Focaram na explicação da natureza, do cosmos e da origem do universo.</li>
+<li class="fragment">Escola jônica: Tales de Mileto, Anaximandro, Anaxímenes, Xenófanes de Cólofon e Heráclito.</li>
+<li class="fragment">Escola italiana: Pitágoras de Samos e Parmênides de Eleia.</li>
+<li class="fragment">Segunda fase (pluralista): Anaxágoras, Escola atomista (Leucipo e Demócrito) e Empédocles.</li>
+</ul>
+</div>
+</section>
+<section id="monismo-x-mobilismo" class="slide level2">
+<h2>Monismo x mobilismo</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><strong>Parmênides de Eleia</strong></p>
+<div class="smaller-list">
+<ul>
+<li class="fragment">O ser é uno, imutável e eterno.</li>
+<li class="fragment">Mesmo na mudança há algo que permanece, portanto a permanência é mais básica que a mudança.</li>
+<li class="fragment">O mundo sensível é uma ilusão (<em>realidade</em> vs.&nbsp;<em>aparência</em>).</li>
+<li class="fragment">“Aquilo que é não pode não ser”.</li>
+<li class="fragment"><em>Caminho da Verdade</em> vs.&nbsp;<em>Caminho da Opinião</em>.</li>
+<li class="fragment">Precursor da <strong>metafísica</strong>.</li>
+</ul>
+</div>
+</div><div class="column" style="width:40%;">
+<p><strong>Heráclito de Éfeso</strong></p>
+<div class="smaller-list">
+<ul>
+<li class="fragment">“Tudo flui (<em>panta rhei</em>).”</li>
+<li class="fragment">O ser é múltiplo, mutável e eterno.</li>
+<li class="fragment">Dicotomias são interdependentes e inseparáveis (ex: dia/noite, vida/morte, guerra/paz).</li>
+<li class="fragment">O mundo sensível é real, mas está em constante fluxo.</li>
+<li class="fragment">Precursor da <strong>dialética</strong>.</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section id="quem-disse" class="slide level2">
+<h2>Quem disse?</h2>
+<p>Parmênides ou Heráclito?</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="smaller-list">
+<ol type="1">
+<li class="fragment">“6.&nbsp;Necessário é dizer e pensar que só o ser é; pois o ser é, e o nada, ao contrário, nada é: afirmação que bem deves considerar. (…)”</li>
+<li class="fragment">“91.&nbsp;Não se pode entrar duas vezes no mesmo rio. Dispersa-se e se junta novamente, aproxima-se e se distancia.”</li>
+<li class="fragment">“51.(…) separando-se podem se harmonizar: harmonia de forças contrárias como o arco e a lira.”</li>
+<li class="fragment">“60.&nbsp;O caminho para o alto e para baixo é um e o mesmo.”</li>
+<li class="fragment">“7.&nbsp;Jamais se conseguirá provar que o não-ser é. (…)”</li>
+</ol>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="smaller-list">
+<ol start="6" type="1">
+<li class="fragment">“3.&nbsp;Pois pensar e ser é o mesmo.”</li>
+<li class="fragment">“53.&nbsp;A guerra (polemos) é pai de todas as coisas, rei de tudo; de uns fez deuses, de outros homens; de uns, escravos, de outros, homens livres.”</li>
+<li class="fragment">“88.&nbsp;Trata-se de uma única e mesma coisa: a vida e a morte, a vigília e o sono, a juventude e a velhice; pois a mudança de um leva ao outro e vice-versa.”</li>
+<li class="fragment">“7.&nbsp;Jamais se conseguirá provar que o não-ser é. (…)”</li>
+</ol>
+<div class="no-bullets">
+<ul>
+<li class="fragment"><small><strong>GABARITO:</strong> 1.P, 2.H, 3.H, 4.H, 5.P, 6.P, 7.H, 8.H, 9.P</small></li>
+</ul>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="questões-do-enem" class="title-slide slide level1 center">
+<h1>Questões do Enem</h1>
+
+</section>
+<section id="questão-1" class="slide level2">
+<h2>Questão 1</h2>
+
+        <div class="container">
+        <div class="quiz-card">
+    <p class="question-title">TEXTO I</p>
+<p class="question">Fragmento B91: Não se pode banhar duas vezes no mesmo rio, nem substância mortal alcançar duas vezes a mesma condição; mas pela intensidade e rapidez da mudança, dispersa e de novo reúne.</p>
+<p class="reference">HERÁCLITO. <strong>Fragmentos (Sobre a natureza).</strong> São Paulo: Abril Cultural, 1996 (adaptado).</p>
+<p class="question-title">TEXTO II</p>
+<p class="question">Fragmento B8: São muitos os sinais de que o ser é ingênito e indestrutível, pois é compacto, inabalável e sem fim; não foi nem será, pois é agora um todo homogêneo, uno, contínuo. Como poderia o que é perecer? Como poderia gerar-se?</p>
+<p class="reference">PARMÊNIDES. <strong>Da natureza.</strong> São Paulo: Loyola, 2002 (adaptado).</p>
+<p class="statement">Os fragmentos do pensamento pré-socrático expõem uma oposição que se insere no campo das</p>
+  <ul class="answers">
+    <li data-key="A" class="answers"><p class="answers"><strong>A</strong> <span style="display:inline-block; width:1em;"></span>investigações do pensamento sistemático.</p>
+</li>
+    <li data-key="B" class="answers"><p class="answers"><strong>B</strong> <span style="display:inline-block; width:1em;"></span>preocupações do período mitológico.</p>
+</li>
+    <li data-key="C" class="answers"><p class="answers"><strong>C</strong> <span style="display:inline-block; width:1em;"></span>discussões de base ontológica.</p>
+</li>
+    <li data-key="D" class="answers"><p class="answers"><strong>D</strong> <span style="display:inline-block; width:1em;"></span>habilidades da retórica sofística.</p>
+</li>
+    <li data-key="E" class="answers"><p class="answers"><strong>E</strong> <span style="display:inline-block; width:1em;"></span>verdades do mundo sensível.</p>
+</li>
+  </ul>
+
+        </div>
+        </div>
+    
+</section>
+<section id="questão-2" class="slide level2">
+<h2>Questão 2</h2>
+
+        <div class="container">
+        <div class="quiz-card">
+    <p class="question">Empédocles estabelece quatro elementos corporais — fogo, ar, água e terra —, que são eternos e que mudam aumentando e diminuindo mediante mistura e separação; mas os princípios propriamente ditos, pelos quais aqueles são movidos, são o Amor e o Ódio. Pois é preciso que os elementos permaneçam alternadamente em movimento, sendo ora misturados pelo Amor, ora separados pelo Ódio.</p>
+<p class="reference">SIMPLÍCIO. <strong>Física, 25, 21.</strong> In: Os pré-socráticos. São Paulo: Nova Cultural, 1996.</p>
+<p class="statement">O texto propõe uma reflexão sobre o entendimento de Empédocles acerca da arché, uma preocupação típica do pensamento pré-socrático, porque</p>
+  <ul class="answers">
+    <li data-key="A" class="answers"><p class="answers"><strong>A</strong> <span style="display:inline-block; width:1em;"></span>exalta a investigação filosófica.</p>
+</li>
+    <li data-key="B" class="answers"><p class="answers"><strong>B</strong> <span style="display:inline-block; width:1em;"></span>transcende ao mundo sensível.</p>
+</li>
+    <li data-key="C" class="answers"><p class="answers"><strong>C</strong> <span style="display:inline-block; width:1em;"></span>evoca a discussão cosmogônica.</p>
+</li>
+    <li data-key="D" class="answers"><p class="answers"><strong>D</strong> <span style="display:inline-block; width:1em;"></span>fundamenta as paixões humanas.</p>
+</li>
+    <li data-key="E" class="answers"><p class="answers"><strong>E</strong> <span style="display:inline-block; width:1em;"></span>corresponde à explicação mitológica.</p>
+</li>
+  </ul>
+
+        </div>
+        </div>
+    
+</section>
+<section id="questão-3" class="slide level2">
+<h2>Questão 3</h2>
+
+        <div class="container">
+        <div class="quiz-card">
+    <p class="question">Alguns dos desejos são naturais e necessários; outros, naturais e não necessários; outros, nem naturais nem necessários, mas nascidos de vã opinião. Os desejos que não nos trazem dor se não satisfeitos não são necessários, mas o seu impulso pode ser facilmente desfeito, quando é difícil obter sua satisfação ou parecem geradores de dano.</p>
+<p class="reference">EPICURO DE SAMOS. <strong>Doutrinas principais.</strong> In: SANSON, V. F. Textos de filosofia. Rio de Janeiro: Eduff, 1974.</p>
+<p class="statement">No fragmento da obra filosófica de Epicuro, o homem tem como fim</p>
+  <ul class="answers">
+    <li data-key="A" class="answers"><p class="answers"><strong>A</strong> <span style="display:inline-block; width:1em;"></span>alcançar o prazer moderado e a felicidade.</p>
+</li>
+    <li data-key="B" class="answers"><p class="answers"><strong>B</strong> <span style="display:inline-block; width:1em;"></span>valorizar os deveres e as obrigações sociais.</p>
+</li>
+    <li data-key="C" class="answers"><p class="answers"><strong>C</strong> <span style="display:inline-block; width:1em;"></span>aceitar o sofrimento e o rigorismo da vida com resignação.</p>
+</li>
+    <li data-key="D" class="answers"><p class="answers"><strong>D</strong> <span style="display:inline-block; width:1em;"></span>refletir sobre os valores e as normas dadas pela divindade.</p>
+</li>
+    <li data-key="E" class="answers"><p class="answers"><strong>E</strong> <span style="display:inline-block; width:1em;"></span>defender a indiferença e a impossibilidade de se atingir o saber.</p>
+</li>
+  </ul>
+
+        </div>
+        </div>
+    
+</section>
+<section id="questão-4" class="slide level2">
+<h2>Questão 4</h2>
+
+        <div class="container">
+        <div class="quiz-card">
+    <p class="question">Aquilo que é quente necessita de umidade para viver, e o que é morto seca, e todos os germes são úmidos, e todo alimento é cheio de suco; ora, é natural que cada coisa se nutra daquilo de que provém.</p>
+<p class="reference">SIMPLÍCIO. In: BORNHEIM, G. A. <strong>Os filósofos pré-socráticos.</strong> São Paulo: Cultrix, 1993.</p>
+<p class="statement">O fragmento atribuído ao filósofo Tales de Mileto é característico do pensamento pré-socrático ao apresentar uma:</p>
+  <ul class="answers">
+    <li data-key="A" class="answers"><p class="answers"><strong>A</strong> <span style="display:inline-block; width:1em;"></span>abordagem epistemológica sobre o lógos e a fundamentação da metafísica.</p>
+</li>
+    <li data-key="B" class="answers"><p class="answers"><strong>B</strong> <span style="display:inline-block; width:1em;"></span>teoria crítica sobre a essência e o método do conhecimento científico.</p>
+</li>
+    <li data-key="C" class="answers"><p class="answers"><strong>C</strong> <span style="display:inline-block; width:1em;"></span>justificação religiosa sobre a existência e as contradições humanas.</p>
+</li>
+    <li data-key="D" class="answers"><p class="answers"><strong>D</strong> <span style="display:inline-block; width:1em;"></span>elaboração poética sobre os mitos e as narrativas cosmogônicas.</p>
+</li>
+    <li data-key="E" class="answers"><p class="answers"><strong>E</strong> <span style="display:inline-block; width:1em;"></span>explicação racional sobre a origem e a transformação da physis.</p>
+</li>
+  </ul>
+
+        </div>
+        </div>
+    
+</section>
+<section id="questão-5" class="slide level2">
+<h2>Questão 5</h2>
+
+        <div class="container">
+        <div class="quiz-card">
+    <p class="question-title">TEXTO I</p>
+<p class="question">Em conjunto: todo e não todo, unido e separado, em consonância e em dissonância. De todos um e de um todos. (Fragmento B10)</p>
+<p class="reference">PRÉ-SOCRÁTICOS. São Paulo: Nova Cultural, 1996.</p>
+<p class="question-title">TEXTO II</p>
+<p class="question">Deus é dia-noite, inverno-verão, guerra-paz, saciedade-fome. (Fragmento B67)</p>
+<p class="reference">PRÉ-SOCRÁTICOS. São Paulo: Nova Cultural, 1996.</p>
+<p class="statement">A característica do pensamento do filósofo Heráclito, registrada nos fragmentos mencionados, é a ênfase na</p>
+  <ul class="answers">
+    <li data-key="A" class="answers"><p class="answers"><strong>A</strong> <span style="display:inline-block; width:1em;"></span>qualidade imperecível do mundo.</p>
+</li>
+    <li data-key="B" class="answers"><p class="answers"><strong>B</strong> <span style="display:inline-block; width:1em;"></span>degradação material da natureza.</p>
+</li>
+    <li data-key="C" class="answers"><p class="answers"><strong>C</strong> <span style="display:inline-block; width:1em;"></span>imobilidade imanente do universo.</p>
+</li>
+    <li data-key="D" class="answers"><p class="answers"><strong>D</strong> <span style="display:inline-block; width:1em;"></span>distribuição dicotômica do cosmos.</p>
+</li>
+    <li data-key="E" class="answers"><p class="answers"><strong>E</strong> <span style="display:inline-block; width:1em;"></span>desordem incontornável das coisas.</p>
+</li>
+  </ul>
+
+        </div>
+        </div>
+    
+</section>
+<section id="questão-6" class="slide level2 scrollable">
+<h2>Questão 6</h2>
+
+        <div class="container">
+        <div class="quiz-card">
+    <p class="question">A alma funciona no meu corpo de maneira maravilhosa. Nele se aloja, certamente, mas sabe bem dele escapar: escapa para ver as coisas através da janela dos meus olhos, escapa para sonhar quando durmo, para sobreviver quando morro. Minha alma durará muito tempo e mais que muito tempo, quando meu corpo vier a apodrecer. Viva minha alma! É meu corpo luminoso, purificado, virtuoso, ágil, móvel, tépido, viçoso; é meu corpo liso, castrado, arredondado como uma bolha de sabão.</p>
+<p class="reference">FOUCAULT, M. <strong>O corpo utópico, as heterotopias</strong>. São Paulo: Edições N-1, 2013.</p>
+<p class="statement">Esse texto reforça uma concepção metafísica clássica que remete a um(a)</p>
+  <ul class="answers">
+    <li data-key="A" class="answers"><p class="answers"><strong>A</strong> <span style="display:inline-block; width:1em;"></span>pressuposto lógico.</p>
+</li>
+    <li data-key="B" class="answers"><p class="answers"><strong>B</strong> <span style="display:inline-block; width:1em;"></span>pensamento dicotômico.</p>
+</li>
+    <li data-key="C" class="answers"><p class="answers"><strong>C</strong> <span style="display:inline-block; width:1em;"></span>contemplação da natureza.</p>
+</li>
+    <li data-key="D" class="answers"><p class="answers"><strong>D</strong> <span style="display:inline-block; width:1em;"></span>raciocínio argumentativo.</p>
+</li>
+    <li data-key="E" class="answers"><p class="answers"><strong>E</strong> <span style="display:inline-block; width:1em;"></span>crítica à individualidade.</p>
+</li>
+  </ul>
+
+        </div>
+        </div>
+    
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="imagens/logo_vc.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="aula01_origens_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="aula01_origens_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="aula01_origens_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="aula01_origens_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

@@ -1,0 +1,193 @@
+.reveal .date {
+  font-size: 0.7em;
+  opacity: 0.5; /* optional: makes it a bit softer */
+}
+
+:root {
+  /* --bg-image: url("imagens/aula00/escher_drawing_hands_1948.jpg"); */
+  --bg-size: cover;
+  --bg-opacity: 0.85;
+  --primary: #4f46e5;
+  --primary-light: #eef2ff;
+  /* --accent: #22c55e; */
+  /* --danger: #ef4444; */
+  -text-dark: #1f2937;
+  --text-light: #6b7280;
+  /* --bg: #f9fafb; */
+  --card-bg: #ffffff;
+  /* --border: #e5e7eb; */
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.reveal .slides {
+  background-image: var(--bg-image);
+  background-size: var(--bg-size) !important;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.reveal .slides::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  z-index: 0;
+}
+
+.reveal .slides > * {
+  position: relative;
+  z-index: 1; /* garante que o conteúdo fique acima */
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 40px !important;
+  margin: 0 !important;
+}
+
+.reveal .smaller-columns .column {
+  font-size: 0.6em;
+  line-height: 1.1;
+}
+
+.reveal .smaller-list li {
+  font-size: 0.6em;
+  line-height: 1.2;
+}
+
+.reveal .no-bullets ul,
+.reveal .no-bullets li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.reveal .logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+  height: auto;
+  z-index: 2; /* garante que o logo fique acima de tudo */
+}
+
+/* Question styling */
+.reveal .container {
+  width: 95%;
+  /* max-width: 700px; */
+  /* font-family: 'Nunito', system-ui, -apple-system, sans-serif; */
+  /* background: linear-gradient(135deg, #eef2ff, #f9fafb); */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  min-height: 100%;
+  margin: 0;
+  /* padding: 0rem 0; */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Card container */
+.quiz-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.question-title {
+  font-size: 1.10rem;
+  font-weight: 700; /* Bold */
+  color: var(--text-dark);
+  margin-bottom: 0.0rem;
+  text-indent: 0em;
+}
+
+.question {
+  font-size: 1.10rem;
+  font-weight: 0;
+  color: var(--text-dark);
+  margin-bottom: 0.0rem;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+/* Bibliographic reference */
+.reference {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--text-light);
+  margin-top: 0.0rem;
+  line-height: 1.4;
+  font-style: italic;
+  width: 100%;
+  margin-left: 20%;
+  text-align: right;
+}
+
+/* Question statement (enunciado) */
+.statement {
+  font-size: 1.10rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-top: 1.5rem;
+  margin-bottom: 1.0rem;
+  text-align: justify;
+}
+
+/* Answers list */
+.reveal .answers {
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Individual answer */
+.answers li {
+  list-style: none; /* Remover bullets */
+  /* background: var(--primary-light); */
+  /* padding: 0.9rem 1rem; */
+  /* margin-bottom: 0.75rem; */
+  /* border-radius: 10px; */
+  /* cursor: pointer; */
+  /* transition: all 0.25s ease; */
+  /* position: relative; */
+  font-weight: 500;
+  /* color: var(--text-dark); */
+  /* border: 2px solid transparent; */
+  font-size: 1.10rem;
+  text-indent: 0pt;
+}
+
+/* .answers li::marker {
+  display: none;
+} */
+
+.answers li p {
+  margin: 0;
+  display: inline;
+  text-indent: 0pt;
+  padding-left: 0;
+}
+
+/* Letter indicator */
+/* .answers li::before {
+  content: attr(data-key);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 0.75rem;
+  color: var(--primary);
+} */
+
+/* Slides with no title - content begins at top */
+.reveal section.no-title {
+  padding-top: 0 !important;
+}
+
+/* Container for title-less slides */
+.reveal section.no-title .container {
+  min-height: auto;
+  padding: 0;
+}

@@ -1,0 +1,945 @@
+- id: 1
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 55
+  question_elements:
+    - question_text: >
+        A alma funciona no meu corpo de maneira maravilhosa. Nele se aloja, certamente,
+        mas sabe bem dele escapar: escapa para ver as coisas através da janela dos meus olhos,
+        escapa para sonhar quando durmo, para sobreviver quando morro. Minha alma durará
+        muito tempo e mais que muito tempo, quando meu corpo vier a apodrecer. Viva minha alma!
+        É meu corpo luminoso, purificado, virtuoso, ágil, móvel, tépido, viçoso; é meu corpo liso,
+        castrado, arredondado como uma bolha de sabão.
+      question_text_reference: "FOUCAULT, M. **O corpo utópico, as heterotopias**. São Paulo: Edições N-1, 2013."
+  statement: "Esse texto reforça uma concepção metafísica clássica que remete a um(a)"
+  answers:
+    A: "pressuposto lógico."
+    B: "pensamento dicotômico."
+    C: "contemplação da natureza."
+    D: "raciocínio argumentativo."
+    E: "crítica à individualidade."
+  correct_answer: B
+
+- id: 2
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 58
+  question_elements:
+    - question_text_title: TEXTO I
+      question_text: >
+        Aristóteles entendia que a felicidade era diretamente ligada ao respeito pela própria natureza
+        e, de certa maneira, a uma vida que tivesse na natureza de si mesma uma referência inabalável.
+        Isso lhe permitiu formular o conceito de excelência. O que seria excelência? Seria, justamente,
+        ao longo da vida, tirar de si mesmo, em forma de performance, de conduta, de comportamento,
+        de disposição, o que a natureza permitiria de melhor.
+      question_text_reference: >
+        COEN, M.; BARROS FILHO, C. **A monja e o professor**: reflexões sobre ética, preceitos e valores. Rio de Janeiro: Best Seller, 2018.
+    - question_text_title: TEXTO II
+      question_text: >
+        A noção de eudaimonia é central para a ética aristotélica. A eudaimonia é uma atividade e não
+        um estado psicológico, pois é definida na Ética a Nicômaco como uma atividade da alma com base
+        na virtude moral. A virtude moral é definida em termos de uma disposição diretamente ligada à
+        deliberação, o que o leva a estudar a virtude intelectual que opera em seu interior, isto é, a prudência.
+        A estrutura conceitual da ética aristotélica responde a uma tentativa de elucidar conceitualmente
+        em que consiste isto, agir bem, ou, na linguagem aristotélica, o que significa ser feliz.
+      question_text_reference: >
+        ZINGANO, M. Eudaimonia, razão e contemplação na ética aristotélica. **Analytica**, n. 1, 2017 (adaptado).
+  statement: >
+    Os textos indicam que a prática de ações virtuosas, sempre efetivada na pólis, ocorre por meio do(a)
+  answers:
+    A: "teoria das formas essenciais."
+    B: "identificação dos princípios racionais."
+    C: "desenvolvimento das técnicas retóricas."
+    D: "aperfeiçoamento das condutas humanas."
+    E: "conhecimento das epistemes verdadeiras."
+  correct_answer: D
+
+- id: 3
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 61
+  question_elements:
+    - question_text: >
+        Eu sentia falta do futuro. É claro que eu sabia, muito mesmo antes da recorrência dele, que nunca envelheceria.
+        Era muito provável que eu nunca mais fosse ver o oceano de uma altura de trinta mil pés de novo, uma distância
+        tão grande que não dá nem para distinguir as ondas, nem nenhum barco, de um jeito que faz o oceano parecer
+        um enorme e infinito monólito. Eu poderia imaginá-lo. Eu poderia me lembrar dele. Mas não poderia vê-lo de novo,
+        e me ocorreu que a ambição voraz dos seres humanos nunca é saciada quando os sonhos são realizados,
+        porque há sempre a sensação de que tudo poderia ter sido feito melhor e ser feito outra vez.
+      question_text_reference: >
+        GREEN, J. **A culpa é das estrelas**. Rio de Janeiro: Intrínseca, 2012.
+  statement: >
+    O texto apresenta uma reflexão da personagem acerca de um problema característico da filosofia contemporânea, que trata da(s)
+  answers:
+    A: "implicações éticas."
+    B: "finitude humana."
+    C: "limitações da linguagem."
+    D: "pressuposição existencial."
+    E: "objetividade do conhecimento."
+  correct_answer: B
+
+- id: 4
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 62
+  question_elements:
+    - question_text_title: TEXTO I
+      question_text: >
+        O empirismo moderno foi, em grande parte, condicionado por dois dogmas. Um deles é a crença em
+        certa divisão fundamental entre verdades analíticas, ou fundadas em significados independentemente
+        de questões de fato, e verdades sintéticas, ou fundadas em fatos. O outro dogma é o reducionismo:
+        a crença de que todo enunciado significativo é equivalente a algum construto lógico sobre termos
+        que se referem à experiência imediata.
+      question_text_reference: >
+        QUINE, W. V. O. Dois dogmas do empirismo. In: RYLE, G. et al. Ensaios. São Paulo: Abril Cultural, 1975.
+    - question_text_title: TEXTO II
+      question_text: >
+        Teses: 1. Somente os enunciados que possuem conteúdo factual são teoricamente significativos;
+        enunciados que não podem, em princípio, estar fundamentados pela experiência são carentes de significado.
+        2. As ciências empíricas usam somente o conteúdo empírico da realidade. 3. A filosofia usa um conceito
+        não empírico da realidade.
+      question_text_reference: >
+        CARNAP, R. **Pseudoproblemas na filosofia.** In: SCHLICK, M.; CARNAP, R.; POPPER, K. Coletânea de textos. São Paulo: Abril Cultural, 1975.
+  statement: >
+    Ao comparar os textos, conclui-se que eles apresentam posicionamentos filosóficos divergentes com relação ao
+  answers:
+    A: "estatuto epistemológico da linguagem."
+    B: "alicerce estruturante da moralidade."
+    C: "conteúdo essencial da metafísica."
+    D: "princípio constitutivo da ontologia."
+    E: "domínio reflexivo da estética."
+  correct_answer: A
+
+- id: 5
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 75
+  question_elements:
+    - question_text: >
+        Os salões permitiam aos escritores da época do Iluminismo adentrar no universo dos poderosos.
+        Figuras como as de Voltaire e Duclos exortavam seus “irmãos” a aproveitarem da mobilidade que
+        era oferecida pela ordem social do Antigo Regime, juntando-se à elite. Nos últimos decênios do
+        Ancien Régime, ele foi se tornando cada vez mais o reduto dos filósofos do Alto Iluminismo,
+        que deixavam os cafés para os tipos inferiores de literário. Com efeito, os cafés se constituíram
+        na antítese lógica dos salões. Eles eram abertos a todos, a um passo da rua. Como é possível
+        constatar, salões e cafés constituem interessantes instituições do espaço público literário
+        através das quais é possível vislumbrar as bases sociais nas quais se assentavam o Alto e o Baixo Iluminismo.
+      question_text_reference: >
+        HABERMAS, J. **Mudança estrutural da esfera pública: investigações quanto a uma categoria da sociedade burguesa.**
+        Rio de Janeiro: Tempo Brasileiro, 1984 (adaptado).
+  statement: >
+    No período iluminista, os espaços sociais mencionados contribuíram para
+  answers:
+    A: "segregar pensadores e aumentar a circulação de ideias."
+    B: "apoiar revolucionários e perseguir a nobreza local."
+    C: "rejeitar poetisas e proibir a entrada de mulheres."
+    D: "censurar cronistas e coibir o patrocínio editorial."
+    E: "integrar artistas e ampliar o comércio urbano."
+  correct_answer: A
+
+- id: 6
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 76
+  question_elements:
+    - question_text: >
+        Resumamos os principais caracteres de um rizoma: diferentemente das árvores ou de suas raízes,
+        o rizoma conecta um ponto qualquer com outro ponto qualquer e cada um de seus traços não remete
+        necessariamente a traços de mesma natureza. Contra os sistemas centrados (e mesmo policentrados),
+        de comunicação hierárquica e ligações preestabelecidas, o rizoma é um sistema a-centrado
+        não hierárquico e não significante, sem general, sem memória organizadora ou autômato central,
+        unicamente definido por uma circulação de estados.
+      question_text_reference: >
+        DELEUZE, G.; GUATTARI, F. **Mil platôs.** São Paulo: Editora 34, 1995 (adaptado).
+  statement: >
+    Qual elemento da cultura contemporânea se relaciona às características do conceito de rizoma, conforme descrito no texto?
+  answers:
+    A: "Estrutura fixa."
+    B: "Lógica binária."
+    C: "Controle homogêneo."
+    D: "Uniformidade de opiniões."
+    E: "Pluralidade de interações."
+  correct_answer: E
+
+- id: 7
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 78
+  question_elements:
+    - question_text: >
+        A regra de ouro, popularmente conhecida pelo provérbio "Trate os outros como gostaria de ser tratado",
+        é um dos princípios morais mais onipresentes. A noção subjacente, que apela para o senso ético mais básico,
+        se expressa de uma forma ou de outra em praticamente todas as tradições religiosas, e poucos filósofos morais
+        deixaram de invocar a regra ou pelo menos de tecer comentários a respeito da relação com seus próprios princípios.
+      question_text_reference: >
+        DUPRÉ, B. **50 grandes ideias da humanidade**. São Paulo: Planeta do Brasil, 2016.
+  statement: >
+    O princípio ético apresentado no texto, como elemento estruturante da vida em sociedade, se traduz pela seguinte formulação teórica:
+  answers:
+    A: "Doutrina teleológica."
+    B: "Imperativo categórico."
+    C: "Pensamento utilitarista."
+    D: "Secularização inautêntica."
+    E: "Raciocínio consequencialista."
+  correct_answer: B
+
+- id: 8
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 82
+  question_elements:
+    - question_text: >
+        Bertrand Russell conta a história de um peru que descobrira, em sua primeira manhã na fazenda de perus,
+        que fora alimentado às 9 da manhã. Contudo, ele não tirou conclusões apressadas. Esperou até recolher
+        um grande número de observações do fato de que era alimentado às 9 da manhã e fez essas observações
+        sob uma ampla variedade de circunstâncias, às quartas e quintas-feiras, em dias quentes e dias frios,
+        em dias chuvosos e dias secos. A cada dia acrescentava uma outra proposição de observação à sua lista.
+        Finalmente, sua consciência ficou satisfeita e ele concluiu. “Eu sou alimentado sempre às 9 da manhã”.
+      question_text_reference: >
+        CHALMERS, A. **O que é ciência, afinal?** São Paulo: Brasiliense, 1993 (adaptado).
+  statement: >
+    Qual tipo de raciocínio corresponde ao padrão de pensamento exibido pelo personagem do texto?
+  answers:
+    A: "Prático, porque recolhe evidências e recomenda ações."
+    B: "Absoluto, porque busca confirmações e bloqueia refutações."
+    C: "Indutivo, porque observa eventos particulares e infere leis universais."
+    D: "Demonstrativo, porque encadeia premissas e extrai conclusões indubitáveis."
+    E: "Analógico, porque compara diferentes situações e detecta elementos semelhantes."
+  correct_answer: C
+
+- id: 9
+  test: enem_2024
+  test_type: azul
+  test_part: ch
+  test_item: 90
+  question_elements:
+    - question_text: >
+        Uma fábrica na qual os operários fossem, efetiva e integralmente, simples peças de máquinas executando
+        cegamente as ordens da direção pararia em quinze minutos. O capitalismo só pode funcionar com a
+        contribuição constante da atividade propriamente humana de seus subjugados que, ao mesmo tempo,
+        tenta reduzir e desumanizar o mais possível.
+      question_text_reference: >
+        CASTORIADIS, C. **A instituição imaginária da sociedade.** Rio de Janeiro: Paz e Terra, 1982.
+  statement: >
+    O texto apresenta uma contradição interna do capitalismo caracterizada pela
+  answers:
+    A: "obsolescência associada ao uso da tecnologia."
+    B: "orientação voltada à administração de conflitos."
+    C: "alienação decorrente da organização do trabalho."
+    D: "isonomia remanescente da geração de riquezas."
+    E: "produtividade vinculada ao fortalecimento da autonomia."
+  correct_answer: C
+
+- id: 10
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 48
+  question_elements:
+    - question_text: >
+        A credulidade dos ouvintes aumenta o descaramento do narrador, e o descaramento deste conquista-lhes a credulidade.
+        A eloquência, quando levada a seu patamar mais alto, deixa pouco lugar à razão ou à reflexão, mas, dirigindo-se inteiramente
+        à imaginação e aos afetos, cativa os ouvintes condescendentes e subjuga-lhes o entendimento.
+      question_text_reference: >
+        HUME, D. **Uma investigação sobre o entendimento humano e sobre os princípios da moral.** São Paulo: Edunesp, 2003.
+  statement: >
+    No contexto do século XVIII, o autor propõe uma reflexão radical acerca da arte da eloquência, restringindo-a ao
+  answers:
+    A: "sistema de crenças, conforme a proposta kantiana de objetividade do conhecimento."
+    B: "campo dos absolutos, semelhante ao entendimento medieval dos Universais."
+    C: "domínio da lógica, consoante a compreensão aristotélica nos Analíticos."
+    D: "paradigma da racionalidade, alinhado ao modelo cartesiano de método."
+    E: "âmbito da persuasão, análogo às críticas platônicas aos sofistas."
+  correct_answer: E
+
+- id: 11
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 50
+  question_elements:
+    - question_text: >
+        O direito não é a justiça. O direito é o elemento do cálculo, é justo que haja um direito, mas a justiça é incalculável,
+        ela exige que se calcule o incalculável; e as experiências aporéticas são experiências tão improváveis quanto necessárias
+        da justiça, isto é, são momentos em que a decisão entre o justo e o injusto nunca é garantida por uma regra.
+      question_text_reference: >
+        DERRIDA, J. **Força de lei.** São Paulo: Martins Fontes, 2010 (adaptado).
+  statement: >
+    De acordo com o texto, ainda que estejam em desconformidade com o ordenamento jurídico, são exemplos de ação justa:
+  answers:
+    A: "Casos de desobediência civil."
+    B: "Repressões do aparato estatal."
+    C: "Conflitos de natureza intercontinental."
+    D: "Manifestações do movimento sindical."
+    E: "Mobilizações de agremiações estudantis."
+  correct_answer: A
+
+- id: 12
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 55
+  question_elements:
+    - question_text: >
+        A “invenção” dessa nova anatomia política não deve ser entendida como uma descoberta súbita.
+        Mas como uma multiplicidade de processos muitas vezes mínimos, de origens diferentes,
+        de localizações esparsas, que se recordam, que se repetem, ou se imitam, apoiam-se uns sobre os outros
+        e esboçam aos poucos a fachada de um método geral. Encontramo-los em funcionamento nos colégios,
+        muito cedo; mais tarde, nas escolas primárias, no espaço hospitalar e na organização militar.
+      question_text_reference: >
+        FOUCAULT, M. **Vigiar e punir.** Petrópolis: Vozes, 2011.
+  statement: >
+    O texto indica o seguinte aspecto da disciplina como ferramenta política:
+  answers:
+    A: "Expansão das técnicas de suplício."
+    B: "Judicialização das relações de poder."
+    C: "Dissolução das distinções de nobreza."
+    D: "Capilarização das práticas de controle."
+    E: "Espetacularização das medidas de penitência."
+  correct_answer: D
+
+- id: 13
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 60
+  question_elements:
+    - question_text: >
+        Adam Smith via o açougueiro e o padeiro não só como indivíduos buscando seus interesses financeiros,
+        mas como pessoas moralmente motivadas dentro de uma sociedade. A base da moral era a empatia e o julgamento,
+        instaurando uma distinção entre o que queremos fazer e o que sentimos que devemos fazer.
+      question_text_reference: >
+        COLLIER, P. **O futuro do capitalismo.** Porto Alegre: LP&M, 2019.
+  statement: >
+    O texto defende uma motivação capitalista para o campo dos negócios, na qual o lucro se mostra associado à
+  answers:
+    A: "consolidação do poder político."
+    B: "procura de satisfação subjetiva."
+    C: "estruturação do monopólio comercial."
+    D: "percepção de responsabilidade ética."
+    E: "conquista do reconhecimento público."
+  correct_answer: D
+
+- id: 14
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 61
+  question_elements:
+    - question_text: >
+        O corpo de cidadãos é o poder supremo dos Estados. A supremacia pode residir ou num homem, ou na minoria,
+        ou em todos. Sempre que o Um, ou a Minoria, ou Todos governam, tendo em vista o bem-estar comum,
+        essas constituições são justas; mas se procuram apenas o benefício de uma das partes, seja ela o Um,
+        a Minoria ou Todos, estabelece-se um desvio.
+      question_text_reference: >
+        ARISTÓTELES. **Política.** São Paulo: Nova Cultural, 2000.
+  statement: >
+    No excerto encontra-se a base da teoria clássica das três formas de governo representadas pela
+  answers:
+    A: "tirania, oligarquia e república."
+    B: "burocracia, autarquia e império."
+    C: "ditadura, autocracia e anarquia."
+    D: "plutocracia, tecnocracia e demagogia."
+    E: "monarquia, aristocracia e democracia."
+  correct_answer: E
+
+- id: 15
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 65
+  question_elements:
+    - question_text_title: O que eu queria ter sido
+      question_text: >
+        Um nome para o que sou, importa muito pouco. Importa o que eu gostaria de ser. O que eu gostaria de ser era uma lutadora.
+        Quero dizer, uma pessoa que luta pelo bem dos outros. Isso desde pequena eu quis. Por que foi o destino me levando
+        a escrever o que já escrevi, em vez de também desenvolver em mim a qualidade de lutadora que eu tinha? Em pequena,
+        minha família por brincadeira chamava-me de “a protetora dos animais”. Porque bastava acusarem uma pessoa para eu
+        imediatamente defendê-la. E eu sentia o drama social com tanta intensidade que vivia de coração perplexo diante
+        das grandes injustiças a que são submetidas as chamadas classes menos privilegiadas.
+      question_text_reference: >
+        LISPECTOR, C. **Aprendendo a viver.** Rio de Janeiro: Rocco Digital, 2013.
+  statement: >
+    A reflexão contida no texto faz referência aos pressupostos de uma doutrina ética representada pelo
+  answers:
+    A: "estado eudaimônico."
+    B: "referencial hedonista."
+    C: "pensamento altruísta."
+    D: "movimento antiespecista."
+    E: "comportamento pragmático."
+  correct_answer: C
+
+- id: 16
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 66
+  question_elements:
+    - question_text: >
+        Independência de pensamento, autonomia e direito à oposição política estão perdendo sua função crítica básica
+        numa sociedade que parece cada vez mais capaz de atender às necessidades dos indivíduos através da forma pela qual é
+        organizada. Nas condições de um padrão de vida crescente, o não conformismo com o próprio sistema parece socialmente
+        inútil, principalmente quando acarreta desvantagens econômicas e políticas tangíveis e ameaça o funcionamento suave do todo.
+      question_text_reference: >
+        MARCUSE, H. **Ideologia da sociedade industrial.** Rio de Janeiro: Zahar, 1969.
+  statement: >
+    Qual é a característica da sociedade industrial do século XX apresentada no texto?
+  answers:
+    A: "Gestão integrada."
+    B: "Relativismo moral."
+    C: "Desobediência civil."
+    D: "Realidade unidimensional."
+    E: "Desenvolvimento tecnológico."
+  correct_answer: D
+
+- id: 17
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 72
+  question_elements:
+    - question_text_title: TEXTO I
+      question_text: >
+        Em conjunto: todo e não todo, unido e separado, em consonância e em dissonância. De todos um e de um todos.
+        (Fragmento B10)
+      question_text_reference: >
+        PRÉ-SOCRÁTICOS. São Paulo: Nova Cultural, 1996.
+    - question_text_title: TEXTO II
+      question_text: >
+        Deus é dia-noite, inverno-verão, guerra-paz, saciedade-fome. (Fragmento B67)
+      question_text_reference: >
+        PRÉ-SOCRÁTICOS. São Paulo: Nova Cultural, 1996.
+  statement: >
+    A característica do pensamento do filósofo Heráclito, registrada nos fragmentos mencionados, é a ênfase na
+  answers:
+    A: "qualidade imperecível do mundo."
+    B: "degradação material da natureza."
+    C: "imobilidade imanente do universo."
+    D: "distribuição dicotômica do cosmos."
+    E: "desordem incontornável das coisas."
+  correct_answer: D
+
+- id: 18
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 79
+  question_elements:
+    - question_text: >
+        A missão dos governantes consiste em promover a felicidade da sociedade, punindo e recompensando.
+        A parte da missão de governo que consiste em punir constitui mais particularmente o objeto da lei penal.
+        A obrigatoriedade ou necessidade de punir uma ação é proporcional à medida que tal ação tende a perturbar a
+        felicidade e à medida que a tendência do referido ato é perniciosa. A felicidade consiste naquilo que já vimos,
+        ou seja, em desfrutar prazeres e em estar isento de dores.
+      question_text_reference: >
+        BENTHAM, J. **Uma introdução aos princípios da moral e da legislação.** São Paulo: Abril Cultural, 1974 (adaptado).
+  statement: >
+    Qual perspectiva de justiça emerge da relação, estabelecida no texto, entre punição e felicidade?
+  answers:
+    A: "Aplicação de meios para atingir um fim."
+    B: "Imposição de regras para estabelecer um dever."
+    C: "Sobreposição de princípios para fundamentar um direito."
+    D: "Criação de parâmetros para reconhecer uma prescrição."
+    E: "Elaboração de convenções para referendar um costume."
+  correct_answer: A
+
+- id: 19
+  test: enem_2025
+  test_type: azul
+  test_part: ch
+  test_item: 82
+  question_elements:
+    - question_text: >
+        A cidade justa é governada pelos filósofos, administrada pelos cientistas, protegida pelos guerreiros
+        e mantida pelos produtores. Cada classe cumprirá sua função para o bem da pólis, racionalmente dirigida pelos filósofos.
+        Em contrapartida, a cidade injusta é aquela onde o governo está nas mãos dos proprietários — que não pensam no bem comum
+        da pólis e lutarão por interesses econômicos particulares.
+      question_text_reference: >
+        CHAUÍ, M. **Convite à filosofia.** São Paulo: Ática, 2000.
+  statement: >
+    O texto apresenta a estrutura de governo da cidade ideal pensada por Platão, que postula uma indissociabilidade entre
+  answers:
+    A: "cognoscência e relação intersubjetiva."
+    B: "mitologia e teorias cosmogônicas."
+    C: "cidadania e primazia da retórica."
+    D: "moralidade e virtudes cardeais."
+    E: "ética e exercício do poder."
+  correct_answer: E
+
+- id: 20
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 47
+  question_elements:
+    - question_text: >
+        Para os gregos, forçar alguém mediante violência, ordenar ao invés de persuadir, eram modos
+        pré-políticos de lidar com as pessoas, típicos da vida fora da polis, característicos do lar
+        e da vida em família, na qual o chefe da casa imperava com poderes incontestes e despóticos.
+      question_text_reference: >
+        ARENDT, H. **A condição humana.** São Paulo: Perspectiva, 2004.
+  statement: >
+    A filósofa alemã Hannah Arendt analisa uma noção de poder sustentada pelo vínculo entre a
+    autoridade e a violência para criticar tendências que se baseiam no(a)
+  answers:
+    A: "força coercitiva das leis."
+    B: "arbítrio individual do governante."
+    C: "monitoramento coletivo dos cidadãos."
+    D: "imposição constritiva dos argumentos."
+    E: "obediência aos mecanismos de repressão."
+  correct_answer: B
+
+- id: 21
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 53
+  question_elements:
+    - question_text: >
+        Não ignoro que muitos foram e são de opinião de que as coisas do mundo são governadas de
+        tal modo pela fortuna e por Deus e que os homens não podem corrigi-las com a prudência, e
+        até não têm remédio algum contra eles. Por isso, poder-se-ia julgar que não devemos
+        incomodar-nos demais com as coisas, mas deixar-nos governar à sorte.
+      question_text_reference: >
+        MAQUIAVEL, N. **O Príncipe.** São Paulo: Martins Fontes, 2010.
+  statement: >
+    Diante dessas reflexões de Maquiavel, qual é a função do livre-arbítrio nos domínios da política?
+  answers:
+    A: "Aplacar a aspiração de poder dos súditos."
+    B: "Orientar o soberano no campo das incertezas."
+    C: "Estabilizar a administração por meio do diálogo."
+    D: "Relativizar os valores morais no escopo das tradições."
+    E: "Aprimorar o espírito bélico para a conquista de territórios."
+  correct_answer: B
+
+- id: 22
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 55
+  question_elements:
+    - question_text: >
+        O homo economicus contemporâneo é dotado de intenso princípio de racionalidade formal
+        que o leva: 1. a buscar sem qualquer hesitação a própria felicidade; 2. a dar a preferência
+        aos objetos visíveis que lhe trarão o máximo de satisfação.
+      question_text_reference: >
+        BAUDRILLARD, J. **A sociedade de consumo.** Lisboa: Edições 70, 1995 (adaptado).
+  statement: >
+    Considerando o tipo de racionalidade descrita no texto, os projetos de autorrealização
+    dominantes na contemporaneidade estão centrados no
+  answers:
+    A: "aprimoramento moral."
+    B: "alinhamento político."
+    C: "capital simbólico."
+    D: "vínculo religioso."
+    E: "valor cultural."
+  correct_answer: C
+
+- id: 23
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 70
+  question_elements:
+    - question_text: >
+        É com certeza, Senhor, e não com dúvida que em minha consciência eu Vos amo. Vós
+        atingistes meu coração com a Vossa palavra e assim Vos amei. O céu, a terra e tudo
+        que neles existe conclamam-me por toda parte a amar-Vos.
+      question_text_reference: >
+        AGOSTINHO. **Confissões.** Petrópolis: Vozes, 1988.
+  statement: >
+    Na visão do autor, o ser humano tem como característica a
+  answers:
+    A: "abstenção política como resultado da manifestação da fé."
+    B: "construção da ideia de autonomia como fonte de libertação."
+    C: "dependência da ordem divina para conquista da felicidade plena."
+    D: "realização pessoal mediante prosperidade advinda do trabalho."
+    E: "busca pela moralidade cristã determinada pelo imperativo categórico."
+  correct_answer: C
+
+- id: 24
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 74
+  question_elements:
+    - question_text: >
+        O que define a polis é que, contrariamente à tribo ou às grandes monarquias,
+        contrariamente à comunidade familiar, ali ninguém possui apriori o poder. Não se trata
+        do objeto de um “ter” reservado, mas o lugar de uma luta pelo reconhecimento público,
+        principalmente quando a polis é democrática, como foi o caso de Atenas.
+      question_text_reference: >
+        WOLFF, F. **Aristóteles e a política.** São Paulo: Discurso Editorial, 1999 (adaptado).
+  statement: >
+    A organização política apresentada no texto alcança o modelo de deliberação pública das
+    sociedades democráticas contemporâneas nas quais
+  answers:
+    A: "patriarcas regionais preenchem os espaços de poder."
+    B: "parlamentares atuam conforme interesses setorizados."
+    C: "representantes eleitos estão legitimados pela vontade popular."
+    D: "aristocratas ocupam a classe média na estratificação social."
+    E: "governos hereditários dispensam a necessidade de eleições."
+  correct_answer: C
+
+- id: 25
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 77
+  question_elements:
+    - question_text: >
+        O smartphone não é uma coisa. Eu o caracterizo como um infômata (coisa informatizada)
+        que produz e processa informações. As informações são o contrário dos apoios que dão
+        tranquilidade à vida. Vivem do estímulo da surpresa. Elas nos submergem em um turbilhão
+        de atualidade.
+      question_text_reference: >
+        HAN, B.-C. apud FANJUL, S. **Entrevista com o filósofo Byung-Chul Han.** Disponível em:
+        https://brasil.elpais.com. Acesso em: 21 out. 2021 (adaptado).
+  statement: >
+    O texto sustenta que a ampliação das experiências de conectividade promovem
+  answers:
+    A: "polarização e divisão social."
+    B: "autonomia e liberdade funcional."
+    C: "organização e controle temporal."
+    D: "dispersão e desorientação pessoal."
+    E: "produtividade e criatividade laboral."
+  correct_answer: D
+
+- id: 26
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 81
+  question_elements:
+    - question_text_title: TEXTO I
+      question_text: >
+        A diferença entre um e outro homem não é suficientemente considerável para que qualquer
+        um possa com base nela reclamar qualquer benefício a que o outro não possa também
+        aspirar, tal como ele. Portanto, se dois homens desejam a mesma coisa, ao mesmo tempo
+        em que é impossível ela ser gozada por ambos, eles tornam-se inimigos.
+      question_text_reference: >
+        HOBBES, T. **Leviatã.** São Paulo: Abril, 1980.
+    - question_text_title: TEXTO II
+      question_text: >
+        Nada é mais meigo do que o homem em seu estado primitivo, quando, colocado pela natureza
+        entre a estupidez dos brutos e as luzes funestas do homem civil, e compelido tanto pelo
+        instinto quanto pela razão a defender-se do mal que o ameaça, é impedido pela piedade
+        natural de fazer mal a alguém sem ser a isso levado por alguma coisa ou mesmo depois de
+        atingido por algum mal.
+      question_text_reference: >
+        ROUSSEAU, J.-J. **Discurso sobre a origem e os fundamentos da desigualdade entre os
+        homens.** São Paulo: Abril, 1978.
+  statement: >
+    Comparando-se os textos dos contratualistas, verifica-se que eles apresentam um traço
+    constitutivo dos homens no estado de natureza, caracterizado pela
+  answers:
+    A: "tendência à autopreservação."
+    B: "expressão da inocência."
+    C: "condição de igualdade."
+    D: "estima à propriedade."
+    E: "vontade de poder."
+  correct_answer: C
+
+- id: 27
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 89
+  question_elements:
+    - question_text: >
+        Antigamente, existiam duas maneiras de governar: ou a sociedade era comandada pelo
+        rei (monarquia), ou era dirigida por um pequeno grupo de homens ricos (aristocracia).
+        Mas, em algumas cidades da Grécia, foi experimentada outra forma de governo na qual
+        os cidadãos decidiam os rumos da sociedade.
+      question_text_reference: >
+        KONDER, L. **Além das urnas.** In: PLANTEL, E. A democracia pode ser assim. São Paulo:
+        Boitatá, 2015 (adaptado).
+  statement: >
+    O texto faz referência a um modelo de governo sustentado por um(a)
+  answers:
+    A: "mandato coletivo."
+    B: "autocracia religiosa."
+    C: "ditadura personalista."
+    D: "absolutismo teocrático."
+    E: "participação popular."
+  correct_answer: E
+
+- id: 28
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 52
+  question_elements:
+    - question_text: >
+        Ainda que instituições não recorram a castigos violentos ou sangrentos, mesmo quando
+        utilizam métodos “suaves” de trancar ou corrigir, é sempre do corpo que se trata —
+        do corpo e suas forças, da utilidade e docilidade deles, de sua repartição e de sua
+        submissão.
+      question_text_reference: >
+        FOUCAULT, M. Vigiar e punir. Petrópolis: Vozes, 1995 (adaptado).
+  statement: >
+    A forma de exercício de poder indicada no texto é caracterizada como:
+  answers:
+    A: "Ideológica, associada à dominação da consciência."
+    B: "Midiática, apoiada na manipulação afetivo-sentimental."
+    C: "Disciplinar, fundamentada na diluição espaço-temporal."
+    D: "Autoritária, conduzida pela imposição coercitiva."
+    E: "Carismática, motivada pela fascinação pessoal."
+  correct_answer: C
+
+- id: 29
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 67
+  question_elements:
+    - question_text: >
+        Pensa-se que é característico de uma pessoa de discernimento ser capaz de deliberar
+        bem acerca do que é bom e conveniente para si mesma, não em relação a um aspecto
+        particular — por exemplo, quando se quer saber quais as espécies de coisas que concorrem
+        para a saúde e para o vigor físico —, e sim acerca das espécies de coisas que nos
+        levam a viver bem de um modo geral. O discernimento deve ser então uma qualidade que
+        leva à verdade no tocante às ações relacionadas com os bens humanos.
+      question_text_reference: >
+        ARISTÓTELES. Ética a Nicômaco. In: MARCONDES, D. (Org.). **Textos básicos de Ética.**
+        Rio de Janeiro: Zahar, 2008 (adaptado).
+  statement: >
+    Conforme o trecho filosófico, a pessoa capaz de bem decidir é dotada de uma qualidade
+  answers:
+    A: "teórica, voltada para o rigor da pesquisa."
+    B: "racional, voltada para a orientação das escolhas."
+    C: "pragmática, voltada para o desenvolvimento de projetos."
+    D: "filosófica, voltada para a delimitação de opiniões."
+    E: "social, voltada para a criação da arte."
+  correct_answer: B
+
+- id: 30
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 69
+  question_elements:
+    - question_text: >
+        A ontologia como fundamento da ética foi o ponto de vista original da filosofia. A
+        separação das duas, que é a separação entre o reino “objetivo” e o “subjetivo”, é
+        o destino moderno. Sua re-união, caso seja possível, só poderá ser alcançada a partir
+        do lado “objetivo”; quer dizer: por uma revisão da ideia de natureza. Só uma ética
+        fundada na amplitude do ser, e não apenas na singularidade ou na peculiaridade do
+        ser humano, é que pode ser de importância no universo das coisas. Mesmo que seja
+        feita uma exigência extra-humana para o comportamento humano, permanece de pé
+        o fato de que uma ética que não mais se baseie sobre a divindade tem que se
+        fundamentar em um princípio que possa ser descoberto na natureza das coisas, para
+        que não seja vítima do subjetivismo ou de outras formas de relativismo.
+      question_text_reference: >
+        JONAS, H. O princípio vida: fundamentos para uma biologia filosófica. Petrópolis:
+        Vozes, 2004 (adaptado).
+  statement: >
+    A fundamentação ontológica da ética proposta pelo autor encontra suporte na
+  answers:
+    A: "afirmação da autoridade religiosa."
+    B: "satisfação de interesses individuais."
+    C: "formação do pragmatismo utilitarista."
+    D: "compreensão da totalidade universal."
+    E: "superação do modelo racionalista."
+  correct_answer: D
+
+- id: 31
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 73
+  question_elements:
+    - question_text: >
+        Na obra O Político, Platão faz uma sutil distinção entre plantas e animais. As
+        plantas, diferentemente dos animais, não seriam geridas pelo cosmo. Isso se prova
+        pela sua autonomia ao germinarem aleatoriamente no solo. As plantas seriam
+        autônomas, enquanto os animais seriam comandados. Se considerarmos a degeneração
+        pela qual passariam os homens e suas almas, segundo Platão, vindo a se tornarem
+        animais em outras vidas, os homens seriam seres políticos que deveriam ser
+        governados, submissos a algo ou a alguém, no caso à política e ao demiurgo ou
+        artesão, criador de todas as coisas. As plantas, por outro lado, cuja natureza é
+        distinta, não teriam suas almas subordinadas ou dotadas de um fim.
+      question_text_reference: >
+        KLEPKA, V.; CORAZZA, M. J. A natureza da classificação dos seres vivos na Grécia
+        Antiga. **Diálogos**, n. 2, 2018 (adaptado).
+  statement: >
+    No texto, a natureza serve de paradigma para a compreensão da(s)
+  answers:
+    A: "bases do monoteísmo antigo."
+    B: "leis universais da botânica helênica."
+    C: "constituição da sociedade ateniense."
+    D: "técnicas da produção agrícola grega."
+    E: "dessacralização da cosmologia clássica."
+  correct_answer: C
+
+- id: 32
+  test: enem_2025_belem
+  test_type: azul
+  test_part: ch
+  test_item: 82
+  question_elements:
+    - question_text: >
+        Sem negar que Deus prevê todos os acontecimentos futuros, entretanto nós queremos
+        livremente aquilo que queremos. Porque, se o objeto da presciência divina é a
+        nossa vontade, é essa mesma vontade assim prevista que se realizará. Haverá, pois,
+        um ato de vontade livre, já que Deus vê esse ato livre com antecedência.
+      question_text_reference: >
+        AGOSTINHO. **O livre-arbítrio.** São Paulo: Paulus, 1995 (adaptado).
+  statement: >
+    Refletindo sobre o Deus onisciente e suas criaturas, o autor sustenta a
+  answers:
+    A: "existência do saber divino em cooperação com o conhecimento humano."
+    B: "prevalência da liberdade humana diante da facticidade."
+    C: "precedência da cognição transcendental sobre o agir humano."
+    D: "conformação da natureza humana perante os acontecimentos no mundo."
+    E: "autonomia do indivíduo a despeito das necessidades inerentes à condição humana."
+  correct_answer: C
+
+- id: 33
+  test: enem_2018
+  test_type: roza
+  test_part: ch
+  test_item: 66
+  question_elements:
+    - question_text: >
+        Empédocles estabelece quatro elementos corporais — fogo, ar, água e terra —, que são eternos
+        e que mudam aumentando e diminuindo mediante mistura e separação; mas os princípios
+        propriamente ditos, pelos quais aqueles são movidos, são o Amor e o Ódio. Pois é preciso
+        que os elementos permaneçam alternadamente em movimento, sendo ora misturados pelo Amor,
+        ora separados pelo Ódio.
+      question_text_reference: >
+        SIMPLÍCIO. **Física, 25, 21.** In: Os pré-socráticos. São Paulo: Nova Cultural, 1996.
+  statement: >
+    O texto propõe uma reflexão sobre o entendimento de Empédocles acerca da arché, uma
+    preocupação típica do pensamento pré-socrático, porque
+  answers:
+    A: "exalta a investigação filosófica."
+    B: "transcende ao mundo sensível."
+    C: "evoca a discussão cosmogônica."
+    D: "fundamenta as paixões humanas."
+    E: "corresponde à explicação mitológica."
+  correct_answer: C
+
+- id: 34
+  test: enem_2012
+  test_type: azul
+  test_part: ch
+  test_item: 28
+  question_elements:
+    - question_text_title: TEXTO I
+      question_text: >
+        Anaxímenes de Mileto disse que o ar é o elemento originário de tudo o que existe,
+        existiu e existirá, e que outras coisas provêm de sua descendência. Quando o ar se
+        dilata, transforma-se em fogo, ao passo que os ventos são ar condensado. As nuvens
+        formam-se a partir do ar por feltragem e, ainda mais condensadas, transformam-se
+        em água. A água, quando mais condensada, transforma-se em terra, e quando
+        condensada ao máximo possível, transforma-se em pedras.
+      question_text_reference: >
+        BURNET, J. **A aurora da filosofia grega.** Rio de Janeiro: PUC-Rio, 2006 (adaptado).
+    - question_text_title: TEXTO II
+      question_text: >
+        Basílio Magno, filósofo medieval, escreveu: “Deus, como criador de todas as coisas,
+        está no princípio do mundo e dos tempos. Quão parcas de conteúdo se nos apresentam,
+        em face desta concepção, as especulações contraditórias dos filósofos, para os quais
+        o mundo se origina, ou de algum dos quatro elementos, como ensinam os Jônios, ou
+        dos átomos, como julga Demócrito. Na verdade, dão a impressão de quererem ancorar
+        o mundo numa teia de aranha.”
+      question_text_reference: >
+        GILSON, E.; BOEHNER, P. **História da Filosofia Cristã.** São Paulo: Vozes, 1991 (adaptado).
+  statement: >
+    Filósofos dos diversos tempos históricos desenvolveram teses para explicar a origem do
+    universo, a partir de uma explicação racional. As teses de Anaxímenes, filósofo grego
+    antigo, e de Basílio, filósofo medieval, têm em comum na sua fundamentação teorias que
+  answers:
+    A: "eram baseadas nas ciências da natureza."
+    B: "refutavam as teorias de filósofos da religião."
+    C: "tinham origem nos mitos das civilizações antigas."
+    D: "postulavam um princípio originário para o mundo."
+    E: "defendiam que Deus é o princípio de todas as coisas."
+  correct_answer: D
+
+- id: 35
+  test: enem_2014
+  test_type: azul
+  test_part: ch
+  test_item: 24
+  question_elements:
+    - question_text: >
+        Alguns dos desejos são naturais e necessários; outros, naturais e não necessários;
+        outros, nem naturais nem necessários, mas nascidos de vã opinião. Os desejos que
+        não nos trazem dor se não satisfeitos não são necessários, mas o seu impulso pode
+        ser facilmente desfeito, quando é difícil obter sua satisfação ou parecem geradores
+        de dano.
+      question_text_reference: >
+        EPICURO DE SAMOS. **Doutrinas principais.** In: SANSON, V. F. Textos de filosofia.
+        Rio de Janeiro: Eduff, 1974.
+  statement: >
+    No fragmento da obra filosófica de Epicuro, o homem tem como fim
+  answers:
+    A: "alcançar o prazer moderado e a felicidade."
+    B: "valorizar os deveres e as obrigações sociais."
+    C: "aceitar o sofrimento e o rigorismo da vida com resignação."
+    D: "refletir sobre os valores e as normas dadas pela divindade."
+    E: "defender a indiferença e a impossibilidade de se atingir o saber."
+  correct_answer: A
+
+- id: 36
+  test: enem_2020_ppl
+  test_type: azul
+  test_part: ch
+  test_item: 54
+  question_elements:
+    - question_text: >
+        Aquilo que é quente necessita de umidade para viver, e o que é morto seca,
+        e todos os germes são úmidos, e todo alimento é cheio de suco; ora, é natural
+        que cada coisa se nutra daquilo de que provém.
+      question_text_reference: >
+        SIMPLÍCIO. In: BORNHEIM, G. A. **Os filósofos pré-socráticos.**
+        São Paulo: Cultrix, 1993.
+  statement: >
+    O fragmento atribuído ao filósofo Tales de Mileto é característico
+    do pensamento pré-socrático ao apresentar uma:
+  answers:
+    A: "abordagem epistemológica sobre o lógos e a fundamentação da metafísica."
+    B: "teoria crítica sobre a essência e o método do conhecimento científico."
+    C: "justificação religiosa sobre a existência e as contradições humanas."
+    D: "elaboração poética sobre os mitos e as narrativas cosmogônicas."
+    E: "explicação racional sobre a origem e a transformação da physis."
+  correct_answer: E
+
+- id: 37
+  test: enem
+  test_type: enem_2016
+  test_part: ch
+  test_item: 23
+  question_elements:
+    - question_text_title: TEXTO I
+      question_text: >
+        Fragmento B91: Não se pode banhar duas vezes no mesmo rio, nem substância mortal alcançar duas vezes
+        a mesma condição; mas pela intensidade e rapidez da mudança, dispersa e de novo reúne.
+      question_text_reference: >
+        HERÁCLITO. **Fragmentos (Sobre a natureza).** São Paulo: Abril Cultural, 1996 (adaptado).
+    - question_text_title: TEXTO II
+      question_text: >
+        Fragmento B8: São muitos os sinais de que o ser é ingênito e indestrutível, pois é compacto, inabalável
+        e sem fim; não foi nem será, pois é agora um todo homogêneo, uno, contínuo. Como poderia o que é perecer?
+        Como poderia gerar-se?
+      question_text_reference: >
+        PARMÊNIDES. **Da natureza.** São Paulo: Loyola, 2002 (adaptado).
+  statement: >
+    Os fragmentos do pensamento pré-socrático expõem uma oposição que se insere no campo das
+  answers:
+    A: "investigações do pensamento sistemático."
+    B: "preocupações do período mitológico."
+    C: "discussões de base ontológica."
+    D: "habilidades da retórica sofística."
+    E: "verdades do mundo sensível."
+  correct_answer: C
