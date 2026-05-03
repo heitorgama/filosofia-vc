@@ -4,7 +4,6 @@
 }
 
 :root {
-  /* --bg-image: url("imagens/aula00/escher_drawing_hands_1948.jpg"); */
   --bg-size: cover;
   --bg-opacity: 0.85;
   --primary: #4f46e5;
@@ -17,6 +16,7 @@
   --card-bg: #ffffff;
   /* --border: #e5e7eb; */
   --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  --max-width: 100%;
 }
 
 .reveal .slides {
@@ -40,7 +40,7 @@
 .reveal .slides > * {
   position: relative;
   z-index: 1; /* garante que o conteúdo fique acima */
-  max-width: 100%;
+  max-width: var(--max-width);
   box-sizing: border-box;
   padding: 40px !important;
   margin: 0 !important;

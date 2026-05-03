@@ -1,0 +1,269 @@
+---
+title: "A filosofia na *pólis*"
+title-footer: "Jacques-Louis David, La Mort de Socrate, 1787"
+date: 2026-05-05
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+    logo: imagens/logo_vc.png
+    css: styles.css
+    incremental: true
+---
+
+# A pólis
+
+<style>
+:root {
+  --bg-image: url("imagens/aula02/morte_de_socrates.jpg");
+  --bg-opacity: 0.7;
+  --max-width: 95%;
+}
+</style>
+
+::: {.smaller-list}
+
+- *Polis* é o termo grego para denominar uma cidade-Estado. Alguns exemplos de pólis são: Atenas, Esparta, Mileto, Éfeso etc.
+- O que caracteriza a pólis é a **autonomia política**.
+- Leis próprias.
+- Identidade comunitária.
+- Participação dos cidadãos, em maior ou menor grau (não necessariamente uma democracia).
+
+:::
+
+## A democracia ateniense
+
+:::{.smaller-list}
+
+- Arcontado de **Sólon** (594 a.C.): nomeado por acrodo entre facções fivais para mediar uma grave crise. Sua reestruturação das instituições atenienses levaram à transição de uma ordem aristocrática para uma mais aberta.
+- Reformas de **Clístenes** (508 a.C.): ampliação da participação política. Considerado o fundador da democracia ateniense.
+- Era de **Péricles** (440-430 a.C.): fortalece o serviço público e as instituições atenienses.
+- Platão nasce em 427 a.C. e relata os feitos de **Sócrates** até a condenação deste último à pena capital em 399 a.C.
+:::
+
+# Sofistas
+
+::: {.smaller-list}
+
+- Professores de retórica e oratória que cobravam por seus ensinamentos.
+- Contribuíram para o desenvolvimento dos estudos sistemático da língua grega (gramática, etimologia, estilística, poética etc).
+- Preparavam os cidadãos para a participação na vida pública e política da *pólis*.
+- *Sofista* significava *sábio* ou *especialista*, mas adquiriu uma conotação pejorativa de "charlatão" ou "enganador".
+- Acreditavam que a verdade era relativa e dependia do ponto de vista de cada indivíduo ou grupo social (*relativismo*).
+- Os filósofos, que até então se dedicavam à questões relativas à natureza e ao cosmos, passaram a se interessar por questões humanas, sociais e políticas.
+- Os mais famosos são, provavelmente, **Protágoras** e **Górgias**.
+
+:::
+
+## Protágoras de Abdera (490 - 421 a.C)
+
+::: {.smaller-list}
+
+- "O homem é a medida de todas as coisas."
+- **Humanismo** e **relativismo** são valores centrais para os sofistas em geral.
+- A **verdade** é relativa e depende do **ponto de vista** de cada indivíduo ou grupo social.
+- A **retórica** é a arte de persuadir e convencer, independentemente da verdade ou falsidade do argumento.
+- A retórica e a dialética são ferramentas úteis para a construção de **consensos** nos processos decisórios da pólis.
+- Em seu tratado *Antilogia*, desenvolve a **antilógica**, que consiste em apresentar argumentos opostos para a mesma questão, mostrando que ambos podem ser defendidos de maneira convincente.
+- A **virtude** é uma questão de convenção social e pode ser ensinada. Essa visão pragmática da virtude é criticada por Sócrates, que a considera um conhecimento inato.
+
+:::
+
+## Górgias de Leontinos (487 - 380 a.C)
+
+::: {.smaller-list}
+
+- **"Nada existe; mesmo que algo exista, não pode ser conhecido; mesmo que possa ser conhecido, não pode ser comunicado."** (*Da Natureza*)
+- Fez importantes contribuições a diferentes estilos de **oratória** grega (*erncomium* = elogio, *oração fúnebre* = exaltação de uma pessoa notável, *apologia* = defesa de uma posição ou pessoa).
+- O **niilismo** é a posição de que nada tem valor ou significado. Não há, portanto, uma base objetiva para o conhecimento, somente as opiniões e as emoções particulares de cada indivíduo ou grupo social.
+- "O *logos* é um grande senhor", porém também é visto como enganoso, pois não se pode ter acesso à verdadeira natureza das coisas. Mais importante que o verdadeiro é o que pode ser provado ou **defendido**.
+
+:::
+
+##
+
+![](imagens/aula01/mapa_mundo_grego.png){height=50%}
+
+# Sócrates
+
+::: {.smaller-list}
+
+- Seu pensamento marca o nascimento da filosofia clássica, desenvolvida por **Platão** e **Aristóteles**.
+- Condenado à morte por corromper a juventude e introduzir novos deuses, foi forçado a beber **cicuta**, um veneno letal.
+- Apresentou sua defesa a um júri de 501 cidadãos, **ironizando** seus acusadores e confirmando as acusações levantadas contra ele.
+- Não aceitou a proposta para **se exilar**, atendo-se a suas ideias e princípios.
+- Essa insurreição contra as tradições representa um marco da **independência de pensamento** na tradição filosófica ocidental.
+- Não deixou **escritos**, mas suas ideias e métodos foram registrados principalmente por Platão e Xenofonte.
+- Os **diálogos socráticos** de Platão retratam a prática filosófica de Sócrates nas praças de Atenas, seja com seus discípulos ou seus adversários (os sofistas).
+- **"Conhece-te a ti mesmo."** (máxima inscrita no Templo de Apolo em Delfos, que Sócrates adotou como lema).
+- **"A vida sem reflexão não vale a pena ser vivida."** (*Apologia de Sócrates*)
+
+:::
+
+## Método socrático
+
+::: {.smaller-list}
+
+- **Análise conceitual:** a célebre questão socrática é "o que é ...?"
+- Em todos os diálogos socráticos há exemplos dessa busca por **definições**: justiça (*A República*, *Críton*), coragem (*Laques*), temperança (*Cármides*), piedade (*Eutífron*), virtude - areté (*Protágoras*, *Mênon*), amor (*O Banquete*), conhecimento (*Teeteto*), dever (Críton), alma (*Fédon*).
+- A definição requer um **conceito** e não simplesmente a enumeração de exemplos, que são mero senso comum (*doxa*).
+- Ao invés de oferecer respostas, Sócrates pergunta pela definição do **conceito** em questão, até que o interlocutor reconhece que **não sabe** do que está falando.
+
+:::
+
+## Método socrático
+
+::: {.smaller-list}
+
+- O método socrático é **dialético**, pois envolve o diálogo entre pessoas com pontos de vista divergentes, em busca de uma conclusão racional por meio argumentativo.
+- Também recebe o nome de *elenchos*, que significa refutação, escrutínio.
+- **Ironia socrática:** Estratégia em que Sócrates se apresenta como alguém que “não sabe”, levando o interlocutor a expor suas próprias contradições.
+- É célebre sua frase "Só sei que nada sei" ➡ O reconhecimento da ignorância como princípio da sabedoria.
+- A partir desse reconhecimento, o sujeito pode sair do domínio da opinião (*doxa*) para o do conhecimento (*episteme*).
+- Eliminar uma falsa certeza é mais importante do que substituí-la por uma nova certeza. 
+- **Maiêutica:** Método de “dar à luz” ideias. O filósofo não transmite conhecimento, mas ajuda o interlocutor a construí-lo por meio do **diálogo** e da **reflexão**.
+- **Aporia:** Estado de **impasse** ou perplexidade ao final do diálogo, quando não se chega a uma definição satisfatória, revelando a limitação do saber inicial.
+
+:::
+
+## Método socrático
+
+O  *elenchos*, segundo Gregory Vlastos:
+
+::: {.smaller-list}
+
+1. O interlocutor de Sócrates afirma uma **tese**, por exemplo: "A coragem é a resistência da alma".
+2. Sócrates decide se a tese é falsa e define os alvos para **refutação**.
+3. Sócrates assegura a **concordância** do seu interlocutor com premissas adicionais, por exemplo, "A coragem é uma coisa boa" e "A resistência ignorante não é uma coisa boa".
+4. Sócrates **argumenta** então, e o interlocutor concorda, que essas premissas adicionais implicam o contrário da tese original; neste caso, levam a: "a coragem não é a resistência da alma".
+5. Sócrates afirma então ter demonstrado que a tese de seu interlocutor é **falsa** e que sua negação é verdadeira.
+
+* Acadêmicos renomados como Michael Frede and W.K.C. Guthrie relativizam o quinto passo acima, e defendem que o objetivo do método socrático é **demonstrar a ignorância do interlocutor** e não provar uma nova tese.
+
+:::
+
+## O diálogo *Protágoras* de Platão
+
+::: {.smaller-list}
+
+- O diálogo se passa na casa de Cálias, onde jovens buscam aprender com o **sofista** Protágoras.
+- O tema central é a questão: **a virtude (*areté*) pode ser ensinada?**
+- Protágoras defende que sim, apoiando-se na ideia de que a virtude é uma **construção social** e pode ser transmitida pela educação e pela prática política.
+- Ele apresenta o mito de **Prometeu e Epimeteu**, no qual os deuses distribuem aos serer humanos habilidades técnicas de forma desigual, e justiça e respeito de forma igual, fundamentais para a vida em sociedade.
+- Sócrates questiona se a virtude não seria uma **unidade** ao invés de um conjunto de partes distintas (justiça, coragem, temperança etc.).
+- A discussão avança para a relação entre prazer, conhecimento e bem, aproximando **virtude** de **conhecimento** racional.
+- Ao final, o diálogo não chega a uma conclusão definitiva: há uma **inversão parcial das posições**, e a **questão permanece em aberto**.
+
+:::
+
+# Mapa mental
+
+
+```{mermaid}
+mindmap
+  root((**A filosofia na pólis**))
+
+    **Pólis**
+      Cidade-Estado
+      Autonomia política
+      Não necessariamente democrática
+      Exemplos: Atenas, Esparta
+
+      **Democracia ateniense**
+        Sólon → reformas iniciais
+        Clístenes → fundação da democracia
+        Péricles → ampliação da participação
+        Pano de fundo de Sócrates e dos sofistas
+
+    **Sofistas**
+      Retórica e ensino pago
+      Relativismo
+      Importância do logos
+      Protágoras → "O homem é a medida de todas as coisas"
+      Górgias → Niilismo
+
+    **Sócrates**
+      Virada antropológica na filosofia
+      Crítica aos sofistas
+      "Só sei que nada sei"
+      Condenação à morte
+
+      **Método socrático**
+        "O que é...?"
+        Definições universais
+        Ironia
+        Maiêutica
+        Aporia
+```
+
+# Questões do Enem
+
+## Questão 1
+```{python}
+#| echo: false
+#| output: asis
+
+from render_questoes import render_questao
+from IPython.display import HTML
+
+# Parâmetros da questão
+questao_id = 10
+arquivo_yaml = "questoes_enem.yaml"
+
+# Renderizar e exibir
+html = render_questao(questao_id, arquivo_yaml)
+display(HTML(html))
+```
+
+## Questão 2
+```{python}
+#| echo: false
+#| output: asis
+
+from render_questoes import render_questao
+from IPython.display import HTML
+
+# Parâmetros da questão
+questao_id = 20
+arquivo_yaml = "questoes_enem.yaml"
+
+# Renderizar e exibir
+html = render_questao(questao_id, arquivo_yaml)
+display(HTML(html))
+```
+
+## Questão 3
+```{python}
+#| echo: false
+#| output: asis
+
+from render_questoes import render_questao
+from IPython.display import HTML
+
+# Parâmetros da questão
+questao_id = 24
+arquivo_yaml = "questoes_enem.yaml"
+
+# Renderizar e exibir
+html = render_questao(questao_id, arquivo_yaml)
+display(HTML(html))
+```
+
+
+## Questão 4
+```{python}
+#| echo: false
+#| output: asis
+
+from render_questoes import render_questao
+from IPython.display import HTML
+
+# Parâmetros da questão
+questao_id = 27
+arquivo_yaml = "questoes_enem.yaml"
+
+# Renderizar e exibir
+html = render_questao(questao_id, arquivo_yaml)
+display(HTML(html))
+```
