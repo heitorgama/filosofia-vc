@@ -289,7 +289,7 @@ html = render_questao(questao_id, arquivo_yaml)
 display(HTML(html))
 ```
 
-## Questão 6 {.scrollable}
+## Questão 6
 ```{python}
 #| echo: false
 #| output: asis
