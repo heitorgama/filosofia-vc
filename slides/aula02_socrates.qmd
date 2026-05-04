@@ -78,6 +78,7 @@ format:
 - Fez importantes contribuições a diferentes estilos de **oratória** grega (*erncomium* = elogio, *oração fúnebre* = exaltação de uma pessoa notável, *apologia* = defesa de uma posição ou pessoa).
 - O **niilismo** é a posição de que nada tem valor ou significado. Não há, portanto, uma base objetiva para o conhecimento, somente as opiniões e as emoções particulares de cada indivíduo ou grupo social.
 - "O *logos* é um grande senhor", porém também é visto como enganoso, pois não se pode ter acesso à verdadeira natureza das coisas. Mais importante que o verdadeiro é o que pode ser provado ou **defendido**.
+- “A arte da persuasão ultrapassa todas as outras e é de muito a melhor, pois ela faz de todas as coisas suas escravas por submissão espontânea e não por violência.” No diálogo Filebo, que trata dos fundamentos da ética, Platão atribuiu essa frase a Górgias.
 
 :::
 
@@ -90,14 +91,24 @@ format:
 ::: {.smaller-list}
 
 - Seu pensamento marca o nascimento da filosofia clássica, desenvolvida por **Platão** e **Aristóteles**.
+- Não deixou **escritos**, mas suas ideias e métodos foram registrados principalmente por Platão e Xenofonte.
+- Os **diálogos socráticos** de Platão retratam a prática filosófica de Sócrates nas praças de Atenas, seja com seus discípulos ou seus adversários (os sofistas).
+- A Sócrates é atribuída uma **virada antropológica** na filosofia, desviando o foco da natureza para o ser humano, seus valores, ações e razão.
+- A reflexão de Sócrates centrou-se na **ética** e na vida virtuosa, tendo a razão como guia para a felicidade.
+- **"Conhece-te a ti mesmo."** (máxima inscrita no Templo de Apolo em Delfos, que Sócrates adotou como lema).
+- **"A vida sem reflexão não vale a pena ser vivida."** (*Apologia de Sócrates*)
+
+:::
+
+# Sócrates
+
+::: {.smaller-list}
+
 - Condenado à morte por corromper a juventude e introduzir novos deuses, foi forçado a beber **cicuta**, um veneno letal.
+- Os últimos momentos de vida de Sócrates estão retratados na obra *La Mort de Socrate*, de Jacques-Louis David (1787), retratada ao fundo desta apresentação.
 - Apresentou sua defesa a um júri de 501 cidadãos, **ironizando** seus acusadores e confirmando as acusações levantadas contra ele.
 - Não aceitou a proposta para **se exilar**, atendo-se a suas ideias e princípios.
 - Essa insurreição contra as tradições representa um marco da **independência de pensamento** na tradição filosófica ocidental.
-- Não deixou **escritos**, mas suas ideias e métodos foram registrados principalmente por Platão e Xenofonte.
-- Os **diálogos socráticos** de Platão retratam a prática filosófica de Sócrates nas praças de Atenas, seja com seus discípulos ou seus adversários (os sofistas).
-- **"Conhece-te a ti mesmo."** (máxima inscrita no Templo de Apolo em Delfos, que Sócrates adotou como lema).
-- **"A vida sem reflexão não vale a pena ser vivida."** (*Apologia de Sócrates*)
 
 :::
 
