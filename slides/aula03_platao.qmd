@@ -1,0 +1,821 @@
+---
+title: "O idealismo de Platão"
+title-footer: "Jan Pietersz Saenredam, A Caverna de Platão, 1604"
+date: 2026-05-19
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+    logo: imagens/logo_vc.png
+    css: styles.css
+    incremental: true
+---
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+# Em busca do *Conhecimento*
+
+<style>
+:root {
+  --bg-image: url("imagens/aula03/a_caverna_de_platao_recorte.jpg");
+  --bg-opacity: 0.6;
+  --max-width: 95%;
+}
+</style>
+
+::: {.smaller-list}
+
+- A **epistemologia** como ponto de partida da filosofia platônica
+- Platão reflete sobre a decadência da democracia ateniense
+- Busca avaliar e julgar as manifestações culturais gregas
+- Filosofia = ciência, moral e política integradas
+
+:::
+
+## A Problemática do Conhecimento
+
+::: {.smaller-list}
+
+- **É possível conhecer** a realidade tal qual ela é?
+- **Como é possível** esse conhecimento? (método)
+- **Quais são os instrumentos**: sentidos ou razão?
+- **Qual é o objeto**: mundo material ou realidade inteligível?
+
+:::
+
+## A Função Crítica da Filosofia
+
+::: {.smaller-list}
+
+- Filosofia como **árbitro e legislador** de uma cultura
+- Avalia criticamente as **bases das pretensões ao conhecimento**
+- Analisa **fundamentos do discurso legitimador**
+- Estabelece critérios de validade para todos os discursos
+
+:::
+
+## Oposições Fundamentais na Filosofia Platônica
+
+::: {.smaller-list}
+
+| | |
+|---|---|
+| **Opinião** | **Verdade** |
+| **Desejo** | **Razão** |
+| **Interesse Particular** | **Interesse Universal** |
+| **Senso Comum** | **Filosofia** |
+
+- A filosofia busca superar o senso comum através da razão universal.
+
+:::
+
+## O Método Dialético
+
+::: {.smaller-list}
+
+- **Ponto de partida**: opinião e senso comum (submetidos a reexame crítico)
+- **Processo negativo**: expõe contradições nas crenças comuns
+- **Objetivo**: levar o interlocutor a descobrir a verdade por si próprio
+- Sem revelação externa, sem apelo à autoridade divina
+
+:::
+
+## Filosofia vs. Sofistas
+
+::: {.smaller-list}
+
+- **Sofistas**: manipulam crenças através de retórica e ambiguidades
+- **Filosofia**: busca a razão e a verdade através do diálogo
+- Discurso filosófico é **crítico e reflexivo**
+- Preocupa-se com **legitimação e justificação**
+
+:::
+
+## Características Essenciais da Filosofia
+
+::: {.smaller-list}
+
+- Discurso que se funda na **legitimidade**
+- **Caráter universal**: deve ser aceito por todos
+- Impõe-se pela **argumentação racional**
+- Produz **consenso legítimo**
+- Opõe-se à violência do poder e à mistificação ideológica
+
+:::
+
+## O Diálogo como Forma
+
+::: {.smaller-list}
+
+- Estabelece uma **nova relação** entre interlocutores
+- Abandona progressivamente a opinião
+- Busca a **universalidade**
+- Cria consenso (homologia) fundado no **conhecimento verdadeiro**
+- O discurso verdadeiro deve submeter-se às **regras de inteligibilidade e sinceridade**
+
+:::
+
+## A Filosofia como Projeto Político
+
+::: {.smaller-list}
+
+- Objetivo: **promover a transformação da realidade**
+- Antagônica à democracia que admite paixões e opiniões
+- Contrária à tirania e oligarquia
+- Defende uma **aristocracia do saber**
+- Necessária como resposta a uma situação histórica injusta
+
+:::
+
+## A Necessidade da Metafísica
+
+::: {.smaller-list}
+
+- Garantia da universalidade: a **verdade e o conhecimento verdadeiro**
+- Conhecimento de uma realidade **além da sensível e material**
+- Influência de Parmênides: oposição entre mutável e eterno
+- Introduz a necessidade de uma **teoria das formas ou ideias**
+
+:::
+
+# Teoria das Ideias
+
+::: {.smaller-list}
+
+- Crítica e desenvolvimento do pensamento socrático
+- Fundamento teórico para o método dialético
+- Explicação da natureza essencial das coisas
+- Início da metafísica clássica
+
+:::
+
+## Platão: Vida e Contexto
+
+::: {.smaller-list}
+
+- Nasceu em Atenas (428 a.C.), família aristocrática
+- Discípulo de Crátilo (heraclitiano) e depois Sócrates
+- Viagens: Sicília, contato com pitagóricos e eleatas
+- Fundou a Academia (387 a.C.) — "Não passe destes portões quem não tiver estudado geometria"
+- Morreu em 347 a.C.
+
+:::
+
+## A Crítica a Sócrates
+
+::: {.smaller-list}
+
+- Sócrates: filosofia como **método** de análise
+- Platão: método necessita de **fundamento teórico**
+- Problema: como saber se definições são válidas sem critérios?
+- Solução: desenvolver uma **teoria sobre a natureza dos conceitos e definições**
+- Assim nasce a **Teoria das Formas (Ideias)**
+
+:::
+
+## Formas e Essências
+
+::: {.smaller-list}
+
+- Forma ou Ideia = **natureza essencial** de algo
+- Exemplo: Essência de "coragem", "justiça", "beleza"
+- Responde à questão socrática: **"O que é x?"**
+- Estabelece critérios para saber quando uma resposta é satisfatória
+- Permite avaliar a eficácia do método dialético
+
+:::
+
+## Diferença Essencial: Sócrates vs. Platão
+
+| Sócrates | Platão |
+|----------|--------|
+| **Método** de reflexão | **Teoria** (contemplação) |
+| Melhor compreensão de si | Visão da verdadeira natureza |
+| Transformação intelectual | Natureza **eterna e imutável** |
+| Revisão de crenças | Conhecimento teórico |
+
+## Metafísica e Teoria do Conhecimento
+
+::: {.smaller-list}
+
+- **Metafísica**: doutrina sobre a natureza última e essencial da realidade
+- **Teoria do Conhecimento**: pressupõe a metafísica
+- Para definir o que é conhecimento, preciso saber o que há para ser conhecido
+- A Teoria das Formas responde: "O que há para ser conhecido?"
+
+:::
+
+## Consequências da Filosofia Teórica
+
+::: {.smaller-list}
+
+- Filosofia passa a ser **contemplativa e especulativa**
+- Afasta-se da experiência imediata e concreta
+- Busca uma **realidade abstrata e ideal**
+- Reflexão filosófica = contemplação e meditação
+- Origem do sentido "platônico" = contemplativo (ex: "amor platônico")
+
+:::
+
+## A Dimensão Prática da Filosofia
+
+::: {.smaller-list}
+
+- Platão **mantém preocupação ética** socrática
+- Interesse voltado para **dimensão ética e política**
+- Obra principal: **A República** — reflexão sobre a situação política de Atenas
+- Interesse prático realiza-se através da **articulação entre teoria e prática**
+
+:::
+
+## Teoria e Prática: O Processo de Decisão
+
+::: {.smaller-list}
+
+- Toda ação humana envolve **escolha e decisão**
+- Decisão exige **critérios** para avaliar alternativas
+- Critérios fundamentam-se em **princípios e definições**
+- Esses princípios são **universais, gerais, abstratos**
+- Vêm do **conhecimento teórico e raciocínio**
+
+:::
+
+## Ação Racional e Justificação
+
+::: {.smaller-list}
+
+- Ação é **justificada e legítima** quando baseada em princípios gerais
+- Princípios devem ser **universais** — aplicáveis a todos os casos
+- Sem princípios gerais, ação seria **caótica e imprevisível**
+- **Racionalidade** supõe existência de princípios gerais acessíveis à inteligência
+
+:::
+
+## O Ciclo entre Teoria e Prática
+
+::: {.smaller-list}
+
+- **Fase 1**: Imersos na prática, não conseguimos julgá-la claramente
+- **Fase 2**: Interrompemos a prática, passamos para a **reflexão teórica**
+- **Fase 3**: Distanciamento crítico e reflexão estabelecem princípios
+- **Fase 4**: Retornamos à prática **de forma amadurecida e refletida**
+- Resultado: **prática racional**
+
+:::
+
+## O Paradoxo de Ménon
+
+::: {.smaller-list}
+
+- Ménon questiona Sócrates: "Como procurar por algo quando não se sabe pelo que procura?"
+- **O Paradoxo**: 
+  - Para investigar, preciso identificar o objeto previamente
+  - Mas como identificar o que não conheço?
+- **Impasse**: investigação parece impossível logicamente
+
+:::
+
+## A Solução: A Doutrina da Reminiscência
+
+::: {.smaller-list}
+
+- Platão propõe: **conhecimento inato** (hipótese inatista)
+- A alma traz **conhecimento prévio** desde o nascimento
+- Esse conhecimento vem da **contemplação das formas** antes de encarnar
+- Ao encarnar no corpo, visão das formas **obscurece-se**
+- Papel do filósofo: **despertar conhecimento esquecido** via maiêutica
+
+:::
+
+## O Experimento do Escravo de Ménon
+
+::: {.smaller-list}
+
+- Sócrates propõe problema geométrico a escravo sem educação
+- **Questão**: dado um quadrado, construir outro com dobro de área
+- **Primeira tentativa**: escravo prolonga os lados → cria retângulo
+- **Segunda tentativa**: cria quadrado com **quatro vezes** a área
+- **Impasse**: parece impossível
+
+:::
+
+## A Solução Emerge
+
+::: {.smaller-list}
+
+- Sócrates convida escravo a **olhar para a figura**
+- Escravo reconhece que as outras possibilidades se esgotaram
+- **Eureka!**: a **diagonal** é a solução
+- A diagonal serve como **lado do novo quadrado**
+- Escravo **vê com os olhos da mente** uma propriedade não imediatamente visível
+
+:::
+
+## O Papel da Reminiscência
+
+::: {.smaller-list}
+
+- A diagonal não é um lado visível do quadrado
+- É uma **propriedade não imediatamente visível** da figura
+- A capacidade de "ver" isso mentalmente = **reminiscência**
+- Demonstra que conhecimento não vem apenas dos **sentidos**
+- Mas de uma **intuição inteligível** despertada no diálogo
+
+:::
+
+# *A República* (375 a.C.)
+
+::: {.smaller-list}
+
+- Proposta de um ideal de cidade-estado alternativa à realidade ateniense
+- Reflexão sobre a situação política e o papel do governante
+- Busca caracterizar o **governante ideal** como aquele que conhece a **ideia de Justiça**
+- Contém a trilogia de mitos centrais: Sol, Linha Dividida e Caverna
+
+:::
+
+## O Mito em Platão
+
+::: {.smaller-list}
+
+- Filosofia rompe com pensamento mítico, mas não completamente
+- O mito fornece **imagens, metáforas e recursos de estilo** para a filosofia
+- Discurso indireto, de caráter sugestivo, usando **símbolos e imagens**
+- Permite examinar questões **tão complexas** que só podem ser tratadas simbolicamente
+- Distinção entre **mito** (discurso simbólico) e **alegoria** (imagem específica)
+
+:::
+
+## A Trilogia de Mitos da República
+
+::: {.smaller-list}
+
+- **Mito do Sol** — a realidade suprema e a forma de conhecê-la
+- **Mito da Linha Dividida** — diferentes graus de conhecimento e realidade
+- **Mito da Caverna** — o processo de ascensão do conhecimento
+- Todos tratam do **mesmo tema**: o conhecimento e a ascensão da alma
+
+:::
+
+## O Mito da Linha Dividida: Estrutura
+
+::: {.smaller-list}
+
+Dois planos paralelos:
+
+- **Plano da Realidade** (o que é)
+  - A. Mundo inteligível (formas)
+  - B. Mundo material (objetos concretos)
+
+- **Plano dos Estados Mentais** (nossos modos de acesso)
+  - Aa. Noesis — conhecimento das formas
+  - Ab. Dianoia — conhecimento matemático
+  - Ba. Pistis — conhecimento dos objetos naturais
+  - Bb. Eikasia — visão de imagens
+
+:::
+
+## O Mundo Material (Bb): Eikasia
+
+::: {.smaller-list}
+
+- **Eikasia**: visão de **imagens, sombras, reflexos**
+- O homem comum vê o mundo de forma **superficial, imediata, incompleta**
+- Percepção parcial e sem profundidade
+- Nível da **opinião** (doxa), impreciso e parcial
+- Suficiente para o dia a dia, mas não constitui conhecimento propriamente dito
+
+:::
+
+## O Mundo Material (Ba): Pistis
+
+::: {.smaller-list}
+
+- **Pistis**: crença, convicção — conhecimento mais **elaborado e estável**
+- Inclui as ciências naturais: botânica, zoologia, etc.
+- Relações causais podem ser estabelecidas
+- Classificações e estruturação do conhecimento do mundo natural
+- Ainda marcado pela **imperfeição e imprecisão** — depende da percepção sensível
+- Ainda é empírico e mutável
+
+:::
+
+## O Abismo entre os Dois Mundos
+
+::: {.smaller-list}
+
+- Há uma **ruptura radical** entre o mundo material (B) e inteligível (A)
+- **Khorismos**: o abismo que separa os dois domínios
+- O mundo inteligível (A) é o domínio das **ideias** ou **formas**
+- Realidades **abstratas, perfeitas, eternas, imutáveis, inteligíveis**
+- Não mais dependentes da percepção sensível
+
+:::
+
+## O Mundo Inteligível (Ab): Dianoia
+
+::: {.smaller-list}
+
+- **Dianoia**: conhecimento discursivo — conhecimento das realidades abstratas
+- Exemplificado pela **geometria** e ciências matemáticas
+- As figuras geométricas são **imagens abstratas** de entidades ideais
+- Como a planta de um arquiteto representa abstratamente um prédio concreto
+- Mantém alguma relação com o sensível, mas já é abstrato
+- Depende de **hipóteses** para suas demonstrações — conhecimento mediato e sequencial
+
+:::
+
+## Geometria como Preparação para a Filosofia
+
+::: {.smaller-list}
+
+- Platão valorizava a geometria como **caminho para o raciocínio puramente abstrato**
+- Preparação para a filosofia e o conhecimento do filósofo
+- Origem do famoso aviso na Academia: **"Não passe destes portões quem não tiver estudado geometria"**
+- A geometria ainda depende de objetos sensíveis (triângulos desenhados, etc.)
+- Mas oferece o treinamento mental necessário
+
+:::
+
+## O Mundo Inteligível (Aa): Noesis
+
+::: {.smaller-list}
+
+- **Noesis**: intelecção ou intuição intelectual — o conhecimento mais elevado
+- Acesso direto às **realidades inteligíveis puras**
+- Atinge os **princípios mais elevados do ser**
+- O **an-hipotético**: aquilo que não pressupõe nada
+- Compreensão do **todo**, do âmago da realidade em seu sentido mais abstrato
+- Platão é deliberadamente vago — "é como se não fosse possível explicitar no discurso comum"
+
+:::
+
+## A Alegoria da Caverna: Cenário Inicial
+
+::: {.smaller-list}
+
+- Homens vivem em uma morada **subterrânea em forma de caverna**
+- Acorrentados pelas pernas e pelo pescoço desde a infância
+- **Não podem mudar de lugar** nem voltar a cabeça
+- Só conseguem ver o que está diante deles
+- Uma fogueira queima ao longe, ao fundo
+- Entre os prisioneiros e o fogo: um caminho que sobe com um pequeno muro
+
+:::
+
+## Os Homens e os Objetos
+
+::: {.smaller-list}
+
+- Ao longo do pequeno muro (como em um teatro de marionetes)
+- Homens carregam objetos fabricados acima da altura do muro
+- Estátuas de homens, figuras de animais, de pedra, madeira, etc.
+- Alguns carregadores falam, outros se calam
+- As sombras desses objetos são projetadas na parede diante dos prisioneiros
+
+:::
+
+## A Realidade dos Prisioneiros
+
+::: {.smaller-list}
+
+- Os prisioneiros só veem **sombras das coisas** projetadas na parede
+- Nunca viram os objetos reais, apenas seus reflexos
+- Se pudessem conversar, nomeariam as sombras como **seres reais**
+- O eco da parede faz parecer que as vozes vêm das sombras
+- Para os prisioneiros: **"as sombras são a única realidade"**
+
+:::
+
+## Nós Somos os Prisioneiros
+
+::: {.smaller-list}
+
+- Os prisioneiros **somos nós**, o homem comum
+- Prisioneiros de **hábitos, preconceitos, costumes, práticas** adquiridas desde a infância
+- Essas são as **"correntes"** ou **condicionamentos** que nos prisionam
+- Vemos as coisas de forma **parcial, limitada, incompleta, distorcida**
+- Como "sombras" — realidades parciais, nunca a totalidade
+
+:::
+
+## Os Sofistas e Políticos
+
+::: {.smaller-list}
+
+- Os homens que carregam os objetos = **sofistas e políticos atenienses**
+- **Manipuladores de opiniões** do homem comum
+- Produtores de **ilusão** — tal como Platão os caracteriza no diálogo *O Sofista*
+- Analogia moderna: como um cinema em que olhamos a tela e não prestamos atenção ao projetor
+
+:::
+
+## O Processo de Libertação: Início Difícil
+
+::: {.smaller-list}
+
+- Suponha que um prisioneiro seja **solto e forçado a levantar-se**
+- Aparente contradição: **libertar-se vs. ser forçado**
+- O prisioneiro não é libertado por força externa
+- Mas por **conflito interno** entre duas forças na alma:
+  - **Força do hábito** — o mantém confortável na situação familiar
+  - **Força do eros** — impulso de curiosidade que o estimula para fora
+
+:::
+
+## Sofrimento na Libertação
+
+::: {.smaller-list}
+
+- **Todos esses movimentos causam sofrimento** — levantarse, virar a cabeça, andar, olhar
+- Fica **ofuscado** pela luz
+- Não consegue distinguir os objetos dos quais via apenas sombras
+- Preferaria voltar à situação anterior à qual está acostumado
+- O processo é **penoso e difícil**
+
+:::
+
+## A Ascensão Gradual
+
+::: {.smaller-list}
+
+- **É preciso que ele se habitue** para poder ver as coisas do alto
+- Progressão:
+  1. Distingue mais facilmente as **sombras**
+  2. Depois, **imagens refletidas na água**
+  3. Depois, os **próprios objetos**
+  4. Durante a noite, as **constelações e a lua**
+  5. Finalmente, o **próprio Sol**
+
+:::
+
+## A Capacidade de Adaptação
+
+::: {.smaller-list}
+
+- A **capacidade de adaptação** é tão importante quanto o impulso (eros)
+- Progressivamente o olhar se adapta à nova realidade
+- A habituação permite que o prisioneiro passe a ver melhor
+- Passa a **preferir** a nova situação à anterior
+- Heidegger: conhecimento como processo de **adequação do olhar ao objeto**
+
+:::
+
+## A Visão do Sol
+
+::: {.smaller-list}
+
+- Finalmente consegue contemplar o **próprio Sol**
+- Não reflexos na água, mas o **Sol tal como ele é**
+- O Sol é fonte de toda a **luz** — de toda a **realidade**
+- Simboliza para Platão:
+  - O grau máximo de realidade
+  - O ser em sua plenitude
+  - A **Ideia do Bem**
+
+:::
+
+## O Conhecimento Pleno
+
+::: {.smaller-list}
+
+- Ao contemplar o Sol, o prisioneiro **compreende que ele governa tudo**
+- O Sol produz as estações, os anos, governa o mundo visível
+- É **causa de tudo** — mesmo do que ocoriam na caverna
+- As sombras existem porque há luz: **sem luz não haveria sombra**
+- O filósofo que chega aqui **possui o saber** — tem visão do **todo**
+
+:::
+
+## A Transformação Completa
+
+::: {.smaller-list}
+
+- O prisioneiro **não teria inveja** dos honores e prêmios da caverna
+- Preferiria **"viver como escravo de um lavrador"** a voltar à ilusão
+- Passagem de Homero citada por Platão
+- O prisioneiro libertado é **agora um filósofo**
+- Compreende a totalidade — superando a visão parcial anterior
+
+:::
+
+## A Volta à Caverna: Dialética Descendente
+
+::: {.smaller-list}
+
+- **O filósofo deve voltar à caverna** — essa é a terceira parte essencial
+- Contraposição da ascensão — agora é a **dialética descendente**
+- Volta contra a **filosofia contemplativa** pura
+- Representa a **missão político-pedagógica do filósofo**
+
+:::
+
+## A Missão do Filósofo
+
+::: {.smaller-list}
+
+- O filósofo não pode contentar-se em atingir o saber
+- Deve procurar **mostrar aos antigos companheiros** a existência da realidade superior
+- Deve **motivá-los** a percorrer o caminho até ela
+- Corre o risco de ser **incompreendido e até assassinado**
+- Clara alusão ao julgamento e morte de **Sócrates**
+
+:::
+
+## O Dificuldade da Volta
+
+::: {.smaller-list}
+
+- A volta exige **adaptação oposta** da visão do filósofo
+- Ao retornar à caverna, os olhos ficam **ofuscados pelas trevas**
+- Agora vinha da luz do Sol
+- O prisioneiro já **não consegue ver** tão bem quanto antes na caverna
+- Mais **desorientador** ainda que o processo de saída
+
+:::
+
+## Incompreensão e Perigo
+
+::: {.smaller-list}
+
+- Os prisioneiros não compreendem o filósofo
+- Pensam que ele foi para lá em cima e **voltou prejudicado**
+- Sua visão piorou — ele não consegue mais "ganhar" no jogo de adivinhar sombras
+- Podem até **rir dele, ridicularizá-lo ou machucá-lo**
+- Alguns poderiam até querer matá-lo
+
+:::
+
+## Filosofia não é Puramente Contemplativa
+
+::: {.smaller-list}
+
+- Interpretação comum: Platão defende filosofia contemplativa
+- **Não é correta** essa interpretação
+- A volta à caverna é **explicitamente essencial**
+- Mostra claramente o **papel político do filósofo**
+- Filosofia tem dimensão teórica **e prática**
+
+:::
+
+## Significado Ético-Político
+
+::: {.smaller-list}
+
+- Na passagem final, Sócrates interpreta a alegoria para Glauco
+- Enfatiza o **aspecto ético-político** do saber filosófico
+- Aquele que viu a luz pode **comportar-se com sabedoria**
+  - Seja na **vida privada**
+  - Seja na **vida pública**
+- O conhecimento tem implicações práticas diretas
+
+:::
+
+## A Metáfora da Luz
+
+::: {.smaller-list}
+
+- **Origem de uma influência duradoura** em nossa tradição
+- A **luz** como símbolo de:
+  - Conhecimento
+  - Verdade
+  - O próprio Bem
+- Oposição entre **luz** (realidade, verdade, ser) e **trevas** (ilusão, ignorância)
+- Influência no neoplatonismo, platonismo cristão, e além
+
+:::
+
+## Síntese: A Linha Dividida e a Caverna
+
+::: {.smaller-list}
+
+- A **Linha Dividida** mostra a **estrutura** da realidade e do conhecimento
+- A **Caverna** mostra o **processo** de ascensão do conhecimento
+- Complementam-se mutuamente:
+  - Linha = arquitetura da realidade
+  - Caverna = dinâmica de transformação
+- Ambas descrevem a jornada do homem comum ao filósofo
+
+:::
+
+# Mapa mental
+
+```{mermaid}
+mindmap
+  root((**O Idealismo de Platão**))
+
+    **Em Busca do Conhecimento**
+      Epistemologia como fundamento
+      Problemática do conhecimento
+        Possibilidade de conhecer
+        Método de acesso
+        Instrumentos (sentidos vs razão)
+        Objeto (material vs inteligível)
+      
+      Método Dialético
+        Parte da opinião e senso comum
+        Expõe contradições
+        Leva à verdade por si próprio
+      
+      Filosofia vs Sofistas
+        Filosofia: busca racional e verdade
+        Sofistas: manipulação e retórica
+      
+      Características da Filosofia
+        Crítica e reflexiva
+        Caráter universal
+        Argumentação racional
+        Função político-pedagógica
+
+    **Teoria das Ideias**
+      Vida de Platão
+        Discípulo de Sócrates
+        Fundou a Academia (387 a.C.)
+      
+      Crítica a Sócrates
+        Método precisa de fundamento teórico
+        Teoria das Formas como solução
+      
+      Formas/Ideias
+        Natureza essencial das coisas
+        Eternas e imutáveis
+        Mundo inteligível
+      
+      Sócrates vs Platão
+        Método vs Teoria
+        Transformação vs Contemplação
+        Prática vs Conhecimento teórico
+      
+      Reminiscência
+        Conhecimento inato
+        Alma contemplou formas antes
+        Maiêutica desperta conhecimento
+        Experimento do escravo de Ménon
+      
+      Ciclo Teoria-Prática
+        Teoria estabelece princípios
+        Prática amadurecida e refletida
+        Ação racional justificada
+
+    **A República e os Mitos**
+      Projeto político-pedagógico
+        Ideal de cidade-estado
+        Governante que conhece a Justiça
+      
+      Trilogia de Mitos
+        Mito do Sol
+        Linha Dividida
+        Alegoria da Caverna
+      
+      Linha Dividida
+        Mundo Material
+          Eikasia (sombras e imagens)
+          Pistis (conhecimento empírico)
+        
+        Mundo Inteligível
+          Dianoia (geometria e matemática)
+          Noesis (intuição intelectual)
+      
+      Alegoria da Caverna
+        Cenário: prisioneiros em caverna
+        Correntes representam condicionamentos
+        Sofistas manipulam opiniões
+        
+        Processo de Libertação
+          Conflito entre hábito e eros
+          Ascensão gradual com adaptação
+          Sofrimento na mudança
+        
+        Visão do Sol
+          Sol = Ideia do Bem
+          Máxima realidade e verdade
+          Compreensão da totalidade
+        
+        Volta à Caverna
+          Missão do filósofo
+          Doutrina político-pedagógica
+          Incompreensão e perigo
+```
+
+```{python}
+#| echo: false
+#| output: asis
+
+from render_questoes import render_questao
+from IPython.display import HTML
+
+arquivo_yaml = "questoes_enem.yaml"
+
+questoes = [19, 31, 44, 45]
+
+print("# Questões do Enem")
+
+for i, questao_id in enumerate(questoes, start=1):
+
+  print(f"## Questão {i}")
+  html = render_questao(questao_id, arquivo_yaml)
+  display(HTML(html))
+```
