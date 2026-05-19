@@ -892,7 +892,7 @@
   correct_answer: A
 
 - id: 36
-  test: enem_2020_ppl
+  test: enem_2020_2apl
   test_type: azul
   test_part: ch
   test_item: 54
@@ -916,8 +916,8 @@
   correct_answer: E
 
 - id: 37
-  test: enem
-  test_type: enem_2016
+  test: enem_2016
+  test_type: azul
   test_part: ch
   test_item: 23
   question_elements:
@@ -943,3 +943,196 @@
     D: "habilidades da retórica sofística."
     E: "verdades do mundo sensível."
   correct_answer: C
+
+- id: 38
+  test: enem_2023
+  test_type: azul
+  test_part: ch
+  test_item: 90
+  question_elements:
+    - question_text: >
+        Não tinha outra filosofia. Nem eu. Não digo que a Universidade me não tivesse ensinado alguma; mas eu decorei-lhe 
+        só as fórmulas, o vocabulário, o esqueleto. Tratei-a como tratei o latim; embolsei três versos de Virgílio, dois de 
+        Horácio, uma dúzia de locuções morais e políticas, para as despesas da conversação. Tratei-os como tratei a história 
+        e a jurisprudência. Colhi de todas as cousas a fraseologia, a casca, a ornamentação.
+      question_text_reference: >
+        ASSIS, M. **Memórias póstumas de Brás Cubas.** Belo Horizonte: Autêntica, 1999.
+  statement: >
+    A descrição crítica do personagem de Machado de Assis assemelha-se às características dos sofistas, contestados
+    pelos filósofos gregos da Antiguidade, porque se mostra alinhada à
+  answers:
+    A: "elaboração conceitual de entendimentos."
+    B: "utilização persuasiva do discurso."
+    C: "narração alegórica dos rapsodos."
+    D: "investigação empírica da physis."
+    E: "expressão pictográfica da pólis."
+  correct_answer: B
+
+- id: 39
+  test: enem_2017
+  test_type: azul
+  test_part: ch
+  test_item: 66
+  question_elements:
+    - question_text: >
+        Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; 
+        leva a refletir sobre si mesmo, a imprimir à atenção uma direção incomum: os temperamentais, como Alcibíades, 
+        sabem que encontrarão junto dele todo o bem de que são capazes, mas fogem porque receiam essa influência 
+        poderosa, que os leva a se censurarem. É sobretudo a esses jovens, muitos quase crianças, que ele tenta 
+        imprimir sua orientação.
+      question_text_reference: >
+        BRÉHIER, E. **História da filosofia.** São Paulo: Mestre Jou, 1977.
+  statement: >
+    O texto evidencia características do modo de vida socrático, que se baseava na
+  answers:
+    A: "contemplação da tradição mítica."
+    B: "sustentação do método dialético."
+    C: "relativização do saber verdadeiro."
+    D: "valorização da argumentação retórica. "
+    E: "investigação dos fundamentos da natureza."
+  correct_answer: B
+
+- id: 40
+  test: enem_2019_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 82
+  question_elements:
+    - question_text: >
+        Tomemos o exemplo de Sócrates: é precisamente ele quem interpela as pessoas na rua, os jovens no 
+        ginásio, perguntando: “Tu te ocupas de ti?” O deus o encarregou disso, é sua missão, e ele não a abandonará, 
+        mesmo no momento em que for ameaçado de morte. Ele é certamente o homem que cuida do cuidado dos 
+        outros: esta é a posição particular do filósofo.
+      question_text_reference: >
+        FOUCAULT, M. **Ditos e escritos.** Rio de Janeiro: Forense Universitária, 2004.
+  statement: >
+    O fragmento evoca o seguinte princípio moral da filosofia socrática, presente em sua ação dialógica:
+  answers:
+    A: "Examinar a própria vida."
+    B: "Ironizar o seu oponente."
+    C: "Sofismar com a verdade."
+    D: "Debater visando a aporia."
+    E: "Desprezar a virtude alheia."
+  correct_answer: A
+
+- id: 41
+  test: enem_2015
+  test_type: azul
+  test_part: ch
+  test_item: 34
+  question_elements:
+    - question_text: >
+        A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz 
+        de todas as coisas. Será mesmo necessário deter-nos nela e levá-la a sério? Sim, e por três razões: em primeiro 
+        lugar, porque essa proposição enuncia algo sobre a origem das coisas; em segundo lugar, porque o faz sem 
+        imagem e fabulação; e enfim, em terceiro lugar, porque nela, embora apenas em estado de crisálida, está contido 
+        o pensamento: Tudo é um.
+      question_text_reference: >
+        NIETZSCHE, F. Crítica moderna. In: **Os pré-socráticos.** São Paulo: Nova Cultural, 1999.
+  statement: >
+    O que, de acordo com Nietzsche, caracteriza o surgimento da filosofia entre os gregos?
+  answers:
+    A: "O impulso para transformar, mediante justificativas, os elementos sensíveis em verdades racionais."
+    B: "O desejo de explicar, usando metáforas, a origem dos seres e das coisas."
+    C: "A necessidade de buscar, de forma racional, a causa primeira das coisas existentes."
+    D: "A ambição de expor, de maneira metódica, as diferenças entre as coisas."
+    E: "A tentativa de justificar, a partir de elementos empíricos, o que existe no real."
+  correct_answer: C
+
+- id: 42
+  test: enem_2015
+  test_type: azul
+  test_part: ch
+  test_item: 13
+  question_elements:
+    - question_text: >
+        Trasímaco estava impaciente porque Sócrates e os seus amigos presumiam que a justiça era algo real e 
+        importante. Trasímaco negava isso. Em seu entender, as pessoas acreditavam no certo e no errado apenas 
+        por terem sido ensinadas a obedecer às regras da sua sociedade. No entanto, essas regras não passavam de 
+        invenções humanas.  
+      question_text_reference: >
+        RACHELS, J. **Problemas da filosofia.** Lisboa: Gradiva, 2009.
+  statement: >
+    O sofista Trasímaco, personagem imortalizado no diálogo A República, de Platão, sustentava que a correlação entre justiça e ética é resultado de
+  answers:
+    A: "determinações biológicas impregnadas na natureza humana."
+    B: "verdades objetivas com fundamento anterior aos interesses sociais."
+    C: "mandamentos divinos inquestionáveis legados das tradições antigas."
+    D: "convenções sociais resultantes de interesses humanos contingentes."
+    E: "sentimentos experimentados diante de determinadas atitudes humanas."
+  correct_answer: D
+
+- id: 43
+  test: enem_2019_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 52
+  question_elements:
+    - question_text: >
+        Tomás de Aquino, filósofo cristão que viveu no século XIII, afirma: a lei é uma regra ou um preceito 
+        relativo às nossas ações. Ora, a norma suprema dos atos humanos é a razão. Desse modo, em última 
+        análise, a lei está submetida à razão; é apenas uma formulação das exigências racionais. Porém, é mister 
+        que ela emane da comunidade, ou de uma pessoa que legitimamente a representa.
+      question_text_reference: >
+        GILSON, E.; BOEHNER, P. **História da filosofia cristã.** Petrópolis: Vozes, 1991 (adaptado).
+  statement: >
+    No contexto do século XIII, a visão política do filósofo mencionado retoma o
+  answers:
+    A: "pensamento idealista de Platão."
+    B: "conformismo estoico de Sêneca."
+    C: "ensinamento místico de Pitágoras."
+    D: "paradigma de vida feliz de Agostinho."
+    E: "conceito de bem comum de Aristóteles."
+  correct_answer: E
+
+- id: 44
+  test: enem_2015_2apl
+  test_type: branco
+  test_part: ch
+  test_item: 21
+  question_elements:
+    - question_text: >
+        Suponha homens numa morada subterrânea, em forma de caverna, cuja entrada, aberta à luz, se estende 
+        sobre todo o comprimento da fachada; eles estão lá desde a infância, as pernas e o pescoço presos por 
+        correntes, de tal sorte que não podem trocar de lugar e só podem olhar para frente, pois os grilhões os impedem 
+        de voltar a cabeça; a luz de uma fogueira acesa ao longe, numa elevada do terreno, brilha por detrás deles; 
+        entre a fogueira e os prisioneiros, há um caminho ascendente; ao longo do caminho, imagine um pequeno 
+        muro, semelhante aos tapumes que os manipuladores de marionetes armam entre eles e o público e sobre os 
+        quais exibem seus prestígios.
+      question_text_reference: >
+        PLATÃO. **A República.** Lisboa: Fundação Calouste Gulbenkian, 2007.
+  statement: >
+    Essa narrativa de Platão é uma importante manifestação cultural do pensamento grego antigo, cuja ideia central, 
+    do ponto de vista filosófico, evidencia o(a)
+  answers:
+    A: "caráter antropológico, descrevendo as origens do homem primitivo."
+    B: "sistema penal da época, criticando o sistema  carcerário da sociedade ateniense."
+    C: "vida cultural e artística, expressa por dramaturgos trágicos e cômicos gregos."
+    D: "sistema político elitista, provindo do surgimento da pólis e da democracia ateniense."
+    E: "teoria do conhecimento, expondo a passagem do mundo ilusório para o mundo das ideias."
+  correct_answer: E
+
+- id: 45
+  test: enem_2021
+  test_type: azul
+  test_part: ch
+  test_item: 82
+  question_elements:
+    - question_text: >
+        Sócrates: “Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, que coisa afirmas ser a virtude?”.
+      question_text_reference: >
+        PLATÃO. **Mênon.** Rio de Janeiro: PUC-RIO; São Paulo: Loyola, 2001 (adaptado).
+  statement: >
+    A atitude apresentada na interlocução do filósofo com Mênon é um exemplo da utilização do(a)
+  answers:
+    A: "escrita epistolar"
+    B: "método dialético"
+    C: "linguagem trágica"
+    D: "explicação fisicalista"
+    E: "suspensão judicativa "
+  correct_answer: B
+
+
+
+
+
