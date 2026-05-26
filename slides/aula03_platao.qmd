@@ -11,12 +11,13 @@ format:
     css: styles.css
     incremental: true
 ---
+
+# Em busca do *Conhecimento*
+
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
   mermaid.initialize({ startOnLoad: true });
 </script>
-
-# Em busca do *Conhecimento*
 
 <style>
 :root {
@@ -29,9 +30,9 @@ format:
 ::: {.smaller-list}
 
 - A **epistemologia** como ponto de partida da filosofia platônica
-- Platão reflete sobre a decadência da democracia ateniense
-- Busca avaliar e julgar as manifestações culturais gregas
-- Filosofia = ciência, moral e política integradas
+- Platão reflete sobre a **decadência da democracia ateniense**
+- Busca avaliar e julgar as **manifestações culturais** gregas
+- **Filosofia** = **ciência**, **moral** e **política** integradas
 
 :::
 
@@ -123,8 +124,8 @@ format:
 ::: {.smaller-list}
 
 - Objetivo: **promover a transformação da realidade**
-- Antagônica à democracia que admite paixões e opiniões
-- Contrária à tirania e oligarquia
+- Antagônica à **democracia** que admite paixões e opiniões
+- Contrária à **tirania** e **oligarquia**
 - Defende uma **aristocracia do saber**
 - Necessária como resposta a uma situação histórica injusta
 
@@ -136,19 +137,19 @@ format:
 
 - Garantia da universalidade: a **verdade e o conhecimento verdadeiro**
 - Conhecimento de uma realidade **além da sensível e material**
-- Influência de Parmênides: oposição entre mutável e eterno
+- Influência de **Parmênides**: oposição entre mutável e eterno
 - Introduz a necessidade de uma **teoria das formas ou ideias**
 
 :::
 
-# Teoria das Ideias
+# Teoria das Ideias (ou Teoria das Formas)
 
 ::: {.smaller-list}
 
-- Crítica e desenvolvimento do pensamento socrático
-- Fundamento teórico para o método dialético
-- Explicação da natureza essencial das coisas
-- Início da metafísica clássica
+- Crítica e desenvolvimento do **pensamento socrático**, que não foi codificado ede forma escrita por Sócrates.
+- **Fundamento teórico** para o método dialético
+- Explicação da natureza **essencial** das coisas
+- Início da **metafísica** clássica
 
 :::
 
@@ -156,10 +157,10 @@ format:
 
 ::: {.smaller-list}
 
-- Nasceu em Atenas (428 a.C.), família aristocrática
+- **Nasceu em Atenas** (428 a.C.), família aristocrática
 - Discípulo de Crátilo (heraclitiano) e depois Sócrates
-- Viagens: Sicília, contato com pitagóricos e eleatas
-- Fundou a Academia (387 a.C.) — "Não passe destes portões quem não tiver estudado geometria"
+- **Viagens**: Sicília, contato com pitagóricos e eleatas
+- Fundou a **Academia** (387 a.C.): *"Não passe destes portões quem não tiver estudado geometria"*
 - Morreu em 347 a.C.
 
 :::
@@ -194,7 +195,7 @@ format:
 |----------|--------|
 | **Método** de reflexão | **Teoria** (contemplação) |
 | Melhor compreensão de si | Visão da verdadeira natureza |
-| Transformação intelectual | Natureza **eterna e imutável** |
+| **Transformação** intelectual | Natureza **eterna e imutável** |
 | Revisão de crenças | Conhecimento teórico |
 
 ## Metafísica e Teoria do Conhecimento
@@ -204,7 +205,7 @@ format:
 - **Metafísica**: doutrina sobre a natureza última e essencial da realidade
 - **Teoria do Conhecimento**: pressupõe a metafísica
 - Para definir o que é conhecimento, preciso saber o que há para ser conhecido
-- A Teoria das Formas responde: "O que há para ser conhecido?"
+- A **Teoria das Formas** responde: *"O que há para ser conhecido?"*
 
 :::
 
@@ -216,7 +217,7 @@ format:
 - Afasta-se da experiência imediata e concreta
 - Busca uma **realidade abstrata e ideal**
 - Reflexão filosófica = contemplação e meditação
-- Origem do sentido "platônico" = contemplativo (ex: "amor platônico")
+- Origem do sentido **"platônico" = contemplativo** (ex: "amor platônico")
 
 :::
 
@@ -371,14 +372,14 @@ Dois planos paralelos:
   - B. Mundo material (objetos concretos)
 
 - **Plano dos Estados Mentais** (nossos modos de acesso)
-  - Aa. Noesis — conhecimento das formas
-  - Ab. Dianoia — conhecimento matemático
-  - Ba. Pistis — conhecimento dos objetos naturais
-  - Bb. Eikasia — visão de imagens
+  - Aa. *Noesis* — conhecimento das **formas**
+  - Ab. *Dianoia* — conhecimento **matemático**
+  - Ba. *Pistis* — conhecimento dos **objetos naturais**
+  - Bb. *Eikasia* — visão de **imagens**
 
 :::
 
-## O Mundo Material (Bb): Eikasia
+## O Mundo Material (Bb): *Eikasia*
 
 ::: {.smaller-list}
 
@@ -390,7 +391,7 @@ Dois planos paralelos:
 
 :::
 
-## O Mundo Material (Ba): Pistis
+## O Mundo Material (Ba): *Pistis*
 
 ::: {.smaller-list}
 
@@ -408,7 +409,7 @@ Dois planos paralelos:
 ::: {.smaller-list}
 
 - Há uma **ruptura radical** entre o mundo material (B) e inteligível (A)
-- **Khorismos**: o abismo que separa os dois domínios
+- *Khorismos*: o abismo que separa os dois domínios
 - O mundo inteligível (A) é o domínio das **ideias** ou **formas**
 - Realidades **abstratas, perfeitas, eternas, imutáveis, inteligíveis**
 - Não mais dependentes da percepção sensível
@@ -463,6 +464,7 @@ Dois planos paralelos:
 - Só conseguem ver o que está diante deles
 - Uma fogueira queima ao longe, ao fundo
 - Entre os prisioneiros e o fogo: um caminho que sobe com um pequeno muro
+- Obra ao fundo desta apresentação: *A Caverna de Platão* (Jan Pietersz Saenredam, 1604)
 
 :::
 
@@ -509,7 +511,7 @@ Dois planos paralelos:
 - Os homens que carregam os objetos = **sofistas e políticos atenienses**
 - **Manipuladores de opiniões** do homem comum
 - Produtores de **ilusão** — tal como Platão os caracteriza no diálogo *O Sofista*
-- Analogia moderna: como um cinema em que olhamos a tela e não prestamos atenção ao projetor
+- Analogia moderna: como um **cinema** em que olhamos a tela e não prestamos atenção ao projetor
 
 :::
 
@@ -530,7 +532,7 @@ Dois planos paralelos:
 
 ::: {.smaller-list}
 
-- **Todos esses movimentos causam sofrimento** — levantarse, virar a cabeça, andar, olhar
+- **Todos esses movimentos causam sofrimento** — levantar-se, virar a cabeça, andar, olhar
 - Fica **ofuscado** pela luz
 - Não consegue distinguir os objetos dos quais via apenas sombras
 - Preferaria voltar à situação anterior à qual está acostumado
@@ -560,7 +562,7 @@ Dois planos paralelos:
 - Progressivamente o olhar se adapta à nova realidade
 - A habituação permite que o prisioneiro passe a ver melhor
 - Passa a **preferir** a nova situação à anterior
-- Heidegger: conhecimento como processo de **adequação do olhar ao objeto**
+- **Heidegger**: conhecimento como processo de **adequação do olhar ao objeto**
 
 :::
 
@@ -625,7 +627,7 @@ Dois planos paralelos:
 
 :::
 
-## O Dificuldade da Volta
+## A Dificuldade da Volta
 
 ::: {.smaller-list}
 
@@ -705,99 +707,43 @@ Dois planos paralelos:
 
 ```{mermaid}
 mindmap
-  root((**O Idealismo de Platão**))
+  root((**O Idealismo<br> de Platão**))
 
-    **Em Busca do Conhecimento**
-      Epistemologia como fundamento
-      Problemática do conhecimento
-        Possibilidade de conhecer
-        Método de acesso
-        Instrumentos (sentidos vs razão)
-        Objeto (material vs inteligível)
-      
-      Método Dialético
-        Parte da opinião e senso comum
-        Expõe contradições
-        Leva à verdade por si próprio
-      
-      Filosofia vs Sofistas
-        Filosofia: busca racional e verdade
-        Sofistas: manipulação e retórica
-      
-      Características da Filosofia
-        Crítica e reflexiva
-        Caráter universal
-        Argumentação racional
-        Função político-pedagógica
+    **Conhecimento**
+      Possível?
+      Método:<br> Dialético
 
-    **Teoria das Ideias**
-      Vida de Platão
-        Discípulo de Sócrates
-        Fundou a Academia (387 a.C.)
-      
-      Crítica a Sócrates
-        Método precisa de fundamento teórico
-        Teoria das Formas como solução
+    **Teoria<br> das Ideias/Formas**
+      Crítica<br> a Sócrates
+        Fundamento<br>do método
       
       Formas/Ideias
-        Natureza essencial das coisas
-        Eternas e imutáveis
-        Mundo inteligível
-      
-      Sócrates vs Platão
-        Método vs Teoria
-        Transformação vs Contemplação
-        Prática vs Conhecimento teórico
+        Essência
       
       Reminiscência
-        Conhecimento inato
-        Alma contemplou formas antes
-        Maiêutica desperta conhecimento
-        Experimento do escravo de Ménon
-      
-      Ciclo Teoria-Prática
-        Teoria estabelece princípios
-        Prática amadurecida e refletida
-        Ação racional justificada
-
-    **A República e os Mitos**
-      Projeto político-pedagógico
-        Ideal de cidade-estado
-        Governante que conhece a Justiça
-      
-      Trilogia de Mitos
-        Mito do Sol
-        Linha Dividida
-        Alegoria da Caverna
-      
-      Linha Dividida
-        Mundo Material
-          Eikasia (sombras e imagens)
-          Pistis (conhecimento empírico)
+        Conhecimento<br> inato
+        Maiêutica
         
-        Mundo Inteligível
-          Dianoia (geometria e matemática)
-          Noesis (intuição intelectual)
+    **A República**
+      Projeto<br> político-pedagógico
+        Pólis ideal
+        Filósofo-rei
       
-      Alegoria da Caverna
-        Cenário: prisioneiros em caverna
-        Correntes representam condicionamentos
-        Sofistas manipulam opiniões
+      Mito<br> da Linha<br> Dividida
+        Mundo<br> Material
+          Sombras
+          Conhecimento<br> empírico
         
-        Processo de Libertação
-          Conflito entre hábito e eros
-          Ascensão gradual com adaptação
-          Sofrimento na mudança
-        
-        Visão do Sol
-          Sol = Ideia do Bem
-          Máxima realidade e verdade
-          Compreensão da totalidade
-        
-        Volta à Caverna
-          Missão do filósofo
-          Doutrina político-pedagógica
-          Incompreensão e perigo
+        Mundo<br> Inteligível
+          Geometria<br> e matemática
+          Intuição<br> intelectual
+      
+      Alegoria<br> da Caverna
+        Senso comum = prisão
+        Sofistas = manipuladores
+        Libertação = ascenção gradual
+        Sol = verdade
+        Retorno = missão política
 ```
 
 ```{python}

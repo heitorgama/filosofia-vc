@@ -7,4 +7,4 @@ Turma do período vespertino, 2026.
 - [30/03] [O que é filosofia?](/slides/aula00_intro.html)
 - [06/04] [Origens da Filosofia](/slides/aula01_origens.html)
 - [05/05] [A filosofia na pólis](/slides/aula02_socrates.html)
-- [12/05] [O idealismo de Platão](/slides/aula03_platao.html)
+- [19/05] [O idealismo de Platão](/slides/aula03_platao.html)
