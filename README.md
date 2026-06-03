@@ -8,3 +8,4 @@ Turma do período vespertino, 2026.
 - [06/04] [Origens da Filosofia](/slides/aula01_origens.html)
 - [05/05] [A filosofia na pólis](/slides/aula02_socrates.html)
 - [19/05] [O idealismo de Platão](/slides/aula03_platao.html)
+- [02/06] [Aristotelismo e Helenismo](/slides/aula04_aristoteles.html)
