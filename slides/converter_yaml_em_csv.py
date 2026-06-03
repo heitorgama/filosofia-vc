@@ -2,8 +2,8 @@ import yaml
 import csv
 
 # Arquivos
-INPUT_YAML = "questoes_enem.yaml"
-OUTPUT_CSV = "questoes_enem.csv"
+INPUT_YAML = "slides/questoes_enem.yaml"
+OUTPUT_CSV = "slides/questoes_enem.csv"
 
 # Ler YAML
 with open(INPUT_YAML, "r", encoding="utf-8") as f:
@@ -25,7 +25,22 @@ for item in data:
     if isinstance(item, dict):
         fieldnames.update(item.keys())
 
-fieldnames = list(fieldnames)
+ordered_fieldnames = [
+    'id',
+    'test',
+    'test_part',
+    'test_type',
+    'test_item',
+    'question_elements',
+    'statement',
+    'answers',
+    'correct_answer',
+]
+
+if set(ordered_fieldnames) == fieldnames:
+    fieldnames = ordered_fieldnames
+else:
+    fieldnames = list(fieldnames)
 
 # Escrever CSV
 with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
