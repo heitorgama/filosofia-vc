@@ -1,6 +1,6 @@
 # Como usar o template de questões
 
-O arquivo `render_questoes.py` fornece uma função reutilizável para renderizar questões ENEM em slides Quarto/RevealJS.
+O arquivo `slides/scripts/render_questoes.py` fornece uma função reutilizável para renderizar questões ENEM em slides Quarto/RevealJS.
 
 ## Uso Básico
 
@@ -10,7 +10,7 @@ Em qualquer arquivo `.qmd`, adicione um bloco de código Python:
 #| echo: false
 #| results: asis
 
-from render_questoes import render_questao
+from scripts.render_questoes import render_questao
 
 # Renderizar questão ID 1 do arquivo "questoes_enem.yaml"
 html = render_questao(1, "questoes_enem.yaml")
@@ -29,7 +29,7 @@ print(html)
 #| echo: false
 #| results: asis
 
-from render_questoes import render_questao
+from scripts.render_questoes import render_questao
 print(render_questao(1))
 ```
 
@@ -38,7 +38,7 @@ print(render_questao(1))
 #| echo: false
 #| results: asis
 
-from render_questoes import render_questao
+from scripts.render_questoes import render_questao
 print(render_questao(2, "questoes_enem.yaml"))
 ```
 
@@ -47,7 +47,7 @@ print(render_questao(2, "questoes_enem.yaml"))
 #| echo: false
 #| results: asis
 
-from render_questoes import render_questao
+from scripts.render_questoes import render_questao
 
 for questao_id in [1, 2, 3]:
     html = render_questao(questao_id)

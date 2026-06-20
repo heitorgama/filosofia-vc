@@ -1397,3 +1397,25 @@
     D: "lógica e os princípios metafísicos."
     E: "razão e as verdades transcendentes."
   correct_answer: B
+
+- id: 55
+  test: enem_2015_2apl
+  test_type: branco
+  test_part: ch
+  test_item: 22
+  question_elements:
+  - question_text: "Se os nossos adversários, que admitem a existência de uma natureza\
+      \ não criada por Deus, o Sumo Bem, quisessem admitir que essas considerações\
+      \ estão certas, deixariam de proferir tantas blasfêmias, como a de atribuir\
+      \ a Deus tanto a autoria dos bens quanto dos males. Pois sendo Ele fonte suprema\
+      \ da Bondade, nunca poderia ter criado aquilo que é contrário à sua natureza."
+    question_text_reference: "AGOSTINHO. A natureza do Bem. Rio de Janeiro: Sétimo\
+      \ Selo, 2005 (adaptado)."
+  statement: "Para Agostinho, não se deve atribuir a Deus a origem do mal porque"
+  answers:
+    A: "o surgimento do mal é anterior à existência de Deus."
+    B: "o mal, enquanto princípio ontológico, independe de Deus."
+    C: "Deus apenas transforma a matéria, que é, por natureza, má."
+    D: "por ser bom, Deus não pode criar o que lhe é oposto, o mal."
+    E: "Deus se limita a administrar a dialética existente entre o bem e o mal."
+  correct_answer: D

@@ -212,91 +212,23 @@ mindmap
         Aporia
 ```
 
-# Questões do Enem
-
-## Questão 1
-```{python}
-#| echo: false
-#| output: asis
-
-from render_questoes import render_questao
-from IPython.display import HTML
-
-# Parâmetros da questão
-questao_id = 10
-arquivo_yaml = "questoes_enem.yaml"
-
-# Renderizar e exibir
-html = render_questao(questao_id, arquivo_yaml)
-display(HTML(html))
-```
-
-## Questão 2
 
 ```{python}
 #| echo: false
 #| output: asis
 
-from render_questoes import render_questao
+from scripts.render_questoes import render_questao
 from IPython.display import HTML
 
-# Parâmetros da questão
-questao_id = 38
 arquivo_yaml = "questoes_enem.yaml"
 
-# Renderizar e exibir
-html = render_questao(questao_id, arquivo_yaml)
-display(HTML(html))
-```
+questoes = [10, 38, 20, 24, 27]
 
-## Questão 3
-```{python}
-#| echo: false
-#| output: asis
+print("# Questões do Enem")
 
-from render_questoes import render_questao
-from IPython.display import HTML
+for i, questao_id in enumerate(questoes, start=1):
 
-# Parâmetros da questão
-questao_id = 20
-arquivo_yaml = "questoes_enem.yaml"
-
-# Renderizar e exibir
-html = render_questao(questao_id, arquivo_yaml)
-display(HTML(html))
-```
-
-## Questão 4
-```{python}
-#| echo: false
-#| output: asis
-
-from render_questoes import render_questao
-from IPython.display import HTML
-
-# Parâmetros da questão
-questao_id = 24
-arquivo_yaml = "questoes_enem.yaml"
-
-# Renderizar e exibir
-html = render_questao(questao_id, arquivo_yaml)
-display(HTML(html))
-```
-
-
-## Questão 5
-```{python}
-#| echo: false
-#| output: asis
-
-from render_questoes import render_questao
-from IPython.display import HTML
-
-# Parâmetros da questão
-questao_id = 27
-arquivo_yaml = "questoes_enem.yaml"
-
-# Renderizar e exibir
-html = render_questao(questao_id, arquivo_yaml)
-display(HTML(html))
+  print(f"## Questão {i}")
+  html = render_questao(questao_id, arquivo_yaml)
+  display(HTML(html))
 ```

@@ -750,7 +750,7 @@ mindmap
 #| echo: false
 #| output: asis
 
-from render_questoes import render_questao
+from scripts.render_questoes import render_questao
 from IPython.display import HTML
 
 arquivo_yaml = "questoes_enem.yaml"
