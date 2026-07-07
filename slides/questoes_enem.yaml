@@ -722,7 +722,7 @@
   correct_answer: B
 
 - id: 30
-  test: enem_2025_belem
+  test: enem_2025_2apl
   test_type: azul
   test_part: ch
   test_item: 69
@@ -752,7 +752,7 @@
   correct_answer: D
 
 - id: 31
-  test: enem_2025_belem
+  test: enem_2025_2apl
   test_type: azul
   test_part: ch
   test_item: 73
@@ -1409,7 +1409,7 @@
       \ estão certas, deixariam de proferir tantas blasfêmias, como a de atribuir\
       \ a Deus tanto a autoria dos bens quanto dos males. Pois sendo Ele fonte suprema\
       \ da Bondade, nunca poderia ter criado aquilo que é contrário à sua natureza."
-    question_text_reference: "AGOSTINHO. A natureza do Bem. Rio de Janeiro: Sétimo\
+    question_text_reference: "AGOSTINHO. **A natureza do Bem.** Rio de Janeiro: Sétimo\
       \ Selo, 2005 (adaptado)."
   statement: "Para Agostinho, não se deve atribuir a Deus a origem do mal porque"
   answers:
@@ -1419,3 +1419,996 @@
     D: "por ser bom, Deus não pode criar o que lhe é oposto, o mal."
     E: "Deus se limita a administrar a dialética existente entre o bem e o mal."
   correct_answer: D
+
+- id: 56
+  test: enem_2015
+  test_type: azul
+  test_part: ch
+  test_item: 17
+  question_elements:
+  - question_text: "Ora, em todas as coisas ordenadas a algum fim, é preciso haver\
+      \ algum dirigente, pelo qual se atinja diretamente o devido fim. Com efeito,\
+      \ um navio, que se move para diversos lados pelo impulso dos ventos contrários,\
+      \ não chegaria ao fim de destino, se por indústria do piloto não fosse dirigido\
+      \ ao porto; ora, tem o homem um fim, para o qual se ordenam toda a sua vida\
+      \ e ação. Acontece, porém, agirem os homens de modos diversos em vista do fim,\
+      \ o que a própria diversidade dos esforços e ações humanas comprova. Portanto,\
+      \ precisa o homem de um dirigente para o fim."
+    question_text_reference: "AQUINO, T. Do reino ou do governo dos homens: ao rei\
+      \ do Chipre. **Escritos políticos de São Tomás de Aquino.** Petrópolis: Vozes,\
+      \ 1995 (adaptado)."
+  statement: "No trecho citado, Tomás de Aquino justifica a monarquia como o regime\
+    \ de governo capaz de"
+  answers:
+    A: "refrear os movimentos religiosos contestatórios."
+    B: "promover a atuação da sociedade civil na vida política."
+    C: "unir a sociedade tendo em vista a realização do bem comum."
+    D: "reformar a religião por meio do retorno à tradição helenística."
+    E: "dissociar a relação política entre os poderes temporal e espiritual."
+  correct_answer: C
+
+- id: 57
+  test: enem_2025_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 49
+  question_elements:
+  - question_text: "O perdão não é o esquecimento. Ao contrário, ele requer a memória\
+      \ absolutamente viva do que não se pode esquecer, para além de todo trabalho\
+      \ do luto, de reconciliação, de restauração. Apenas se pode perdoar lembrando-se,\
+      \ sem atenuar, o malfeito, aquilo que se tem a perdoar. Se apenas perdoo o que\
+      \ é perdoável, o pecado não mortal, não faço nada que mereça o nome de perdão.\
+      \ O que é perdoável está de antemão perdoado. Daí a aporia: apenas se tem a\
+      \ perdoar o imperdoável. O único perdão possível é, portanto, realmente o perdão\
+      \ impossível."
+    question_text_reference: "DERRIDA, J. **Papel máquina.** São Paulo: Estação Liberdade,\
+      \ 2004."
+  statement: "O conceito de perdão apresentado no texto pressupõe a necessidade de"
+  answers:
+    A: "dirigir um apelo ético também à vítima."
+    B: "isentar de culpabilidade moral o ofensor."
+    C: "reaproximar de forma imediata os envolvidos."
+    D: "exigir uma reparação efetiva pela dor causada."
+    E: "evidenciar o caráter religioso da ação de desculpar."
+  correct_answer: A
+
+- id: 58
+  test: enem_2025_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 52
+  question_elements:
+  - question_text: "Ainda que instituições não recorram a castigos violentos ou sangrentos,\
+      \ mesmo quando utilizam métodos “suaves” de trancar ou corrigir, é sempre do\
+      \ corpo que se trata — do corpo e suas forças, da utilidade e docilidade deles,\
+      \ de sua repartição e de sua submissão."
+    question_text_reference: "FOUCAULT, M. **Vigiar e punir.** Petrópolis: Vozes,\
+      \ 1995 (adaptado)."
+  statement: "A forma de exercício de poder indicada no texto é caracterizada como:"
+  answers:
+    A: "Ideológica, associada à dominação da consciência."
+    B: "Midiática, apoiada na manipulação afetivo-sentimental."
+    C: "Disciplinar, fundamentada na diluição espaço-temporal."
+    D: "Autoritária, conduzida pela imposição coercitiva."
+    E: "Carismática, motivada pela fascinação pessoal."
+  correct_answer: C
+
+- id: 59
+  test: enem_2025_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 67
+  question_elements:
+  - question_text: "Pensa-se que é característico de uma pessoa de discernimento ser\
+      \ capaz de deliberar bem acerca do que é bom e conveniente para si mesma, não\
+      \ em relação a um aspecto particular — por exemplo, quando se quer saber quais\
+      \ as espécies de coisas que concorrem para a saúde e para o vigor físico —,\
+      \ e sim acerca das espécies de coisas que nos levam a viver bem de um modo geral.\
+      \ O discernimento deve ser então uma qualidade que leva à verdade no tocante\
+      \ às ações relacionadas com os bens humanos."
+    question_text_reference: "ARISTÓTELES. Ética a Nicômaco. In: MARCONDES, D. (Org.).\
+      \ **Textos básicos de Ética.** Rio de Janeiro: Zahar, 2008 (adaptado)."
+  statement: "Conforme o trecho filosófico, a pessoa capaz de bem decidir é dotada\
+    \ de uma qualidade"
+  answers:
+    A: "teórica, voltada para o rigor da pesquisa."
+    B: "racional, voltada para a orientação das escolhas."
+    C: "pragmática, voltada para o desenvolvimento de projetos."
+    D: "filosófica, voltada para a delimitação de opiniões."
+    E: "social, voltada para a criação da arte."
+  correct_answer: B
+
+- id: 61
+  test: enem_2025_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 82
+  question_elements:
+  - question_text: "Sem negar que Deus prevê todos os acontecimentos futuros, entretanto\
+      \ nós queremos livremente aquilo que queremos. Porque, se o objeto da presciência\
+      \ divina é a nossa vontade, é essa mesma vontade assim prevista que se realizará.\
+      \ Haverá, pois, um ato de vontade livre, já que Deus vê esse ato livre com antecedência."
+    question_text_reference: "AGOSTINHO. **O livre-arbítrio.** São Paulo: Paulus,\
+      \ 1995 (adaptado)."
+  statement: "Refletindo sobre o Deus onisciente e suas criaturas, o autor sustenta a"
+  answers:
+    A: "existência do saber divino em cooperação com o conhecimento humano."
+    B: "prevalência da liberdade humana diante da facticidade."
+    C: "precedência da cognição transcendental sobre o agir humano."
+    D: "conformação da natureza humana perante os acontecimentos no mundo."
+    E: "autonomia do indivíduo a despeito das necessidades inerentes à condição humana."
+  correct_answer: C
+
+- id: 62
+  test: enem_2023
+  test_type: azul
+  test_part: ch
+  test_item: 54
+  question_elements:
+  - question_text: "Eu poderia concluir que a raiva é um pensamento, que estar com\
+      \ raiva é pensar que alguém é detestável, e que esse pensamento, como todos\
+      \ os outros — assim como Descartes o mostrou —, não poderia residir em nenhum\
+      \ fragmento de matéria. A raiva seria, portanto, espírito. Porém, quando me\
+      \ volto para minha própria experiência da raiva, devo confessar que ela não\
+      \ estava fora do meu corpo, mas inexplicavelmente nele."
+    question_text_reference: "MERLEAU-PONTY, M. **Quinta conversa: o homem visto de\
+      \ fora.** São Paulo: Martins Fontes, 1948 (adaptado)."
+  statement: "No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se\
+    \ como contraponto ao entendimento expresso no texto por"
+  answers:
+    A: "apresentar uma visão dualista."
+    B: "confirmar uma tese naturalista."
+    C: "demonstrar uma premissa realista."
+    D: "sustentar um argumento idealista."
+    E: "defender uma posição intencionalista."
+  correct_answer: A
+
+- id: 63
+  test: enem_2023
+  test_type: azul
+  test_part: ch
+  test_item: 57
+  question_elements:
+  - question_text: "Quem se mete pelo caminho do pedido de perdão deve estar pronto\
+      \ a escutar uma palavra de recusa. Entrar na atmosfera do perdão é aceitar medir-se\
+      \ com a possibilidade sempre aberta do imperdoável. Perdão pedido não é perdão\
+      \ a que se tem direito [devido]. É com o preço destas reservas que a grandeza\
+      \ do perdão se manifesta."
+    question_text_reference: "RICOEUR, P. **O perdão pode curar.** Disponível em:\
+      \ www.lusosofia.net. Acesso em: 14 out. 2019."
+  statement: "A reflexão sobre o perdão apresentada no texto encontra fundamento na(s)"
+  answers:
+    A: "rejeição particular amparada pelo desejo de poder."
+    B: "decisão subjetiva determinada pela vontade divina."
+    C: "liberdade mitigada pela predestinação do espírito."
+    D: "escolhas humanas definidas pelo conhecimento empírico."
+    E: "relações interpessoais mediadas pela autonomia dos indivíduos."
+  correct_answer: E
+
+- id: 64
+  test: enem_2023
+  test_type: azul
+  test_part: ch
+  test_item: 81
+  question_elements:
+  - question_text: "A economia das ilegalidades se reestruturou com o desenvolvimento\
+      \ da sociedade capitalista. A ilegalidade dos bens foi separada da ilegalidade\
+      \ dos direitos. Divisão que corresponde a uma oposição de classes, pois, de\
+      \ um lado, a ilegalidade mais acessível às classes populares será a dos bens\
+      \ — transferência violenta das propriedades; de outro, à burguesia, então, se\
+      \ reservará a ilegalidade dos direitos: a possibilidade de desviar seus próprios\
+      \ regulamentos e suas próprias leis; e essa grande redistribuição das ilegalidades\
+      \ se traduzirá até por uma especialização dos circuitos judiciários; para as\
+      \ ilegalidades de bens — para o roubo — os tribunais ordinários e os castigos;\
+      \ para as ilegalidades de direitos — fraudes, evasões fiscais, operações comerciais\
+      \ irregulares — jurisdições especiais com transações, acomodações, multas atenuadas\
+      \ etc."
+    question_text_reference: "FOUCAULT, M. **Vigiar e punir: nascimento da prisão.**\
+      \ Petrópolis: Vozes, 1987."
+  statement: "O texto apresenta uma relação de cálculo político-econômico que caracteriza\
+    \ o poder punitivo por meio da"
+  answers:
+    A: "gestão das ilicitudes pelo sistema judicial."
+    B: "aplicação das sanções pelo modelo equânime."
+    C: "supressão dos crimes pela penalização severa."
+    D: "regulamentação dos privilégios pela justiça social."
+    E: "repartição de vantagens pela hierarquização cultural."
+  correct_answer: A
+
+- id: 65
+  test: enem_2023
+  test_type: azul
+  test_part: ch
+  test_item: 55
+  question_elements:
+  - question_text: "A diversão é o prolongamento do trabalho sob o capitalismo tardio.\
+      \ Ela é procurada por quem quer escapar ao processo de trabalho mecanizado para\
+      \ se pôr de novo em condições de enfrentá-lo. Mas, ao mesmo tempo, a mecanização\
+      \ atingiu um tal poderio sobre a pessoa em seu lazer e sobre a sua felicidade,\
+      \ ela determina tão profundamente a fabricação das mercadorias destinadas à\
+      \ diversão que essa pessoa não pode mais perceber outra coisa senão as cópias\
+      \ que reproduzem o próprio processo de trabalho."
+    question_text_reference: "ADORNO, T.; HORKHEIMER, M. **Dialética do esclarecimento.**\
+      \ Rio de Janeiro: Zahar, 1997."
+  statement: "No texto, o tempo livre é concebido como"
+  answers:
+    A: "consumo de produtos culturais elaborados no mesmo sistema produtivo do capitalismo."
+    B: "forma de realizar as diversas potencialidades da natureza humana."
+    C: "alternativa para equilibrar tensões psicológicas do dia a dia."
+    D: "promoção da satisfação de necessidades artificiais."
+    E: "mecanismo de organização do ócio e do prazer."
+  correct_answer: A
+
+- id: 66
+  test: enem_2023
+  test_type: azul
+  test_part: ch
+  test_item: 79
+  question_elements:
+  - question_text_title: "TEXTO I"
+    question_text: "Gerineldo dorme porque já está conformado com o seu mundo. Porque\
+      \ já sabe tudo o que lhe pode acontecer após haver submetido todos os objetos\
+      \ que o rodeiam a um minucioso inventário de possibilidades. Seu apartamento,\
+      \ mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém,\
+      \ Gerineldo conhece o coeficiente da dilatação de suas janelas e mantém marcado\
+      \ no termômetro, com uma linha vermelha, o ponto em que se quebrarão os vidros,\
+      \ despedaçados em estilhaços de morte. Sabe que os arquitetos e os engenheiros\
+      \ já previram tudo, menos o que nunca já aconteceu."
+    question_text_reference: "MÁRQUEZ, G. G. O pessimista. In: **Textos do Caribe.**\
+      \ Rio de Janeiro: Record, 1981."
+  - question_text_title: "TEXTO II"
+    question_text: "A situação é o sujeito inteiro (ele não é nada a não ser a sua\
+      \ situação) e é também a coisa inteira (nunca há mais nada senão as coisas).\
+      \ É o sujeito a elucidar as coisas pela sua própria superação, se assim quisermos;\
+      \ ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade,\
+      \ a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu\
+      \ passado, dos meus redores — e é a minha liberdade sem limites que faz com\
+      \ que haja para mim uma facticidade."
+    question_text_reference: "SARTRE, J.-P. **O ser e o nada: ensaio de ontologia\
+      \ fenomenológica.** Petrópolis: Vozes, 1997 (adaptado)."
+  statement: "A postura determinista adotada pelo personagem Gerineldo contrasta com\
+    \ a ideia existencialista contida no pensamento filosófico de Sartre porque"
+  answers:
+    A: "evidencia a manifestação do inconsciente."
+    B: "nega a possibilidade de transcendência."
+    C: "contraria o conhecimento difuso."
+    D: "sustenta a fugacidade da vida."
+    E: "refuta a evolução biológica."
+  correct_answer: B
+
+- id: 67
+  test: enem_2023_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 46
+  question_elements:
+  - question_text: "O Estado surge pelo fato de ser o homem um animal naturalmente\
+      \ social, político. O Estado provê, inicialmente, a satisfação daquelas necessidades\
+      \ materiais, negativas e positivas, defesa e segurança, conservação e engrandecimento,\
+      \ de outro modo irrealizáveis. Mas o seu fim essencial é espiritual, isto é,\
+      \ deve promover a virtude e, consequentemente, a felicidade dos súditos mediante\
+      \ a ciência."
+    question_text_reference: "ARISTÓTELES. **A política.** São Paulo: Martins Fontes,\
+      \ 2006 (adaptado)."
+  statement: "Segundo o autor, é função do Estado garantir o(a)"
+  answers:
+    A: "justiça divina, pregando a salvação eterna dos fiéis."
+    B: "soberania, respeitando a autonomia dos três poderes."
+    C: "propriedade privada, protegendo o direito natural inalienável."
+    D: "vida ética, proporcionando a formação moral dos cidadãos."
+    E: "direito de resistência, suprimindo governos considerados impopulares."
+  correct_answer: D
+
+- id: 68
+  test: enem_2023_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 48
+  question_elements:
+  - question_text: "Estudiosos do Instituto de Antropologia Evolucionária de Leipzig,\
+      \ na Alemanha, colocaram um chimpanzé em um quarto com a visão de suculentos\
+      \ pedaços de comida trancados dentro de um armário. A um segundo chimpanzé era\
+      \ dada, então, a oportunidade de liberar a comida, porém, sem usufruir dela.\
+      \ Em aproximadamente 80% das vezes, eles tomaram a decisão mais caridosa e liberaram\
+      \ o alimento para o outro chimpanzé."
+    question_text_reference: "**Estudos mostram caridade no mundo animal.** Disponível\
+      \ em: http://revistagalileu.globo.com. Acesso em: 17 out. 2021."
+  statement: "Considerando nossa relação com outros, o experimento envolvendo os\
+    \ chimpanzés ilustra qual tipo de comportamento moral humano?"
+  answers:
+    A: "Hedonista, anseia o prazer pessoal."
+    B: "Altruísta, promove o bem-estar imparcial."
+    C: "Retributivo, busca um retorno equivalente."
+    D: "Deontológico, cumpre uma obrigação formal."
+    E: "Meritocrático, valoriza o merecimento individual."
+  correct_answer: B
+
+- id: 69
+  test: enem_2023_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 59
+  question_elements:
+  - question_text: "A concepção tecnocrata está associada à fé em mercados — não necessariamente\
+      \ no capitalismo livre, laissez-faire, mas uma crença mais ampla de que mecanismos\
+      \ de mercado são os principais instrumentos para alcançar o bem público. Esse\
+      \ modo de pensar é tecnocrático, no sentido de que esvazia o discurso público\
+      \ de argumentos substantivamente morais e questões ideologicamente contestáveis\
+      \ como se fossem assuntos de eficiência econômica, domínio de especialistas.\
+      \ A verdadeira divisão, argumentaram eles, não era mais esquerda versus direita,\
+      \ mas aberto versus fechado. Isso insinuava que os contrários à terceirização,\
+      \ tratados de livre-comércio e fluxos de capitais irrestritos eram pessoas de\
+      \ mente fechada, não de mente aberta; eram tribais, não globais."
+    question_text_reference: "SANDEL, M. J. **A tirania do mérito: o que aconteceu\
+      \ ao bem comum? **Rio de Janeiro: Civilização Brasileira, 2020 (adaptado)."
+  statement: "A crítica ao modelo de pensamento apresentado no texto fundamenta-se\
+    \ na postura de desvalorização do(a)"
+  answers:
+    A: "sistema financeiro."
+    B: "participação política."
+    C: "intercâmbio comercial."
+    D: "produção exportadora."
+    E: "comportamento diplomático."
+  correct_answer: B
+
+- id: 70
+  test: enem_2023_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 81
+  question_elements:
+  - question_text: "Os valores políticos são valores efetivamente superiores, que\
+      \ regem o quadro básico da vida social e definem precisamente os termos fundamentais\
+      \ da cooperação política e social. Na teoria da justiça como equidade, alguns\
+      \ desses valores políticos são expressos pelos princípios de justiça para a\
+      \ estrutura básica: a liberdade política e civil igual para todos, a justa igualdade\
+      \ das oportunidades, a reciprocidade econômica, as bases sociais do respeito\
+      \ mútuo entre os cidadãos."
+    question_text_reference: "RAWLS, J. **Justiça e democracia.** São Paulo: Martins\
+      \ Fontes, 2000 (adaptado)."
+  statement: "Conforme descrito no texto, a teoria da justiça como equidade é mais\
+    \ adequada ao regime político"
+  answers:
+    A: "fascista."
+    B: "totalitário."
+    C: "despótico."
+    D: "autocrático."
+    E: "democrático."
+  correct_answer: E
+
+- id: 71
+  test: enem_2023_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 87
+  question_elements:
+  - question_text: "As propostas dele não devem ser levadas a sério, pois foi visto\
+      \ bêbado num restaurante."
+    question_text_reference: "GALINDO, R. **20 falácias (e as eleições).** Disponível\
+      \ em: www.gazetadopovo.com.br. Acesso em: 17 out. 2021 (adaptado)."
+  statement: "A afirmação, eficaz como mecanismo de persuasão de eleitores em contextos\
+    \ políticos, constitui-se como uma falácia porque"
+  answers:
+    A: "recorre à circularidade e afirma as suas teses."
+    B: "ataca a pessoa e desconsidera as suas ideias."
+    C: "aceita a conclusão e refuta as suas premissas."
+    D: "evoca a maioria e apresenta os seus argumentos."
+    E: "apela à autoridade e investiga os seus fundamentos."
+  correct_answer: B
+
+- id: 72
+  test: enem_2023_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 66
+  question_elements:
+  - question_text: "Suponha-se que seja trazida de súbito a este mundo uma pessoa\
+      \ dotada das mais poderosas faculdades da razão e reflexão. É verdade que ela\
+      \ observaria imediatamente um acontecimento seguindo-se a outro, mas não conseguiria\
+      \ descobrir nada além disso. Ela não seria, no início, capaz de apreender, por\
+      \ meio de nenhum raciocínio, a ideia de causa e efeito."
+    question_text_reference: "HUME, D. **Investigação sobre o entendimento humano\
+      \ e sobre os princípios da moral.** São Paulo: Unesp, 2003."
+  statement: "Segundo Hume, nossa capacidade de estabelecer relações como aquelas\
+    \ mencionadas no texto resulta do(a)"
+  answers:
+    A: "representação construída pela assimilação dos juízos universais."
+    B: "hábito desenvolvido pela repetição de uma operação."
+    C: "testemunho proveniente de relato de terceiros."
+    D: "intuição formada pela atividade mental pura."
+    E: "reminiscência advinda de vidas passadas."
+  correct_answer: B
+
+- id: 73
+  test: enem_2022
+  test_type: azul
+  test_part: ch
+  test_item: 57
+  question_elements:
+  - question_text: "O leproso é visto dentro de uma prática da rejeição, do exílio-cerca;\
+      \ deixa-se que se perca lá dentro como numa massa que não tem muita importância\
+      \ diferenciar; os pestilentos são considerados num policiamento tático meticuloso\
+      \ onde as diferenciações individuais são os efeitos limitantes de um poder que\
+      \ se multiplica, se articula e se subdivide. O grande fechamento por um lado;\
+      \ o bom treinamento por outro. A lepra e sua divisão; a peste e seus recortes.\
+      \ Uma é marcada; a outra, analisada e repartida. O exílio do leproso e a prisão\
+      \ da peste não trazem consigo o mesmo sonho político."
+    question_text_reference: "FOUCAULT, M. **Vigiar e punir: nascimento da prisão.**\
+      \ Petrópolis: Vozes, 1987."
+  statement: "Os modelos autoritários descritos no texto apontam para um sistema\
+    \ de controle que se baseia no(a):"
+  answers:
+    A: "Formação de sociedade disciplinar."
+    B: "Flexibilização do regramento social."
+    C: "Banimento da autoridade repressora."
+    D: "Condenação da degradação humana."
+    E: "Hierarquização da burocracia estatal."
+  correct_answer: A
+
+- id: 74
+  test: enem_2022
+  test_type: azul
+  test_part: ch
+  test_item: 84
+  question_elements:
+  - question_text_title: "TEXTO I"
+    question_text: "Uma filosofia da percepção que queira reaprender a ver o mundo\
+      \ restituirá à pintura e às artes em geral seu lugar verdadeiro."
+    question_text_reference: "MERLEAU-PONTY, M. **Conversas: 1948.** São Paulo: Martins\
+      \ Fontes, 2004."
+  - question_text_title: "TEXTO II"
+    question_text: "Os grandes autores de cinema nos pareceram confrontáveis não apenas\
+      \ com pintores, arquitetos, músicos, mas também com pensadores. Eles pensam\
+      \ com imagens, em vez de conceitos."
+    question_text_reference: "DELEUZE, G. **Cinema 1: a imagem-movimento.** São Paulo:\
+      \ Brasiliense, 1983 (adaptado)."
+  statement: "De que modo os textos sustentam a existência de um saber ancorado\
+    \ na sensibilidade?"
+  answers:
+    A: "Admitindo o belo como fenômeno transcendental."
+    B: "Reafirmando a vivência estética como juízo de gosto."
+    C: "Considerando o olhar como experiência de conhecimento."
+    D: "Apontando as formas de expressão como auxiliares da razão."
+    E: "Estabelecendo a inteligência como implicação das representações."
+  correct_answer: C
+
+- id: 75
+  test: enem_2022
+  test_type: azul
+  test_part: ch
+  test_item: 47
+  question_elements:
+  - question_text: "Sempre que a relevância do discurso entra em jogo, a questão torna-se\
+      \ política por definição, pois é o discurso que faz do homem um ser político.\
+      \ E tudo que os homens fazem, sabem ou experimentam só tem sentido na medida\
+      \ em que pode ser discutido. Haverá, talvez, verdades que ficam além da linguagem\
+      \ e que podem ser de grande relevância para o homem no singular, isto é, para\
+      \ o homem que, seja o que for, não é um ser político. Mas homens no plural,\
+      \ isto é, os homens que vivem e se movem e agem neste mundo, só podem experimentar\
+      \ o significado das coisas por poderem falar e ser inteligíveis entre si e consigo\
+      \ mesmos."
+    question_text_reference: "ARENDT, H. **A condição humana.** Rio de Janeiro: Forense\
+      \ Universitária, 2004."
+  statement: "No trecho, a filósofa Hannah Arendt mostra a importância da linguagem\
+    \ no processo de"
+  answers:
+    A: "entendimento da cultura."
+    B: "aumento da criatividade."
+    C: "percepção da individualidade."
+    D: "melhoria da técnica."
+    E: "construção da sociabilidade."
+  correct_answer: E
+
+- id: 76
+  test: enem_2022
+  test_type: azul
+  test_part: ch
+  test_item: 86
+  question_elements:
+  - question_text: "Empédocles estabelece quatro elementos corporais — fogo, ar, água\
+      \ e terra —, que são eternos e que mudam aumentando e diminuindo mediante mistura\
+      \ e separação; mas os princípios propriamente ditos, pelos quais aqueles são\
+      \ movidos, são o Amor e o Ódio. Pois é preciso que os elementos permaneçam alternadamente\
+      \ em movimento, sendo ora misturados pelo Amor, ora separados pelo Ódio."
+    question_text_reference: "SIMPLÍCIO. Física, 25, 21. In: **Os pré-socráticos.**\
+      \ São Paulo: Nova Cultural, 1996."
+  statement: "O texto propõe uma reflexão sobre o entendimento de Empédocles acerca\
+    \ da arché, uma preocupação típica do pensamento pré-socrático, porque"
+  answers:
+    A: "exalta a investigação filosófica."
+    B: "transcende ao mundo sensível."
+    C: "evoca a discussão cosmogônica."
+    D: "fundamenta as paixões humanas."
+    E: "corresponde à explicação mitológica."
+  correct_answer: C
+
+- id: 77
+  test: enem_2022_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 63
+  question_elements:
+  - question_text: "A um príncipe, portanto, não é necessário ter de fato todas as\
+      \ qualidades, mas é indispensável parecer tê-las. Aliás, ousarei dizer que,\
+      \ se as tiver e utilizar sempre, serão danosas, enquanto, se parecer tê-las,\
+      \ serão úteis. Assim, deves parecer clemente, fiel, humano, íntegro, religioso\
+      \ — e sê-lo, mas com a condição de estares com o ânimo disposto a, quando necessário,\
+      \ não o seres, de modo que possas e saibas como tornar-te o contrário."
+    question_text_reference: "MAQUIAVEL, N. **O príncipe.** São Paulo: Martins Fontes,\
+      \ 2004 (adaptado)."
+  statement: "Segundo o autor, a conquista e a conservação do poder político exigem\
+    \ a"
+  answers:
+    A: "flexibilidade moral do monarca."
+    B: "retomada dos valores cristãos."
+    C: "consulta periódica dos cidadãos."
+    D: "adoção do imperativo categórico."
+    E: "liberdade incondicional do estadista."
+  correct_answer: A
+
+- id: 78
+  test: enem_2022_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 84
+  question_elements:
+  - question_text: "Em primeiro lugar, é preciso libertar-se do preconceito segundo\
+      \ o qual a filosofia é apenas uma disciplina particular, apenas o trabalho de\
+      \ um círculo restrito de pessoas que dedicam sua atividade a refletir e a indagar\
+      \ sobre certos tipos de problemas. A filosofia é isso também, mas não só. Deve\
+      \ haver uma filosofia como ato existencial, que faz do homem um ente que pergunta,\
+      \ duvida, teme e age para dominar o futuro."
+    question_text_reference: "ABBAGNANO, N. **Introdução ao existencialismo.**São\
+      \ Paulo: Martins Fontes, 2001 (adaptado)."
+  statement: "De acordo com a corrente de pensamento do século XX da qual o texto\
+    \ trata, o tema fundamental da filosofia é o(a)"
+  answers:
+    A: "realidade humana, seu sentido e possibilidades."
+    B: "mundo físico, sua essência e leis reguladoras."
+    C: "lógica, suas inferências e estudos de validade."
+    D: "imaginação, seus objetos e contribuições."
+    E: "conhecimento, sua natureza e condições."
+  correct_answer: A
+
+- id: 79
+  test: enem_2022_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 88
+  question_elements:
+  - question_text_title: "TEXTO I"
+    question_text: "A sociedade cultiva a violência, inculcando-a nos indivíduos como\
+      \ virtude do homem forte, do homem corajoso, do homem honrado, que se arrisca\
+      \ a morrer para defender os “valores” que dão sentido à sua vida."
+    question_text_reference: "MULLER, J. M. **O princípio da não violência: uma trajetória\
+      \ filosófica.**São Paulo: Palas Athena, 2007."
+  - question_text_title: "TEXTO II"
+    question_text: "A ideia de a humanidade tomar seu destino nas próprias mãos somente\
+      \ faz sentido se atribuirmos consciência e propósito à espécie; as espécies\
+      \ são apenas correntes na flutuação aleatória dos genes."
+    question_text_reference: "GRAY, J. **Cachorros de palha: reflexões sobre humanos\
+      \ e outros animais.**São Paulo: Record, 2002."
+  statement: "Os textos articulam argumentos em torno de dois modelos explicativos\
+    \ da condição humana. Esses dois modelos caracterizam-se, respectivamente, por\
+    \ valorizar como determinantes dessa condição elementos"
+  answers:
+    A: "estéticos e éticos."
+    B: "místicos e científicos."
+    C: "culturais e biológicos."
+    D: "emocionais e racionais."
+    E: "voluntaristas e possibilistas."
+  correct_answer: C
+
+- id: 80
+  test: enem_2022_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 62
+  question_elements:
+  - question_text: "A velha potência de morte em que se simbolizava o poder soberano\
+      \ é agora, cuidadosamente, recoberta pela administração dos corpos. Aparecimento,\
+      \ também, nos terrenos das práticas políticas e observações econômicas, dos\
+      \ problemas de natalidade, longevidade, saúde pública, habitação e migração."
+    question_text_reference: "FOUCAULT, M. **História da sexualidade I: a vontade\
+      \ de saber. **Rio de Janeiro: Graal, 1988 (adaptado)."
+  statement: "O texto aponta para a emergência, a partir de meados do século XIX,\
+    \ de um novo tipo de gestão da sociedade ocidental, centrado na"
+  answers:
+    A: "ordenação calculista das vidas."
+    B: "exposição ostensiva das punições."
+    C: "distribuição igualitária das riquezas."
+    D: "supressão estratégica das fronteiras."
+    E: "espacialização controlada das classes."
+  correct_answer: A
+
+- id: 81
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 51
+  question_elements:
+  - question_text: "Em sentido geral e fundamental, Direito é a técnica da coexistência\
+      \ humana, isto é, a técnica voltada a tornar possível a coexistência dos homens.\
+      \ Como técnica, o Direito se concretiza em um conjunto de regras (que, nesse\
+      \ caso, são leis ou normas); e tais regras têm por objeto o comportamento intersubjetivo,\
+      \ isto é, o comportamento recíproco dos homens entre si."
+    question_text_reference: "ABBAGNANO, N. **Dicionário de Filosofia. **São Paulo:\
+      \ Martins Fontes, 2007."
+  statement: "O sentido geral e fundamental do Direito, conforme foi destacado,\
+    \ refere-se à"
+  answers:
+    A: "aplicação de códigos legais."
+    B: "regulação do convívio social."
+    C: "legitimação de decisões políticas."
+    D: "mediação de conflitos econômicos."
+    E: "representação da autoridade constituída."
+  correct_answer: B
+
+- id: 82
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 58
+  question_elements:
+  - question_text: "De fato, não é porque o homem pode usar a vontade livre para pecar\
+      \ que se deve supor que Deus a concedeu para isso. Há, portanto, uma razão pela\
+      \ qual Deus deu ao homem esta característica, pois sem ela não poderia viver\
+      \ e agir corretamente. Pode-se compreender, então, que ela foi concedida ao\
+      \ homem para esse fim, considerando-se que se um homem a usa para pecar, recairão\
+      \ sobre ele as punições divinas. Ora, isso seria injusto se a vontade livre\
+      \ tivesse sido dada ao homem não apenas para agir corretamente, mas também para\
+      \ pecar. Na verdade, por que deveria ser punido aquele que usasse sua vontade\
+      \ para o fim para o qual ela lhe foi dada?"
+    question_text_reference: "AGOSTINHO. **O livre-arbítrio.** In: MARCONDES, D. Textos\
+      \ básicos de ética. Rio de Janeiro: Jorge Zahar, 2008."
+  statement: "Nesse texto, o filósofo cristão Agostinho de Hipona sustenta que a punição\
+    \ divina tem como fundamento o(a)"
+  answers:
+    A: "desvio da postura celibatária."
+    B: "insuficiência da autonomia moral."
+    C: "afastamento das ações de desapego."
+    D: "distanciamento das práticas de sacrifício."
+    E: "violação dos preceitos do Velho Testamento."
+  correct_answer: B
+
+- id: 83
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 65
+  question_elements:
+  - question_text: "Para Maquiavel, quando um homem decide dizer a verdade pondo em\
+      \ risco a própria integridade física, tal resolução diz respeito apenas a sua\
+      \ pessoa. Mas se esse mesmo homem é um chefe de Estado, os critérios pessoais\
+      \ não são mais adequados para decidir sobre ações cujas consequências se tornam\
+      \ tão amplas, já que o prejuízo não será apenas individual, mas coletivo. Nesse\
+      \ caso, conforme as circunstâncias e os fins a serem atingidos, pode-se decidir\
+      \ que o melhor para o bem comum seja mentir."
+    question_text_reference: "ARANHA, M. L. **Maquiavel: a lógica da força.**São Paulo:\
+      \ Moderna, 2006 (adaptado)."
+  statement: "O texto aponta uma inovação na teoria política na época moderna expressa\
+    \ na distinção entre"
+  answers:
+    A: "idealidade e efetividade da moral."
+    B: "nulidade e preservabilidade da liberdade."
+    C: "ilegalidade e legitimidade do governante."
+    D: "verificabilidade e possibilidade da verdade."
+    E: "objetividade e subjetividade do conhecimento."
+  correct_answer: A
+
+- id: 84
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 67
+  question_elements:
+  - question_text_title: "TEXTO I"
+    question_text: "Considero apropriado deter-me algum tempo na contemplação deste\
+      \ Deus todo perfeito, ponderar totalmente à vontade seus maravilhosos atributos,\
+      \ considerar, admirar e adorar a incomparável beleza dessa imensa luz."
+    question_text_reference: "DESCARTES, R. **Meditações.** São Paulo: Abril Cultural,\
+      \ 1980."
+  - question_text_title: "TEXTO II"
+    question_text: "Qual será a forma mais razoável de entender como é o mundo? Existirá\
+      \ alguma boa razão para acreditar que o mundo foi criado por uma divindade todo-poderosa?\
+      \ Não podemos dizer que a crença em Deus é “apenas” uma questão de fé."
+    question_text_reference: "RACHELS, J. **Problemas da filosofia.** Lisboa: Gradiva,\
+      \ 2009."
+  statement: "Os textos abordam um questionamento da construção da modernidade que\
+    \ defende um modelo"
+  answers:
+    A: "centrado na razão humana."
+    B: "baseado na explicação mitológica."
+    C: "fundamentado na ordenação imanentista."
+    D: "focado na legitimação contratualista."
+    E: "configurado na percepção etnocêntrica."
+  correct_answer: A
+
+- id: 85
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 74
+  question_elements:
+  - question_text: "Penso que não há um sujeito soberano, fundador, uma forma universal\
+      \ de sujeito que poderíamos encontrar em todos os lugares. Penso, pelo contrário,\
+      \ que o sujeito se constitui através das práticas de sujeição ou, de maneira\
+      \ mais autônoma, através de práticas de liberação, de liberdade, como na Antiguidade\
+      \ — a partir, obviamente, de um certo número de regras, de estilos, que podemos\
+      \ encontrar no meio cultural."
+    question_text_reference: "FOUCAULT, M. **Ditos e escritos V: ética, sexualidade,\
+      \ política.**Rio de Janeiro: Forense Universitária, 2004."
+  statement: "O texto aponta que a subjetivação se efetiva numa dimensão"
+  answers:
+    A: "legal, pautada em preceitos jurídicos."
+    B: "racional, baseada em pressupostos lógicos."
+    C: "contingencial, processada em interações sociais."
+    D: "transcendental, efetivada em princípios religiosos."
+    E: "essencial, fundamentada em parâmetros substancialistas."
+  correct_answer: C
+
+- id: 86
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 78
+  question_elements:
+  - question_text_title: "TEXTO I"
+    question_text: "Duas coisas enchem o ânimo de admiração e veneração sempre crescentes:\
+      \ o céu estrelado sobre mim e a lei moral em mim."
+    question_text_reference: "KANT, I. **Crítica da razão prática.** Lisboa: Edições\
+      \ 70, s/d (adaptado)."
+  - question_text_title: "TEXTO II"
+    question_text: "Duas coisas admiro: a dura lei cobrindo-me e o estrelado céu dentro\
+      \ de mim."
+    question_text_reference: "FONTELA, O. Kant (relido). In: **Poesia completa.**\
+      \ São Paulo: Hedra, 2015."
+  statement: "A releitura realizada pela poeta inverte as seguintes ideias centrais\
+    \ do pensamento kantiano:"
+  answers:
+    A: "Possibilidade da liberdade e obrigação da ação."
+    B: "Aprioridade do juízo e importância da natureza."
+    C: "Necessidade da boa vontade e crítica da metafísica."
+    D: "Prescindibilidade do empírico e autoridade da razão."
+    E: "Interioridade da norma e fenomenalidade do mundo."
+  correct_answer: E
+
+- id: 87
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 64
+  question_elements:
+  - question_text: "A lenda diz que, em um belo dia ensolarado, Newton estava relaxando\
+      \ sob uma macieira. Pássaros gorjeavam em suas orelhas. Havia uma brisa gentil.\
+      \ Ele cochilou por alguns minutos. De repente, uma maçã caiu sobre a sua cabeça\
+      \ e ele acordou com um susto. Olhou para cima. “Com certeza um pássaro ou um\
+      \ esquilo derrubou a maçã da árvore”, supôs. Mas não havia pássaros ou esquilos\
+      \ na árvore por perto. Ele, então, pensou: “Apenas alguns minutos antes, a maçã\
+      \ estava pendurada na árvore. Nenhuma força externa fez ela cair. Deve haver\
+      \ alguma força subjacente que causa a queda das coisas para a terra”."
+    question_text_reference: "SILVA, C. C.; MARTINS, R. A. **Estudos de história e\
+      \ filosofia das ciências.** São Paulo: Livraria da Física, 2006 (adaptado)."
+  statement: "Em contraponto a uma interpretação idealizada, o texto aponta para a\
+    \ seguinte dimensão fundamental da ciência moderna:"
+  answers:
+    A: "Falsificação de teses."
+    B: "Negação da observação."
+    C: "Proposição de hipóteses."
+    D: "Contemplação da natureza."
+    E: "Universalização de conclusões."
+  correct_answer: C
+
+- id: 88
+  test: enem_2019
+  test_type: azul
+  test_part: ch
+  test_item: 76
+  question_elements:
+  - question_text: "Essa atmosfera de loucura e irrealidade, criada pela aparente\
+      \ ausência de propósitos, é a verdadeira cortina de ferro que esconde dos olhos\
+      \ do mundo todas as formas de campos de concentração. Vistos de fora, os campos\
+      \ e o que neles acontece só podem ser descritos com imagens extraterrenas, como\
+      \ se a vida fosse neles separada das finalidades deste mundo. Mais que o arame\
+      \ farpado, é a irrealidade dos detentos que ele confina que provoca uma crueldade\
+      \ tão incrível que termina levando à aceitação do extermínio como solução perfeitamente\
+      \ normal."
+    question_text_reference: "ARENDT, H. **Origens do totalitarismo.** São Paulo:\
+      \ Cia. das Letras, 1989 (adaptado)."
+  statement: "A partir da análise da autora, no encontro das temporalidades históricas,\
+    \ evidencia-se uma crítica à naturalização do(a)"
+  answers:
+    A: "ideário nacional, que legitima as desigualdades sociais."
+    B: "alienação ideológica, que justifica as ações individuais."
+    C: "cosmologia religiosa, que sustenta as tradições hierárquicas."
+    D: "segregação humana, que fundamenta os projetos biopolíticos."
+    E: "enquadramento cultural, que favorece os comportamentos punitivos."
+  correct_answer: D
+
+- id: 89
+  test: enem_2020_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 50
+  question_elements:
+  - question_text: "Sem dúvida, os sons da voz (phone) exprimem a dor e o prazer;\
+      \ também a encontramos nos animais em geral; sua natureza lhes permite somente\
+      \ sentir a dor e o prazer e manifestar-lhes entre si. Mas o lógos é feito para\
+      \ exprimir o justo e o injusto. Este é o caráter distintivo do homem face a\
+      \ todos os outros animais: só ele percebe o bem e o mal, o justo e o injusto,\
+      \ e os outros valores; é a posse comum desses valores que faz a família e a\
+      \ cidade."
+    question_text_reference: "ARISTÓTELES. **A política.** São Paulo: Nova Cultural,\
+      \ 1987 (adaptado)."
+  statement: "Para o autor, a característica que define o ser humano é o lógos, que\
+    \ consiste na"
+  answers:
+    A: "evolução espiritual da alma."
+    B: "apreensão gradual da verdade."
+    C: "segurança material do indivíduo."
+    D: "capacidade racional de discernir."
+    E: "possibilidade eventual de transcender."
+  correct_answer: D
+
+- id: 90
+  test: enem_2020_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 51
+  question_elements:
+  - question_text: "Por força da industrialização da cultura, desde o começo do filme\
+      \ já se sabe como ele termina, quem é recompensado e, ao escutar a música, o\
+      \ ouvido treinado é perfeitamente capaz, desde os primeiros compassos, de adivinhar\
+      \ o desenvolvimento do tema e sente-se feliz quando ele tem lugar como previsto."
+    question_text_reference: "ADORNO, T. W.; HORKHEIMER, M. **Dialética do esclarecimento:\
+      \ fragmentos filosóficos.** Rio de Janeiro: Jorge Zahar, 2009."
+  statement: "A crítica ao tipo de criação mencionada no texto teve como alvo, no\
+    \ campo da arte, a"
+  answers:
+    A: "burocratização do processo de difusão."
+    B: "valorização da representação abstrata."
+    C: "padronização das técnicas de composição."
+    D: "sofisticação dos equipamentos disponíveis."
+    E: "ampliação dos campos de experimentação."
+  correct_answer: C
+
+- id: 91
+  test: enem_2020_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 52
+  question_elements:
+  - question_text: "Se os filósofos não forem reis nas cidades ou se os que hoje são\
+      \ chamados reis e soberanos não forem filósofos genuínos e capazes e se, numa\
+      \ mesma pessoa, não coincidirem poder político e filosofia e não for barrada\
+      \ agora, sob coerção, a caminhada das diversas naturezas que, em separado buscam\
+      \ uma dessas duas metas, não é possível, caro Glaucon, que haja para as cidades\
+      \ uma trégua de males e, penso, nem para o gênero humano."
+    question_text_reference: "PLATÃO. **A República.** São Paulo: Martins Fontes,\
+      \ 2014."
+  statement: "A tese apresentada pressupõe a necessidade do conhecimento verdadeiro\
+    \ para a"
+  answers:
+    A: "superação de entraves dialógicos."
+    B: "organização de uma sociedade justa."
+    C: "formação de um saber enciclopédico."
+    D: "promoção da igualdade dos cidadãos."
+    E: "consolidação de uma democracia direta."
+  correct_answer: B
+
+- id: 92
+  test: enem_2020_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 57
+  question_elements:
+  - question_text: "Na primeira meditação, eu exponho as razões pelas quais nós podemos\
+      \ duvidar de todas as coisas e, particularmente das coisas materiais, pelo menos\
+      \ enquanto não tivermos outros fundamentos nas ciências além dos que tivemos\
+      \ até o presente. Na segunda meditação, o espírito reconhece entretanto que\
+      \ é absolutamente impossível que ele mesmo, o espírito, não exista."
+    question_text_reference: "DESCARTES, R. **Meditações metafísicas.** São Paulo:\
+      \ Abril Cultural, 1973 (adaptado)."
+  statement: "O instrumento intelectual empregado por Descartes para analisar os seus\
+    \ próprios pensamentos tem como objetivo"
+  answers:
+    A: "identificar um ponto de partida para a consolidação de um conhecimento seguro."
+    B: "observar os eventos particulares para a formação de um entendimento universal."
+    C: "analisar as necessidades humanas para a construção de um saber empírico."
+    D: "estabelecer uma base cognitiva para assegurar a valorização da memória."
+    E: "investigar totalidades estruturadas para dotá-las de significação."
+  correct_answer: A
+
+- id: 93
+  test: enem_2020_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 73
+  question_elements:
+  - question_text: "humanidade, a humanidade do homem, ainda é um conceito completamente\
+      \ novo para o filósofo que não cochila em pé. A velha questão do próprio homem\
+      \ continua por ser inteiramente reelaborada, não apenas em relação às ciências\
+      \ do vivo, não apenas em relação ao que se nomeia com essa palavra geral, homogênea\
+      \ e confusa, o animal, mas em relação a todos os traços que a metafísica reservou\
+      \ ao homem e que nenhum deles resiste à análise."
+    question_text_reference: "DERRIDA, J. **Papel-máquina.** São Paulo: Estação Liberdade,\
+      \ 2004."
+  statement: "No trecho, caracteriza-se o seguinte tema fundamental do pensamento\
+    \ filosófico contemporâneo:"
+  answers:
+    A: "Crise do sujeito."
+    B: "Relativismo ético."
+    C: "Virada linguística."
+    D: "Teoria da referência."
+    E: "Crítica à tecnociência."
+  correct_answer: A
+
+- id: 94
+  test: enem_2020_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 89
+  question_elements:
+  - question_text: "Antes que a arte polisse nossas maneiras e ensinasse nossas paixões\
+      \ a falarem a linguagem apurada, nossos costumes eram rústicos. Não era melhor,\
+      \ mas os homens encontravam sua segurança na facilidade para se reconhecerem\
+      \ reciprocamente, e essa vantagem, de cujo valor não temos mais a noção, poupava-lhes\
+      \ muitos vícios."
+    question_text_reference: "ROUSSEAU, J.-J. **Discurso sobre as ciências e as artes.\
+      \ **São Paulo: Abril Cultural, 1983 (adaptado)."
+  statement: "No presente excerto, o filósofo Jean-Jacques Rousseau (1712-1778) exalta\
+    \ uma condição que teria sido vivenciada pelo homem em qual situação?"
+  answers:
+    A: "No sistema monástico, pela valorização da religião."
+    B: "Na existência em comunidade, pela comunhão de valores."
+    C: "No modelo de autogestão, pela emancipação do sujeito."
+    D: "No estado de natureza, pelo exercício da liberdade."
+    E: "Na vida em sociedade, pela abundância de bens."
+  correct_answer: D
+
+- id: 95
+  test: enem_2021
+  test_type: azul
+  test_part: ch
+  test_item: 86
+  question_elements:
+  - question_text: "A filosofia é como uma árvore, cujas raízes são a metafísica;\
+      \ o tronco, a física, e os ramos que saem do tronco são todas as outras ciências,\
+      \ que se reduzem a três principais: a medicina, a mecânica e a moral, entendendo\
+      \ por moral a mais elevada e a mais perfeita porque pressupõe um saber integral\
+      \ das outras ciências, e é o último grau da sabedoria."
+    question_text_reference: "DESCARTES, R. **Princípios da filosofia.** Lisboa: Edições\
+      \ 70, 1997 (adaptado)."
+  statement: "Essa construção alegórica de Descartes, acerca da condição epistemológica\
+    \ da filosofia, tem como objetivo"
+  answers:
+    A: "sustentar a unidade essencial do conhecimento."
+    B: "refutar o elemento fundamental das crenças."
+    C: "impulsionar o pensamento especulativo."
+    D: "recepcionar o método experimental."
+    E: "incentivar a suspensão dos juízos."
+  correct_answer: A
+
+- id: 96
+  test: enem_2014
+  test_type: azul
+  test_part: ch
+  test_item: 29
+  question_elements:
+  - question_text: "A filosofia encontra-se escrita neste grande livro que continuamente\
+      \ se abre perante nossos olhos (isto é, o universo), que não se pode compreender\
+      \ antes de entender a língua e conhecer os caracteres com os quais está escrito.\
+      \ Ele está escrito em língua matemática, os caracteres são triângulos, circunferências\
+      \ e outras figuras geométricas, sem cujos meios é impossível entender humanamente\
+      \ as palavras; sem eles, vagamos perdidos dentro de um obscuro labirinto."
+    question_text_reference: "GALILEI, G. O ensaiador. **Os pensadores.** São Paulo:\
+      \ Abril Cultural, 1978."
+  statement: "No contexto da Revolução Científica do século XVII, assumir a posição\
+    \ de Galileu significava defender a:"
+  answers:
+    A: "continuidade do vínculo entre ciência e fé dominante na Idade Média."
+    B: "necessidade de o estudo linguístico ser acompanhado do exame matemático."
+    C: "oposição da nova física quantitativa aos pressupostos da filosofia escolástica."
+    D: "importância da independência da investigação científica pretendida pela Igreja."
+    E: "inadequação da matemática para elaborar uma explicação racional da natureza."
+  correct_answer: C
