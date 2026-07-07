@@ -13,6 +13,12 @@ PADRAO_QUESTOES = re.compile(r"^questoes\s*=\s*(\[.*?\])", re.MULTILINE | re.DOT
 
 LETRAS = ["A", "B", "C", "D", "E"]
 
+CIANO = "\033[36m"   # cor do prompt
+VERDE = "\033[32m"   # cor da resposta do usuário
+AMARELO = "\033[33m"
+NEGRITO = "\033[1m"
+RESET = "\033[0m"
+
 
 class Texto(str):
     """Marca strings de texto livre, para serem sempre escritas entre aspas
@@ -29,22 +35,30 @@ def representar_texto(dumper, valor):
 yaml.add_representer(Texto, representar_texto, Dumper=yaml.SafeDumper)
 
 
-def perguntar(mensagem, obrigatorio=False):
+def perguntar(mensagem, obrigatorio=False, padrao=None):
+    if padrao:
+        mensagem = f"{mensagem}[{padrao}] "
     while True:
-        valor = input(mensagem).strip()
+        valor = input(f"{CIANO}{mensagem}{RESET}{VERDE}")
+        print(RESET, end="", flush=True)
+        valor = valor.strip()
+        if not valor and padrao:
+            return padrao
         if valor or not obrigatorio:
             return valor
         print("Esse campo é obrigatório.")
 
 
 def perguntar_texto(rotulo, obrigatorio=True):
-    print(f"{rotulo} (finalize com uma linha vazia):")
+    print(f"{CIANO}{rotulo} (finalize com uma linha vazia):{RESET}")
+    print(VERDE, end="", flush=True)
     linhas = []
     while True:
         linha = input()
         if linha == "":
             break
         linhas.append(linha)
+    print(RESET, end="", flush=True)
     texto = "\n".join(linhas).strip()
     if obrigatorio and not texto:
         print("Esse campo é obrigatório.")
@@ -52,10 +66,25 @@ def perguntar_texto(rotulo, obrigatorio=True):
     return texto
 
 
-def proximo_id():
+def carregar_questoes():
     with open(CAMINHO_YAML, encoding="utf-8") as f:
-        questoes = yaml.safe_load(f) or []
+        return yaml.safe_load(f) or []
+
+
+def proximo_id(questoes):
     return max((questao["id"] for questao in questoes), default=0) + 1
+
+
+def buscar_questao_existente(questoes, test, test_type, test_part, test_item):
+    for questao in questoes:
+        if (
+            questao.get("test") == test
+            and questao.get("test_type") == test_type
+            and questao.get("test_part") == test_part
+            and questao.get("test_item") == test_item
+        ):
+            return questao
+    return None
 
 
 def perguntar_question_elements():
@@ -78,13 +107,15 @@ def perguntar_question_elements():
 
 
 def perguntar_answers():
-    print("Alternativas (uma por linha, na ordem A, B, C, D, E; finalize com uma linha vazia):")
+    print(f"{CIANO}Alternativas (uma por linha, na ordem A, B, C, D, E; finalize com uma linha vazia):{RESET}")
+    print(VERDE, end="", flush=True)
     linhas = []
     while True:
         linha = input()
         if linha == "":
             break
         linhas.append(linha.strip())
+    print(RESET, end="", flush=True)
 
     if len(linhas) != len(LETRAS):
         print(f"Aviso: foram informadas {len(linhas)} alternativas (esperado: {len(LETRAS)}).")
@@ -116,7 +147,11 @@ def selecionar_aula():
     for arquivo in aulas:
         print(f"  {nome_aula(arquivo)}")
 
-    numero = perguntar("Número da aula em que a questão será inserida (ex.: 04): ", obrigatorio=True)
+    numero = perguntar(
+        "Número da aula em que a questão será inserida (ex.: 04; opcional, Enter para pular): "
+    )
+    if not numero:
+        return None
     for arquivo in aulas:
         if nome_aula(arquivo)[:2] == numero:
             return arquivo
@@ -144,14 +179,29 @@ def adicionar_questao_no_yaml(novo_item):
 
 
 def main():
-    novo_id = proximo_id()
-    print(f"Nova questão (id={novo_id})\n")
+    questoes_existentes = carregar_questoes()
+    novo_id = proximo_id(questoes_existentes)
+    print(f"\n{NEGRITO}{AMARELO}{'═' * 50}")
+    print(f"📝  NOVA QUESTÃO (id={novo_id})")
+    print(f"{'═' * 50}{RESET}\n")
 
-    test = perguntar("test (ex.: enem_2025): ", obrigatorio=True)
-    test_type = perguntar("test_type (ex.: azul): ")
-    test_part = perguntar("test_part (ex.: ch): ")
+    ultima_questao = max(questoes_existentes, key=lambda q: q["id"], default={})
+
+    test = perguntar("Código da prova - Parâmetro `test` (ex.: enem_2025, enem_2025_2_apl). Enter para usar o da última questão adicionada: ", obrigatorio=True, padrao=ultima_questao.get("test"))
+    test_type = perguntar("Cor da prova - Parâmetro `test_type` (ex.: azul, branca). Enter para usar o da última questão adicionada: ", padrao=ultima_questao.get("test_type"))
+    test_part = perguntar("Tema da prova - Parâmetro `test_part` (ex.: ch, cn). Enter para usar o da última questão adicionada: ", padrao=ultima_questao.get("test_part"))
     test_item_str = perguntar("test_item (número do item na prova): ")
     test_item = int(test_item_str) if test_item_str.isdigit() else test_item_str
+
+    questao_existente = buscar_questao_existente(questoes_existentes, test, test_type, test_part, test_item)
+    if questao_existente:
+        print(
+            f"\nJá existe a questão id={questao_existente['id']} com "
+            f"test={test}, test_type={test_type}, test_part={test_part}, test_item={test_item}."
+        )
+        continuar = perguntar("Adicionar mesmo assim (s/n)? ").lower()
+        if continuar != "s":
+            raise SystemExit("Cadastro cancelado.")
 
     question_elements = perguntar_question_elements()
     statement = Texto(perguntar_texto("statement"))
@@ -173,8 +223,9 @@ def main():
     print(f"\nQuestão {novo_id} adicionada a {CAMINHO_YAML.name}.")
 
     arquivo_aula = selecionar_aula()
-    adicionar_id_na_aula(arquivo_aula, novo_id)
-    print(f"id {novo_id} adicionado à lista `questoes` em {arquivo_aula.name}.")
+    if arquivo_aula:
+        adicionar_id_na_aula(arquivo_aula, novo_id)
+        print(f"id {novo_id} adicionado à lista `questoes` em {arquivo_aula.name}.")
 
 
 if __name__ == "__main__":
