@@ -1,0 +1,487 @@
+---
+title: "Fé e Razão"
+title-footer: "Fra Angelico, Conversão de Santo Agostinho, 1395-1455"
+date: 2026-06-29
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+    logo: imagens/logo_vc.png
+    css: styles.css
+    incremental: true
+---
+
+# Questões para discussão
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script> -->
+
+<style>
+:root {
+  --bg-image: url("imagens/aula05/fra_angelico_conversion_augustine.jpg");
+  --bg-opacity: 0.7;
+  --max-width: 95%;
+}
+</style>
+
+
+::: {.smaller-list}
+
+1. "A fé começa onde a razão termina."
+2. "Só devemos acreditar naquilo que podemos provar."
+3. "Nem tudo o que é importante pode ser demonstrado cientificamente."
+4. "A dúvida é inimiga da fé."
+
+:::
+
+
+## Argumento de Anselmo de Cantuária (1033-1109) para a existência de Deus
+
+::: {style="font-size: 70%;"}
+
+*Deus é o ser do qual nada se pode pensar maior*
+
+> O ignorante sabe estar na inteligência **algo de que não se pode pensar nada maior**, pois, quando ouve mencioná-lo, o entende e sabe, como qualquer outra pessoa, que existe na inteligência. Ora, aquele de que não se pode pensar nada maior **não pode estar unicamente na inteligência**. Se assim fosse, **haveria algo que lhe seria maior, por estar também na realidade**. [...] Logo, existe, sem dúvida, aquele de que não se pode pensar nada de maior, pois, existindo na inteligência, existe também na realidade.
+
+::: {.columns}
+
+::: {.column width="20%"}
+
+:::
+
+::: {.column width="80%"}
+
+::: {style="font-size: 80%;"}
+
+ANSELMO DE CANTUÁRIA. *Proslogion.* In: **Obras completas de san Anselmo.** Texto bilíngue. Madri: BAC, 1952. v. II, p.366. Trecho traduzido por Francisco Catão.
+
+:::
+
+:::
+
+:::
+
+:::
+
+## Ironia de Douglas Gasking (1911-1994) sobre o argumento de Anselmo
+
+::: {style="font-size: 55%;"}
+
+*Redução ao absurdo, similar à de Gaunilo, contemporâneo de Anselmo*
+
+1. A **criação do mundo** é a realização mais maravilhosa que se pode imaginar.
+2. O mérito de uma realização é o produto de (a) sua qualidade intrínseca e (b) da capacidade de seu criador.
+3. **Quanto maior a incapacidade (ou desvantagem) do criador, mais impressionante é a realização.**
+4. A desvantagem mais formidável para um criador seria a **inexistência**.
+5. Portanto, se supusermos que o universo é o produto de um criador existente, podemos conceber um ser maior — quer dizer, aquele que criou todas as coisas sendo inexistente.
+6. Um Deus existente, portanto, não seria um ser maior que o qual não se pode conceber outro ser, porque **um criador mais formidável e incrível seria um Deus que não existisse**.
+7. Portanto: **Deus não existe**.
+
+::: {.columns}
+
+::: {.column width="20%"}
+
+:::
+
+::: {.column width="80%"}
+
+::: {style="font-size: 80%;"}
+
+DAWKINS, Richard. **Deus: um delírio.** Tradução de Fernanda Ravagnani. São Paulo: Companhia das Letras, 2007, p. 119-120.
+
+:::
+
+:::
+
+:::
+
+:::
+
+# Agostinho
+
+## Vida de Agostinho (354–430)
+
+::: {.smaller-list}
+
+- **Édito de Milão** (313): proibição da perseguição religiosa no Império Romano.
+- **Édito de Tessalônica** (380): Cristianismo torna-se a religião oficial do Império.
+- Nasceu em **Tagaste**, no norte da África, domínio do Império Romano.
+- Juventude marcada por intensa busca intelectual.
+- Passou pelo **Maniqueísmo** e pelo Ceticismo.
+- Converteu-se ao Cristianismo já adulto, após influência de **Ambrósio** de Milão.
+- Tornou-se **bispo de Hipona**.
+- Viveu durante a crise final do Império Romano do Ocidente, cuja queda ocorreu em 476.
+- Os primeiros padres do Cristianismo nascente buscavam articular a doutrina religiosa em sistemas filosóficos consistentes, para conter a perseguição e potencializar a conversão de novos fiéis.
+- Esse movimento dos "pais" da cristandade ficou conhecido como **Patrística**, da qual Agostinho é o maior expoente.
+- Em Agostinho, a fé tem primazia sobre a razão: **"creio para compreender; compreendo para crer"** (*credo ut intelligam; intelligo ut credam*).
+
+:::
+
+
+## Principais obras de Agostinho
+
+::: {.smaller-list}
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.no-bullets}
+
+- **Confissões (397-400)**
+
+:::
+
+- Primeira grande **autobiografia** da tradição ocidental.
+- Descoberta da **subjetividade**, importante no Modernismo.
+- Relato da busca pela **verdade** e da **conversão**.
+- Reflexão filosófica sobre **memória**, **tempo** e **interioridade**.
+
+:::
+
+::: {.column width="50%"}
+
+::: {.no-bullets}
+
+- **Algumas citações**
+
+:::
+
+- "Inquieto está o nosso coração enquanto não repousa em Deus." (*Confissões*, Livro I, capítulo 1, §1)
+- "Tarde te amei, ó Beleza tão antiga e tão nova, tarde te amei! Eis que estavas dentro de mim, e eu fora, e aí te procurava." (*Confissões*, Livro X, cap. 27, §38)
+- "Grande é o poder da memória; é algo que me enche de profundo assombro, meu Deus. É um santuário vasto e infinito." (*Confissões*, Livro X, cap. 8, §15)
+- "O que é, pois, o tempo? Se ninguém me pergunta, eu sei; se quero explicá-lo, já não sei." (*Confissões*, Livro XI)
+- "Não saias de ti; volta para dentro de ti mesmo. No homem interior habita a verdade." (*Da verdadeira Religião,* ano 390-391)
+
+:::
+
+:::
+
+:::
+
+## Principais obras de Agostinho
+
+::: {.smaller-list}
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.no-bullets}
+
+- **Cidade de Deus (413–426)**
+
+:::
+
+- Escrita após o saque de Roma (410).
+- Reflexões sobre o sentido da história, política e justiça.
+- Resposta à acusação de que o Cristianismo teria enfraquecido o Império.
+- Distingue a **Cidade de Deus** e a **Cidade dos Homens**, sempre marcada pela instabilidade e corrupção.
+- Dá um sentido linear e progressivo à História: queda do ser humano ➡ redenção em Cristo ➡ Juízo Final, diferente da noção cíclica dos gregos.
+
+:::
+
+::: {.column width="50%"}
+
+::: {.no-bullets}
+
+- **Algumas citações**
+
+:::
+
+- "Dois amores fundaram duas cidades: o amor de si levado ao desprezo de Deus fez a cidade terrena; o amor de Deus levado ao desprezo de si fez a Cidade de Deus." (*Cidade de Deus*, Livro XIV, cap. 28)
+- "Cristo morreu uma só vez pelos nossos pecados; ressuscitado dentre os mortos, já não morre; a morte já não tem domínio sobre ele." (*Cidade de Deus*, Livro XII, capítulos 13–14)
+
+:::
+
+:::
+
+:::
+
+## Principais ideias de Agostinho
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- **Fé e razão**
+
+:::
+
+- "Creio para compreender; compreendo para crer."
+- Fé e razão são complementares.
+- Porém a fé precede a razão.
+
+::: {.no-bullets}
+
+- **Teoria da Iluminação**
+
+:::
+
+- Deus é a fonte da verdade.
+- O conhecimento depende da iluminação divina.
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- **Interioridade**
+
+:::
+
+- A verdade é buscada dentro de si.
+- Autoconhecimento aproxima o ser humano de Deus.
+
+::: {.no-bullets}
+
+- **Problema do mal**
+
+:::
+
+- O mal não possui existência própria.
+- É ausência ou privação do bem.
+
+:::
+
+:::
+
+:::
+
+
+## Vida de Tomás de Aquino (1225–1274)
+
+
+::: {.smaller-list}
+
+- Principal representante da **Escolástica** medieval: *fides quaerens intellectum* ("a fé em busca da compreensão")
+- Nasceu na Itália.
+- Membro da Ordem Dominicana.
+- Estudou em Paris e Colônia.
+- Discípulo de Alberto Magno.
+- Procurou conciliar Cristianismo e Aristóteles.
+
+::: {.no-bullets}
+
+- **Contexto histórico**
+
+:::
+
+- Crescimento das universidades.
+- Tradução de obras gregas e árabes.
+- Redescoberta do pensamento aristotélico.
+
+:::
+
+
+## Obra de Tomás de Aquino
+
+::: {.columns}
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- **Suma Teológica**
+
+:::
+
+- Principal obra da Escolástica.
+- Organiza racionalmente a doutrina cristã.
+- Estrutura baseada em questões e objeções.
+
+::: {.no-bullets}
+
+- **Objetivo**
+
+:::
+
+- Demonstrar a compatibilidade entre fé e razão.
+- Sistematizar o conhecimento filosófico e teológico.
+
+::: {.no-bullets}
+
+- **Importância**
+
+:::
+
+- Tornou-se referência da teologia católica.
+- Exemplo clássico da síntese entre filosofia e religião.
+
+:::
+
+:::
+
+
+## Aristotelismo Cristão
+
+Tomás incorpora conceitos de Aristóteles ao Cristianismo.
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.smaller-list}
+
+
+::: {.no-bullets}
+
+- **Conceitos centrais**
+
+:::
+
+- Matéria e forma.
+- Potência e ato.
+- Causa e finalidade.
+
+::: {.no-bullets}
+
+- **Método**
+
+:::
+
+- Observação da natureza.
+- Uso da lógica e da argumentação racional.
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- **Diferença em relação a Agostinho**
+
+:::
+
+- Agostinho → influência de Platão.
+- Tomás → influência de Aristóteles.
+
+:::
+
+:::
+
+:::
+
+
+## Principais ideias de Tomás de Aquino
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- **Fé e razão**
+
+:::
+
+- Não há contradição entre ambas.
+- Toda verdade tem origem em Deus.
+
+::: {.no-bullets}
+
+- **Lei Natural**
+
+:::
+
+- Existe uma ordem racional na natureza.
+- O ser humano pode conhecê-la pela razão.
+
+::: {.no-bullets}
+
+- **Conhecimento**
+
+:::
+
+- Parte da experiência sensível.
+- A razão permite compreender a realidade.
+
+:::
+
+
+## As Cinco Vias
+
+Como provar racionalmente a existência de Deus?
+
+::: {.smaller-list}
+
+1. Movimento → Primeiro Motor.
+2. Causa eficiente → Primeira Causa.
+3. Contingência → Ser Necessário.
+4. Graus de perfeição → Perfeição Máxima.
+5. Finalidade → Inteligência Ordenadora.
+
+::: {.no-bullets}
+
+- **Conclusão**
+
+:::
+
+- O conjunto das vias aponta para a existência de Deus.
+- São argumentos filosóficos, não argumentos baseados na fé.
+
+:::
+
+
+## Agostinho × Tomás de Aquino
+
+::: {style="font-size: 70%;"}
+
+| Agostinho | Tomás de Aquino |
+|-----------|-----------------|
+| Influência de Platão | Influência de Aristóteles |
+| Interioridade | Observação da natureza |
+| Iluminação divina | Razão natural |
+| "Creio para compreender" | Fé e razão cooperam |
+
+:::
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- **Em comum**
+
+:::
+
+- Filosofia cristã medieval.
+- Busca de conciliação entre fé e razão.
+- Influência duradoura na cultura ocidental.
+
+:::
+
+
+
+```{python}
+#| echo: false
+#| output: asis
+
+from scripts.render_questoes import render_questao
+from IPython.display import HTML
+
+arquivo_yaml = "questoes_enem.yaml"
+
+questoes = [23, 32, 43, 55, 56, 61, 82, 96]
+
+print("# Questões do Enem")
+
+for i, questao_id in enumerate(questoes, start=1):
+
+  print(f"## Questão {i}")
+  html = render_questao(questao_id, arquivo_yaml)
+  display(HTML(html))
+```

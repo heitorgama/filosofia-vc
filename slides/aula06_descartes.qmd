@@ -1,0 +1,154 @@
+---
+title: "Modernidade: Metafísica"
+title-footer: "Rembrandt, A lição de anatomia do Dr. Tulp, 1632"
+date: 2026-08-11
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+    logo: imagens/logo_vc.png
+    css: styles.css
+    incremental: true
+---
+
+## Você foi influenciado pela Modernidade?
+
+Responda às perguntas a seguir:
+
+::: {.smaller-list}
+
+1. Você considera que a formação de uma médica deva se basear na dissecação de corpos humanos ou de outros animais?
+2. Quantos continentes existem no planeta?
+3. A tradução da Bíblia para as diversas línguas do mundo deveria ser evitada?
+4. Parece óbvio que a Terra é o centro do universo?
+5. Você entende que o corpo de um monarca tem duas naturezas, uma humana e uma divina?
+
+:::
+
+## Contexto histórico da Modernidade
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script> -->
+
+<style>
+:root {
+  --bg-image: url("imagens/aula06/rembrandt_licao_anatomia_dr_tulp_1632.jpg");
+  --bg-opacity: 0.7;
+  --max-width: 95%;
+}
+</style>
+
+
+::: {.smaller-list}
+
+- **Renascimento (Séc. XIV-XVI)**: retomada dos valores humanistas da Antiguidade Clássica, abrandando o teocentrismo medieval e exaltando a racionalidade, o empirismo e a natureza.
+- **Descoberta do Novo Mundo (Séc. XV)**: expansão dos horizontes geográficos e culturais, colocando em xeque saberes antigos tidos como absolutos.
+- **Reforma Protestante (Séc. XVI)**: fim da unidade religiosa da Igreja Católica, estimulando o livre exame e a autonomia da consciência individual.
+- **Revolução Científica (Séc. XVI-XVII)**: novos métodos baseados na observação e na razão, base do racionalismo que Descartes desenvolverá.
+
+:::
+
+
+## René Descartes (1596-1650)
+
+::: {.smaller-list}
+
+- Nasceu na França, morreu na Suécia, a serviço da rainha Cristina.
+- Era **católico** e suas obras procuravam conciliar sua filosofia com a fé cristã, embora algumas de suas ideias tenham provocado controvérsias. Após a condenação de Galileu (1633), não publicou seu tratado *O Mundo*, que defendia o heliocentrismo.
+- Frequentava **aulas de anatomia**, interessado em compreender o corpo humano como uma máquina.
+- Como **matemático**, criou a **geometria analítica** e o **plano cartesiano**, unificando álgebra e geometria.
+- É considerado um dos **precursores da filosofia moderna**: com ele, a razão humana, e não mais a tradição ou a autoridade religiosa, passa a ser o critério do conhecimento verdadeiro (a chamada **virada do sujeito**).
+- É também o fundador do **racionalismo** (conhecimento pela razão e por ideias inatas), em oposição ao **empirismo** (conhecimento pela experiência sensível).
+
+:::
+
+## Ceticismo e o argumento do *Cogito*
+
+::: {.smaller-list}
+
+::: {.no-bullets}
+
+- Descartes busca um **fundamento sólido e indubitável** para reconstruir as ciências, inspirado na certeza da matemática, projeto desenvolvido nas *Meditações Metafísicas* (1641):
+
+:::
+
+1. **Dúvida metódica:** duvidar de tudo o que pode ser posto em dúvida, em busca de um fundamento absolutamente certo.
+2. Duvida dos **sentidos** (podem enganar) e da **realidade física** (não há como distinguir vigília de sonho).
+3. Leva a dúvida ao limite com o **gênio maligno**: um ser capaz de enganá-lo até sobre "2+3=5".
+4. Mas, para ser enganado, é preciso **existir**: o próprio ato de duvidar/pensar pressupõe um sujeito que pensa.
+5. Primeira certeza inabalável: **"Penso, logo existo"** (*Cogito ergo sum*).
+6. A partir daí, busca reconstruir o conhecimento sobre uma base racional segura.
+
+::: {.no-bullets}
+
+- ⚠️ A partir do Cogito, Descartes desenvolve uma metafísica **dualista**: propõe a existência de duas substâncias distintas — a **res cogitans** (substância pensante, a mente) e a **res extensa** (substância extensa, o corpo e o mundo material).
+
+:::
+
+:::
+
+## A prova da existência de Deus
+
+::: {.smaller-list}
+
+- Depois do *Cogito*, Descartes precisa **sair da dúvida radical** e restabelecer a confiança na razão e no mundo exterior.
+- Constata que possui, em sua mente, a **ideia de um ser perfeito e infinito** (Deus).
+- Pelo **princípio de causalidade**, a causa de uma ideia deve conter ao menos tanta realidade quanto o seu efeito. Ele, um ser finito e imperfeito, não poderia ser a origem de uma ideia de perfeição infinita.
+- Logo, **Deus existe** e é a causa dessa ideia impressa em sua mente.
+- Por ser perfeito, **Deus não pode ser enganador**, o que afasta a hipótese do gênio maligno e garante que tudo o que é percebido de forma **clara e distinta** pela razão é verdadeiro.
+- Essa prova retoma, em nova versão, o **argumento ontológico** já defendido por Santo Anselmo de Cantuária (Séc. XI): a existência é parte da própria essência de um ser perfeito.
+- Crítica: o chamado **círculo cartesiano**. Descartes usa ideias claras e distintas para provar Deus, e depois usa Deus para garantir que ideias claras e distintas são verdadeiras.
+
+:::
+
+## O método científico de Descartes
+
+No *Discurso do Método* (1637), Descartes propõe quatro regras para conduzir bem a razão:
+
+::: {.smaller-list}
+
+1. **Evidência:** só aceitar como verdadeiro aquilo que se apresenta de forma **clara e distinta** à razão, evitando precipitação e preconceitos.
+2. **Análise:** dividir cada problema complexo em **partes menores**, mais simples de resolver.
+3. **Síntese:** conduzir o raciocínio de forma **ordenada**, partindo dos elementos mais simples até os mais complexos.
+4. **Enumeração:** revisar tudo de forma **completa e geral**, garantindo que nada foi esquecido.
+
+::: {.no-bullets}
+
+- Essas regras — duvidar antes de aceitar, decompor problemas, avançar do simples ao complexo, revisar sistematicamente — continuam sendo, em linhas gerais, a base do **método científico** utilizado até hoje.
+
+:::
+
+:::
+
+## Acompanhe pelo celular
+
+::: {style="text-align: center;"}
+
+![](imagens/qr_code_bit_ly_filosofia_vc.png){width=40%}
+
+bit.ly/filosofia-vc
+
+:::
+
+```{python}
+#| echo: false
+#| output: asis
+
+from scripts.render_questoes import render_questao
+from IPython.display import HTML
+
+arquivo_yaml = "questoes_enem.yaml"
+
+questoes = [84, 62, 92, 95]
+
+print("# Questões do Enem")
+
+for i, questao_id in enumerate(questoes, start=1):
+
+  print(f"## Questão {i}")
+  html = render_questao(questao_id, arquivo_yaml)
+  display(HTML(html))
+```
