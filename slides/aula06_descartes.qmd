@@ -78,13 +78,12 @@ Responda às perguntas a seguir:
 1. **Dúvida metódica:** duvidar de tudo o que pode ser posto em dúvida, em busca de um fundamento absolutamente certo.
 2. Duvida dos **sentidos** (podem enganar) e da **realidade física** (não há como distinguir vigília de sonho).
 3. Leva a dúvida ao limite com o **gênio maligno**: um ser capaz de enganá-lo até sobre "2+3=5".
-4. Mas, para ser enganado, é preciso **existir**: o próprio ato de duvidar/pensar pressupõe um sujeito que pensa.
+4. Mas, para ser enganado, é preciso **existir**: o próprio ato de duvidar pressupõe um sujeito que pensa.
 5. Primeira certeza inabalável: **"Penso, logo existo"** (*Cogito ergo sum*).
-6. A partir daí, busca reconstruir o conhecimento sobre uma base racional segura.
 
 ::: {.no-bullets}
 
-- ⚠️ A partir do Cogito, Descartes desenvolve uma metafísica **dualista**: propõe a existência de duas substâncias distintas — a **res cogitans** (substância pensante, a mente) e a **res extensa** (substância extensa, o corpo e o mundo material).
+- ⚠️ A partir do Cogito, Descartes desenvolve uma metafísica **dualista**. Propõe a existência de duas substâncias distintas: a **res cogitans** (substância pensante, a mente) e a **res extensa** (substância extensa, o corpo e o mundo material).
 
 :::
 
@@ -94,13 +93,22 @@ Responda às perguntas a seguir:
 
 ::: {.smaller-list}
 
-- Depois do *Cogito*, Descartes precisa **sair da dúvida radical** e restabelecer a confiança na razão e no mundo exterior.
-- Constata que possui, em sua mente, a **ideia de um ser perfeito e infinito** (Deus).
-- Pelo **princípio de causalidade**, a causa de uma ideia deve conter ao menos tanta realidade quanto o seu efeito. Ele, um ser finito e imperfeito, não poderia ser a origem de uma ideia de perfeição infinita.
-- Logo, **Deus existe** e é a causa dessa ideia impressa em sua mente.
-- Por ser perfeito, **Deus não pode ser enganador**, o que afasta a hipótese do gênio maligno e garante que tudo o que é percebido de forma **clara e distinta** pela razão é verdadeiro.
-- Essa prova retoma, em nova versão, o **argumento ontológico** já defendido por Santo Anselmo de Cantuária (Séc. XI): a existência é parte da própria essência de um ser perfeito.
-- Crítica: o chamado **círculo cartesiano**. Descartes usa ideias claras e distintas para provar Deus, e depois usa Deus para garantir que ideias claras e distintas são verdadeiras.
+::: {.no-bullets}
+
+- O *Cogito* coloca Descartes em um **solipsismo**. Para sair da **dúvida radical** e restabelecer a confiança na razão e no mundo exterior, ele postula a existência de Deus.
+
+:::
+
+1. Constata que possui, em sua mente, a **ideia de um ser perfeito e infinito** (Deus).
+2. Pelo **princípio de causalidade**, a causa de uma ideia deve conter ao menos tanta realidade quanto o seu efeito. Ele, um ser finito e imperfeito, não poderia ser a origem de uma ideia de perfeição infinita.
+3. Logo, **Deus existe** e é a causa dessa ideia impressa em sua mente.
+4. Por ser perfeito, **Deus não pode ser enganador**, o que afasta a hipótese do gênio maligno e garante que tudo o que é percebido de forma **clara e distinta** pela razão é verdadeiro.
+
+::: {.no-bullets}
+
+- ⚠️ Essa prova retoma, em nova versão, o **argumento ontológico** já defendido por Santo Anselmo de Cantuária (Séc. XI): a existência é parte da própria essência de um ser perfeito. **Crítica:** o chamado **círculo cartesiano** (Descartes usa ideias claras e distintas para provar Deus, e depois usa Deus para garantir que ideias claras e distintas são verdadeiras).
+
+:::
 
 :::
 
@@ -117,7 +125,7 @@ No *Discurso do Método* (1637), Descartes propõe quatro regras para conduzir b
 
 ::: {.no-bullets}
 
-- Essas regras — duvidar antes de aceitar, decompor problemas, avançar do simples ao complexo, revisar sistematicamente — continuam sendo, em linhas gerais, a base do **método científico** utilizado até hoje.
+- ⚠️ Essas regras continuam sendo, em linhas gerais, a base do **método científico** utilizado até hoje.
 
 :::
 
