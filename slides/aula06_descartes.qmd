@@ -14,6 +14,14 @@ format:
 
 ## Você foi influenciado pela Modernidade?
 
+<style>
+:root {
+  --bg-image: url("imagens/aula06/rembrandt_licao_anatomia_dr_tulp_1632.jpg");
+  --bg-opacity: 0.7;
+  --max-width: 95%;
+}
+</style>
+
 Responda às perguntas a seguir:
 
 ::: {.smaller-list}
@@ -28,40 +36,41 @@ Responda às perguntas a seguir:
 
 ## Contexto histórico da Modernidade
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-  mermaid.initialize({ startOnLoad: true });
-</script> -->
-
-<style>
-:root {
-  --bg-image: url("imagens/aula06/rembrandt_licao_anatomia_dr_tulp_1632.jpg");
-  --bg-opacity: 0.7;
-  --max-width: 95%;
-}
-</style>
-
-
 ::: {.smaller-list}
 
-- **Renascimento (Séc. XIV-XVI)**: retomada dos valores humanistas da Antiguidade Clássica, abrandando o teocentrismo medieval e exaltando a racionalidade, o empirismo e a natureza.
-- **Descoberta do Novo Mundo (Séc. XV)**: expansão dos horizontes geográficos e culturais, colocando em xeque saberes antigos tidos como absolutos.
+- **Renascimento (Séc. XIV-XVI)**: retomada dos valores humanistas da Antiguidade Clássica, abrandando o teocentrismo medieval e exaltando a racionalidade, o empirismo, a natureza.
+- **Descoberta do Novo Mundo (1492)**: expansão dos horizontes geográficos e culturais, entrando em contato com fauna, flora e civilizações inimagináveis e acarretando o descrédito da ciência antiga.
 - **Reforma Protestante (Séc. XVI)**: fim da unidade religiosa da Igreja Católica, estimulando o livre exame e a autonomia da consciência individual.
 - **Revolução Científica (Séc. XVI-XVII)**: novos métodos baseados na observação e na razão, base do racionalismo que Descartes desenvolverá.
 
 :::
 
 
+## Modernidade: novas noções
+
+::: {.smaller-list}
+
+- **Ideia de progresso**: maior apreço pelas novas concepções do que pelas antigas.
+- **Valorização do indivíduo**: os verdadeiros valores e conhecimentos vêm da subjetividade e não das autoridades externas ou instituições tradicionais. No lugar de rerpesentações de santos, reis ou príncipes, temos o retrato de pessoas comuns (*Mona Lisa*) e as representações de santos e figuras mitológicas adquirem feições humanas.
+- **Humanismo**: "O homem é a medida de todas as coisas" (Protágoras, o sofista). O estudo da teologia escolástica vai cedendo lugar ao das humanidades. A racionalidade e as virtudes da Antiguidade Clássica começam a ser aplicadas à política com Maquiavel, Montaigne, Thomas Morus, Hobbes, Rousseau, entre outros.
+- **Dignidade do homem (*dignitas hominis*)**: a natureza do homem reflete a harmonia do cosmo, opondo-se ao tema medieval da miséria do homem (*miseria hominis*), marcada pelo pecado original.
+- **Retomada do ceticiscmo antigo**: após a refutação do ceticismo por Agostinho (*Contra academicos*), o humanismo renascentista, resgata tais valores, em um contexto de oposição entre o antigo e o moderno onde inexiste critério conclusivo para decidir sobre a validade das teorias conflitantes.
+
+:::
+
 ## René Descartes (1596-1650)
 
 ::: {.smaller-list}
 
 - Nasceu na França, morreu na Suécia, a serviço da rainha Cristina.
-- Era **católico** e suas obras procuravam conciliar sua filosofia com a fé cristã, embora algumas de suas ideias tenham provocado controvérsias. Após a condenação de Galileu (1633), não publicou seu tratado *O Mundo*, que defendia o heliocentrismo.
-- Frequentava **aulas de anatomia**, interessado em compreender o corpo humano como uma máquina.
+- Estudou em escola jesuíta.
+- Após a condenação de Galileu (1633), desistiu da publicação de seu tratado *O Mundo*, que defendia o heliocentrismo.
+- Publica seu *Discurso do método* em 1637, como introdução a suas obras científicas sobre óptica, meteorologia e geometria.
+- Em busca de um fundamento sólido para as ciências, publica suas *Meditações metafísicas* em 1641.
+- Tinha interesse em **anatomia** e em 1647 recebe auxílio financeiro do rei da França para escrever uma obra a respeito.
 - Como **matemático**, criou a **geometria analítica** e o **plano cartesiano**, unificando álgebra e geometria.
-- É considerado um dos **precursores da filosofia moderna**: com ele, a razão humana, e não mais a tradição ou a autoridade religiosa, passa a ser o critério do conhecimento verdadeiro (a chamada **virada do sujeito**).
-- É também o fundador do **racionalismo** (conhecimento pela razão e por ideias inatas), em oposição ao **empirismo** (conhecimento pela experiência sensível).
+- Foi um **precursor da filosofia moderna**: tradição e autoridade religiosa cedem lugar à razão como critério do conhecimento verdadeiro (a chamada **virada subjetiva**).
+- É considerado um dos fundadores do **racionalismo** (conhecimento pela razão e por ideias inatas), em oposição ao **empirismo** (conhecimento pela experiência sensível).
 
 :::
 
@@ -119,7 +128,7 @@ No *Discurso do Método* (1637), Descartes propõe quatro regras para conduzir b
 ::: {.smaller-list}
 
 1. **Evidência:** só aceitar como verdadeiro aquilo que se apresenta de forma **clara e distinta** à razão, evitando precipitação e preconceitos.
-2. **Análise:** dividir cada problema complexo em **partes menores**, mais simples de resolver.
+2. **Análise:** dividir cada problema complexo em quantas **partes menores** forem possíveis e necessárias para melhor resolvê-las .
 3. **Síntese:** conduzir o raciocínio de forma **ordenada**, partindo dos elementos mais simples até os mais complexos.
 4. **Enumeração:** revisar tudo de forma **completa e geral**, garantindo que nada foi esquecido.
 
