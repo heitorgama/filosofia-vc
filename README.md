@@ -11,3 +11,4 @@ Turma do período vespertino, 2026.
 - [02/06] [Aristotelismo e Helenismo](/slides/aula04_aristoteles.html)
 - [29/06] [Fé e Razão](/slides/aula05_idade_media.html)
 - [11/08] [Modernidade: Metafísica](/slides/aula06_descartes.html)
+- [25/08] [Modernidade: Epistemologia](/slides/aula07_epistemologia.html)
