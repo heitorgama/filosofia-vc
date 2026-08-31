@@ -1199,7 +1199,7 @@
         captamos a verdade, alguns são sempre verdadeiros,
         enquanto outros admitem o falso, como a opinião e
         o cálculo, enquanto o conhecimento científico e a
-        intuição são empre verdadeiros, e dado que nenhum
+        intuição são sempre verdadeiros, e dado que nenhum
         outro gênero de conhecimento é mais exato que o
         conhecimento científico, exceto a intuição, e, por
         outro lado, os princípios são mais conhecidos que as
@@ -2412,3 +2412,51 @@
     D: "importância da independência da investigação científica pretendida pela Igreja."
     E: "inadequação da matemática para elaborar uma explicação racional da natureza."
   correct_answer: C
+
+- id: 97
+  test: enem_2013
+  test_type: azul
+  test_part: ch
+  test_item: 36
+  question_elements:
+  - question_text: "Até hoje admitia-se que nosso conhecimento se devia regular pelos\
+      \ objetos; porém, todas as tentativas para descobrir, mediante conceitos, algo\
+      \ que ampliasse nosso conhecimento, malogravam-se com esse pressuposto. Tentemos,\
+      \ pois, uma vez, experimentar se não se resolverão melhor as tarefas da metafísica,\
+      \ admitindo que os objetos se deveriam regular pelo nosso conhecimento."
+    question_text_reference: "KANT, I. **Crítica da razão pura.** Lisboa: Calouste-Gulbenkian,\
+      \ 1994 (adaptado)."
+  statement: "O trecho em questão é uma referência ao que ficou conhecido como revolução\
+    \ copernicana na filosofia. Nele, confrontam-se duas posições filosóficas que"
+  answers:
+    A: "assumem pontos de vista opostos acerca da natureza do conhecimento."
+    B: "defendem que o conhecimento é impossível, restando-nos somente o ceticismo."
+    C: "revelam a relação de interdependência entre os dados da experiência e a reflexão\
+      \ filosófica."
+    D: "apostam, no que diz respeito às tarefas da filosofia, na primazia das ideias\
+      \ em relação aos objetos."
+    E: "refutam-se mutuamente quanto à natureza do nosso conhecimento e são ambas\
+      \ recusadas por Kant."
+  correct_answer: E
+
+- id: 98
+  test: enem_2016_2apl
+  test_type: branca
+  test_part: ch
+  test_item: 8
+  question_elements:
+  - question_text: "Estamos, pois, de acordo quando, ao ver algum objeto, dizemos:\
+      \ “Este objeto que estou vendo agora tem tendência para assemelhar-se a um outro\
+      \ ser, mas, por ter defeitos, não consegue ser tal como o ser em questão, e\
+      \ lhe é, pelo contrário, inferior”. Assim, para podermos fazer estas reflexões,\
+      \ é necessário que antes tenhamos tido ocasião de conhecer esse ser de que se\
+      \ aproxima o dito objeto, ainda que imperfeitamente."
+    question_text_reference: "PLATÃO. **Fédon.** São Paulo: Abril Cultural, 1972."
+  statement: "Na epistemologia platônica, conhecer um determinado objeto implica"
+  answers:
+    A: "estabelecer semelhanças entre o que é observado em momentos distintos."
+    B: "comparar o objeto observado com uma descrição detalhada dele."
+    C: "descrever corretamente as características do objeto observado."
+    D: "fazer correspondência entre o objeto observado e seu ser."
+    E: "identificar outro exemplar idêntico ao observado."
+  correct_answer: D
