@@ -116,11 +116,12 @@ format:
 
 ::: {.smaller-list}
 
-- Filósofos que viveram antes de Sócrates (século VI a.C. a 399 a.C.).
-- Focaram na explicação da natureza, do cosmos e da origem do universo.
+- Pré-socráticos são os filósofos que se ocupavam da explicação da natureza (*physis*), do cosmos e da origem do universo entre os séculos VI e V a.C.
+- Buscavam basear tal explicação na razão, sendo ela uma **cosmologia**, que se colocava criticamente ao lado da **cosmogonia** dos mitos.
+- O termo não se refere simplesmente aos filósofos que nasceram e viveram antes de Sócrates. Alguns foram inclusive contemporâneos de Sócrates e de Platão.
 - Escola jônica: Tales de Mileto, Anaximandro, Anaxímenes, Xenófanes de Cólofon e Heráclito.
 - Escola italiana: Pitágoras de Samos e Parmênides de Eleia.
-- Segunda fase (pluralista): Anaxágoras, Escola atomista (Leucipo e Demócrito) e Empédocles.
+- Segunda fase (pluralista): Anaxágoras, escola atomista (Leucipo e Demócrito) e Empédocles.
 
 :::
 
