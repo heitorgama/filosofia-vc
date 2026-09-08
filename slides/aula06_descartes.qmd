@@ -159,7 +159,7 @@ from IPython.display import HTML
 
 arquivo_yaml = "questoes_enem.yaml"
 
-questoes = [84, 62, 92, 95]
+questoes = [84, 62, 92, 95, 96]
 
 print("# Questões do Enem")
 

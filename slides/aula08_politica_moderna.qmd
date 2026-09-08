@@ -106,7 +106,7 @@ from IPython.display import HTML
 
 arquivo_yaml = "questoes_enem.yaml"
 
-questoes = [21, 77, 83, 26, 96]
+questoes = [21, 77, 83, 26]
 
 for i, questao_id in enumerate(questoes, start=1):
 
