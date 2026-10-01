@@ -3149,3 +3149,26 @@
     E: "“O homem, em seu orgulho, criou a Deus a sua imagem e semelhança.” Friedrich\
       \ Nietzsche"
   correct_answer: B
+
+- id: 103
+  test: enem_2010
+  test_type: azul
+  test_part: ch
+  test_item: 30
+  question_elements:
+  - question_text: "O príncipe, portanto, não deve se incomodar com areputação de\
+      \ cruel, se seu propósito é manter o povounido e leal. De fato, com uns poucos\
+      \ exemplos durospoderá ser mais clemente do que outros que, por muitapiedade,\
+      \ permitem os distúrbios que levem ao assassínioe ao roubo."
+    question_text_reference: "MAQUIAVEL, N. **O Príncipe.** São Paulo: Martin Claret,\
+      \ 2009."
+  statement: "No século XVI, Maquiavel escreveu O Príncipe, reflexão sobre a Monarquia\
+    \ e a função do governante. A manutenção da ordem social, segundo esse autor,\
+    \ baseava-se na"
+  answers:
+    A: "inércia do julgamento de crimes polêmicos."
+    B: "bondade em relação ao comportamento dos mercenários."
+    C: "compaixão quanto à condenação de transgressões religiosas."
+    D: "neutralidade diante da condenação dos servos."
+    E: "conveniência entre o poder tirânico e a moral do príncipe."
+  correct_answer: E
