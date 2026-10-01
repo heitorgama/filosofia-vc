@@ -3064,6 +3064,12 @@
     D: "racionalidade de caráter pragmático."
     E: "inclinação de natureza passional."
   correct_answer: D
+  comments:
+    A: "O texto não se baseia em método científico nem em uma fundamentação positivista, mas no cálculo das consequências de uma ação sobre a felicidade das pessoas afetadas."
+    B: "A moralidade não decorre de uma convenção social normativa, mas do cálculo utilitarista da felicidade, que pode inclusive contrariar costumes e regras estabelecidas."
+    C: "O texto rejeita explicitamente fundamentar a moral na religião ('agradar a Deus'), de modo que não há transgressão religiosa em jogo."
+    D: "Bentham propõe calcular, de forma prática e orientada a resultados, qual ação produz mais felicidade para os afetados, exatamente o que caracteriza uma racionalidade pragmática."
+    E: "O critério utilitarista é um cálculo racional das consequências, e não uma inclinação passional ou emocional."
 
 - id: 100
   test: enem_2024_2apl
@@ -3092,6 +3098,12 @@
     D: "enfatiza os elementos de racionalidade."
     E: "valoriza os vínculos de intersubjetividade."
   correct_answer: E
+  comments:
+    A: "O texto não trata de padrões de identidade, mas da constituição da pessoa pelas relações comunitárias."
+    B: "A ênfase do Ubuntu está nos vínculos comunitários, e não nas condições de liberdade individual."
+    C: "O Ubuntu se contrapõe justamente à valorização da individualidade, central na tradição eurocêntrica, propondo uma ética relacional e comunitária."
+    D: "O texto não apresenta a racionalidade como critério central, mas a vivência ética coletiva."
+    E: "O Ubuntu afirma que a pessoa só é pessoa por meio de seu relacionamento com os outros, ou seja, valoriza os vínculos de intersubjetividade, o que contrasta com o individualismo da tradição eurocêntrica."
 
 - id: 101
   test: enem_2020_digital
@@ -3113,6 +3125,12 @@
     D: "identificação da justa medida."
     E: "obediência à determinação divina."
   correct_answer: A
+  comments:
+    A: "O texto distingue máximas subjetivas (válidas só para quem as formula) de princípios objetivos, válidos para a vontade de todo ser racional; é exatamente essa universalidade que Kant exige do dever moral, no imperativo categórico."
+    B: "Maximizar a utilidade é critério utilitarista e consequencialista; Kant define a moralidade pela forma universal da máxima, não pelos seus resultados."
+    C: "Kant rejeita fundamentar a moral no sentimento: a validade objetiva de um princípio depende da razão, não da aprovação afetiva."
+    D: "A busca pela justa medida é um critério aristotélico (a virtude como meio-termo), estranho ao formalismo kantiano do dever."
+    E: "O texto não menciona uma autoridade divina; a validade do princípio objetivo vem da razão, e não de um mandamento religioso."
 
 - id: 102
   test: enem_2010_2apl
@@ -3149,6 +3167,12 @@
     E: "“O homem, em seu orgulho, criou a Deus a sua imagem e semelhança.” Friedrich\
       \ Nietzsche"
   correct_answer: B
+  comments:
+    A: "A frase de Sartre afirma a autocriação do indivíduo por sua própria liberdade, o oposto do determinismo: para o existencialismo, a existência precede a essência e cada um constrói o que é."
+    B: "Entregar-se como 'folha em branco' para que Deus escreva o que quiser expressa a submissão da vida humana a um plano divino predeterminado, pressupondo o determinismo (aqui, providencial) presente no mito de Édipo."
+    C: "A frase de Schopenhauer trata da relação entre a coragem diante da vida e da morte, não da ideia de um destino predeterminado."
+    D: "Foucault expressa a fluidez e a transformação constante da identidade, o que é incompatível com a ideia de um destino fixo e determinado."
+    E: "A frase de Nietzsche é uma crítica à origem antropomórfica da ideia de Deus, e não uma afirmação sobre o destino ou a ausência de liberdade humana."
 
 - id: 103
   test: enem_2010
@@ -3156,9 +3180,9 @@
   test_part: ch
   test_item: 30
   question_elements:
-  - question_text: "O príncipe, portanto, não deve se incomodar com areputação de\
-      \ cruel, se seu propósito é manter o povounido e leal. De fato, com uns poucos\
-      \ exemplos durospoderá ser mais clemente do que outros que, por muitapiedade,\
+  - question_text: "O príncipe, portanto, não deve se incomodar com a reputação de\
+      \ cruel, se seu propósito é manter o povo unido e leal. De fato, com uns poucos\
+      \ exemplos duros poderá ser mais clemente do que outros que, por muita piedade,\
       \ permitem os distúrbios que levem ao assassínioe ao roubo."
     question_text_reference: "MAQUIAVEL, N. **O Príncipe.** São Paulo: Martin Claret,\
       \ 2009."
@@ -3172,3 +3196,9 @@
     D: "neutralidade diante da condenação dos servos."
     E: "conveniência entre o poder tirânico e a moral do príncipe."
   correct_answer: E
+  comments:
+    A: "O texto não trata de inércia judicial, mas da disposição ativa do príncipe em punir com exemplos duros para manter a ordem."
+    B: "O texto não menciona mercenários; trata da relação entre crueldade e clemência na manutenção da unidade do Estado."
+    C: "Não se trata de transgressões religiosas, mas de crimes contra a ordem civil (assassínio, roubo) que a crueldade exemplar visa coibir."
+    D: "O texto não propõe neutralidade: recomenda ação punitiva ativa (poucos exemplos duros) para evitar desordens maiores."
+    E: "Maquiavel subordina a moral convencional (ser visto como clemente ou cruel) à conveniência política de manter o Estado unido e leal: o poder do príncipe se ajusta ao que é útil, mesmo que pareça tirânico, e não a um padrão moral fixo."
