@@ -29,3 +29,7 @@
 - id: 8
   titulo: "Modernidade: Política"
   questoes: [21, 77, 83, 26]
+
+- id: 9
+  titulo: "Modernidade: Ética"
+  questoes: [18, 99, 101, 100, 7, 13, 86]

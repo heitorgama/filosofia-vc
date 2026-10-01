@@ -3042,3 +3042,110 @@
     C: "Descrever características é insuficiente: para Platão, conhecer implica reconhecer a Forma (ideia) da qual o objeto é cópia imperfeita."
     D: "Para conhecer um objeto sensível, é preciso ter conhecido antes o ser (a Forma) do qual ele é uma cópia imperfeita, isto é, fazer a correspondência entre o objeto e seu ser."
     E: "Os objetos sensíveis nunca são idênticos entre si, e a comparação se faz com a Forma perfeita."
+
+- id: 99
+  test: enem_2017
+  test_type: azul
+  test_part: ch
+  test_item: 48
+  question_elements:
+  - question_text: "A moralidade, Bentham exortava, não é uma questão de agradar a\
+      \ Deus, muito menos de fidelidade a regras abstratas. A moralidade é a tentativa\
+      \ de criar a maior quantidade de felicidade possível neste mundo. Ao decidir\
+      \ o que fazer, deveríamos, portanto, perguntar qual curso de conduta promoveria\
+      \ a maior quantidade de felicidade para todos aqueles que serão afetados."
+    question_text_reference: "RACHELS, J. **Os elementos da filosofia moral.** Barueri-SP:\
+      \ Manole, 2006."
+  statement: "Os parâmetros da ação indicados no texto estão em conformidade com uma"
+  answers:
+    A: "fundamentação científica de viés positivista."
+    B: "convenção social de orientação normativa."
+    C: "transgressão comportamental religiosa."
+    D: "racionalidade de caráter pragmático."
+    E: "inclinação de natureza passional."
+  correct_answer: D
+
+- id: 100
+  test: enem_2024_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 53
+  question_elements:
+  - question_text: "Ubuntu é um sistema de crenças, uma epistemologia, uma ética coletiva\
+      \ e uma filosofia humanista espiritual do sul da África. É mais um fundamento\
+      \ ético coletivo do que qualquer outra coisa, embora também seja considerado\
+      \ uma forma de filosofia e epistemologia africanas nativas. É uma forma ética\
+      \ de conhecer e de ser em comunidade. É muito menos um conceito abstrato do\
+      \ que uma expressão coletiva cotidiana de experiências vividas, centradas em\
+      \ uma ética comunitária do que significa ser humano. Ubuntu é uma abreviação\
+      \ de um provérbio da África do Sul: uma pessoa é uma pessoa por meio de seu\
+      \ relacionamento com outros."
+    question_text_reference: "SWANSON, D. **Ubuntu, uma alternativa ecopolítica à\
+      \ globalização econômica neoliberal.** IHU Revista do Instituto Humanitas Unisinos,\
+      \ n. 353, dez. 2010."
+  statement: "A perspectiva filosófica africana apresentada no texto contrasta com\
+    \ as formulações éticas da tradição eurocêntrica porque"
+  answers:
+    A: "destaca os padrões de identidade."
+    B: "preconiza as condições de liberdade."
+    C: "ressalta os atributos de individualidade."
+    D: "enfatiza os elementos de racionalidade."
+    E: "valoriza os vínculos de intersubjetividade."
+  correct_answer: E
+
+- id: 101
+  test: enem_2020_digital
+  test_type: azul
+  test_part: ch
+  test_item: 57
+  question_elements:
+  - question_text: "Princípios práticos são subjetivos, ou máximas, quando a condição\
+      \ é considerada pelosujeito como verdadeira só para a sua vontade; são, por\
+      \ outro lado, objetivos, quando acondição é válida para a vontade de todo ser\
+      \ natural."
+    question_text_reference: "KANT, I. **Crítica da razão prática.** Lisboa: Edições\
+      \ 70, 2008."
+  statement: "A concepção ética presente no texto defende a"
+  answers:
+    A: "universalidade do dever."
+    B: "maximização da utilidade."
+    C: "aprovação pelo sentimento."
+    D: "identificação da justa medida."
+    E: "obediência à determinação divina."
+  correct_answer: A
+
+- id: 102
+  test: enem_2010_2apl
+  test_type: azul
+  test_part: ch
+  test_item: 45
+  question_elements:
+  - question_text: "Quando Édipo nasceu, seus pais, Laio e Jocasta, os reis de Tebas,\
+      \ foram informados de uma profecia na qual o filho mataria o pai e se casaria\
+      \ com a mãe. Para evitá-la, ordenaram a um criado que matasse o menino. Porém,\
+      \ penalizado com a sorte de Édipo, ele o entregou a um casal de camponeses que\
+      \ morava longe de Tebas para que o criasse. Édipo soube da profecia quando se\
+      \ tornou adulto. Saiu então da casa de seus pais para evitar a tragédia. Eis\
+      \ que, perambulando pelos caminhos da Grécia, encontrou-se com Laio e seu séquito,\
+      \ que, insolentemente, ordenou que saísse da estrada. Édipo reagiu e matou todos\
+      \ os integrantes do grupo, sem saber que entre eles estava seu verdadeiro pai.\
+      \ Continuou a viagem até chegar a Tebas, dominada por uma Esfinge. Ela decifrou\
+      \ o enigma da Esfinge, tornou-se rei de Tebas e casou-se com a rainha, Jocasta,\
+      \ a mãe que desconhecia."
+    question_text_reference: "Disponível em: http://www.culturabrasil.org. Acesso\
+      \ em: 28 ago. 2010 (adaptado)."
+  statement: "No mito Édipo Rei, são dignos de destaque os temas do destino e do determinismo.\
+    \ Ambos são características do mito grego e abordam a relação entre liberdade\
+    \ humana e providência divina. A expressão filosófica que toma como pressuposta\
+    \ a tese do determinismo é:"
+  answers:
+    A: "“Nasci para satisfazer a grande necessidade que eu tinha de mim mesmo.” Jean\
+      \ Paul Sartre"
+    B: "“Ter fé é assinar uma folha em branco e deixar que Deus nela escreva o que\
+      \ quiser.” Santo Agostinho"
+    C: "“Quem não tem medo da vida também não tem medo da morte.” Arthur Schopenhauer"
+    D: "“Não me pergunte quem sou eu e não me diga para permanecer o mesmo.” Michel\
+      \ Foucault"
+    E: "“O homem, em seu orgulho, criou a Deus a sua imagem e semelhança.” Friedrich\
+      \ Nietzsche"
+  correct_answer: B
