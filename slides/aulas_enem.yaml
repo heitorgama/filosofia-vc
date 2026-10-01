@@ -1,0 +1,31 @@
+- id: 1
+  titulo: "Origens da filosofia"
+  questoes: [37, 33, 36, 17, 1, 76]
+
+- id: 2
+  titulo: "A filosofia na *pólis*"
+  questoes: [10, 38, 20, 24, 27]
+
+- id: 3
+  titulo: "O idealismo de Platão"
+  questoes: [19, 31, 44, 45, 91]
+
+- id: 4
+  titulo: "Aristotelismo e Helenismo"
+  questoes: [2, 14, 15, 29, 35, 46, 47, 48, 49, 50, 51, 52, 53, 54, 59, 67, 71, 89]
+
+- id: 5
+  titulo: "Fé e Razão"
+  questoes: [23, 32, 43, 55, 56, 61, 82, 96]
+
+- id: 6
+  titulo: "Modernidade: Metafísica"
+  questoes: [84, 62, 92, 95, 96]
+
+- id: 7
+  titulo: "Modernidade: Epistemologia"
+  questoes: [8, 10, 72, 97, 98]
+
+- id: 8
+  titulo: "Modernidade: Política"
+  questoes: [21, 77, 83, 26]
