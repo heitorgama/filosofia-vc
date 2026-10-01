@@ -20,6 +20,12 @@
     D: "raciocínio argumentativo."
     E: "crítica à individualidade."
   correct_answer: B
+  comments:
+    A: "O texto não trata de premissas ou de encadeamento lógico; é uma descrição poética da relação entre alma e corpo."
+    B: "O texto separa alma e corpo como duas realidades distintas (a alma 'escapa' do corpo e sobrevive a ele), o que caracteriza o pensamento dicotômico, típico da metafísica clássica (Platão, Descartes)."
+    C: "O foco está na alma e no corpo do sujeito, e não na contemplação da natureza."
+    D: "Não há uma argumentação com premissas e conclusão; o trecho é descritivo e literário."
+    E: "O autor não critica a individualidade: ao contrário, o eu celebra a própria alma e o próprio corpo."
 
 - id: 2
   test: enem_2024
@@ -55,6 +61,12 @@
     D: "aperfeiçoamento das condutas humanas."
     E: "conhecimento das epistemes verdadeiras."
   correct_answer: D
+  comments:
+    A: "A teoria das formas essenciais é platônica; Aristóteles a critica e não a usa para explicar a prática das virtudes."
+    B: "Identificar princípios racionais é uma atividade teórica; os textos falam de virtude moral e prudência, isto é, de ação prática."
+    C: "As técnicas retóricas não são mencionadas nem são o meio da virtude nos textos."
+    D: "Para Aristóteles, a excelência (arete) é tirar de si o melhor, por meio da deliberação e do hábito; ou seja, a virtude se realiza pelo aperfeiçoamento das condutas humanas."
+    E: "As epistemes (saberes teóricos) não são a base da ação virtuosa; esta depende da prudência (phronesis), saber prático."
 
 - id: 3
   test: enem_2024
@@ -80,6 +92,12 @@
     D: "pressuposição existencial."
     E: "objetividade do conhecimento."
   correct_answer: B
+  comments:
+    A: "A personagem não enfrenta um dilema moral; sua reflexão é sobre o tempo e a vida."
+    B: "Saber que nunca envelhecerá e que não verá o oceano de novo expressa a consciência da finitude humana, tema central da filosofia contemporânea (existencialismo)."
+    C: "O texto não discute os limites da linguagem para expressar a experiência."
+    D: "Não há questionamento sobre os pressupostos da existência, mas sobre seu caráter limitado no tempo."
+    E: "O texto não trata da possibilidade de conhecer objetivamente a realidade."
 
 - id: 4
   test: enem_2024
@@ -113,6 +131,12 @@
     D: "princípio constitutivo da ontologia."
     E: "domínio reflexivo da estética."
   correct_answer: A
+  comments:
+    A: "Quine critica a distinção entre enunciados analíticos e sintéticos, e Carnap defende que só têm sentido os enunciados verificáveis pela experiência. Ambos discutem o que dá significado à linguagem, mas divergem sobre isso."
+    B: "Nenhum dos textos trata fundamentos da moral."
+    C: "Apenas o Texto II (Carnap) faz referência à metafísica, de modo indireto; o Texto I (Quine) discute o significado dos enunciados, não o conteúdo da metafísica."
+    D: "A ontologia (estudo do ser) não é o ponto de divergência entre os autores."
+    E: "Não há discussão sobre arte ou estética."
 
 - id: 5
   test: enem_2024
@@ -141,6 +165,12 @@
     D: "censurar cronistas e coibir o patrocínio editorial."
     E: "integrar artistas e ampliar o comércio urbano."
   correct_answer: A
+  comments:
+    A: "Salões (para os filósofos do Alto Iluminismo, ligados à elite) e cafés (abertos a todos) eram espaços diferentes para pensadores de diferentes posições sociais, e ambos serviam como espaços públicos de circulação de ideias."
+    B: "Os salões buscavam a aproximação com os poderosos, e não a perseguição à nobreza; o texto também não fala de apoio a revolucionários."
+    C: "O texto não menciona exclusão de poetisas ou de mulheres."
+    D: "Eram espaços de debate, e não de censura; o texto não fala em coibir patrocínio editorial."
+    E: "O texto não trata de comércio urbano nem de integração de artistas."
 
 - id: 6
   test: enem_2024
@@ -166,6 +196,12 @@
     D: "Uniformidade de opiniões."
     E: "Pluralidade de interações."
   correct_answer: E
+  comments:
+    A: "O rizoma é justamente o oposto de uma estrutura fixa: conecta qualquer ponto a qualquer outro."
+    B: "A lógica binária é típica das árvores e raízes (estrutura hierárquica em que cada ponto se divide em dois); o rizoma a rejeita."
+    C: "O rizoma não tem centro, general nem autômato central; portanto, não há controle homogêneo."
+    D: "A ausência de centro e de hierarquia favorece a diversidade, e não a uniformidade de opiniões."
+    E: "O rizoma é uma rede descentralizada e não hierárquica em que múltiplos pontos se conectam livremente, o que se relaciona à pluralidade de interações da cultura contemporânea (como na internet)."
 
 - id: 7
   test: enem_2024
@@ -189,6 +225,12 @@
     D: "Secularização inautêntica."
     E: "Raciocínio consequencialista."
   correct_answer: B
+  comments:
+    A: "A doutrina teleológica avalia a ação pelos fins ou propósitos; a regra de ouro não trata de finalidades, mas de reciprocidade."
+    B: "O imperativo categórico de Kant manda agir segundo uma máxima que possa valer como lei universal; a regra de ouro expressa essa ideia de universalização e reciprocidade."
+    C: "O utilitarismo avalia as ações pela maximização da felicidade coletiva, e não pela reciprocidade."
+    D: "Não há relação com secularização; a regra de ouro aparece em várias tradições religiosas e seculares."
+    E: "O consequencialismo julga as ações pelos seus resultados; a regra de ouro parte de um princípio que independe das consequências."
 
 - id: 8
   test: enem_2024
@@ -214,6 +256,12 @@
     D: "Demonstrativo, porque encadeia premissas e extrai conclusões indubitáveis."
     E: "Analógico, porque compara diferentes situações e detecta elementos semelhantes."
   correct_answer: C
+  comments:
+    A: "O peru não recomenda nenhuma ação; apenas formula uma conclusão a partir de observações."
+    B: "O raciocínio do peru não é absoluto: ele observa em diversas circunstâncias e generaliza, o que é passível de refutação (como a véspera de Natal)."
+    C: "O peru parte de várias observações particulares (ser alimentado às 9h em muitos dias) e infere uma lei geral ('sempre às 9h'). É o raciocínio indutivo, tema central em Bacon e Hume."
+    D: "O raciocínio demonstrativo (dedutivo) leva a conclusões necessárias a partir de premissas; a indução não garante a certeza da conclusão."
+    E: "Não há comparação entre casos diferentes por semelhança, mas generalização a partir de repetições."
 
 - id: 9
   test: enem_2024
@@ -237,6 +285,12 @@
     D: "isonomia remanescente da geração de riquezas."
     E: "produtividade vinculada ao fortalecimento da autonomia."
   correct_answer: C
+  comments:
+    A: "O texto não trata de obsolescência tecnológica."
+    B: "O texto não fala de administração de conflitos."
+    C: "O capitalismo tenta reduzir o trabalhador a mera peça de máquina (desumanizar), mas depende da atividade humana para funcionar. Essa contradição decorre da alienação gerada pela organização do trabalho."
+    D: "O texto não trata de igualdade na distribuição de riqueza."
+    E: "O sistema tenta reduzir a autonomia do trabalhador, e não fortalecê-la."
 
 - id: 10
   test: enem_2025
@@ -259,6 +313,12 @@
     D: "paradigma da racionalidade, alinhado ao modelo cartesiano de método."
     E: "âmbito da persuasão, análogo às críticas platônicas aos sofistas."
   correct_answer: E
+  comments:
+    A: "Kant trata da objetividade do conhecimento; Hume critica a eloquência por apelar à imaginação e aos afetos, e não por uma proposta kantiana."
+    B: "Os Universais medievais são um debate sobre conceitos gerais; não têm relação com o tema da eloquência."
+    C: "Na lógica dos Analíticos de Aristóteles, a razão é central; Hume diz que a eloquência deixa pouco lugar à razão."
+    D: "O método cartesiano se baseia na razão e na evidência; a eloquência criticada por Hume age pela imaginação e pelos afetos."
+    E: "Hume associa a eloquência à persuasão que subjuga o entendimento por meio de emoções, o que se aproxima da crítica de Platão aos sofistas, mestres de retórica que persuadem sem se comprometer com a verdade."
 
 - id: 11
   test: enem_2025
@@ -281,6 +341,12 @@
     D: "Manifestações do movimento sindical."
     E: "Mobilizações de agremiações estudantis."
   correct_answer: A
+  comments:
+    A: "Para Derrida, a justiça exige decisões que não se apoiam apenas nas regras do direito; a desobediência civil viola a lei, mas em nome de um ideal de justiça."
+    B: "As repressões do aparato estatal são a aplicação (nem sempre justa) do direito, e não um exemplo de justiça contra a norma."
+    C: "Conflitos entre continentes não têm relação com o argumento do texto."
+    D: "O movimento sindical, em geral, atua dentro da lei e não exemplifica a divergência entre direito e justiça."
+    E: "As mobilizações estudantis não são necessariamente contrárias ao ordenamento jurídico."
 
 - id: 12
   test: enem_2025
@@ -305,6 +371,12 @@
     D: "Capilarização das práticas de controle."
     E: "Espetacularização das medidas de penitência."
   correct_answer: D
+  comments:
+    A: "Para Foucault, a disciplina substitui o suplício (castigo espetacular e violento), e não o amplia."
+    B: "O texto trata de técnicas disseminadas em várias instituições, e não de processos judiciais."
+    C: "O texto não fala de dissolução de distinções de nobreza."
+    D: "A 'anatomia política' aparece de forma difusa (colégios, escolas, hospitais, exército), em microprocessos que se espalham por toda a sociedade: é a capilarização do controle."
+    E: "A disciplina moderna é discreta e cotidiana, ao contrário do espetáculo das punições públicas."
 
 - id: 13
   test: enem_2025
@@ -327,6 +399,12 @@
     D: "percepção de responsabilidade ética."
     E: "conquista do reconhecimento público."
   correct_answer: D
+  comments:
+    A: "O texto não trata de poder político."
+    B: "O texto distingue o que queremos fazer do que sentimos que devemos fazer, isto é, um dever moral, e não simples satisfação pessoal."
+    C: "Não há defesa de monopólio comercial."
+    D: "Para Smith, comerciantes agem motivados também por empatia e julgamento moral, isto é, por senso de responsabilidade ética."
+    E: "O texto se baseia na moral, e não no reconhecimento público."
 
 - id: 14
   test: enem_2025
@@ -350,6 +428,12 @@
     D: "plutocracia, tecnocracia e demagogia."
     E: "monarquia, aristocracia e democracia."
   correct_answer: E
+  comments:
+    A: "Tirania e oligarquia são, para Aristóteles, desvios (governos em benefício de uma parte)."
+    B: "Burocracia, autarquia e império não são as formas de governo do trecho."
+    C: "Ditadura, autocracia e anarquia não correspondem à classificação de Aristóteles (governo de um, de poucos ou de todos)."
+    D: "Plutocracia, tecnocracia e demagogia não são as formas de governo do texto."
+    E: "Governo de um (monarquia), de poucos (aristocracia) e de todos (democracia, ou politeia) voltados ao bem comum. Se visam apenas ao benefício de uma parte, são desvios."
 
 - id: 15
   test: enem_2025
@@ -376,6 +460,12 @@
     D: "movimento antiespecista."
     E: "comportamento pragmático."
   correct_answer: C
+  comments:
+    A: "O estado eudaimônico (felicidade plena, em Aristóteles) refere-se à realização do próprio indivíduo, e não à luta pelos outros."
+    B: "O hedonismo busca o prazer; o texto fala em lutar pelo bem dos outros."
+    C: "Querer ser lutadora, alguém que luta pelo bem dos outros, defender os acusados e sentir as injustiças sociais é um comportamento altruísta."
+    D: "Embora a autora seja chamada de 'protetora dos animais', o foco do texto está nas pessoas e na justiça social, e não no antiespecismo."
+    E: "O pragmatismo avalia ideias pela utilidade prática, e o texto trata de valores morais."
 
 - id: 16
   test: enem_2025
@@ -399,6 +489,12 @@
     D: "Realidade unidimensional."
     E: "Desenvolvimento tecnológico."
   correct_answer: D
+  comments:
+    A: "Gestão integrada não aparece como característica da sociedade descrita."
+    B: "O texto não trata de relativismo moral."
+    C: "O texto diz que a oposição perde sua função crítica, e não que a desobediência civil seja característica da sociedade."
+    D: "Para Marcuse, a sociedade industrial neutraliza o pensamento crítico e a oposição, reduzindo tudo a uma única dimensão (a do sistema)."
+    E: "O texto fala de padrão de vida crescente e organização social, mas não trata do desenvolvimento tecnológico como característica central."
 
 - id: 17
   test: enem_2025
@@ -426,6 +522,12 @@
     D: "distribuição dicotômica do cosmos."
     E: "desordem incontornável das coisas."
   correct_answer: D
+  comments:
+    A: "Para Heráclito, tudo muda; nada é imperecível."
+    B: "Não há ideia de degradação material da natureza nos fragmentos."
+    C: "Heráclito defende o devir (tudo flui), e não a imobilidade."
+    D: "Os fragmentos mostram pares de opostos (dia-noite, guerra-paz) que constituem a unidade do cosmos: é a distribuição dicotômica do universo."
+    E: "Os opostos, para Heráclito, estão em harmonia; não há desordem incontornável."
 
 - id: 18
   test: enem_2025
@@ -450,6 +552,12 @@
     D: "Criação de parâmetros para reconhecer uma prescrição."
     E: "Elaboração de convenções para referendar um costume."
   correct_answer: A
+  comments:
+    A: "Para Bentham (utilitarismo), a punição é apenas um meio para atingir um fim: a felicidade, que consiste em prazer e ausência de dor."
+    B: "Impor regras para estabelecer um dever é uma perspectiva deontológica (Kant), e não a de Bentham."
+    C: "O texto não trata de fundamentar direitos por princípios."
+    D: "O texto não trata de criar parâmetros para reconhecer prescrições."
+    E: "O texto não fala de convenções nem de costumes."
 
 - id: 19
   test: enem_2025
@@ -473,6 +581,12 @@
     D: "moralidade e virtudes cardeais."
     E: "ética e exercício do poder."
   correct_answer: E
+  comments:
+    A: "O texto não trata de teoria do conhecimento ou de relações entre sujeitos."
+    B: "O texto não trata de mitologia nem de cosmogonia."
+    C: "Platão critica a retórica dos sofistas; a cidade justa é governada pelos filósofos, e não pelos retóricos."
+    D: "Embora as virtudes cardeais façam parte da teoria platônica, o texto trata de quem governa, e não delas."
+    E: "Na cidade ideal de Platão, quem governa deve ser o filósofo, que conhece o Bem; assim, ética (conhecimento do bem) e exercício do poder são indissociáveis."
 
 - id: 20
   test: enem_2025_belem
@@ -496,6 +610,12 @@
     D: "imposição constritiva dos argumentos."
     E: "obediência aos mecanismos de repressão."
   correct_answer: B
+  comments:
+    A: "Arendt não critica a força das leis em si; o texto se refere ao poder despótico do chefe da casa."
+    B: "O poder despótico (do chefe da família) que ordena sem persuadir se baseia no arbítrio de um só; Arendt critica as tendências políticas que reproduzem esse modelo."
+    C: "O texto não trata de monitoramento dos cidadãos."
+    D: "Para os gregos, a persuasão por argumentos é característica da vida política, e não uma forma de violência."
+    E: "Obediência a mecanismos de repressão é consequência, e não a base criticada por Arendt no trecho."
 
 - id: 21
   test: enem_2025_belem
@@ -519,6 +639,12 @@
     D: "Relativizar os valores morais no escopo das tradições."
     E: "Aprimorar o espírito bélico para a conquista de territórios."
   correct_answer: B
+  comments:
+    A: "O texto não trata da aspiração de poder dos súditos."
+    B: "Para Maquiavel, a fortuna não domina tudo: o livre-arbítrio (virtù) permite ao governante agir para enfrentar a incerteza e reduzir o poder do acaso."
+    C: "O texto não trata do diálogo como meio de estabilidade."
+    D: "Maquiavel não relativiza valores morais no trecho, que trata da fortuna e da prudência."
+    E: "O trecho não se refere a guerras nem a conquista de territórios."
 
 - id: 22
   test: enem_2025_belem
@@ -542,6 +668,12 @@
     D: "vínculo religioso."
     E: "valor cultural."
   correct_answer: C
+  comments:
+    A: "O texto fala em maximizar a satisfação pessoal, e não em aprimoramento moral."
+    B: "O texto não trata de posição política."
+    C: "Ao preferir objetos visíveis que dão satisfação, o homo economicus busca status e distinção social, isto é, capital simbólico (o valor social dos objetos)."
+    D: "O texto não trata de religião."
+    E: "O foco está no consumo e na satisfação individual, e não no valor cultural."
 
 - id: 23
   test: enem_2025_belem
@@ -564,6 +696,12 @@
     D: "realização pessoal mediante prosperidade advinda do trabalho."
     E: "busca pela moralidade cristã determinada pelo imperativo categórico."
   correct_answer: C
+  comments:
+    A: "O texto não trata de política."
+    B: "A ideia de autonomia como libertação é moderna; para Agostinho, o ser humano é dependente de Deus."
+    C: "Para Agostinho, o coração humano só encontra descanso e felicidade plena em Deus; por isso, depende da ordem divina."
+    D: "O trecho não trata do trabalho nem de prosperidade."
+    E: "O imperativo categórico é de Kant (séc. XVIII), e não de Agostinho."
 
 - id: 24
   test: enem_2025_belem
@@ -588,6 +726,12 @@
     D: "aristocratas ocupam a classe média na estratificação social."
     E: "governos hereditários dispensam a necessidade de eleições."
   correct_answer: C
+  comments:
+    A: "Patriarcas regionais são figuras das comunidades familiares, que o texto contrasta com a polis."
+    B: "Interesses setorizados não são a característica destacada do modelo de deliberação pública da polis."
+    C: "Na polis democrática, ninguém possui o poder a priori: ele é disputado publicamente. Nas democracias atuais, isso equivale à legitimidade dos representantes eleitos pela vontade popular."
+    D: "O texto não trata de estratificação social."
+    E: "Governos hereditários são o oposto da polis, em que ninguém detém o poder a priori."
 
 - id: 25
   test: enem_2025_belem
@@ -612,6 +756,12 @@
     D: "dispersão e desorientação pessoal."
     E: "produtividade e criatividade laboral."
   correct_answer: D
+  comments:
+    A: "O texto não trata de polarização social."
+    B: "O texto sugere o contrário: o excesso de estímulos submerge o sujeito, e não o liberta."
+    C: "A informação, segundo o texto, não organiza nem controla o tempo, mas o submerge em um 'turbilhão de atualidade'."
+    D: "Para Han, as informações vivem do estímulo da surpresa e não dão apoio à vida: isso gera dispersão e desorientação pessoal."
+    E: "O texto não fala em produtividade ou criatividade no trabalho."
 
 - id: 26
   test: enem_2025_belem
@@ -647,6 +797,12 @@
     D: "estima à propriedade."
     E: "vontade de poder."
   correct_answer: C
+  comments:
+    A: "A defesa contra o mal aparece em Rousseau, mas a autopreservação não é o traço que o enunciado destaca como comum aos dois autores. Em Hobbes, aliás, ela leva à guerra, e em Rousseau é moderada pela piedade natural."
+    B: "Inocência é traço só do texto de Rousseau; em Hobbes, os homens se tornam inimigos."
+    C: "Para Hobbes, a diferença entre os homens não é grande o bastante para que um tenha direito a algo que outro não possa reivindicar; para Rousseau, o homem natural ainda não conhece as desigualdades da vida civil. Nos dois, a igualdade é uma condição do estado de natureza."
+    D: "Em Rousseau, a propriedade privada surge com a sociedade civil, e não no estado de natureza."
+    E: "A vontade de poder é um conceito de Nietzsche e não está nos textos."
 
 - id: 27
   test: enem_2025_belem
@@ -671,6 +827,12 @@
     D: "absolutismo teocrático."
     E: "participação popular."
   correct_answer: E
+  comments:
+    A: "Mandato coletivo é uma ideia de representação política, e o texto se refere à decisão direta dos cidadãos."
+    B: "Autocracia religiosa é governo de um só, o que o texto contrasta com a experiência grega."
+    C: "Ditadura personalista concentra o poder em uma pessoa, oposto ao que o texto descreve."
+    D: "Absolutismo teocrático é o poder do rei legitimado por Deus, e não o dos cidadãos."
+    E: "Em algumas cidades gregas, os cidadãos decidiam os rumos da sociedade, o que caracteriza a democracia como governo de participação popular."
 
 - id: 28
   test: enem_2025_belem
@@ -694,6 +856,12 @@
     D: "Autoritária, conduzida pela imposição coercitiva."
     E: "Carismática, motivada pela fascinação pessoal."
   correct_answer: C
+  comments:
+    A: "O texto fala do poder que age sobre o corpo, e não sobre a consciência (ideologia)."
+    B: "O texto não trata da mídia nem de manipulação de emoções."
+    C: "Para Foucault, o poder disciplinar atua sobre o corpo (sua utilidade, docilidade e submissão) por meio de técnicas de distribuição no espaço e no tempo, sem depender da violência."
+    D: "O texto diz que os métodos são 'suaves', sem castigos violentos; a disciplina não é a imposição coercitiva direta."
+    E: "Carisma é fascínio por uma pessoa, o que o texto não menciona."
 
 - id: 29
   test: enem_2025_belem
@@ -720,6 +888,12 @@
     D: "filosófica, voltada para a delimitação de opiniões."
     E: "social, voltada para a criação da arte."
   correct_answer: B
+  comments:
+    A: "O discernimento (phronesis) é um saber prático, e não teórico."
+    B: "O discernimento é uma qualidade da razão prática, isto é, a capacidade de deliberar bem e orientar as escolhas para uma vida boa."
+    C: "O texto trata de deliberar sobre o que é bom para viver bem, e não de desenvolver projetos."
+    D: "O texto não trata de delimitar opiniões."
+    E: "Arte e vida social não são o tema do trecho."
 
 - id: 30
   test: enem_2025_2apl
@@ -750,6 +924,12 @@
     D: "compreensão da totalidade universal."
     E: "superação do modelo racionalista."
   correct_answer: D
+  comments:
+    A: "Jonas afirma que uma ética que não se baseia mais na divindade precisa de outro fundamento."
+    B: "O autor quer evitar o subjetivismo, ou seja, uma ética baseada apenas em interesses individuais."
+    C: "O pragmatismo utilitarista não é mencionado."
+    D: "Uma ética fundada na 'amplitude do ser', na natureza das coisas, e não apenas no ser humano, depende da compreensão da totalidade do universo."
+    E: "O texto não propõe superar o racionalismo; critica a separação moderna entre sujeito e objeto."
 
 - id: 31
   test: enem_2025_2apl
@@ -779,6 +959,12 @@
     D: "técnicas da produção agrícola grega."
     E: "dessacralização da cosmologia clássica."
   correct_answer: C
+  comments:
+    A: "O texto não trata do monoteísmo antigo."
+    B: "Não se trata de leis da botânica, mas de uma comparação usada para pensar a política."
+    C: "Platão usa a diferença entre plantas (autônomas) e animais (comandados) para argumentar que os seres humanos precisam ser governados pela política, ou seja, para explicar a constituição da sociedade ateniense."
+    D: "O texto não trata da produção agrícola."
+    E: "O texto mantém o demiurgo, criador de todas as coisas; portanto, não há dessacralização da cosmologia."
 
 - id: 32
   test: enem_2025_belem
@@ -802,6 +988,12 @@
     D: "conformação da natureza humana perante os acontecimentos no mundo."
     E: "autonomia do indivíduo a despeito das necessidades inerentes à condição humana."
   correct_answer: C
+  comments:
+    A: "O texto não fala de cooperação entre o saber divino e o humano."
+    B: "Agostinho não afirma que a liberdade humana prevalece sobre Deus, mas que é compatível com o conhecimento prévio divino."
+    C: "O conhecimento divino, que vê todos os atos futuros, precede o agir humano sem anular a liberdade, pois Deus prevê justamente o ato livre."
+    D: "O texto não trata de conformação da natureza humana."
+    E: "Agostinho não fala em autonomia contra necessidades, mas em compatibilizar liberdade e presciência divina."
 
 - id: 33
   test: enem_2018
@@ -827,6 +1019,12 @@
     D: "fundamenta as paixões humanas."
     E: "corresponde à explicação mitológica."
   correct_answer: C
+  comments:
+    A: "A exaltação da filosofia não explica por que o texto trata da arché."
+    B: "Os quatro elementos são corpóreos e pertencem ao mundo sensível."
+    C: "Explicar a origem e a ordem do universo por elementos e princípios (Amor e Ódio) é fazer cosmogonia, preocupação típica dos pré-socráticos com a arché."
+    D: "Amor e Ódio são princípios cósmicos, e não paixões humanas."
+    E: "Empédocles busca explicação racional e física, e não mitológica."
 
 - id: 34
   test: enem_2012
@@ -865,6 +1063,12 @@
     D: "postulavam um princípio originário para o mundo."
     E: "defendiam que Deus é o princípio de todas as coisas."
   correct_answer: D
+  comments:
+    A: "Basílio Magno é um pensador cristão e sua explicação parte da fé, e não das ciências da natureza."
+    B: "Apenas Basílio critica outras teorias; Anaxímenes não refuta filósofos da religião."
+    C: "Anaxímenes busca uma explicação racional da natureza, distinta dos mitos; e Basílio se baseia na doutrina cristã."
+    D: "Anaxímenes propõe o ar como princípio (arché) de tudo; Basílio propõe Deus. Em ambos, há a postulação de um princípio originário do mundo."
+    E: "Só Basílio defende que Deus é o princípio de todas as coisas; Anaxímenes defende o ar."
 
 - id: 35
   test: enem_2014
@@ -890,6 +1094,12 @@
     D: "refletir sobre os valores e as normas dadas pela divindade."
     E: "defender a indiferença e a impossibilidade de se atingir o saber."
   correct_answer: A
+  comments:
+    A: "Para Epicuro, a felicidade vem do prazer moderado: satisfazer os desejos naturais e necessários e evitar os vãos, que geram dor."
+    B: "O epicurismo valoriza a vida tranquila no Jardim, afastada das obrigações públicas, e não os deveres sociais."
+    C: "Aceitar o sofrimento com resignação é atitude estoica; Epicuro busca evitar a dor."
+    D: "Para Epicuro, os deuses não interferem nas vidas humanas, e as normas não vêm da divindade."
+    E: "Defender a impossibilidade do saber e a indiferença é posição dos céticos, e não de Epicuro."
 
 - id: 36
   test: enem_2020_2apl
@@ -914,6 +1124,12 @@
     D: "elaboração poética sobre os mitos e as narrativas cosmogônicas."
     E: "explicação racional sobre a origem e a transformação da physis."
   correct_answer: E
+  comments:
+    A: "A discussão sobre o lógos e a fundamentação da metafísica é posterior a Tales."
+    B: "O fragmento não desenvolve uma teoria crítica sobre método científico."
+    C: "Tales busca uma explicação natural, e não religiosa."
+    D: "O pensamento pré-socrático se afasta dos mitos e das narrativas poéticas."
+    E: "Tales explica a vida e a transformação das coisas por um princípio natural (a água/umidade), sem recorrer aos deuses, o que caracteriza a explicação racional da physis."
 
 - id: 37
   test: enem_2016
@@ -943,6 +1159,12 @@
     D: "habilidades da retórica sofística."
     E: "verdades do mundo sensível."
   correct_answer: C
+  comments:
+    A: "O pensamento sistemático (com método e sistema) é posterior aos pré-socráticos."
+    B: "Os fragmentos rompem com a explicação mítica."
+    C: "Heráclito afirma que tudo se transforma (devir), enquanto Parmênides afirma que o ser é uno e imutável. É uma oposição sobre a natureza do ser, ou seja, uma discussão ontológica."
+    D: "A retórica sofística é posterior e não é o tema dos fragmentos."
+    E: "Parmênides desconfia dos sentidos e do mundo sensível, e a oposição se dá em torno do ser."
 
 - id: 38
   test: enem_2023
@@ -967,6 +1189,12 @@
     D: "investigação empírica da physis."
     E: "expressão pictográfica da pólis."
   correct_answer: B
+  comments:
+    A: "Elaborar conceitos é o esforço de Sócrates e Platão, e Brás Cubas apenas decorou fórmulas."
+    B: "O personagem usa fórmulas e ornamentos verbais para conversar (a 'casca'), sem compreensão profunda, como os sofistas, que valorizavam a persuasão e a aparência do discurso."
+    C: "Os rapsodos recitavam poemas épicos; o texto não trata disso."
+    D: "A investigação da physis é característica dos pré-socráticos."
+    E: "A 'expressão pictográfica da pólis' não tem relação com o texto."
 
 - id: 39
   test: enem_2017
@@ -991,6 +1219,12 @@
     D: "valorização da argumentação retórica. "
     E: "investigação dos fundamentos da natureza."
   correct_answer: B
+  comments:
+    A: "Sócrates questiona as opiniões tradicionais, e não as contempla."
+    B: "Sócrates conversava para levar o interlocutor a examinar-se e a refletir por meio de perguntas e respostas, isto é, pelo método dialético."
+    C: "Sócrates busca o saber verdadeiro (definição das virtudes), e não o relativiza, como faziam os sofistas."
+    D: "Valorizar a retórica é característico dos sofistas; Sócrates busca a verdade."
+    E: "Sócrates desloca a filosofia da natureza para o estudo do ser humano."
 
 - id: 40
   test: enem_2019_2apl
@@ -1014,6 +1248,12 @@
     D: "Debater visando a aporia."
     E: "Desprezar a virtude alheia."
   correct_answer: A
+  comments:
+    A: "A pergunta 'Tu te ocupas de ti?' expressa o princípio socrático do cuidado de si e do exame da própria vida ('vida não examinada não vale a pena ser vivida')."
+    B: "A ironia é uma técnica de Sócrates, mas o fragmento evoca o cuidado de si."
+    C: "Sofismar é característica dos sofistas, opostos a Sócrates."
+    D: "A aporia (impasse) é um efeito do diálogo, mas não é o princípio moral evocado no fragmento."
+    E: "Sócrates cuida dos outros e valoriza a virtude, o oposto de desprezá-la."
 
 - id: 41
   test: enem_2015
@@ -1038,6 +1278,12 @@
     D: "A ambição de expor, de maneira metódica, as diferenças entre as coisas."
     E: "A tentativa de justificar, a partir de elementos empíricos, o que existe no real."
   correct_answer: C
+  comments:
+    A: "Para Nietzsche, não se trata de transformar elementos sensíveis em verdades racionais, mas de propor uma origem comum das coisas."
+    B: "O texto diz que a proposição de Tales é feita sem imagem e fabulação, e não com metáforas."
+    C: "Nietzsche destaca que Tales busca, de forma racional (sem mito), a origem de todas as coisas (a água), o que marca o surgimento da filosofia."
+    D: "O texto enfatiza a unidade ('Tudo é um'), e não as diferenças entre as coisas."
+    E: "A explicação de Tales é racional e especulativa, e não empírica."
 
 - id: 42
   test: enem_2015
@@ -1061,6 +1307,12 @@
     D: "convenções sociais resultantes de interesses humanos contingentes."
     E: "sentimentos experimentados diante de determinadas atitudes humanas."
   correct_answer: D
+  comments:
+    A: "Para Trasímaco, a moral não vem da natureza biológica, mas das regras sociais."
+    B: "Verdades objetivas anteriores aos interesses sociais é posição de Sócrates e Platão, que Trasímaco nega."
+    C: "Trasímaco não recorre a mandamentos divinos."
+    D: "Para Trasímaco, as regras de justiça são invenções humanas, convenções criadas segundo os interesses de quem governa."
+    E: "Trasímaco não fundamenta a justiça em sentimentos, e sim em convenções."
 
 - id: 43
   test: enem_2019_2apl
@@ -1084,6 +1336,12 @@
     D: "paradigma de vida feliz de Agostinho."
     E: "conceito de bem comum de Aristóteles."
   correct_answer: E
+  comments:
+    A: "O idealismo de Platão não fundamenta a visão de Tomás sobre a lei e a comunidade política."
+    B: "Tomás não defende o conformismo estoico."
+    C: "Não há relação com o misticismo pitagórico."
+    D: "Agostinho enfatiza a felicidade em Deus e a cidade de Deus; a lei como exigência da razão e bem da comunidade vem de Aristóteles."
+    E: "Tomás de Aquino, leitor de Aristóteles, retoma a ideia de que a lei deve promover o bem comum, formulada pela razão e emanada da comunidade."
 
 - id: 44
   test: enem_2015_2apl
@@ -1111,6 +1369,12 @@
     D: "sistema político elitista, provindo do surgimento da pólis e da democracia ateniense."
     E: "teoria do conhecimento, expondo a passagem do mundo ilusório para o mundo das ideias."
   correct_answer: E
+  comments:
+    A: "A alegoria não descreve as origens do homem primitivo."
+    B: "A alegoria não critica o sistema carcerário ateniense."
+    C: "Não trata de dramaturgia nem de vida artística."
+    D: "Não é uma descrição do sistema político."
+    E: "A alegoria da caverna representa a passagem do mundo das sombras (aparências sensíveis) para o mundo das ideias (conhecimento verdadeiro), tema central da teoria do conhecimento de Platão."
 
 - id: 45
   test: enem_2021
@@ -1131,6 +1395,12 @@
     D: "explicação fisicalista"
     E: "suspensão judicativa "
   correct_answer: B
+  comments:
+    A: "O trecho é um diálogo oral, e não uma carta."
+    B: "Sócrates faz perguntas para que Mênon defina a virtude, conduzindo o interlocutor por perguntas e respostas: é o método dialético."
+    C: "A linguagem trágica é do teatro, e não do diálogo filosófico."
+    D: "A explicação fisicalista (pela natureza) é típica dos pré-socráticos."
+    E: "A suspensão do juízo é atitude cética; Sócrates busca a definição."
 
 - id: 46
   test: enem_2020
@@ -1158,6 +1428,12 @@
     D: "Democracia e sociedade, pois se referem a relações sociais."
     E: "Geração e corrupção, pois abarcam o campo da physis."
   correct_answer: A
+  comments:
+    A: "Para Aristóteles, a cidade é uma comunidade que visa ao bem supremo, que é a eudaimonia (felicidade). Ética e política se associam, pois a ética trata da vida boa e a política organiza a comunidade para alcançá-la."
+    B: "O fragmento não trata de retórica nem de linguagem."
+    C: "A metafísica e a ontologia não são o tema do trecho."
+    D: "O fragmento fala de comunidade e do bem, e não da democracia."
+    E: "Geração e corrupção pertencem ao estudo da natureza (physis), e não ao trecho sobre a cidade."
 
 - id: 47
   test: enem_2017_2apl
@@ -1187,6 +1463,12 @@
     D: "questionar o saber científico com veemência."
     E: "considerar as convenções sociais com desprezo."
   correct_answer: C
+  comments:
+    A: "Explicar o mundo com números é característica dos pitagóricos."
+    B: "Identificar felicidade com prazer é doutrina epicurista."
+    C: "Epicteto, estoico, recomenda aceitar perdas (filho, mulher, propriedade) como 'restituições', com serenidade e sem se perturbar com o que não depende de nós."
+    D: "O trecho não questiona o saber científico."
+    E: "Desprezar as convenções é atitude dos cínicos."
 
 - id: 48
   test: enem_2017_2apl
@@ -1220,6 +1502,12 @@
     D: "intuição, pois ela é mais exata que o conhecimento científico."
     E: "prática de hábitos racionais, pois com ela se capta a verdade."
   correct_answer: D
+  comments:
+    A: "Opinião admite o falso, e os princípios são o fundamento do saber verdadeiro."
+    B: "O cálculo admite o falso, e os princípios não são demonstráveis por argumentos."
+    C: "O conhecimento científico é argumentativo (demonstrativo) e, por isso, não pode ter como objeto os princípios, que estão na base das demonstrações."
+    D: "Segundo o texto, nada é mais exato do que o conhecimento científico, exceto a intuição; como não há ciência dos princípios, estes pertencem ao domínio da intuição."
+    E: "A prática de hábitos racionais é uma categoria geral que inclui opinião e cálculo; o texto atribui os princípios especificamente à intuição."
 
 - id: 49
   test: enem_2022
@@ -1243,6 +1531,12 @@
     D: "exaltação do sofrimento."
     E: "moderação das paixões."
   correct_answer: E
+  comments:
+    A: "Sêneca não trata de disputas dialógicas."
+    B: "Rejeitar as convenções sociais é atitude dos cínicos."
+    C: "O texto atribui a alegria à filosofia, e não a uma inspiração religiosa."
+    D: "Sêneca não exalta o sofrimento: mostra que a filosofia permite manter a alegria e a firmeza diante da morte."
+    E: "Para os estoicos, a filosofia ensina a dominar as paixões, mantendo a serenidade mesmo diante da morte e da doença."
 
 - id: 50
   test: enem_2022
@@ -1274,6 +1568,12 @@
     D: "Os peripatéticos, empenhados na dinâmica do ensino."
     E: "Os poetas rapsodos, responsáveis pela narrativa do mito."
   correct_answer: E
+  comments:
+    A: "Os epicuristas surgem no período helenístico, séculos depois do nascimento da filosofia, e se afastam da vida pública."
+    B: "Os estoicos também são helenísticos: surgem quando a polis já estava em declínio."
+    C: "Os sofistas eram professores itinerantes que ensinavam a arte do discurso a cidadãos da polis democrática, onde o debate público era decisivo. Assim, fortaleceram o vínculo entre a vida da cidade e o pensamento racional."
+    D: "Os peripatéticos (escola de Aristóteles) são posteriores ao surgimento da polis e da filosofia."
+    E: "Os rapsodos recitavam poemas épicos e difundiam o mito, que é a forma de pensamento da qual a filosofia se distancia; não foram eles que aproximaram a polis do pensamento racional."
 
 - id: 51
   test: enem_2013
@@ -1301,6 +1601,12 @@
     D: "conhecimento de verdades imutáveis e perfeitas."
     E: "expressão do sucesso individual e reconhecimento público."
   correct_answer: C
+  comments:
+    A: "Aristóteles não identifica a felicidade com bens materiais ou títulos de nobreza."
+    B: "Não há ideia de ascese ou de plenitude espiritual no trecho."
+    C: "Para Aristóteles, a felicidade é o bem supremo, o fim para o qual todas as ações humanas se dirigem."
+    D: "O trecho fala de atividades excelentes, e não de conhecimento de verdades imutáveis (posição platônica)."
+    E: "A felicidade não é sucesso individual nem reconhecimento público."
 
 - id: 52
   test: enem_2015_2apl
@@ -1327,6 +1633,12 @@
     D: "referencial que o homem deve seguir para viver uma vida ativa."
     E: "mecanismo de aperfeiçoamento do trabalho por meio da experiência."
   correct_answer: C
+  comments:
+    A: "O texto não trata do estado de natureza (conceito moderno)."
+    B: "Para Aristóteles, o cidadão realiza sua virtude na vida política, e não no trabalho braçal."
+    C: "O trabalho braçal é associado ao escravo, cujo corpo forte serve ao trabalho servil, e o homem livre, ao contrário, dedica-se à vida do cidadão: o trabalho braçal exige força física e pouca racionalidade."
+    D: "O texto não apresenta o trabalho braçal como modelo."
+    E: "O texto não trata de aperfeiçoamento pela experiência."
 
 - id: 53
   test: enem_2017
@@ -1366,6 +1678,12 @@
     D: "a educação visa formar a consciência de cada pessoa para agir corretamente."
     E: "a democracia protege as atividades políticas necessárias para o bem comum."
   correct_answer: C
+  comments:
+    A: "Para Aristóteles, o bem é um fim comum, e não a soma de interesses individuais."
+    B: "O texto não menciona deuses nem fé."
+    C: "A política é a 'arte mestra': determina quais ciências devem ser estudadas e utiliza as demais, e sua finalidade abrange a das outras: o bem humano."
+    D: "A educação é regulada pela política, mas o texto não trata da formação da consciência individual."
+    E: "O texto não trata da democracia."
 
 - id: 54
   test: enem_2019_2apl
@@ -1397,6 +1715,12 @@
     D: "lógica e os princípios metafísicos."
     E: "razão e as verdades transcendentes."
   correct_answer: B
+  comments:
+    A: "As leis visam à vantagem comum, e não à vida privada."
+    B: "Para Aristóteles, as leis devem visar à vantagem comum e à felicidade da comunidade política, ou seja, à virtude e aos interesses públicos."
+    C: "O critério é a justiça e o bem comum, e não a utilidade pragmática."
+    D: "A lógica e os princípios metafísicos não são o fundamento da lei nesse trecho."
+    E: "Aristóteles não fundamenta a lei em verdades transcendentes."
 
 - id: 55
   test: enem_2015_2apl
@@ -1419,6 +1743,12 @@
     D: "por ser bom, Deus não pode criar o que lhe é oposto, o mal."
     E: "Deus se limita a administrar a dialética existente entre o bem e o mal."
   correct_answer: D
+  comments:
+    A: "Deus é eterno e anterior a tudo; não faz sentido o mal ser anterior a Ele."
+    B: "Afirmar que o mal é um princípio independente de Deus é a posição dos maniqueístas, que Agostinho combate."
+    C: "Para Agostinho, a matéria criada por Deus é boa."
+    D: "Deus é a suprema bondade e não pode criar o que é contrário à sua natureza; portanto, não é a origem do mal (que é ausência de bem)."
+    E: "Deus não administra uma dialética entre bem e mal, pois não há um princípio mau ao lado dele."
 
 - id: 56
   test: enem_2015
@@ -1446,6 +1776,12 @@
     D: "reformar a religião por meio do retorno à tradição helenística."
     E: "dissociar a relação política entre os poderes temporal e espiritual."
   correct_answer: C
+  comments:
+    A: "O trecho não trata de refrear movimentos religiosos."
+    B: "O texto defende um dirigente, e não a atuação da sociedade civil."
+    C: "Tomás argumenta que a multidão precisa de um dirigente (como o navio precisa do piloto) para atingir o fim comum. A monarquia une a sociedade em torno do bem comum."
+    D: "O trecho não trata de reformar a religião."
+    E: "O trecho não propõe separar poder temporal e espiritual."
 
 - id: 57
   test: enem_2025_2apl
@@ -1471,6 +1807,12 @@
     D: "exigir uma reparação efetiva pela dor causada."
     E: "evidenciar o caráter religioso da ação de desculpar."
   correct_answer: A
+  comments:
+    A: "Para Derrida, o perdão só é perdão quando se perdoa o imperdoável. Por isso, cabe à vítima uma exigência ética: perdoar o que não seria perdoável, sem esquecer e sem atenuar o mal."
+    B: "O perdão exige a memória viva do mal cometido e não isenta o ofensor de culpa."
+    C: "O texto diz que o perdão não é reconciliação nem restauração."
+    D: "A reparação seria uma troca ou cálculo, e não perdão."
+    E: "O texto não afirma que o perdão é essencialmente religioso."
 
 - id: 58
   test: enem_2025_2apl
@@ -1492,6 +1834,12 @@
     D: "Autoritária, conduzida pela imposição coercitiva."
     E: "Carismática, motivada pela fascinação pessoal."
   correct_answer: C
+  comments:
+    A: "O texto fala do poder que age sobre o corpo, e não sobre a consciência (ideologia)."
+    B: "O texto não trata da mídia nem de manipulação de emoções."
+    C: "Para Foucault, o poder disciplinar atua sobre o corpo (sua utilidade, docilidade e submissão) por meio de técnicas de distribuição no espaço e no tempo, sem depender da violência."
+    D: "O texto diz que os métodos são 'suaves', sem castigos violentos; a disciplina não é a imposição coercitiva direta."
+    E: "Carisma é fascínio por uma pessoa, o que o texto não menciona."
 
 - id: 59
   test: enem_2025_2apl
@@ -1517,6 +1865,12 @@
     D: "filosófica, voltada para a delimitação de opiniões."
     E: "social, voltada para a criação da arte."
   correct_answer: B
+  comments:
+    A: "O discernimento (phronesis) é um saber prático, e não teórico."
+    B: "O discernimento é uma qualidade da razão prática, isto é, a capacidade de deliberar bem e orientar as escolhas para uma vida boa."
+    C: "O texto trata de deliberar sobre o que é bom para viver bem, e não de desenvolver projetos."
+    D: "O texto não trata de delimitar opiniões."
+    E: "Arte e vida social não são o tema do trecho."
 
 - id: 61
   test: enem_2025_2apl
@@ -1538,6 +1892,12 @@
     D: "conformação da natureza humana perante os acontecimentos no mundo."
     E: "autonomia do indivíduo a despeito das necessidades inerentes à condição humana."
   correct_answer: C
+  comments:
+    A: "O texto não fala de cooperação entre o saber divino e o humano."
+    B: "Agostinho não afirma que a liberdade humana prevalece sobre Deus, mas que é compatível com o conhecimento prévio divino."
+    C: "O conhecimento divino, que vê todos os atos futuros, precede o agir humano sem anular a liberdade, pois Deus prevê justamente o ato livre."
+    D: "O texto não trata de conformação da natureza humana."
+    E: "Agostinho não fala em autonomia contra necessidades, mas em compatibilizar liberdade e presciência divina."
 
 - id: 62
   test: enem_2023
@@ -1562,6 +1922,12 @@
     D: "sustentar um argumento idealista."
     E: "defender uma posição intencionalista."
   correct_answer: A
+  comments:
+    A: "Descartes separa o pensamento (alma) da matéria (corpo), sendo o dualismo o oposto da experiência de Merleau-Ponty, para quem a raiva está no corpo, inexplicavelmente unida a ele."
+    B: "A tese naturalista explica os fenômenos pela natureza, e não é a posição de Descartes sobre a mente."
+    C: "O realismo defende a existência de uma realidade independente do sujeito, o que não é o ponto do contraste."
+    D: "O idealismo reduz a realidade às ideias; Descartes admite duas substâncias (pensante e extensa)."
+    E: "O intencionalismo é uma ideia da fenomenologia (a consciência é sempre consciência de algo), e não de Descartes."
 
 - id: 63
   test: enem_2023
@@ -1584,6 +1950,12 @@
     D: "escolhas humanas definidas pelo conhecimento empírico."
     E: "relações interpessoais mediadas pela autonomia dos indivíduos."
   correct_answer: E
+  comments:
+    A: "A recusa do perdão não decorre de desejo de poder, mas da liberdade de quem pode negá-lo."
+    B: "O texto não atribui o perdão à vontade divina."
+    C: "Não há predestinação: o perdão é uma possibilidade livre."
+    D: "As escolhas, no texto, não dependem do conhecimento empírico."
+    E: "Pedir e conceder perdão dependem da liberdade de cada pessoa, que pode aceitar ou recusar; o perdão é uma relação entre indivíduos autônomos."
 
 - id: 64
   test: enem_2023
@@ -1614,6 +1986,12 @@
     D: "regulamentação dos privilégios pela justiça social."
     E: "repartição de vantagens pela hierarquização cultural."
   correct_answer: A
+  comments:
+    A: "Segundo Foucault, o sistema judicial administra as ilegalidades de forma diferenciada: pune o roubo (das classes populares) com rigor e trata as fraudes (da burguesia) por vias especiais e brandas."
+    B: "O tratamento é desigual entre as classes, e não equânime."
+    C: "Para Foucault, o sistema não busca suprimir os crimes, mas geri-los de modo diferenciado."
+    D: "Os privilégios da burguesia não são regulados por justiça social; ao contrário, são preservados."
+    E: "A divisão é de classe (econômica e política), e não uma hierarquização cultural."
 
 - id: 65
   test: enem_2023
@@ -1638,6 +2016,12 @@
     D: "promoção da satisfação de necessidades artificiais."
     E: "mecanismo de organização do ócio e do prazer."
   correct_answer: A
+  comments:
+    A: "Para Adorno e Horkheimer, o lazer no capitalismo tardio é ocupado por produtos culturais (indústria cultural) fabricados pelo mesmo processo mecanizado do trabalho."
+    B: "O texto diz que o lazer não permite desenvolver potencialidades, mas apenas reproduz o trabalho."
+    C: "O texto reconhece que a diversão prepara para o trabalho, mas o ponto central é a submissão da diversão ao processo produtivo."
+    D: "A criação de necessidades artificiais não é o foco do trecho."
+    E: "O texto não fala de organização do ócio, mas da dominação do lazer pelo sistema produtivo."
 
 - id: 66
   test: enem_2023
@@ -1675,6 +2059,12 @@
     D: "sustenta a fugacidade da vida."
     E: "refuta a evolução biológica."
   correct_answer: B
+  comments:
+    A: "A manifestação do inconsciente é tema da psicanálise, e não o contraste entre Gerineldo e Sartre."
+    B: "Gerineldo acredita que tudo já está previsto e vive conformado, negando a possibilidade de transcender a situação. Para Sartre, a liberdade é ilimitada e permite ao sujeito superar sua facticidade (transcendência)."
+    C: "O texto não trata de conhecimento difuso."
+    D: "Nenhum dos textos sustenta a fugacidade da vida."
+    E: "Nenhum dos textos trata da evolução biológica."
 
 - id: 67
   test: enem_2023_2apl
@@ -1698,6 +2088,12 @@
     D: "vida ética, proporcionando a formação moral dos cidadãos."
     E: "direito de resistência, suprimindo governos considerados impopulares."
   correct_answer: D
+  comments:
+    A: "Pregar a salvação eterna não é função do Estado para Aristóteles."
+    B: "A separação dos três poderes é ideia de Montesquieu, moderna, e não de Aristóteles."
+    C: "A proteção da propriedade e do direito natural inalienável é uma ideia de Locke."
+    D: "Para Aristóteles, o fim essencial do Estado é espiritual: promover a virtude e a felicidade dos cidadãos, isto é, a vida ética e a formação moral."
+    E: "O direito de resistência a governos também é ideia moderna (Locke), e não aristotélica."
 
 - id: 68
   test: enem_2023_2apl
@@ -1722,6 +2118,12 @@
     D: "Deontológico, cumpre uma obrigação formal."
     E: "Meritocrático, valoriza o merecimento individual."
   correct_answer: B
+  comments:
+    A: "O chimpanzé que libera a comida não obtém prazer pessoal, pois não pode usufruí-la."
+    B: "O animal age em benefício do outro sem receber nada em troca, o que ilustra um comportamento altruísta, que promove o bem-estar alheio."
+    C: "Não há retorno esperado: o chimpanzé não recebe nada em troca."
+    D: "Não há um dever formal: a atitude é espontânea. O comportamento deontológico depende de uma obrigação (Kant)."
+    E: "O experimento não avalia o mérito de nenhum dos indivíduos."
 
 - id: 69
   test: enem_2023_2apl
@@ -1750,6 +2152,12 @@
     D: "produção exportadora."
     E: "comportamento diplomático."
   correct_answer: B
+  comments:
+    A: "O modelo criticado, na verdade, valoriza o sistema financeiro e os mercados."
+    B: "Ao tratar as questões públicas como assuntos técnicos de eficiência, a tecnocracia esvazia o debate moral e ideológico e desvaloriza a participação política dos cidadãos."
+    C: "O intercâmbio comercial é valorizado pelo modelo tecnocrático, e não desvalorizado."
+    D: "A produção exportadora está entre os elementos que o modelo valoriza."
+    E: "O texto não trata de diplomacia."
 
 - id: 70
   test: enem_2023_2apl
@@ -1775,6 +2183,12 @@
     D: "autocrático."
     E: "democrático."
   correct_answer: E
+  comments:
+    A: "O fascismo nega a liberdade política e civil igual para todos."
+    B: "O totalitarismo controla toda a vida social e é incompatível com os princípios de Rawls."
+    C: "O despotismo é o governo arbitrário de um só, contrário à cooperação entre iguais."
+    D: "O regime autocrático concentra o poder e nega a igualdade política."
+    E: "Liberdades iguais, igualdade de oportunidades e respeito mútuo entre cidadãos são valores próprios do regime democrático."
 
 - id: 71
   test: enem_2023_2apl
@@ -1795,6 +2209,12 @@
     D: "evoca a maioria e apresenta os seus argumentos."
     E: "apela à autoridade e investiga os seus fundamentos."
   correct_answer: B
+  comments:
+    A: "Não há circularidade: o argumento não usa a conclusão como premissa."
+    B: "É a falácia ad hominem: em vez de examinar as propostas, ataca-se a pessoa (foi visto bêbado), desconsiderando as ideias."
+    C: "O argumento não aceita a conclusão para refutar premissas."
+    D: "Não há apelo à opinião da maioria (ad populum)."
+    E: "Não há apelo a uma autoridade."
 
 - id: 72
   test: enem_2023_2apl
@@ -1818,6 +2238,12 @@
     D: "intuição formada pela atividade mental pura."
     E: "reminiscência advinda de vidas passadas."
   correct_answer: B
+  comments:
+    A: "Para Hume, a ideia de causa e efeito não deriva de juízos universais."
+    B: "Para Hume, só observamos a sucessão de eventos; a ideia de causa e efeito nasce do hábito criado pela repetição de experiências semelhantes."
+    C: "O texto fala da experiência direta da pessoa, e não de relatos de terceiros."
+    D: "Para Hume, a razão pura sozinha não descobre causa e efeito, como diz o texto."
+    E: "A reminiscência é uma teoria platônica; Hume a rejeita."
 
 - id: 73
   test: enem_2022
@@ -1844,6 +2270,12 @@
     D: "Condenação da degradação humana."
     E: "Hierarquização da burocracia estatal."
   correct_answer: A
+  comments:
+    A: "Tanto a lepra (exclusão) quanto a peste (vigilância e controle detalhado) mostram modelos de poder que, para Foucault, evoluem para uma sociedade disciplinar."
+    B: "O texto descreve regras rigorosas, e não flexibilização."
+    C: "Há reforço, e não banimento, da autoridade que reprime."
+    D: "O texto descreve dois modelos de controle, sem condenar a degradação humana."
+    E: "O foco do texto é o controle dos indivíduos, e não a hierarquia da burocracia."
 
 - id: 74
   test: enem_2022
@@ -1871,6 +2303,12 @@
     D: "Apontando as formas de expressão como auxiliares da razão."
     E: "Estabelecendo a inteligência como implicação das representações."
   correct_answer: C
+  comments:
+    A: "Os textos não tratam do belo como transcendental."
+    B: "O juízo de gosto é uma noção kantiana; os textos tratam do conhecimento pela percepção."
+    C: "Para Merleau-Ponty, é preciso reaprender a ver o mundo; para Deleuze, cineastas pensam com imagens. Em ambos, o olhar e a sensibilidade são formas de conhecimento."
+    D: "Os textos não tratam a arte como auxiliar da razão, mas como forma de pensamento em si."
+    E: "Os textos não tratam a inteligência como decorrente das representações."
 
 - id: 75
   test: enem_2022
@@ -1898,6 +2336,12 @@
     D: "melhoria da técnica."
     E: "construção da sociabilidade."
   correct_answer: E
+  comments:
+    A: "O foco do texto não é a compreensão da cultura, mas o discurso como base da vida política."
+    B: "O texto não trata da criatividade."
+    C: "Arendt refere-se aos 'homens no plural' e afirma que o homem singular não é um ser político."
+    D: "O texto não trata de técnica."
+    E: "Para Arendt, é pela linguagem que os homens dão sentido ao que fazem e se tornam seres políticos, o que constrói a sociabilidade."
 
 - id: 76
   test: enem_2022
@@ -1921,6 +2365,12 @@
     D: "fundamenta as paixões humanas."
     E: "corresponde à explicação mitológica."
   correct_answer: C
+  comments:
+    A: "A exaltação da filosofia não explica por que o texto trata da arché."
+    B: "Os quatro elementos são corpóreos e pertencem ao mundo sensível."
+    C: "Explicar a origem e a ordem do universo por elementos e princípios (Amor e Ódio) é fazer cosmogonia, preocupação típica dos pré-socráticos com a arché."
+    D: "Amor e Ódio são princípios cósmicos, e não paixões humanas."
+    E: "Empédocles busca explicação racional e física, e não mitológica."
 
 - id: 77
   test: enem_2022_2apl
@@ -1945,6 +2395,12 @@
     D: "adoção do imperativo categórico."
     E: "liberdade incondicional do estadista."
   correct_answer: A
+  comments:
+    A: "Maquiavel diz que o príncipe deve parecer virtuoso e ter disposição para não ser, quando necessário: a conservação do poder exige flexibilidade moral."
+    B: "Maquiavel não propõe retomar valores cristãos; ao contrário, subordina a moral tradicional à eficácia política."
+    C: "O texto não trata de consultar os cidadãos."
+    D: "O imperativo categórico é de Kant e trata de deveres universais, o oposto do que Maquiavel propõe."
+    E: "A liberdade do príncipe não é incondicional: ele age conforme as circunstâncias e a necessidade de manter o Estado."
 
 - id: 78
   test: enem_2022_2apl
@@ -1969,6 +2425,12 @@
     D: "imaginação, seus objetos e contribuições."
     E: "conhecimento, sua natureza e condições."
   correct_answer: A
+  comments:
+    A: "Para o existencialismo, a filosofia parte da existência concreta do ser humano, que pergunta, duvida e age; seu tema é a realidade humana, o sentido e as possibilidades."
+    B: "O estudo do mundo físico é próprio da filosofia da natureza."
+    C: "A lógica não é o tema do existencialismo."
+    D: "O texto não trata de imaginação."
+    E: "O conhecimento é foco da epistemologia, e não do existencialismo."
 
 - id: 79
   test: enem_2022_2apl
@@ -1998,6 +2460,12 @@
     D: "emocionais e racionais."
     E: "voluntaristas e possibilistas."
   correct_answer: C
+  comments:
+    A: "Os textos não tratam de estética."
+    B: "O Texto I não é místico, e sim cultural."
+    C: "O Texto I diz que a sociedade cultiva a violência (fator cultural); o Texto II reduz a espécie a flutuações genéticas aleatórias (fator biológico)."
+    D: "Os textos não contrapõem emoção e razão."
+    E: "Voluntarismo e possibilismo não são os modelos dos textos."
 
 - id: 80
   test: enem_2022_2apl
@@ -2020,6 +2488,12 @@
     D: "supressão estratégica das fronteiras."
     E: "espacialização controlada das classes."
   correct_answer: A
+  comments:
+    A: "Foucault descreve o biopoder: o poder passa a administrar a vida da população (natalidade, saúde, habitação) por meio de cálculos e estatísticas."
+    B: "A exposição ostensiva das punições era característica do poder soberano antigo, que o texto diz estar sendo recoberto."
+    C: "O texto não trata de distribuição de riquezas."
+    D: "O texto não trata de supressão de fronteiras."
+    E: "O foco é a gestão da vida das populações, e não a organização espacial das classes."
 
 - id: 81
   test: enem_2019
@@ -2043,6 +2517,12 @@
     D: "mediação de conflitos econômicos."
     E: "representação da autoridade constituída."
   correct_answer: B
+  comments:
+    A: "Aplicar códigos é uma função do Direito, mas não o seu sentido fundamental, segundo o texto."
+    B: "O texto define o Direito como técnica voltada a tornar possível a coexistência humana, isto é, a regulação do convívio social."
+    C: "O texto não trata de legitimar decisões políticas."
+    D: "O texto não restringe o Direito a conflitos econômicos."
+    E: "O texto não trata de representação da autoridade."
 
 - id: 82
   test: enem_2019
@@ -2070,6 +2550,12 @@
     D: "distanciamento das práticas de sacrifício."
     E: "violação dos preceitos do Velho Testamento."
   correct_answer: B
+  comments:
+    A: "O texto não trata de celibato."
+    B: "Para Agostinho, Deus deu a vontade livre para agir corretamente; quem a usa para pecar é punido com justiça, por não ter exercido adequadamente sua autonomia moral."
+    C: "O texto não menciona desapego."
+    D: "Não há referência a sacrifícios."
+    E: "O texto não menciona o Velho Testamento."
 
 - id: 83
   test: enem_2019
@@ -2095,6 +2581,12 @@
     D: "verificabilidade e possibilidade da verdade."
     E: "objetividade e subjetividade do conhecimento."
   correct_answer: A
+  comments:
+    A: "Maquiavel separa o que a moral prega (idealidade, como se deveria agir) do que é eficaz para o governante (efetividade, como se age de fato): a verdade pessoal pode ser sacrificada ao bem comum."
+    B: "O texto não trata da liberdade."
+    C: "O texto não distingue legalidade e legitimidade."
+    D: "O texto não discute a verificabilidade da verdade."
+    E: "O texto não trata de teoria do conhecimento."
 
 - id: 84
   test: enem_2019
@@ -2123,6 +2615,12 @@
     D: "focado na legitimação contratualista."
     E: "configurado na percepção etnocêntrica."
   correct_answer: A
+  comments:
+    A: "Descartes usa a razão para provar a existência de Deus; Rachels questiona se a crença em Deus é apenas fé. Em ambos, a razão humana é critério do conhecimento, o que marca a modernidade."
+    B: "Os textos buscam justificativas racionais, e não a explicação mitológica."
+    C: "Nos textos, Deus é transcendente e criador, o que se opõe à imanência."
+    D: "O contratualismo é uma teoria política, que não é abordada nos textos."
+    E: "O etnocentrismo não é o tema dos textos."
 
 - id: 85
   test: enem_2019
@@ -2146,6 +2644,12 @@
     D: "transcendental, efetivada em princípios religiosos."
     E: "essencial, fundamentada em parâmetros substancialistas."
   correct_answer: C
+  comments:
+    A: "O texto não trata de preceitos jurídicos."
+    B: "Foucault nega um sujeito universal fundado na razão; o sujeito se constitui em práticas."
+    C: "Para Foucault, o sujeito se constitui historicamente em práticas de sujeição ou de liberdade, no meio cultural e em interações sociais, sem essência prévia."
+    D: "Foucault nega uma fundação transcendental do sujeito."
+    E: "O texto nega um sujeito fundador universal e essencial."
 
 - id: 86
   test: enem_2019
@@ -2172,6 +2676,12 @@
     D: "Prescindibilidade do empírico e autoridade da razão."
     E: "Interioridade da norma e fenomenalidade do mundo."
   correct_answer: E
+  comments:
+    A: "A poeta não inverte a possibilidade da liberdade nem a obrigação da ação."
+    B: "Não são estas as ideias invertidas no poema."
+    C: "Boa vontade e crítica da metafísica não são as ideias invertidas."
+    D: "Não é a autoridade da razão que o poema inverte."
+    E: "Em Kant, a lei moral está em mim (interioridade da norma) e o céu estrelado, sobre mim (o mundo fenomênico, externo). Na releitura, a lei está fora ('cobrindo-me') e o céu, dentro de mim: as posições se invertem."
 
 - id: 87
   test: enem_2019
@@ -2198,6 +2708,12 @@
     D: "Contemplação da natureza."
     E: "Universalização de conclusões."
   correct_answer: C
+  comments:
+    A: "A falsificação de teses é um conceito de Popper; o texto não trata disso."
+    B: "Newton parte da observação (a maçã caindo)."
+    C: "Newton não se limita a observar: propõe uma hipótese (deve haver uma força subjacente), o que mostra que a ciência moderna trabalha com hipóteses e não apenas com a coleta de dados."
+    D: "A ciência moderna não se limita à contemplação da natureza; ela formula e testa hipóteses."
+    E: "O texto não trata de universalização das conclusões."
 
 - id: 88
   test: enem_2019
@@ -2224,6 +2740,12 @@
     D: "segregação humana, que fundamenta os projetos biopolíticos."
     E: "enquadramento cultural, que favorece os comportamentos punitivos."
   correct_answer: D
+  comments:
+    A: "O texto não trata do ideário nacional."
+    B: "O texto não trata de justificar ações individuais."
+    C: "O texto não trata de religião."
+    D: "Arendt critica a naturalização da segregação e desumanização dos detentos, que torna o extermínio aceitável e fundamenta projetos de gestão da vida (biopolíticos)."
+    E: "O texto trata de um sistema totalitário específico, e não de um enquadramento cultural genérico."
 
 - id: 89
   test: enem_2020_2apl
@@ -2249,6 +2771,12 @@
     D: "capacidade racional de discernir."
     E: "possibilidade eventual de transcender."
   correct_answer: D
+  comments:
+    A: "O texto não trata de evolução espiritual."
+    B: "O texto não fala de apreensão gradual da verdade."
+    C: "O lógos não trata de segurança material."
+    D: "Para Aristóteles, o lógos permite ao ser humano perceber o bem e o mal, o justo e o injusto, ou seja, é a capacidade racional de discernir, o que o distingue dos outros animais."
+    E: "O texto não trata de transcendência."
 
 - id: 90
   test: enem_2020_2apl
@@ -2271,6 +2799,12 @@
     D: "sofisticação dos equipamentos disponíveis."
     E: "ampliação dos campos de experimentação."
   correct_answer: C
+  comments:
+    A: "O texto não trata de burocratização."
+    B: "O texto não trata de arte abstrata."
+    C: "Para Adorno e Horkheimer, a indústria cultural padroniza a produção artística: filmes e músicas seguem fórmulas previsíveis."
+    D: "O texto não critica o desenvolvimento dos equipamentos."
+    E: "A indústria cultural restringe a experimentação, e não a amplia."
 
 - id: 91
   test: enem_2020_2apl
@@ -2295,6 +2829,12 @@
     D: "promoção da igualdade dos cidadãos."
     E: "consolidação de uma democracia direta."
   correct_answer: B
+  comments:
+    A: "O texto não trata de superar entraves dialógicos."
+    B: "Para Platão, apenas quem conhece a verdade (o filósofo) pode governar bem; a cidade justa exige que poder político e filosofia coincidam."
+    C: "O texto não trata de formar um saber enciclopédico."
+    D: "O texto não trata de igualdade entre cidadãos."
+    E: "Platão é crítico da democracia e defende o governo dos filósofos."
 
 - id: 92
   test: enem_2020_2apl
@@ -2318,6 +2858,12 @@
     D: "estabelecer uma base cognitiva para assegurar a valorização da memória."
     E: "investigar totalidades estruturadas para dotá-las de significação."
   correct_answer: A
+  comments:
+    A: "A dúvida metódica busca uma primeira certeza indubitável (a existência do espírito que pensa, o cogito), como ponto de partida para um conhecimento seguro."
+    B: "Partir de eventos particulares para o universal é o método indutivo, que não é o de Descartes."
+    C: "Descartes desconfia da experiência sensível; não busca um saber empírico."
+    D: "O objetivo não é valorizar a memória."
+    E: "Não se trata de investigar totalidades estruturadas."
 
 - id: 93
   test: enem_2020_2apl
@@ -2342,6 +2888,12 @@
     D: "Teoria da referência."
     E: "Crítica à tecnociência."
   correct_answer: A
+  comments:
+    A: "Derrida questiona os traços que a metafísica reservou ao homem e afirma que nenhum resiste à análise. Isso expressa a crise do sujeito, tema central da filosofia contemporânea."
+    B: "O texto não trata de relativismo ético."
+    C: "O texto não trata da linguagem como fundamento do pensamento."
+    D: "O texto não trata de teoria da referência."
+    E: "O texto não critica a tecnociência."
 
 - id: 94
   test: enem_2020_2apl
@@ -2365,6 +2917,12 @@
     D: "No estado de natureza, pelo exercício da liberdade."
     E: "Na vida em sociedade, pela abundância de bens."
   correct_answer: D
+  comments:
+    A: "O texto não trata de vida monástica."
+    B: "Rousseau exalta a condição rústica anterior à cultura, e não uma comunidade organizada por valores compartilhados."
+    C: "O texto não trata de autogestão."
+    D: "Rousseau valoriza o homem em seu estado natural, antes da corrupção causada pelas artes e ciências, quando era livre, tinha costumes simples e poucos vícios."
+    E: "Rousseau critica o luxo e a abundância, pois considera que a civilização corrompe o homem."
 
 - id: 95
   test: enem_2021
@@ -2388,6 +2946,12 @@
     D: "recepcionar o método experimental."
     E: "incentivar a suspensão dos juízos."
   correct_answer: A
+  comments:
+    A: "Na metáfora da árvore, metafísica, física e as demais ciências formam um único sistema de conhecimento, com raízes, tronco e ramos: é a unidade essencial do saber."
+    B: "Descartes não refuta o elemento fundamental das crenças; ao contrário, busca fundamento sólido."
+    C: "O texto propõe uma organização sistemática, e não incentivo à especulação."
+    D: "O método experimental não é o objetivo da alegoria."
+    E: "A suspensão de juízos (ceticismo) é apenas o começo do método cartesiano, e não o objetivo da metáfora."
 
 - id: 96
   test: enem_2014
@@ -2412,6 +2976,12 @@
     D: "importância da independência da investigação científica pretendida pela Igreja."
     E: "inadequação da matemática para elaborar uma explicação racional da natureza."
   correct_answer: C
+  comments:
+    A: "Galileu rompe com a subordinação da ciência à fé."
+    B: "O texto diz que a linguagem do universo é matemática, e não que o estudo linguístico deve ser acompanhado da matemática."
+    C: "Ao afirmar que a natureza é escrita em linguagem matemática, Galileu defende uma física quantitativa, contra os pressupostos qualitativos da filosofia escolástica."
+    D: "A independência da investigação científica não era pretendida pela Igreja, que condenou Galileu."
+    E: "Galileu defende a adequação da matemática para explicar a natureza."
 
 - id: 97
   test: enem_2013
@@ -2437,7 +3007,13 @@
       \ em relação aos objetos."
     E: "refutam-se mutuamente quanto à natureza do nosso conhecimento e são ambas\
       \ recusadas por Kant."
-  correct_answer: E
+  correct_answer: A
+  comments:
+    A: "Antes de Kant, supunha-se que o conhecimento se regulava pelos objetos; Kant propõe que os objetos se regulam pelo nosso conhecimento. São dois pontos de vista opostos sobre a natureza do conhecimento."
+    B: "Kant não defende o ceticismo, pois busca fundamentar o conhecimento possível."
+    C: "O trecho contrapõe duas posições, e não trata da interdependência entre experiência e reflexão."
+    D: "Só a posição de Kant dá primazia ao sujeito; a outra dá primazia ao objeto."
+    E: "Kant adota a segunda posição (objetos regulados pelo conhecimento), e não a recusa."
 
 - id: 98
   test: enem_2016_2apl
@@ -2460,3 +3036,9 @@
     D: "fazer correspondência entre o objeto observado e seu ser."
     E: "identificar outro exemplar idêntico ao observado."
   correct_answer: D
+  comments:
+    A: "O texto compara o objeto com um modelo perfeito, e não observações em momentos diferentes."
+    B: "Não se trata de comparar com uma descrição do objeto."
+    C: "Descrever características é insuficiente: para Platão, conhecer implica reconhecer a Forma (ideia) da qual o objeto é cópia imperfeita."
+    D: "Para conhecer um objeto sensível, é preciso ter conhecido antes o ser (a Forma) do qual ele é uma cópia imperfeita, isto é, fazer a correspondência entre o objeto e seu ser."
+    E: "Os objetos sensíveis nunca são idênticos entre si, e a comparação se faz com a Forma perfeita."

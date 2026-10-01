@@ -1,0 +1,13 @@
+# Quarto
+jupyter==1.1.1
+Markdown==3.10.2
+
+# Extração e classificação de questões
+click==8.3.3
+PyMuPDF==1.27.2.3
+torch==2.11.0
+transformers==5.7.0
+
+# Geração de comentários das questões com Claude
+anthropic==1.11.0
+python-dotenv==1.2.4

@@ -1,15 +1,34 @@
 """Script interativo para adicionar uma nova questão a slides/questoes_enem.yaml
-e registrar seu `id` na lista `questoes` do slide de aula escolhido."""
+e registrar seu `id` na lista `questoes` do slide de aula escolhido.
+
+Ao final, os comentários de cada alternativa (chave `comments`) são gerados
+automaticamente pela API da Anthropic, o que exige uma chave de API configurada.
+
+Como configurar a chave:
+1. Gere uma chave em https://console.anthropic.com/settings/keys
+   (o acesso à API é cobrado por uso, separadamente de qualquer plano do claude.ai;
+   é preciso configurar um método de pagamento em Settings > Billing antes de gerar a chave)
+2. Na raiz do repositório (ao lado de requirements.txt), crie um arquivo chamado
+   `.env` com a linha:
+       ANTHROPIC_API_KEY=sk-ant-sua-chave-aqui
+   (o `.env` já está no .gitignore, então a chave não é versionada)
+3. Instale as dependências, se ainda não tiver feito: pip install -r requirements.txt
+
+Sem essa chave configurada, o script ainda funciona normalmente, mas a questão
+é salva sem a chave `comments`."""
 
 import ast
 import re
 from pathlib import Path
 
 import yaml
+from dotenv import load_dotenv
 
 PASTA_SLIDES = Path(__file__).parent.parent
 CAMINHO_YAML = PASTA_SLIDES / "questoes_enem.yaml"
 PADRAO_QUESTOES = re.compile(r"^questoes\s*=\s*(\[.*?\])", re.MULTILINE | re.DOTALL)
+
+load_dotenv(PASTA_SLIDES.parent / ".env")
 
 LETRAS = ["A", "B", "C", "D", "E"]
 
@@ -137,6 +156,88 @@ def perguntar_correct_answer(answers):
         print(f"Letra inválida. Escolha entre {', '.join(answers)}.")
 
 
+def montar_prompt_comments(novo_item):
+    partes_texto = []
+    for elemento in novo_item["question_elements"]:
+        if elemento.get("question_text_title"):
+            partes_texto.append(str(elemento["question_text_title"]))
+        partes_texto.append(str(elemento["question_text"]))
+        if elemento.get("question_text_reference"):
+            partes_texto.append(f"(Referência: {elemento['question_text_reference']})")
+    texto_questao = "\n".join(partes_texto)
+
+    alternativas = "\n".join(
+        f"{letra}: {texto}" for letra, texto in novo_item["answers"].items()
+    )
+
+    return f"""Esta é uma questão de filosofia do Enem, usada em slides de uma aula de um cursinho preparatório.
+
+Texto da questão:
+{texto_questao}
+
+Enunciado: {novo_item["statement"]}
+
+Alternativas:
+{alternativas}
+
+Alternativa correta: {novo_item["correct_answer"]}
+
+Para cada alternativa (de {next(iter(novo_item["answers"]))} a {list(novo_item["answers"])[-1]}), escreva um comentário \
+curto (1 a 2 frases), em português, explicando com base em conceitos filosóficos por que ela está \
+correta ou incorreta. Vá direto à explicação: não comece o comentário com as palavras "Correta" ou \
+"Incorreta"."""
+
+
+def gerar_comments(novo_item):
+    """Pede ao Claude um comentário para cada alternativa, explicando por que
+    está certa ou errada, e devolve um dicionário {letra: Texto}. Retorna None
+    se a geração falhar (ex.: sem ANTHROPIC_API_KEY configurada), para que a
+    questão ainda possa ser salva sem a chave `comments`."""
+    try:
+        import anthropic
+    except ImportError:
+        print(
+            "Pacote `anthropic` não instalado. Rode `pip install -r requirements.txt` "
+            "para gerar os comentários automaticamente."
+        )
+        return None
+
+    from pydantic import create_model
+
+    letras = list(novo_item["answers"])
+    Comentarios = create_model(
+        "Comentarios", **{letra: (str, ...) for letra in letras}
+    )
+
+    print(f"\n{CIANO}Gerando comentários com Claude...{RESET}")
+    try:
+        client = anthropic.Anthropic()
+        resposta = client.messages.parse(
+            model="claude-opus-5-5",
+            max_tokens=4096,
+            messages=[{"role": "user", "content": montar_prompt_comments(novo_item)}],
+            output_format=Comentarios,
+        )
+    except (anthropic.AuthenticationError, TypeError):
+        print(
+            "Não foi possível autenticar com a API da Anthropic. Crie um arquivo `.env` na raiz "
+            "do repositório com a linha `ANTHROPIC_API_KEY=sk-ant-sua-chave-aqui` (veja as "
+            "instruções no topo deste script) ou rode `ant auth login`. "
+            "A questão será salva sem a chave `comments`."
+        )
+        return None
+    except anthropic.APIError as erro:
+        print(f"Erro ao chamar a API da Anthropic: {erro}. A questão será salva sem a chave `comments`.")
+        return None
+
+    comentarios = resposta.parsed_output
+    resultado = {letra: Texto(getattr(comentarios, letra)) for letra in letras}
+    print("Comentários gerados:")
+    for letra, texto in resultado.items():
+        print(f"  {letra}: {texto}")
+    return resultado
+
+
 def nome_aula(arquivo):
     return arquivo.name.removeprefix("aula").removesuffix(".qmd")
 
@@ -219,6 +320,11 @@ def main():
         "answers": answers,
         "correct_answer": correct_answer,
     }
+
+    comments = gerar_comments(novo_item)
+    if comments:
+        novo_item["comments"] = comments
+
     adicionar_questao_no_yaml(novo_item)
     print(f"\nQuestão {novo_id} adicionada a {CAMINHO_YAML.name}.")
 
