@@ -1,8 +1,18 @@
 .DS_Store
 */.Rhistory
 
+__pycache__/
+*.pyc
+
+*/.quarto/
+*.quarto_ipynb
+´
 /.env
 /env
 /livro
 /provas/*
 /material_didatico/*
+/slides/scripts
+
+# Notas preparatórias de aula
+/slides/*.md
