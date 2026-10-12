@@ -194,7 +194,7 @@ bit.ly/filosofia-vc
 from scripts.render_questoes import render_questao
 from IPython.display import HTML
 
-arquivo_yaml = "questoes_enem.yaml"
+arquivo_yaml = "../dados/questoes_enem.yaml"
 
 questoes = [18, 99, 101, 100, 7, 13, 86]
 

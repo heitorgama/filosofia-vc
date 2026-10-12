@@ -12,7 +12,7 @@ def md_filter(text):
     """
     return markdown.markdown(text, extensions=['attr_list']) + '\n'
 
-def carregar_questao(questao_id, arquivo_yaml="questoes_enem.yaml"):
+def carregar_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
     """
     Loads a single ENEM question from a YAML file by its ID.
 
@@ -21,7 +21,7 @@ def carregar_questao(questao_id, arquivo_yaml="questoes_enem.yaml"):
     questao_id : int
         The ID of the question to load
     arquivo_yaml : str, optional
-        Path to the YAML file containing questions (default: "questoes_enem.yaml")
+        Path to the YAML file containing questions (default: "../dados/questoes_enem.yaml")
 
     Returns:
     --------
@@ -50,7 +50,7 @@ def carregar_questao(questao_id, arquivo_yaml="questoes_enem.yaml"):
     raise ValueError(f"Questão com ID {questao_id} não encontrada em '{arquivo_yaml}'")
 
 
-def render_questao(questao_id, arquivo_yaml="questoes_enem.yaml"):
+def render_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
     """
     Renders an ENEM question as HTML from a YAML file.
 
@@ -59,7 +59,7 @@ def render_questao(questao_id, arquivo_yaml="questoes_enem.yaml"):
     questao_id : int
         The ID of the question to render
     arquivo_yaml : str, optional
-        Path to the YAML file containing questions (default: "questoes_enem.yaml")
+        Path to the YAML file containing questions (default: "../dados/questoes_enem.yaml")
 
     Returns:
     --------
@@ -133,7 +133,7 @@ def formatar_fonte(test):
     return rotulo
 
 
-def render_questao_md(questao_id, arquivo_yaml="questoes_enem.yaml", numero=None):
+def render_questao_md(questao_id, arquivo_yaml="../dados/questoes_enem.yaml", numero=None):
     """
     Renders an ENEM question as plain Markdown, adequado para documentos PDF
     (ex.: listas de exercícios), diferente de `render_questao`, que gera HTML
@@ -144,7 +144,7 @@ def render_questao_md(questao_id, arquivo_yaml="questoes_enem.yaml", numero=None
     questao_id : int
         The ID of the question to render
     arquivo_yaml : str, optional
-        Path to the YAML file containing questions (default: "questoes_enem.yaml")
+        Path to the YAML file containing questions (default: "../dados/questoes_enem.yaml")
     numero : int, optional
         Número de exibição da questão na lista (padrão: o próprio `questao_id`)
 
@@ -254,7 +254,7 @@ def _negrito_para_latex(texto):
 if __name__ == "__main__":
     # Example usage
     try:
-        resultado = render_questao(1, "questoes_enem.yaml")
+        resultado = render_questao(1, "../dados/questoes_enem.yaml")
         print(resultado)
     except (FileNotFoundError, ValueError) as e:
         print(f"Error: {e}")

@@ -1,0 +1,160 @@
+# Lista de valores admitidos para a chave `fil_filosofos` em questoes_enem.yaml:
+# o(s) filósofo(s) citado(s) ou tratado(s) pela questão (no texto-base, no
+# enunciado ou nas alternativas). Uma questão normalmente recebe um filósofo,
+# mas pode receber mais de um quando compara dois textos de autores
+# diferentes (ex.: TEXTO I de um, TEXTO II de outro).
+#
+# Complementa `fil_temas.yaml` (período + assunto) e
+# `fil_areas.yaml` (área sistemática): esta lista indica quem é o
+# filósofo, não quando ou sobre o quê.
+#
+# Este arquivo é declarado em `materias.yaml`, na chave `classificacao` da
+# matéria `fil` (Filosofia). Uma futura matéria cujos pensadores se
+# sobrepõem à Filosofia (ex.: Sociologia) pode declarar seu próprio atributo
+# apontando para este mesmo arquivo, em vez de duplicar os nomes.
+
+# Pré-socráticos
+- codigo: tales
+  nome: Tales de Mileto
+- codigo: anaximandro
+  nome: Anaximandro
+- codigo: anaximenes
+  nome: Anaxímenes
+- codigo: pitagoras
+  nome: Pitágoras
+- codigo: heraclito
+  nome: Heráclito
+- codigo: parmenides
+  nome: Parmênides
+- codigo: empedocles
+  nome: Empédocles
+
+# Sofistas e Sócrates
+- codigo: protagoras
+  nome: Protágoras
+- codigo: gorgias
+  nome: Górgias
+- codigo: trasimaco
+  nome: Trasímaco
+- codigo: socrates
+  nome: Sócrates
+
+# Clássicos
+- codigo: platao
+  nome: Platão
+- codigo: aristoteles
+  nome: Aristóteles
+
+# Helenismo
+- codigo: epicuro
+  nome: Epicuro
+- codigo: epicteto
+  nome: Epicteto
+- codigo: seneca
+  nome: Sêneca
+- codigo: pirro
+  nome: Pirro de Élis
+
+# Medieval
+- codigo: agostinho
+  nome: Agostinho de Hipona
+- codigo: anselmo
+  nome: Anselmo de Cantuária
+- codigo: tomas_aquino
+  nome: Tomás de Aquino
+
+# Moderna
+- codigo: maquiavel
+  nome: Nicolau Maquiavel
+- codigo: bacon
+  nome: Francis Bacon
+- codigo: descartes
+  nome: René Descartes
+- codigo: hobbes
+  nome: Thomas Hobbes
+- codigo: espinosa
+  nome: Espinosa
+- codigo: locke
+  nome: John Locke
+- codigo: leibniz
+  nome: Leibniz
+- codigo: montesquieu
+  nome: Montesquieu
+- codigo: voltaire
+  nome: Voltaire
+- codigo: diderot
+  nome: Diderot
+- codigo: rousseau
+  nome: Jean-Jacques Rousseau
+- codigo: hume
+  nome: David Hume
+- codigo: kant
+  nome: Immanuel Kant
+- codigo: hegel
+  nome: Hegel
+- codigo: schopenhauer
+  nome: Arthur Schopenhauer
+- codigo: galileu
+  nome: Galileu Galilei
+- codigo: bentham
+  nome: Jeremy Bentham
+- codigo: stuart_mill
+  nome: John Stuart Mill
+
+# Contemporânea
+- codigo: marx
+  nome: Karl Marx
+- codigo: weber
+  nome: Max Weber
+- codigo: nietzsche
+  nome: Friedrich Nietzsche
+- codigo: freud
+  nome: Sigmund Freud
+- codigo: husserl
+  nome: Edmund Husserl
+- codigo: heidegger
+  nome: Martin Heidegger
+- codigo: sartre
+  nome: Jean-Paul Sartre
+- codigo: merleau_ponty
+  nome: Merleau-Ponty
+- codigo: adorno
+  nome: Theodor Adorno
+- codigo: horkheimer
+  nome: Max Horkheimer
+- codigo: marcuse
+  nome: Herbert Marcuse
+- codigo: arendt
+  nome: Hannah Arendt
+- codigo: foucault
+  nome: Michel Foucault
+- codigo: derrida
+  nome: Jacques Derrida
+- codigo: deleuze
+  nome: Gilles Deleuze
+- codigo: rawls
+  nome: John Rawls
+- codigo: habermas
+  nome: Jürgen Habermas
+- codigo: sandel
+  nome: Michael Sandel
+- codigo: wittgenstein
+  nome: Ludwig Wittgenstein
+- codigo: russell
+  nome: Bertrand Russell
+- codigo: carnap
+  nome: Rudolf Carnap
+- codigo: abbagnano
+  nome: Nicola Abbagnano
+- codigo: hans_jonas
+  nome: Hans Jonas
+- codigo: ricoeur
+  nome: Paul Ricoeur
+- codigo: baudrillard
+  nome: Jean Baudrillard
+- codigo: lyotard
+  nome: Jean-François Lyotard
+- codigo: bauman
+  nome: Zygmunt Bauman
+- codigo: byung_chul_han
+  nome: Byung-Chul Han

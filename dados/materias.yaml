@@ -1,0 +1,55 @@
+# Lista de valores admitidos para a chave `materias` em questoes_enem.yaml.
+# Cada questão deve referenciar um ou mais desses códigos (normalmente só um).
+# Baseado nas áreas de conhecimento e componentes curriculares do Enem.
+#
+# Uma matéria pode ter uma chave opcional `classificacao`: um mapa de
+# atributo -> arquivo YAML (nesta mesma pasta `dados/`) usado para
+# classificar com mais detalhe as questões dessa matéria, além da própria
+# chave `materias`. Cada arquivo referenciado é um vocabulário controlado no
+# mesmo formato usado em todo este diretório (uma lista — ou, quando faz
+# sentido, uma árvore — de nós com `codigo`/`nome`), e o nome do atributo é
+# sempre igual ao nome do arquivo (sem a extensão): por exemplo, o atributo
+# `fil_areas` da matéria `fil` é preenchido com código(s) de
+# `fil_areas.yaml`, e pode então ser usado como uma chave
+# `fil_areas: [...]` na própria questão, do mesmo jeito que
+# `materias: [fil]`.
+#
+# Matérias diferentes tendem a ter conjuntos de atributos diferentes — Filosofia usa
+# `fil_areas`, `fil_filosofos` e `fil_temas`; uma futura Sociologia
+# poderia usar `soc_areas` e `soc_autores`; uma matéria sem classificação
+# própria (ex.: Matemática) simplesmente não declara `classificacao`.
+
+- codigo: fil
+  nome: Filosofia
+  classificacao:
+    fil_areas: fil_areas.yaml
+    fil_filosofos: fil_filosofos.yaml
+    fil_temas: fil_temas.yaml
+- codigo: soc
+  nome: Sociologia
+- codigo: his
+  nome: História
+- codigo: geo
+  nome: Geografia
+- codigo: mat
+  nome: Matemática
+- codigo: por
+  nome: Língua Portuguesa
+- codigo: lit
+  nome: Literatura
+- codigo: ing
+  nome: Língua Inglesa
+- codigo: esp
+  nome: Língua Espanhola
+- codigo: art
+  nome: Artes
+- codigo: edf
+  nome: Educação Física
+- codigo: fis
+  nome: Física
+- codigo: qui
+  nome: Química
+- codigo: bio
+  nome: Biologia
+- codigo: red
+  nome: Redação

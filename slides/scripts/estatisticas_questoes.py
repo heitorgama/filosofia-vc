@@ -1,8 +1,9 @@
 import pandas as pd
 import yaml
 import os
+from pathlib import Path
 
-ARQUIVO_YAML = "questoes_enem.yaml"
+ARQUIVO_YAML = Path(__file__).parent.parent.parent / "dados" / "questoes_enem.yaml"
 
 # Check if file exists
 if not os.path.exists(ARQUIVO_YAML):

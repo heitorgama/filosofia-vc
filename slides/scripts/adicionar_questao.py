@@ -1,4 +1,4 @@
-"""Script interativo para adicionar uma nova questão a slides/questoes_enem.yaml
+"""Script interativo para adicionar uma nova questão a dados/questoes_enem.yaml
 e registrar seu `id` na lista `questoes` do slide de aula escolhido.
 
 Ao final, os comentários de cada alternativa (chave `comments`) são gerados
@@ -25,7 +25,9 @@ import yaml
 from dotenv import load_dotenv
 
 PASTA_SLIDES = Path(__file__).parent.parent
-CAMINHO_YAML = PASTA_SLIDES / "questoes_enem.yaml"
+PASTA_DADOS = PASTA_SLIDES.parent / "dados"
+CAMINHO_YAML = PASTA_DADOS / "questoes_enem.yaml"
+CAMINHO_MATERIAS = PASTA_DADOS / "materias.yaml"
 PADRAO_QUESTOES = re.compile(r"^questoes\s*=\s*(\[.*?\])", re.MULTILINE | re.DOTALL)
 
 load_dotenv(PASTA_SLIDES.parent / ".env")
@@ -52,6 +54,19 @@ def representar_texto(dumper, valor):
 
 
 yaml.add_representer(Texto, representar_texto, Dumper=yaml.SafeDumper)
+
+
+class ListaEmLinha(list):
+    """Marca listas curtas (como `materias`) para serem escritas em uma
+    única linha (ex.: `[fil, soc]`), no mesmo estilo já usado para `questoes`
+    nos arquivos de aula, em vez do estilo padrão em bloco do PyYAML."""
+
+
+def representar_lista_em_linha(dumper, valor):
+    return dumper.represent_sequence("tag:yaml.org,2002:seq", valor, flow_style=True)
+
+
+yaml.add_representer(ListaEmLinha, representar_lista_em_linha, Dumper=yaml.SafeDumper)
 
 
 def perguntar(mensagem, obrigatorio=False, padrao=None):
@@ -88,6 +103,34 @@ def perguntar_texto(rotulo, obrigatorio=True):
 def carregar_questoes():
     with open(CAMINHO_YAML, encoding="utf-8") as f:
         return yaml.safe_load(f) or []
+
+
+def carregar_materias():
+    with open(CAMINHO_MATERIAS, encoding="utf-8") as f:
+        return yaml.safe_load(f) or []
+
+
+def perguntar_materias(padrao=None):
+    materias = carregar_materias()
+    codigos_validos = [materia["codigo"] for materia in materias]
+    padrao_str = ",".join(padrao) if padrao else "fil"
+
+    print(f"{CIANO}Matérias disponíveis ({CAMINHO_MATERIAS.name}):{RESET}")
+    for materia in materias:
+        print(f"  {materia['codigo']}: {materia['nome']}")
+
+    while True:
+        entrada = perguntar(
+            "materias (códigos separados por vírgula): ", padrao=padrao_str
+        )
+        codigos = [c.strip() for c in entrada.split(",") if c.strip()]
+        invalidos = [c for c in codigos if c not in codigos_validos]
+        if not codigos:
+            print("Informe ao menos uma matéria.")
+        elif invalidos:
+            print(f"Código(s) inválido(s): {', '.join(invalidos)}. Escolha entre {', '.join(codigos_validos)}.")
+        else:
+            return ListaEmLinha(codigos)
 
 
 def proximo_id(questoes):
@@ -293,6 +336,7 @@ def main():
     test_part = perguntar("Tema da prova - Parâmetro `test_part` (ex.: ch, cn). Enter para usar o da última questão adicionada: ", padrao=ultima_questao.get("test_part"))
     test_item_str = perguntar("test_item (número do item na prova): ")
     test_item = int(test_item_str) if test_item_str.isdigit() else test_item_str
+    materias = perguntar_materias(padrao=ultima_questao.get("materias"))
 
     questao_existente = buscar_questao_existente(questoes_existentes, test, test_type, test_part, test_item)
     if questao_existente:
@@ -315,6 +359,7 @@ def main():
         "test_type": test_type,
         "test_part": test_part,
         "test_item": test_item,
+        "materias": materias,
         "question_elements": question_elements,
         "statement": statement,
         "answers": answers,

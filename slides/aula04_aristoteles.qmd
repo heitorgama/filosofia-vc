@@ -373,7 +373,7 @@ mindmap
 from scripts.render_questoes import render_questao
 from IPython.display import HTML
 
-arquivo_yaml = "questoes_enem.yaml"
+arquivo_yaml = "../dados/questoes_enem.yaml"
 
 questoes = [2, 14, 15, 29, 35, 46, 47, 48, 49, 50, 51, 52, 53, 54, 59, 67, 71, 89]
 

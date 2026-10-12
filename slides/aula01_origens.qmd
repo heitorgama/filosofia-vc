@@ -209,7 +209,7 @@ Parmênides ou Heráclito?
 from scripts.render_questoes import render_questao
 from IPython.display import HTML
 
-arquivo_yaml = "questoes_enem.yaml"
+arquivo_yaml = "../dados/questoes_enem.yaml"
 
 questoes = [37, 33, 36, 17, 1, 76]
 

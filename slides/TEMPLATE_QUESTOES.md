@@ -12,15 +12,15 @@ Em qualquer arquivo `.qmd`, adicione um bloco de código Python:
 
 from scripts.render_questoes import render_questao
 
-# Renderizar questão ID 1 do arquivo "questoes_enem.yaml"
-html = render_questao(1, "questoes_enem.yaml")
+# Renderizar questão ID 1 do arquivo "../dados/questoes_enem.yaml"
+html = render_questao(1, "../dados/questoes_enem.yaml")
 print(html)
 ```
 
 ## Parâmetros
 
 - `questao_id` (int): ID da questão que você quer renderizar
-- `arquivo_yaml` (str): Caminho do arquivo YAML com as questões (padrão: "questoes_enem.yaml")
+- `arquivo_yaml` (str): Caminho do arquivo YAML com as questões (padrão: "../dados/questoes_enem.yaml")
 
 ## Exemplos
 
@@ -39,7 +39,7 @@ print(render_questao(1))
 #| results: asis
 
 from scripts.render_questoes import render_questao
-print(render_questao(2, "questoes_enem.yaml"))
+print(render_questao(2, "../dados/questoes_enem.yaml"))
 ```
 
 ### Exemplo 3: Loop para múltiplas questões

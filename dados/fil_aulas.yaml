@@ -1,35 +1,54 @@
 - id: 1
+  id_textual: aula01_origens
   titulo: "Origens da filosofia"
   questoes: [37, 33, 36, 17, 1, 76]
 
 - id: 2
+  id_textual: aula02_socrates
   titulo: "A filosofia na *pólis*"
   questoes: [10, 38, 20, 24, 27]
 
 - id: 3
+  id_textual: aula03_platao
   titulo: "O idealismo de Platão"
   questoes: [19, 31, 44, 45, 91]
 
 - id: 4
+  id_textual: aula04_aristoteles
   titulo: "Aristotelismo e Helenismo"
   questoes: [2, 14, 15, 29, 35, 46, 47, 48, 49, 50, 51, 52, 53, 54, 59, 67, 71, 89]
 
 - id: 5
+  id_textual: aula05_idade_media
   titulo: "Fé e Razão"
   questoes: [23, 32, 43, 55, 56, 61, 82, 96]
 
 - id: 6
+  id_textual: aula06_descartes
   titulo: "Modernidade: Metafísica"
   questoes: [84, 62, 92, 95, 96]
 
 - id: 7
+  id_textual: aula07_epistemologia
   titulo: "Modernidade: Epistemologia"
   questoes: [8, 10, 72, 97, 98]
 
 - id: 8
+  id_textual: aula08_politica_moderna
   titulo: "Modernidade: Política"
   questoes: [21, 77, 83, 103, 26]
 
 - id: 9
+  id_textual: aula09_etica_moderna
   titulo: "Modernidade: Ética"
   questoes: [18, 99, 101, 100, 7, 13, 86]
+
+- id: 10
+  id_textual: aula10_critica_modernidade
+  titulo: "Crítica à Modernidade"
+  questoes: [22, 30, 6, 11, 12, 28]
+
+- id: 11
+  id_textual: aula11_liberdade_contemporaneidade
+  titulo: "Liberdade e contemporaneidade"
+  questoes: [3, 25, 4, 8, 9, 16]
