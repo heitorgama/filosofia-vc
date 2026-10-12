@@ -973,42 +973,6 @@
     D: "O texto diz que os métodos são 'suaves', sem castigos violentos; a disciplina não é a imposição coercitiva direta."
     E: "Carisma é fascínio por uma pessoa, o que o texto não menciona."
 
-- id: 29
-  test: enem_2025_belem
-  test_type: azul
-  test_part: ch
-  test_item: 67
-  materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
-  question_elements:
-    - question_text: >
-        Pensa-se que é característico de uma pessoa de discernimento ser capaz de deliberar
-        bem acerca do que é bom e conveniente para si mesma, não em relação a um aspecto
-        particular — por exemplo, quando se quer saber quais as espécies de coisas que concorrem
-        para a saúde e para o vigor físico —, e sim acerca das espécies de coisas que nos
-        levam a viver bem de um modo geral. O discernimento deve ser então uma qualidade que
-        leva à verdade no tocante às ações relacionadas com os bens humanos.
-      question_text_reference: >
-        ARISTÓTELES. Ética a Nicômaco. In: MARCONDES, D. (Org.). **Textos básicos de Ética.**
-        Rio de Janeiro: Zahar, 2008 (adaptado).
-  statement: >
-    Conforme o trecho filosófico, a pessoa capaz de bem decidir é dotada de uma qualidade
-  answers:
-    A: "teórica, voltada para o rigor da pesquisa."
-    B: "racional, voltada para a orientação das escolhas."
-    C: "pragmática, voltada para o desenvolvimento de projetos."
-    D: "filosófica, voltada para a delimitação de opiniões."
-    E: "social, voltada para a criação da arte."
-  correct_answer: B
-  comments:
-    A: "O discernimento (phronesis) é um saber prático, e não teórico."
-    B: "O discernimento é uma qualidade da razão prática, isto é, a capacidade de deliberar bem e orientar as escolhas para uma vida boa."
-    C: "O texto trata de deliberar sobre o que é bom para viver bem, e não de desenvolver projetos."
-    D: "O texto não trata de delimitar opiniões."
-    E: "Arte e vida social não são o tema do trecho."
-
 - id: 30
   test: enem_2025_2apl
   test_type: azul

@@ -16,7 +16,7 @@
 - id: 4
   id_textual: aula04_aristoteles
   titulo: "Aristotelismo e Helenismo"
-  questoes: [2, 14, 15, 29, 35, 46, 47, 48, 49, 50, 51, 52, 53, 54, 59, 67, 71, 89]
+  questoes: [2, 14, 15, 35, 46, 47, 48, 49, 50, 51, 52, 53, 54, 59, 67, 71, 89]
 
 - id: 5
   id_textual: aula05_idade_media
