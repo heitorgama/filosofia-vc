@@ -1,4 +1,4 @@
-"""Lista a frequência de itens por valor da chave `test` em questoes_enem.yaml,
+"""Lista a frequência de itens por valor da chave `test` em dados/questoes_enem.yaml,
 e quantas dessas questões já apareceram nos slides de aula (slides/aula*.qmd)."""
 
 import ast
@@ -9,7 +9,7 @@ from pathlib import Path
 import yaml
 
 PASTA_SLIDES = Path(__file__).parent.parent
-CAMINHO_YAML = PASTA_SLIDES / "questoes_enem.yaml"
+CAMINHO_YAML = PASTA_SLIDES.parent / "dados" / "questoes_enem.yaml"
 PADRAO_QUESTOES = re.compile(r"^questoes\s*=\s*(\[.*?\])", re.MULTILINE | re.DOTALL)
 
 CIANO = "\033[36m"

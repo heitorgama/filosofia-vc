@@ -1,0 +1,50 @@
+---
+title: "Filosofia Antiga no Enem - Lista 01"
+date: "2026-07-01"
+date-format: "[Julho de 2026]"
+lang: pt
+number-sections: false
+format:
+  pdf:
+    documentclass: article
+    classoption: twocolumn
+    pdf-engine: xelatex
+    papersize: letter
+    geometry: margin=1.5cm
+    fontsize: 10pt
+    colorlinks: false
+    include-in-header:
+      text: |
+        \raggedbottom
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+from scripts.render_questoes import render_questao_md
+
+arquivo_yaml = "../dados/questoes_enem.yaml"
+questoes = [33, 38, 44, 35, 46]
+
+for i, questao_id in enumerate(questoes, start=1):
+    print(render_questao_md(questao_id, arquivo_yaml, numero=i))
+```
+
+\onecolumn
+
+## Gabarito
+
+```{python}
+#| echo: false
+#| output: asis
+
+from scripts.render_questoes import carregar_questao
+
+respostas = [
+    f"{i}-{carregar_questao(questao_id, arquivo_yaml)['correct_answer']}"
+    for i, questao_id in enumerate(questoes, start=1)
+]
+
+print(", ".join(respostas))
+```

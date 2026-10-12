@@ -1,10 +1,10 @@
 """Gera slides/questoes_enem_comentadas.qmd: um documento Quarto em formato
-PDF com todas as questões de questoes_enem.yaml, mostrando todos os detalhes
-de cada uma — textos de apoio, enunciado, alternativas, prova e número da
-questão na prova, comentário de cada alternativa e o gabarito.
+PDF com todas as questões de dados/questoes_enem.yaml, mostrando todos os
+detalhes de cada uma — textos de apoio, enunciado, alternativas, prova e
+número da questão na prova, comentário de cada alternativa e o gabarito.
 
 O documento é organizado em uma seção por aula (na ordem de
-aulas_enem.yaml), cada questão exibindo o número que recebeu no slide
+dados/fil_aulas.yaml), cada questão exibindo o número que recebeu no slide
 daquela aula; ao final, uma seção com as questões que não foram atribuídas a
 nenhuma aula (numeradas em ordem crescente a partir de 1), e um índice
 indicando, para cada id, a quais aulas (e sob qual número) a questão foi
@@ -15,8 +15,8 @@ respostas, pensada para o aluno resolver), este documento é um banco de
 referência comentado, pensado para consulta do professor.
 
 Uso: basta rodar `python3 gerar_lista_comentada.py` (sem argumentos). O
-script lê questoes_enem.yaml e aulas_enem.yaml e sobrescreve o arquivo de
-saída.
+script lê dados/questoes_enem.yaml e dados/fil_aulas.yaml e sobrescreve o
+arquivo de saída.
 """
 
 from collections import defaultdict
@@ -27,8 +27,9 @@ import yaml
 from render_questoes import formatar_fonte
 
 PASTA_SLIDES = Path(__file__).parent.parent
-CAMINHO_QUESTOES = PASTA_SLIDES / "questoes_enem.yaml"
-CAMINHO_AULAS = PASTA_SLIDES / "aulas_enem.yaml"
+PASTA_DADOS = PASTA_SLIDES.parent / "dados"
+CAMINHO_QUESTOES = PASTA_DADOS / "questoes_enem.yaml"
+CAMINHO_AULAS = PASTA_DADOS / "fil_aulas.yaml"
 
 
 def front_matter(titulo):
@@ -46,6 +47,18 @@ format:
     geometry: margin=2cm
     fontsize: 11pt
     colorlinks: false
+    include-in-header:
+      text: |
+        \\usepackage{{fancyhdr}}
+        \\pagestyle{{fancy}}
+        \\fancyhf{{}}
+        \\renewcommand{{\\sectionmark}}[1]{{\\markright{{#1}}}}
+        \\makeatletter
+        \\let\\subsectionmark\\@gobble
+        \\makeatother
+        \\fancyhead[R]{{\\rightmark}}
+        \\fancyfoot[C]{{\\thepage}}
+        \\renewcommand{{\\headrulewidth}}{{0.4pt}}
 ---
 """
 
@@ -160,7 +173,20 @@ def renderizar_secao_sem_aula(questoes_sem_aula):
 
 
 def renderizar_indice_aulas(todas_questoes, mapa_aulas):
-    linhas = ["# Índice: questão por aula\n", "| id | aula(s) |", "|---|---|"]
+    total = len(todas_questoes)
+    associadas = sum(1 for q in todas_questoes if q["id"] in mapa_aulas)
+    em_mais_de_uma_aula = sum(1 for ocorrencias in mapa_aulas.values() if len(ocorrencias) > 1)
+    avulsas = total - associadas
+
+    linhas = [
+        "# Índice: questão por aula\n",
+        f"- **Questões no banco**: {total}",
+        f"- **Questões associadas a aulas**: {associadas}",
+        f"- **Questões associadas a mais de uma aula**: {em_mais_de_uma_aula}",
+        f"- **Questões avulsas (sem aula)**: {avulsas}\n",
+        "| id | aula(s) |",
+        "|---|---|",
+    ]
     for questao in sorted(todas_questoes, key=lambda q: q["id"]):
         ocorrencias = mapa_aulas.get(questao["id"], [])
         if ocorrencias:

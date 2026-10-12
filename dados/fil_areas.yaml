@@ -1,0 +1,37 @@
+# Lista de valores admitidos para a chave `fil_areas` em
+# questoes_enem.yaml: a área sistemática da Filosofia tratada pela questão
+# (independente do período histórico ou do autor envolvido).
+#
+# É um eixo de classificação diferente de `fil_temas.yaml` (que
+# organiza por período histórico + assunto específico) e de `fil_filosofos.yaml`
+# (o(s) filósofo(s) citado(s) ou tratado(s)). Uma questão normalmente recebe
+# uma área, mas pode receber mais de uma quando articula, por exemplo, ética
+# e política ao mesmo tempo.
+#
+# Este arquivo é declarado em `materias.yaml`, na chave `classificacao` da
+# matéria `fil` (Filosofia).
+
+- codigo: historia_filosofia
+  nome: História da filosofia (periodização, contexto histórico e social das ideias)
+- codigo: metafisica
+  nome: Metafísica (ser, substância, essência)
+- codigo: fisica
+  nome: Filosofia da natureza (physis, cosmologia)
+- codigo: etica
+  nome: Ética e filosofia moral
+- codigo: politica
+  nome: Filosofia política
+- codigo: epistemologia
+  nome: Epistemologia (teoria do conhecimento)
+- codigo: logica
+  nome: Lógica
+- codigo: filosofia_religiao
+  nome: Filosofia da religião (Deus, fé e razão)
+- codigo: filosofia_mente
+  nome: Filosofia da mente (mente e alma, dualismo)
+- codigo: filosofia_linguagem
+  nome: Filosofia da linguagem
+- codigo: estetica
+  nome: Estética e filosofia da arte
+- codigo: filosofia_ciencia
+  nome: Filosofia da ciência

@@ -3,6 +3,10 @@
   test_type: azul
   test_part: ch
   test_item: 55
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [foucault]
+  fil_temas: [moderna.mente_corpo]
   question_elements:
     - question_text: >
         A alma funciona no meu corpo de maneira maravilhosa. Nele se aloja, certamente,
@@ -32,6 +36,10 @@
   test_type: azul
   test_part: ch
   test_item: 58
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -73,6 +81,10 @@
   test_type: azul
   test_part: ch
   test_item: 61
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: []
+  fil_temas: [contemporanea.existencialismo]
   question_elements:
     - question_text: >
         Eu sentia falta do futuro. É claro que eu sabia, muito mesmo antes da recorrência dele, que nunca envelheceria.
@@ -104,6 +116,10 @@
   test_type: azul
   test_part: ch
   test_item: 62
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [carnap]
+  fil_temas: [contemporanea.filosofia_analitica]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -143,6 +159,10 @@
   test_type: azul
   test_part: ch
   test_item: 75
+  materias: [fil]
+  fil_areas: [historia_filosofia]
+  fil_filosofos: [habermas]
+  fil_temas: [moderna.iluminismo]
   question_elements:
     - question_text: >
         Os salões permitiam aos escritores da época do Iluminismo adentrar no universo dos poderosos.
@@ -177,6 +197,10 @@
   test_type: azul
   test_part: ch
   test_item: 76
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [deleuze]
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
     - question_text: >
         Resumamos os principais caracteres de um rizoma: diferentemente das árvores ou de suas raízes,
@@ -208,6 +232,10 @@
   test_type: azul
   test_part: ch
   test_item: 78
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [kant]
+  fil_temas: [moderna.etica]
   question_elements:
     - question_text: >
         A regra de ouro, popularmente conhecida pelo provérbio "Trate os outros como gostaria de ser tratado",
@@ -237,6 +265,10 @@
   test_type: azul
   test_part: ch
   test_item: 82
+  materias: [fil]
+  fil_areas: [epistemologia, logica]
+  fil_filosofos: [russell]
+  fil_temas: [logica_conhecimento.inducao_deducao]
   question_elements:
     - question_text: >
         Bertrand Russell conta a história de um peru que descobrira, em sua primeira manhã na fazenda de perus,
@@ -268,6 +300,10 @@
   test_type: azul
   test_part: ch
   test_item: 90
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [marx]
+  fil_temas: [contemporanea.marxismo_critica]
   question_elements:
     - question_text: >
         Uma fábrica na qual os operários fossem, efetiva e integralmente, simples peças de máquinas executando
@@ -297,6 +333,10 @@
   test_type: azul
   test_part: ch
   test_item: 48
+  materias: [fil]
+  fil_areas: [logica, filosofia_linguagem]
+  fil_filosofos: [hume]
+  fil_temas: [moderna.epistemologia]
   question_elements:
     - question_text: >
         A credulidade dos ouvintes aumenta o descaramento do narrador, e o descaramento deste conquista-lhes a credulidade.
@@ -325,6 +365,10 @@
   test_type: azul
   test_part: ch
   test_item: 50
+  materias: [fil]
+  fil_areas: [etica, politica]
+  fil_filosofos: [derrida]
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
     - question_text: >
         O direito não é a justiça. O direito é o elemento do cálculo, é justo que haja um direito, mas a justiça é incalculável,
@@ -353,6 +397,10 @@
   test_type: azul
   test_part: ch
   test_item: 55
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [foucault]
+  fil_temas: [contemporanea.poder_biopolitica]
   question_elements:
     - question_text: >
         A “invenção” dessa nova anatomia política não deve ser entendida como uma descoberta súbita.
@@ -383,6 +431,10 @@
   test_type: azul
   test_part: ch
   test_item: 60
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: []
+  fil_temas: [moderna.etica]
   question_elements:
     - question_text: >
         Adam Smith via o açougueiro e o padeiro não só como indivíduos buscando seus interesses financeiros,
@@ -411,6 +463,10 @@
   test_type: azul
   test_part: ch
   test_item: 61
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         O corpo de cidadãos é o poder supremo dos Estados. A supremacia pode residir ou num homem, ou na minoria,
@@ -440,6 +496,10 @@
   test_type: azul
   test_part: ch
   test_item: 65
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: []
+  fil_temas: [etica_moral.teorias_normativas]
   question_elements:
     - question_text_title: O que eu queria ter sido
       question_text: >
@@ -472,6 +532,10 @@
   test_type: azul
   test_part: ch
   test_item: 66
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [marcuse]
+  fil_temas: [contemporanea.marxismo_critica]
   question_elements:
     - question_text: >
         Independência de pensamento, autonomia e direito à oposição política estão perdendo sua função crítica básica
@@ -501,6 +565,10 @@
   test_type: azul
   test_part: ch
   test_item: 72
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [heraclito]
+  fil_temas: [origens.pre_socraticos]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -534,6 +602,10 @@
   test_type: azul
   test_part: ch
   test_item: 79
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [bentham]
+  fil_temas: [moderna.etica]
   question_elements:
     - question_text: >
         A missão dos governantes consiste em promover a felicidade da sociedade, punindo e recompensando.
@@ -564,6 +636,10 @@
   test_type: azul
   test_part: ch
   test_item: 82
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [platao]
+  fil_temas: [classica.platao]
   question_elements:
     - question_text: >
         A cidade justa é governada pelos filósofos, administrada pelos cientistas, protegida pelos guerreiros
@@ -593,6 +669,10 @@
   test_type: azul
   test_part: ch
   test_item: 47
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [arendt]
+  fil_temas: [contemporanea.justica_democracia]
   question_elements:
     - question_text: >
         Para os gregos, forçar alguém mediante violência, ordenar ao invés de persuadir, eram modos
@@ -622,6 +702,10 @@
   test_type: azul
   test_part: ch
   test_item: 53
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [maquiavel]
+  fil_temas: [moderna.realismo_politico]
   question_elements:
     - question_text: >
         Não ignoro que muitos foram e são de opinião de que as coisas do mundo são governadas de
@@ -651,6 +735,10 @@
   test_type: azul
   test_part: ch
   test_item: 55
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: []
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
     - question_text: >
         O homo economicus contemporâneo é dotado de intenso princípio de racionalidade formal
@@ -680,6 +768,10 @@
   test_type: azul
   test_part: ch
   test_item: 70
+  materias: [fil]
+  fil_areas: [filosofia_religiao]
+  fil_filosofos: [agostinho]
+  fil_temas: [medieval.patristica]
   question_elements:
     - question_text: >
         É com certeza, Senhor, e não com dúvida que em minha consciência eu Vos amo. Vós
@@ -708,6 +800,10 @@
   test_type: azul
   test_part: ch
   test_item: 74
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         O que define a polis é que, contrariamente à tribo ou às grandes monarquias,
@@ -738,6 +834,10 @@
   test_type: azul
   test_part: ch
   test_item: 77
+  materias: [fil]
+  fil_areas: [filosofia_mente]
+  fil_filosofos: [byung_chul_han]
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
     - question_text: >
         O smartphone não é uma coisa. Eu o caracterizo como um infômata (coisa informatizada)
@@ -768,6 +868,10 @@
   test_type: azul
   test_part: ch
   test_item: 81
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [hobbes, rousseau]
+  fil_temas: [moderna.contratualismo]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -809,6 +913,10 @@
   test_type: azul
   test_part: ch
   test_item: 89
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: []
+  fil_temas: []
   question_elements:
     - question_text: >
         Antigamente, existiam duas maneiras de governar: ou a sociedade era comandada pelo
@@ -835,20 +943,22 @@
     E: "Em algumas cidades gregas, os cidadãos decidiam os rumos da sociedade, o que caracteriza a democracia como governo de participação popular."
 
 - id: 28
-  test: enem_2025_belem
+  test: enem_2025_2apl
   test_type: azul
   test_part: ch
   test_item: 52
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [foucault]
+  fil_temas: [contemporanea.poder_biopolitica]
   question_elements:
-    - question_text: >
-        Ainda que instituições não recorram a castigos violentos ou sangrentos, mesmo quando
-        utilizam métodos “suaves” de trancar ou corrigir, é sempre do corpo que se trata —
-        do corpo e suas forças, da utilidade e docilidade deles, de sua repartição e de sua
-        submissão.
-      question_text_reference: >
-        FOUCAULT, M. Vigiar e punir. Petrópolis: Vozes, 1995 (adaptado).
-  statement: >
-    A forma de exercício de poder indicada no texto é caracterizada como:
+  - question_text: "Ainda que instituições não recorram a castigos violentos ou sangrentos,\
+      \ mesmo quando utilizam métodos “suaves” de trancar ou corrigir, é sempre do\
+      \ corpo que se trata — do corpo e suas forças, da utilidade e docilidade deles,\
+      \ de sua repartição e de sua submissão."
+    question_text_reference: "FOUCAULT, M. **Vigiar e punir.** Petrópolis: Vozes,\
+      \ 1995 (adaptado)."
+  statement: "A forma de exercício de poder indicada no texto é caracterizada como:"
   answers:
     A: "Ideológica, associada à dominação da consciência."
     B: "Midiática, apoiada na manipulação afetivo-sentimental."
@@ -868,6 +978,10 @@
   test_type: azul
   test_part: ch
   test_item: 67
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         Pensa-se que é característico de uma pessoa de discernimento ser capaz de deliberar
@@ -900,6 +1014,10 @@
   test_type: azul
   test_part: ch
   test_item: 69
+  materias: [fil]
+  fil_areas: [etica, metafisica]
+  fil_filosofos: [hans_jonas]
+  fil_temas: [etica_moral.teorias_normativas]
   question_elements:
     - question_text: >
         A ontologia como fundamento da ética foi o ponto de vista original da filosofia. A
@@ -936,6 +1054,10 @@
   test_type: azul
   test_part: ch
   test_item: 73
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [platao]
+  fil_temas: [classica.platao]
   question_elements:
     - question_text: >
         Na obra O Político, Platão faz uma sutil distinção entre plantas e animais. As
@@ -971,6 +1093,10 @@
   test_type: azul
   test_part: ch
   test_item: 82
+  materias: [fil]
+  fil_areas: [filosofia_religiao]
+  fil_filosofos: [agostinho]
+  fil_temas: [medieval.patristica]
   question_elements:
     - question_text: >
         Sem negar que Deus prevê todos os acontecimentos futuros, entretanto nós queremos
@@ -1000,6 +1126,10 @@
   test_type: roza
   test_part: ch
   test_item: 66
+  materias: [fil]
+  fil_areas: [metafisica, fisica]
+  fil_filosofos: [empedocles]
+  fil_temas: [origens.pre_socraticos]
   question_elements:
     - question_text: >
         Empédocles estabelece quatro elementos corporais — fogo, ar, água e terra —, que são eternos
@@ -1031,6 +1161,10 @@
   test_type: azul
   test_part: ch
   test_item: 28
+  materias: [fil]
+  fil_areas: [fisica, metafisica]
+  fil_filosofos: [anaximenes]
+  fil_temas: [origens.pre_socraticos]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -1075,6 +1209,10 @@
   test_type: azul
   test_part: ch
   test_item: 24
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [epicuro]
+  fil_temas: [helenistica.epicurismo]
   question_elements:
     - question_text: >
         Alguns dos desejos são naturais e necessários; outros, naturais e não necessários;
@@ -1106,6 +1244,10 @@
   test_type: azul
   test_part: ch
   test_item: 54
+  materias: [fil]
+  fil_areas: [fisica]
+  fil_filosofos: [tales]
+  fil_temas: [origens.pre_socraticos]
   question_elements:
     - question_text: >
         Aquilo que é quente necessita de umidade para viver, e o que é morto seca,
@@ -1136,6 +1278,10 @@
   test_type: azul
   test_part: ch
   test_item: 23
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [heraclito, parmenides]
+  fil_temas: [origens.pre_socraticos]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -1171,6 +1317,10 @@
   test_type: azul
   test_part: ch
   test_item: 90
+  materias: [fil]
+  fil_areas: [filosofia_linguagem, logica]
+  fil_filosofos: []
+  fil_temas: [classica.socrates_sofistas]
   question_elements:
     - question_text: >
         Não tinha outra filosofia. Nem eu. Não digo que a Universidade me não tivesse ensinado alguma; mas eu decorei-lhe 
@@ -1201,6 +1351,10 @@
   test_type: azul
   test_part: ch
   test_item: 66
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [socrates]
+  fil_temas: [classica.socrates_sofistas]
   question_elements:
     - question_text: >
         Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; 
@@ -1231,6 +1385,10 @@
   test_type: azul
   test_part: ch
   test_item: 82
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [socrates, foucault]
+  fil_temas: [classica.socrates_sofistas]
   question_elements:
     - question_text: >
         Tomemos o exemplo de Sócrates: é precisamente ele quem interpela as pessoas na rua, os jovens no 
@@ -1260,6 +1418,10 @@
   test_type: azul
   test_part: ch
   test_item: 34
+  materias: [fil]
+  fil_areas: [historia_filosofia]
+  fil_filosofos: [nietzsche, tales]
+  fil_temas: [origens.mito_razao]
   question_elements:
     - question_text: >
         A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz 
@@ -1290,6 +1452,10 @@
   test_type: azul
   test_part: ch
   test_item: 13
+  materias: [fil]
+  fil_areas: [etica, politica]
+  fil_filosofos: [trasimaco]
+  fil_temas: [classica.socrates_sofistas]
   question_elements:
     - question_text: >
         Trasímaco estava impaciente porque Sócrates e os seus amigos presumiam que a justiça era algo real e 
@@ -1319,6 +1485,10 @@
   test_type: azul
   test_part: ch
   test_item: 52
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [tomas_aquino]
+  fil_temas: [medieval.escolastica]
   question_elements:
     - question_text: >
         Tomás de Aquino, filósofo cristão que viveu no século XIII, afirma: a lei é uma regra ou um preceito 
@@ -1348,6 +1518,10 @@
   test_type: branco
   test_part: ch
   test_item: 21
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [platao]
+  fil_temas: [classica.platao]
   question_elements:
     - question_text: >
         Suponha homens numa morada subterrânea, em forma de caverna, cuja entrada, aberta à luz, se estende 
@@ -1381,6 +1555,10 @@
   test_type: azul
   test_part: ch
   test_item: 82
+  materias: [fil]
+  fil_areas: [logica, epistemologia]
+  fil_filosofos: [platao]
+  fil_temas: [classica.platao]
   question_elements:
     - question_text: >
         Sócrates: “Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, que coisa afirmas ser a virtude?”.
@@ -1407,6 +1585,10 @@
   test_type: azul
   test_part: ch
   test_item: 77
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         Vemos que toda cidade é uma espécie de 
@@ -1440,6 +1622,10 @@
   test_type: azul
   test_part: ch
   test_item: 69
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [epicteto]
+  fil_temas: [helenistica.estoicismo]
   question_elements:
     - question_text: >
         XI. Jamais, a respeito de coisa alguma, digas: "Eu
@@ -1475,6 +1661,10 @@
   test_type: azul
   test_part: ch
   test_item: 67
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         Dado que, dos hábitos racionais com os quais
@@ -1514,6 +1704,10 @@
   test_type: azul
   test_part: ch
   test_item: 88
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [seneca]
+  fil_temas: [helenistica.estoicismo]
   question_elements:
     - question_text: >
         Entretanto, nosso amigo Basso tem o ânimo alegre. 
@@ -1543,6 +1737,10 @@
   test_type: azul
   test_part: ch
   test_item: 80
+  materias: [fil]
+  fil_areas: [historia_filosofia]
+  fil_filosofos: []
+  fil_temas: [origens.mito_razao]
   question_elements:
     - question_text: >
         Advento da Polis, nascimento da filosofia: entre as 
@@ -1580,6 +1778,10 @@
   test_type: azul
   test_part: ch
   test_item: 27
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         A felicidade é, portanto, a melhor, a mais nobre e a
@@ -1613,6 +1815,10 @@
   test_type: branco
   test_part: ch
   test_item: 42
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         A utilidade do escravo é semelhante à do animal.
@@ -1645,6 +1851,10 @@
   test_type: azul
   test_part: ch
   test_item: 88
+  materias: [fil]
+  fil_areas: [etica, politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         Se, pois, para as coisas que fazemos existe um fim
@@ -1690,6 +1900,10 @@
   test_type: azul
   test_part: ch
   test_item: 90
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
     - question_text: >
         Vimos que o homem sem lei é injusto e o respeitador
@@ -1727,6 +1941,10 @@
   test_type: branco
   test_part: ch
   test_item: 22
+  materias: [fil]
+  fil_areas: [filosofia_religiao]
+  fil_filosofos: [agostinho]
+  fil_temas: [medieval.patristica]
   question_elements:
   - question_text: "Se os nossos adversários, que admitem a existência de uma natureza\
       \ não criada por Deus, o Sumo Bem, quisessem admitir que essas considerações\
@@ -1755,6 +1973,10 @@
   test_type: azul
   test_part: ch
   test_item: 17
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [tomas_aquino]
+  fil_temas: [medieval.escolastica]
   question_elements:
   - question_text: "Ora, em todas as coisas ordenadas a algum fim, é preciso haver\
       \ algum dirigente, pelo qual se atinja diretamente o devido fim. Com efeito,\
@@ -1788,6 +2010,10 @@
   test_type: azul
   test_part: ch
   test_item: 49
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [derrida]
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
   - question_text: "O perdão não é o esquecimento. Ao contrário, ele requer a memória\
       \ absolutamente viva do que não se pode esquecer, para além de todo trabalho\
@@ -1814,38 +2040,15 @@
     D: "A reparação seria uma troca ou cálculo, e não perdão."
     E: "O texto não afirma que o perdão é essencialmente religioso."
 
-- id: 58
-  test: enem_2025_2apl
-  test_type: azul
-  test_part: ch
-  test_item: 52
-  question_elements:
-  - question_text: "Ainda que instituições não recorram a castigos violentos ou sangrentos,\
-      \ mesmo quando utilizam métodos “suaves” de trancar ou corrigir, é sempre do\
-      \ corpo que se trata — do corpo e suas forças, da utilidade e docilidade deles,\
-      \ de sua repartição e de sua submissão."
-    question_text_reference: "FOUCAULT, M. **Vigiar e punir.** Petrópolis: Vozes,\
-      \ 1995 (adaptado)."
-  statement: "A forma de exercício de poder indicada no texto é caracterizada como:"
-  answers:
-    A: "Ideológica, associada à dominação da consciência."
-    B: "Midiática, apoiada na manipulação afetivo-sentimental."
-    C: "Disciplinar, fundamentada na diluição espaço-temporal."
-    D: "Autoritária, conduzida pela imposição coercitiva."
-    E: "Carismática, motivada pela fascinação pessoal."
-  correct_answer: C
-  comments:
-    A: "O texto fala do poder que age sobre o corpo, e não sobre a consciência (ideologia)."
-    B: "O texto não trata da mídia nem de manipulação de emoções."
-    C: "Para Foucault, o poder disciplinar atua sobre o corpo (sua utilidade, docilidade e submissão) por meio de técnicas de distribuição no espaço e no tempo, sem depender da violência."
-    D: "O texto diz que os métodos são 'suaves', sem castigos violentos; a disciplina não é a imposição coercitiva direta."
-    E: "Carisma é fascínio por uma pessoa, o que o texto não menciona."
-
 - id: 59
   test: enem_2025_2apl
   test_type: azul
   test_part: ch
   test_item: 67
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
   - question_text: "Pensa-se que é característico de uma pessoa de discernimento ser\
       \ capaz de deliberar bem acerca do que é bom e conveniente para si mesma, não\
@@ -1877,6 +2080,10 @@
   test_type: azul
   test_part: ch
   test_item: 82
+  materias: [fil]
+  fil_areas: [filosofia_religiao]
+  fil_filosofos: [agostinho]
+  fil_temas: [medieval.patristica]
   question_elements:
   - question_text: "Sem negar que Deus prevê todos os acontecimentos futuros, entretanto\
       \ nós queremos livremente aquilo que queremos. Porque, se o objeto da presciência\
@@ -1904,6 +2111,10 @@
   test_type: azul
   test_part: ch
   test_item: 54
+  materias: [fil]
+  fil_areas: [metafisica, filosofia_mente]
+  fil_filosofos: [merleau_ponty, descartes]
+  fil_temas: [moderna.mente_corpo]
   question_elements:
   - question_text: "Eu poderia concluir que a raiva é um pensamento, que estar com\
       \ raiva é pensar que alguém é detestável, e que esse pensamento, como todos\
@@ -1934,6 +2145,10 @@
   test_type: azul
   test_part: ch
   test_item: 57
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [ricoeur]
+  fil_temas: [etica_moral.teorias_normativas]
   question_elements:
   - question_text: "Quem se mete pelo caminho do pedido de perdão deve estar pronto\
       \ a escutar uma palavra de recusa. Entrar na atmosfera do perdão é aceitar medir-se\
@@ -1962,6 +2177,10 @@
   test_type: azul
   test_part: ch
   test_item: 81
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [foucault]
+  fil_temas: [contemporanea.poder_biopolitica]
   question_elements:
   - question_text: "A economia das ilegalidades se reestruturou com o desenvolvimento\
       \ da sociedade capitalista. A ilegalidade dos bens foi separada da ilegalidade\
@@ -1998,6 +2217,10 @@
   test_type: azul
   test_part: ch
   test_item: 55
+  materias: [fil]
+  fil_areas: [etica, estetica]
+  fil_filosofos: [adorno, horkheimer]
+  fil_temas: [contemporanea.marxismo_critica]
   question_elements:
   - question_text: "A diversão é o prolongamento do trabalho sob o capitalismo tardio.\
       \ Ela é procurada por quem quer escapar ao processo de trabalho mecanizado para\
@@ -2028,6 +2251,10 @@
   test_type: azul
   test_part: ch
   test_item: 79
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [sartre]
+  fil_temas: [contemporanea.existencialismo]
   question_elements:
   - question_text_title: "TEXTO I"
     question_text: "Gerineldo dorme porque já está conformado com o seu mundo. Porque\
@@ -2071,6 +2298,10 @@
   test_type: azul
   test_part: ch
   test_item: 46
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
   - question_text: "O Estado surge pelo fato de ser o homem um animal naturalmente\
       \ social, político. O Estado provê, inicialmente, a satisfação daquelas necessidades\
@@ -2100,6 +2331,10 @@
   test_type: azul
   test_part: ch
   test_item: 48
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: []
+  fil_temas: [etica_moral.teorias_normativas]
   question_elements:
   - question_text: "Estudiosos do Instituto de Antropologia Evolucionária de Leipzig,\
       \ na Alemanha, colocaram um chimpanzé em um quarto com a visão de suculentos\
@@ -2130,6 +2365,10 @@
   test_type: azul
   test_part: ch
   test_item: 59
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [sandel]
+  fil_temas: [contemporanea.justica_democracia]
   question_elements:
   - question_text: "A concepção tecnocrata está associada à fé em mercados — não necessariamente\
       \ no capitalismo livre, laissez-faire, mas uma crença mais ampla de que mecanismos\
@@ -2164,6 +2403,10 @@
   test_type: azul
   test_part: ch
   test_item: 81
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [rawls]
+  fil_temas: [contemporanea.justica_democracia]
   question_elements:
   - question_text: "Os valores políticos são valores efetivamente superiores, que\
       \ regem o quadro básico da vida social e definem precisamente os termos fundamentais\
@@ -2195,6 +2438,10 @@
   test_type: azul
   test_part: ch
   test_item: 87
+  materias: [fil]
+  fil_areas: [logica]
+  fil_filosofos: []
+  fil_temas: [logica_conhecimento.falacias_retorica]
   question_elements:
   - question_text: "As propostas dele não devem ser levadas a sério, pois foi visto\
       \ bêbado num restaurante."
@@ -2221,6 +2468,10 @@
   test_type: azul
   test_part: ch
   test_item: 66
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [hume]
+  fil_temas: [moderna.epistemologia]
   question_elements:
   - question_text: "Suponha-se que seja trazida de súbito a este mundo uma pessoa\
       \ dotada das mais poderosas faculdades da razão e reflexão. É verdade que ela\
@@ -2250,6 +2501,10 @@
   test_type: azul
   test_part: ch
   test_item: 57
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [foucault]
+  fil_temas: [contemporanea.poder_biopolitica]
   question_elements:
   - question_text: "O leproso é visto dentro de uma prática da rejeição, do exílio-cerca;\
       \ deixa-se que se perca lá dentro como numa massa que não tem muita importância\
@@ -2282,6 +2537,10 @@
   test_type: azul
   test_part: ch
   test_item: 84
+  materias: [fil]
+  fil_areas: [estetica]
+  fil_filosofos: [merleau_ponty, deleuze]
+  fil_temas: [contemporanea.estetica_arte]
   question_elements:
   - question_text_title: "TEXTO I"
     question_text: "Uma filosofia da percepção que queira reaprender a ver o mundo\
@@ -2315,6 +2574,10 @@
   test_type: azul
   test_part: ch
   test_item: 47
+  materias: [fil]
+  fil_areas: [politica, filosofia_linguagem]
+  fil_filosofos: [arendt]
+  fil_temas: [contemporanea.justica_democracia]
   question_elements:
   - question_text: "Sempre que a relevância do discurso entra em jogo, a questão torna-se\
       \ política por definição, pois é o discurso que faz do homem um ser político.\
@@ -2348,6 +2611,10 @@
   test_type: azul
   test_part: ch
   test_item: 86
+  materias: [fil]
+  fil_areas: [metafisica, fisica]
+  fil_filosofos: [empedocles]
+  fil_temas: [origens.pre_socraticos]
   question_elements:
   - question_text: "Empédocles estabelece quatro elementos corporais — fogo, ar, água\
       \ e terra —, que são eternos e que mudam aumentando e diminuindo mediante mistura\
@@ -2377,6 +2644,10 @@
   test_type: azul
   test_part: ch
   test_item: 63
+  materias: [fil]
+  fil_areas: [politica, etica]
+  fil_filosofos: [maquiavel]
+  fil_temas: [moderna.realismo_politico]
   question_elements:
   - question_text: "A um príncipe, portanto, não é necessário ter de fato todas as\
       \ qualidades, mas é indispensável parecer tê-las. Aliás, ousarei dizer que,\
@@ -2407,6 +2678,10 @@
   test_type: azul
   test_part: ch
   test_item: 84
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [abbagnano]
+  fil_temas: [contemporanea.existencialismo]
   question_elements:
   - question_text: "Em primeiro lugar, é preciso libertar-se do preconceito segundo\
       \ o qual a filosofia é apenas uma disciplina particular, apenas o trabalho de\
@@ -2437,6 +2712,10 @@
   test_type: azul
   test_part: ch
   test_item: 88
+  materias: [fil]
+  fil_areas: [etica, filosofia_mente]
+  fil_filosofos: []
+  fil_temas: []
   question_elements:
   - question_text_title: "TEXTO I"
     question_text: "A sociedade cultiva a violência, inculcando-a nos indivíduos como\
@@ -2472,6 +2751,10 @@
   test_type: azul
   test_part: ch
   test_item: 62
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [foucault]
+  fil_temas: [contemporanea.poder_biopolitica]
   question_elements:
   - question_text: "A velha potência de morte em que se simbolizava o poder soberano\
       \ é agora, cuidadosamente, recoberta pela administração dos corpos. Aparecimento,\
@@ -2500,6 +2783,10 @@
   test_type: azul
   test_part: ch
   test_item: 51
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [abbagnano]
+  fil_temas: []
   question_elements:
   - question_text: "Em sentido geral e fundamental, Direito é a técnica da coexistência\
       \ humana, isto é, a técnica voltada a tornar possível a coexistência dos homens.\
@@ -2529,6 +2816,10 @@
   test_type: azul
   test_part: ch
   test_item: 58
+  materias: [fil]
+  fil_areas: [filosofia_religiao]
+  fil_filosofos: [agostinho]
+  fil_temas: [medieval.patristica]
   question_elements:
   - question_text: "De fato, não é porque o homem pode usar a vontade livre para pecar\
       \ que se deve supor que Deus a concedeu para isso. Há, portanto, uma razão pela\
@@ -2562,6 +2853,10 @@
   test_type: azul
   test_part: ch
   test_item: 65
+  materias: [fil]
+  fil_areas: [etica, politica]
+  fil_filosofos: [maquiavel]
+  fil_temas: [moderna.realismo_politico]
   question_elements:
   - question_text: "Para Maquiavel, quando um homem decide dizer a verdade pondo em\
       \ risco a própria integridade física, tal resolução diz respeito apenas a sua\
@@ -2593,6 +2888,10 @@
   test_type: azul
   test_part: ch
   test_item: 67
+  materias: [fil]
+  fil_areas: [filosofia_religiao]
+  fil_filosofos: [descartes]
+  fil_temas: [moderna.filosofia_religiao]
   question_elements:
   - question_text_title: "TEXTO I"
     question_text: "Considero apropriado deter-me algum tempo na contemplação deste\
@@ -2627,6 +2926,10 @@
   test_type: azul
   test_part: ch
   test_item: 74
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [foucault]
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
   - question_text: "Penso que não há um sujeito soberano, fundador, uma forma universal\
       \ de sujeito que poderíamos encontrar em todos os lugares. Penso, pelo contrário,\
@@ -2656,6 +2959,10 @@
   test_type: azul
   test_part: ch
   test_item: 78
+  materias: [fil]
+  fil_areas: [epistemologia, etica]
+  fil_filosofos: [kant]
+  fil_temas: [moderna.epistemologia, moderna.etica]
   question_elements:
   - question_text_title: "TEXTO I"
     question_text: "Duas coisas enchem o ânimo de admiração e veneração sempre crescentes:\
@@ -2688,6 +2995,10 @@
   test_type: azul
   test_part: ch
   test_item: 64
+  materias: [fil]
+  fil_areas: [filosofia_ciencia]
+  fil_filosofos: []
+  fil_temas: [moderna.filosofia_ciencia]
   question_elements:
   - question_text: "A lenda diz que, em um belo dia ensolarado, Newton estava relaxando\
       \ sob uma macieira. Pássaros gorjeavam em suas orelhas. Havia uma brisa gentil.\
@@ -2720,6 +3031,10 @@
   test_type: azul
   test_part: ch
   test_item: 76
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [arendt]
+  fil_temas: [contemporanea.justica_democracia]
   question_elements:
   - question_text: "Essa atmosfera de loucura e irrealidade, criada pela aparente\
       \ ausência de propósitos, é a verdadeira cortina de ferro que esconde dos olhos\
@@ -2752,6 +3067,10 @@
   test_type: azul
   test_part: ch
   test_item: 50
+  materias: [fil]
+  fil_areas: [filosofia_linguagem, logica]
+  fil_filosofos: [aristoteles]
+  fil_temas: [classica.aristoteles]
   question_elements:
   - question_text: "Sem dúvida, os sons da voz (phone) exprimem a dor e o prazer;\
       \ também a encontramos nos animais em geral; sua natureza lhes permite somente\
@@ -2783,6 +3102,10 @@
   test_type: azul
   test_part: ch
   test_item: 51
+  materias: [fil]
+  fil_areas: [estetica]
+  fil_filosofos: [adorno, horkheimer]
+  fil_temas: [contemporanea.marxismo_critica]
   question_elements:
   - question_text: "Por força da industrialização da cultura, desde o começo do filme\
       \ já se sabe como ele termina, quem é recompensado e, ao escutar a música, o\
@@ -2811,6 +3134,10 @@
   test_type: azul
   test_part: ch
   test_item: 52
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [platao]
+  fil_temas: [classica.platao]
   question_elements:
   - question_text: "Se os filósofos não forem reis nas cidades ou se os que hoje são\
       \ chamados reis e soberanos não forem filósofos genuínos e capazes e se, numa\
@@ -2841,6 +3168,10 @@
   test_type: azul
   test_part: ch
   test_item: 57
+  materias: [fil]
+  fil_areas: [metafisica, epistemologia]
+  fil_filosofos: [descartes]
+  fil_temas: [moderna.metodo_metafisica]
   question_elements:
   - question_text: "Na primeira meditação, eu exponho as razões pelas quais nós podemos\
       \ duvidar de todas as coisas e, particularmente das coisas materiais, pelo menos\
@@ -2870,6 +3201,10 @@
   test_type: azul
   test_part: ch
   test_item: 73
+  materias: [fil]
+  fil_areas: [metafisica]
+  fil_filosofos: [derrida]
+  fil_temas: [contemporanea.critica_sujeito]
   question_elements:
   - question_text: "humanidade, a humanidade do homem, ainda é um conceito completamente\
       \ novo para o filósofo que não cochila em pé. A velha questão do próprio homem\
@@ -2900,6 +3235,10 @@
   test_type: azul
   test_part: ch
   test_item: 89
+  materias: [fil]
+  fil_areas: [politica]
+  fil_filosofos: [rousseau]
+  fil_temas: [moderna.contratualismo]
   question_elements:
   - question_text: "Antes que a arte polisse nossas maneiras e ensinasse nossas paixões\
       \ a falarem a linguagem apurada, nossos costumes eram rústicos. Não era melhor,\
@@ -2929,6 +3268,10 @@
   test_type: azul
   test_part: ch
   test_item: 86
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [descartes]
+  fil_temas: [moderna.metodo_metafisica]
   question_elements:
   - question_text: "A filosofia é como uma árvore, cujas raízes são a metafísica;\
       \ o tronco, a física, e os ramos que saem do tronco são todas as outras ciências,\
@@ -2958,6 +3301,10 @@
   test_type: azul
   test_part: ch
   test_item: 29
+  materias: [fil]
+  fil_areas: [filosofia_ciencia]
+  fil_filosofos: [galileu]
+  fil_temas: [moderna.filosofia_ciencia]
   question_elements:
   - question_text: "A filosofia encontra-se escrita neste grande livro que continuamente\
       \ se abre perante nossos olhos (isto é, o universo), que não se pode compreender\
@@ -2988,6 +3335,10 @@
   test_type: azul
   test_part: ch
   test_item: 36
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [kant]
+  fil_temas: [moderna.epistemologia]
   question_elements:
   - question_text: "Até hoje admitia-se que nosso conhecimento se devia regular pelos\
       \ objetos; porém, todas as tentativas para descobrir, mediante conceitos, algo\
@@ -3020,6 +3371,10 @@
   test_type: branca
   test_part: ch
   test_item: 8
+  materias: [fil]
+  fil_areas: [epistemologia]
+  fil_filosofos: [platao]
+  fil_temas: [classica.platao]
   question_elements:
   - question_text: "Estamos, pois, de acordo quando, ao ver algum objeto, dizemos:\
       \ “Este objeto que estou vendo agora tem tendência para assemelhar-se a um outro\
@@ -3048,6 +3403,10 @@
   test_type: azul
   test_part: ch
   test_item: 48
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [bentham]
+  fil_temas: [moderna.etica]
   question_elements:
   - question_text: "A moralidade, Bentham exortava, não é uma questão de agradar a\
       \ Deus, muito menos de fidelidade a regras abstratas. A moralidade é a tentativa\
@@ -3076,6 +3435,10 @@
   test_type: azul
   test_part: ch
   test_item: 53
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: []
+  fil_temas: [contemporanea.filosofias_nao_ocidentais]
   question_elements:
   - question_text: "Ubuntu é um sistema de crenças, uma epistemologia, uma ética coletiva\
       \ e uma filosofia humanista espiritual do sul da África. É mais um fundamento\
@@ -3110,6 +3473,10 @@
   test_type: azul
   test_part: ch
   test_item: 57
+  materias: [fil]
+  fil_areas: [etica]
+  fil_filosofos: [kant]
+  fil_temas: [moderna.etica]
   question_elements:
   - question_text: "Princípios práticos são subjetivos, ou máximas, quando a condição\
       \ é considerada pelosujeito como verdadeira só para a sua vontade; são, por\
@@ -3137,6 +3504,10 @@
   test_type: azul
   test_part: ch
   test_item: 45
+  materias: [fil]
+  fil_areas: [metafisica, filosofia_religiao]
+  fil_filosofos: [agostinho]
+  fil_temas: [medieval.patristica]
   question_elements:
   - question_text: "Quando Édipo nasceu, seus pais, Laio e Jocasta, os reis de Tebas,\
       \ foram informados de uma profecia na qual o filho mataria o pai e se casaria\
@@ -3179,6 +3550,10 @@
   test_type: azul
   test_part: ch
   test_item: 30
+  materias: [fil]
+  fil_areas: [politica, etica]
+  fil_filosofos: [maquiavel]
+  fil_temas: [moderna.realismo_politico]
   question_elements:
   - question_text: "O príncipe, portanto, não deve se incomodar com a reputação de\
       \ cruel, se seu propósito é manter o povo unido e leal. De fato, com uns poucos\

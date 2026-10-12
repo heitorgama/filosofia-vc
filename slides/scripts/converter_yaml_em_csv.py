@@ -2,8 +2,8 @@ import yaml
 import csv
 
 # Arquivos
-INPUT_YAML = "slides/questoes_enem.yaml"
-OUTPUT_CSV = "slides/questoes_enem.csv"
+INPUT_YAML = "dados/questoes_enem.yaml"
+OUTPUT_CSV = "dados/questoes_enem.csv"
 
 # Ler YAML
 with open(INPUT_YAML, "r", encoding="utf-8") as f:
