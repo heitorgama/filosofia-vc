@@ -1123,7 +1123,7 @@
 
 - id: 33
   test: enem_2018
-  test_type: roza
+  test_type: rosa
   test_part: ch
   test_item: 66
   materias: [fil]
