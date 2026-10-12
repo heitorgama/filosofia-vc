@@ -1052,39 +1052,6 @@
     D: "O texto não trata da produção agrícola."
     E: "O texto mantém o demiurgo, criador de todas as coisas; portanto, não há dessacralização da cosmologia."
 
-- id: 32
-  test: enem_2025_belem
-  test_type: azul
-  test_part: ch
-  test_item: 82
-  materias: [fil]
-  fil_areas: [filosofia_religiao]
-  fil_filosofos: [agostinho]
-  fil_temas: [medieval.patristica]
-  question_elements:
-    - question_text: >
-        Sem negar que Deus prevê todos os acontecimentos futuros, entretanto nós queremos
-        livremente aquilo que queremos. Porque, se o objeto da presciência divina é a
-        nossa vontade, é essa mesma vontade assim prevista que se realizará. Haverá, pois,
-        um ato de vontade livre, já que Deus vê esse ato livre com antecedência.
-      question_text_reference: >
-        AGOSTINHO. **O livre-arbítrio.** São Paulo: Paulus, 1995 (adaptado).
-  statement: >
-    Refletindo sobre o Deus onisciente e suas criaturas, o autor sustenta a
-  answers:
-    A: "existência do saber divino em cooperação com o conhecimento humano."
-    B: "prevalência da liberdade humana diante da facticidade."
-    C: "precedência da cognição transcendental sobre o agir humano."
-    D: "conformação da natureza humana perante os acontecimentos no mundo."
-    E: "autonomia do indivíduo a despeito das necessidades inerentes à condição humana."
-  correct_answer: C
-  comments:
-    A: "O texto não fala de cooperação entre o saber divino e o humano."
-    B: "Agostinho não afirma que a liberdade humana prevalece sobre Deus, mas que é compatível com o conhecimento prévio divino."
-    C: "O conhecimento divino, que vê todos os atos futuros, precede o agir humano sem anular a liberdade, pois Deus prevê justamente o ato livre."
-    D: "O texto não trata de conformação da natureza humana."
-    E: "Agostinho não fala em autonomia contra necessidades, mas em compatibilizar liberdade e presciência divina."
-
 - id: 33
   test: enem_2018
   test_type: rosa

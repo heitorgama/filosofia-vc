@@ -475,7 +475,7 @@ from IPython.display import HTML
 
 arquivo_yaml = "../dados/questoes_enem.yaml"
 
-questoes = [23, 32, 43, 55, 56, 61, 82, 96]
+questoes = [23, 43, 55, 56, 61, 82, 96]
 
 print("# Questões do Enem")
 

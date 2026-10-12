@@ -21,7 +21,7 @@
 - id: 5
   id_textual: aula05_idade_media
   titulo: "Fé e Razão"
-  questoes: [23, 32, 43, 55, 56, 61, 82, 96]
+  questoes: [23, 43, 55, 56, 61, 82, 96]
 
 - id: 6
   id_textual: aula06_descartes
