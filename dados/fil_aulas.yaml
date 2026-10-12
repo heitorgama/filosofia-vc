@@ -1,7 +1,7 @@
 - id: 1
   id_textual: aula01_origens
   titulo: "Origens da filosofia"
-  questoes: [37, 33, 36, 17, 1, 76]
+  questoes: [37, 36, 17, 1, 76]
 
 - id: 2
   id_textual: aula02_socrates
