@@ -94,13 +94,13 @@ longo do projeto — siga-os de propósito, não por acaso:**
 1. Pergunte quais IDs de questão (de `dados/questoes_enem.yaml`) o usuário
    quer incluir na seção final "Questões do Enem".
 2. Se o usuário não tiver IDs em mente e quiser ajuda para escolher, use as
-   chaves de classificação de cada questão — `fil_filosofos`, `fil_areas`,
-   `fil_temas` (os vocabulários controlados correspondentes estão em
-   `dados/fil_filosofos.yaml`, `dados/fil_areas.yaml`, `dados/fil_temas.yaml`,
-   cada um com comentário de cabeçalho explicando os códigos) — para
-   encontrar questões relacionadas ao assunto da aula (Etapa 4). Por
-   exemplo, para uma aula sobre Nietzsche, procure questões com
-   `fil_filosofos: [nietzsche]` ou tema `contemporanea.nietzsche_critica_valores`.
+   eixos do dicionário `classificacao` de cada questão — `fil_periodos`,
+   `fil_areas` e `fil_habilidades` (o vocabulário controlado está em
+   `dados/fil_taxonomia.yaml`, cujo cabeçalho explica os eixos e os códigos) —
+   para encontrar questões relacionadas ao assunto da aula (Etapa 4). Os
+   códigos são hierárquicos, então busque pelo prefixo: por exemplo, para uma
+   aula sobre Nietzsche, procure questões cujo `classificacao.fil_periodos`
+   tenha algum código começando por `sec19.critica_razao.nietzsche`.
 3. Confira se cada ID existe de fato em `dados/questoes_enem.yaml`
    (`python3 -c "import yaml; ids={q['id'] for q in yaml.safe_load(open('dados/questoes_enem.yaml'))}; print([i for i in IDS if i not in ids])"`
    substituindo `IDS` pela lista escolhida — uma lista vazia impressa confirma

@@ -2,29 +2,22 @@
 # Cada questão deve referenciar um ou mais desses códigos (normalmente só um).
 # Baseado nas áreas de conhecimento e componentes curriculares do Enem.
 #
-# Uma matéria pode ter uma chave opcional `classificacao`: um mapa de
-# atributo -> arquivo YAML (nesta mesma pasta `dados/`) usado para
-# classificar com mais detalhe as questões dessa matéria, além da própria
-# chave `materias`. Cada arquivo referenciado é um vocabulário controlado no
-# mesmo formato usado em todo este diretório (uma lista — ou, quando faz
-# sentido, uma árvore — de nós com `codigo`/`nome`), e o nome do atributo é
-# sempre igual ao nome do arquivo (sem a extensão): por exemplo, o atributo
-# `fil_areas` da matéria `fil` é preenchido com código(s) de
-# `fil_areas.yaml`, e pode então ser usado como uma chave
-# `fil_areas: [...]` na própria questão, do mesmo jeito que
-# `materias: [fil]`.
+# Uma matéria pode ter uma chave opcional `taxonomia`: o nome do arquivo YAML
+# (na mesma pasta deste arquivo, no padrão `<codigo>_taxonomia.yaml`) que
+# classifica com mais detalhe as questões e aulas dessa matéria. Os eixos
+# desse arquivo (ex.: `fil_periodos`, `fil_areas`, `fil_habilidades`) são as
+# chaves que a matéria pode usar no dicionário `classificacao` da questão; o
+# cabeçalho do arquivo traz as regras para preenchê-las. Uma matéria sem
+# classificação própria (ex.: Matemática) simplesmente não declara `taxonomia`.
 #
-# Matérias diferentes tendem a ter conjuntos de atributos diferentes — Filosofia usa
-# `fil_areas`, `fil_filosofos` e `fil_temas`; uma futura Sociologia
-# poderia usar `soc_areas` e `soc_autores`; uma matéria sem classificação
-# própria (ex.: Matemática) simplesmente não declara `classificacao`.
+# Uma matéria também pode ter uma chave opcional `aulas`: o nome do arquivo
+# YAML (na mesma pasta deste arquivo, no padrão `<codigo>_aulas.yaml`) que
+# lista as aulas dessa matéria e as questões usadas em cada uma.
 
 - codigo: fil
   nome: Filosofia
-  classificacao:
-    fil_areas: fil_areas.yaml
-    fil_filosofos: fil_filosofos.yaml
-    fil_temas: fil_temas.yaml
+  taxonomia: fil_taxonomia.yaml
+  aulas: fil_aulas.yaml
 - codigo: soc
   nome: Sociologia
 - codigo: his

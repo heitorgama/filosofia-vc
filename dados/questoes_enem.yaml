@@ -4,9 +4,10 @@
   test_part: ch
   test_item: 55
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [foucault]
-  fil_temas: [moderna.mente_corpo]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault, antiga.platao.alma_etica]
+    fil_areas: [antropologia.mente_corpo]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A alma funciona no meu corpo de maneira maravilhosa. Nele se aloja, certamente,
@@ -37,9 +38,10 @@
   test_part: ch
   test_item: 58
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.etica]
+    fil_areas: [etica.virtudes, etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -82,9 +84,10 @@
   test_part: ch
   test_item: 61
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: []
-  fil_temas: [contemporanea.existencialismo]
+  classificacao:
+    fil_periodos: [contemporanea.existencialismo]
+    fil_areas: [antropologia.existencia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Eu sentia falta do futuro. É claro que eu sabia, muito mesmo antes da recorrência dele, que nunca envelheceria.
@@ -117,9 +120,10 @@
   test_part: ch
   test_item: 62
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [carnap]
-  fil_temas: [contemporanea.filosofia_analitica]
+  classificacao:
+    fil_periodos: [contemporanea.analitica, contemporanea.analitica.circulo_viena]
+    fil_areas: [linguagem.significado, conhecimento.razao_experiencia]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -160,9 +164,10 @@
   test_part: ch
   test_item: 75
   materias: [fil]
-  fil_areas: [historia_filosofia]
-  fil_filosofos: [habermas]
-  fil_temas: [moderna.iluminismo]
+  classificacao:
+    fil_periodos: [contemporanea.frankfurt.habermas, moderna.iluminismo.geral]
+    fil_areas: [linguagem.comunicacao]
+    fil_habilidades: [contextualizar]
   question_elements:
     - question_text: >
         Os salões permitiam aos escritores da época do Iluminismo adentrar no universo dos poderosos.
@@ -198,9 +203,10 @@
   test_part: ch
   test_item: 76
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [deleuze]
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
+    fil_areas: [cultura.contemporaneidade]
+    fil_habilidades: [aplicar]
   question_elements:
     - question_text: >
         Resumamos os principais caracteres de um rizoma: diferentemente das árvores ou de suas raízes,
@@ -233,9 +239,10 @@
   test_part: ch
   test_item: 78
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [kant]
-  fil_temas: [moderna.etica]
+  classificacao:
+    fil_periodos: [moderna.kant.etica]
+    fil_areas: [etica.dever]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         A regra de ouro, popularmente conhecida pelo provérbio "Trate os outros como gostaria de ser tratado",
@@ -266,9 +273,10 @@
   test_part: ch
   test_item: 82
   materias: [fil]
-  fil_areas: [epistemologia, logica]
-  fil_filosofos: [russell]
-  fil_temas: [logica_conhecimento.inducao_deducao]
+  classificacao:
+    fil_periodos: [contemporanea.analitica.logicismo]
+    fil_areas: [logica.argumento, ciencia.metodo]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Bertrand Russell conta a história de um peru que descobrira, em sua primeira manhã na fazenda de perus,
@@ -301,9 +309,10 @@
   test_part: ch
   test_item: 90
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [marx]
-  fil_temas: [contemporanea.marxismo_critica]
+  classificacao:
+    fil_periodos: [sec19.marxismo.alienacao]
+    fil_areas: [politica.trabalho_capital]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Uma fábrica na qual os operários fossem, efetiva e integralmente, simples peças de máquinas executando
@@ -334,9 +343,10 @@
   test_part: ch
   test_item: 48
   materias: [fil]
-  fil_areas: [logica, filosofia_linguagem]
-  fil_filosofos: [hume]
-  fil_temas: [moderna.epistemologia]
+  classificacao:
+    fil_periodos: [moderna.empirismo.hume, antiga.socratico.sofistas]
+    fil_areas: [linguagem.retorica]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text: >
         A credulidade dos ouvintes aumenta o descaramento do narrador, e o descaramento deste conquista-lhes a credulidade.
@@ -366,9 +376,10 @@
   test_part: ch
   test_item: 50
   materias: [fil]
-  fil_areas: [etica, politica]
-  fil_filosofos: [derrida]
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
+    fil_areas: [politica.justica]
+    fil_habilidades: [aplicar]
   question_elements:
     - question_text: >
         O direito não é a justiça. O direito é o elemento do cálculo, é justo que haja um direito, mas a justiça é incalculável,
@@ -398,9 +409,10 @@
   test_part: ch
   test_item: 55
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [foucault]
-  fil_temas: [contemporanea.poder_biopolitica]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A “invenção” dessa nova anatomia política não deve ser entendida como uma descoberta súbita.
@@ -432,9 +444,10 @@
   test_part: ch
   test_item: 60
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: []
-  fil_temas: [moderna.etica]
+  classificacao:
+    fil_periodos: [moderna.iluminismo]
+    fil_areas: [etica.natureza, politica.trabalho_capital]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Adam Smith via o açougueiro e o padeiro não só como indivíduos buscando seus interesses financeiros,
@@ -464,9 +477,10 @@
   test_part: ch
   test_item: 61
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [politica.governo_democracia]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         O corpo de cidadãos é o poder supremo dos Estados. A supremacia pode residir ou num homem, ou na minoria,
@@ -497,9 +511,10 @@
   test_part: ch
   test_item: 65
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: []
-  fil_temas: [etica_moral.teorias_normativas]
+  classificacao:
+    fil_periodos: []
+    fil_areas: [etica.natureza]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text_title: O que eu queria ter sido
       question_text: >
@@ -533,9 +548,10 @@
   test_part: ch
   test_item: 66
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [marcuse]
-  fil_temas: [contemporanea.marxismo_critica]
+  classificacao:
+    fil_periodos: [contemporanea.frankfurt.marcuse]
+    fil_areas: [cultura.contemporaneidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Independência de pensamento, autonomia e direito à oposição política estão perdendo sua função crítica básica
@@ -566,9 +582,10 @@
   test_part: ch
   test_item: 72
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [heraclito]
-  fil_temas: [origens.pre_socraticos]
+  classificacao:
+    fil_periodos: [antiga.presocraticos.heraclito]
+    fil_areas: [metafisica.principio_real]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -603,9 +620,10 @@
   test_part: ch
   test_item: 79
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [bentham]
-  fil_temas: [moderna.etica]
+  classificacao:
+    fil_periodos: [sec19.utilitarismo.bentham]
+    fil_areas: [etica.utilitarismo, politica.justica]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A missão dos governantes consiste em promover a felicidade da sociedade, punindo e recompensando.
@@ -637,9 +655,10 @@
   test_part: ch
   test_item: 82
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [platao]
-  fil_temas: [classica.platao]
+  classificacao:
+    fil_periodos: [antiga.platao.politica]
+    fil_areas: [politica.justica]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A cidade justa é governada pelos filósofos, administrada pelos cientistas, protegida pelos guerreiros
@@ -670,9 +689,10 @@
   test_part: ch
   test_item: 47
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [arendt]
-  fil_temas: [contemporanea.justica_democracia]
+  classificacao:
+    fil_periodos: [contemporanea.politica.arendt]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Para os gregos, forçar alguém mediante violência, ordenar ao invés de persuadir, eram modos
@@ -703,9 +723,10 @@
   test_part: ch
   test_item: 53
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [maquiavel]
-  fil_temas: [moderna.realismo_politico]
+  classificacao:
+    fil_periodos: [moderna.renascimento.maquiavel]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Não ignoro que muitos foram e são de opinião de que as coisas do mundo são governadas de
@@ -736,9 +757,10 @@
   test_part: ch
   test_item: 55
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: []
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo]
+    fil_areas: [cultura.contemporaneidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         O homo economicus contemporâneo é dotado de intenso princípio de racionalidade formal
@@ -769,9 +791,10 @@
   test_part: ch
   test_item: 70
   materias: [fil]
-  fil_areas: [filosofia_religiao]
-  fil_filosofos: [agostinho]
-  fil_temas: [medieval.patristica]
+  classificacao:
+    fil_periodos: [medieval.patristica.agostinho_fe]
+    fil_areas: [metafisica.deus_religiao, etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         É com certeza, Senhor, e não com dúvida que em minha consciência eu Vos amo. Vós
@@ -801,9 +824,10 @@
   test_part: ch
   test_item: 74
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [politica.governo_democracia]
+    fil_habilidades: [aplicar]
   question_elements:
     - question_text: >
         O que define a polis é que, contrariamente à tribo ou às grandes monarquias,
@@ -835,9 +859,10 @@
   test_part: ch
   test_item: 77
   materias: [fil]
-  fil_areas: [filosofia_mente]
-  fil_filosofos: [byung_chul_han]
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.sociedade_atual]
+    fil_areas: [cultura.contemporaneidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         O smartphone não é uma coisa. Eu o caracterizo como um infômata (coisa informatizada)
@@ -869,9 +894,10 @@
   test_part: ch
   test_item: 81
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [hobbes, rousseau]
-  fil_temas: [moderna.contratualismo]
+  classificacao:
+    fil_periodos: [moderna.contratualismo.hobbes, moderna.contratualismo.rousseau]
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -914,9 +940,10 @@
   test_part: ch
   test_item: 89
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: []
-  fil_temas: []
+  classificacao:
+    fil_periodos: [antiga.origens]
+    fil_areas: [politica.governo_democracia]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Antigamente, existiam duas maneiras de governar: ou a sociedade era comandada pelo
@@ -948,9 +975,10 @@
   test_part: ch
   test_item: 52
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [foucault]
-  fil_temas: [contemporanea.poder_biopolitica]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "Ainda que instituições não recorram a castigos violentos ou sangrentos,\
@@ -981,9 +1009,10 @@
   test_part: ch
   test_item: 69
   materias: [fil]
-  fil_areas: [etica, metafisica]
-  fil_filosofos: [hans_jonas]
-  fil_temas: [etica_moral.teorias_normativas]
+  classificacao:
+    fil_periodos: [contemporanea.etica_aplicada.jonas]
+    fil_areas: [etica.aplicada, metafisica.substancia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A ontologia como fundamento da ética foi o ponto de vista original da filosofia. A
@@ -1021,9 +1050,10 @@
   test_part: ch
   test_item: 73
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [platao]
-  fil_temas: [classica.platao]
+  classificacao:
+    fil_periodos: [antiga.platao.politica]
+    fil_areas: [politica.governo_democracia, antropologia.natureza_humana]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Na obra O Político, Platão faz uma sutil distinção entre plantas e animais. As
@@ -1060,9 +1090,10 @@
   test_part: ch
   test_item: 28
   materias: [fil]
-  fil_areas: [fisica, metafisica]
-  fil_filosofos: [anaximenes]
-  fil_temas: [origens.pre_socraticos]
+  classificacao:
+    fil_periodos: [antiga.presocraticos.jonicos, medieval.patristica]
+    fil_areas: [metafisica.principio_real]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -1108,9 +1139,10 @@
   test_part: ch
   test_item: 24
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [epicuro]
-  fil_temas: [helenistica.epicurismo]
+  classificacao:
+    fil_periodos: [antiga.helenistica.epicurismo]
+    fil_areas: [etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Alguns dos desejos são naturais e necessários; outros, naturais e não necessários;
@@ -1143,9 +1175,10 @@
   test_part: ch
   test_item: 54
   materias: [fil]
-  fil_areas: [fisica]
-  fil_filosofos: [tales]
-  fil_temas: [origens.pre_socraticos]
+  classificacao:
+    fil_periodos: [antiga.presocraticos.jonicos]
+    fil_areas: [metafisica.principio_real, filosofia.mito_senso_comum]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Aquilo que é quente necessita de umidade para viver, e o que é morto seca,
@@ -1177,9 +1210,10 @@
   test_part: ch
   test_item: 23
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [heraclito, parmenides]
-  fil_temas: [origens.pre_socraticos]
+  classificacao:
+    fil_periodos: [antiga.presocraticos.heraclito, antiga.presocraticos.eleatas]
+    fil_areas: [metafisica.principio_real]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -1216,9 +1250,10 @@
   test_part: ch
   test_item: 90
   materias: [fil]
-  fil_areas: [filosofia_linguagem, logica]
-  fil_filosofos: []
-  fil_temas: [classica.socrates_sofistas]
+  classificacao:
+    fil_periodos: [antiga.socratico.sofistas]
+    fil_areas: [linguagem.retorica]
+    fil_habilidades: [aplicar]
   question_elements:
     - question_text: >
         Não tinha outra filosofia. Nem eu. Não digo que a Universidade me não tivesse ensinado alguma; mas eu decorei-lhe 
@@ -1250,9 +1285,10 @@
   test_part: ch
   test_item: 66
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [socrates]
-  fil_temas: [classica.socrates_sofistas]
+  classificacao:
+    fil_periodos: [antiga.socratico.socrates]
+    fil_areas: [filosofia.o_que_e]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; 
@@ -1284,9 +1320,10 @@
   test_part: ch
   test_item: 82
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [socrates, foucault]
-  fil_temas: [classica.socrates_sofistas]
+  classificacao:
+    fil_periodos: [antiga.socratico.socrates]
+    fil_areas: [etica.natureza]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Tomemos o exemplo de Sócrates: é precisamente ele quem interpela as pessoas na rua, os jovens no 
@@ -1317,9 +1354,10 @@
   test_part: ch
   test_item: 34
   materias: [fil]
-  fil_areas: [historia_filosofia]
-  fil_filosofos: [nietzsche, tales]
-  fil_temas: [origens.mito_razao]
+  classificacao:
+    fil_periodos: [antiga.origens.mito_logos]
+    fil_areas: [filosofia.mito_senso_comum, metafisica.principio_real]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz 
@@ -1351,9 +1389,10 @@
   test_part: ch
   test_item: 13
   materias: [fil]
-  fil_areas: [etica, politica]
-  fil_filosofos: [trasimaco]
-  fil_temas: [classica.socrates_sofistas]
+  classificacao:
+    fil_periodos: [antiga.socratico.sofistas]
+    fil_areas: [politica.justica]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Trasímaco estava impaciente porque Sócrates e os seus amigos presumiam que a justiça era algo real e 
@@ -1384,9 +1423,10 @@
   test_part: ch
   test_item: 52
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [tomas_aquino]
-  fil_temas: [medieval.escolastica]
+  classificacao:
+    fil_periodos: [medieval.escolastica.tomas_etica_politica, antiga.aristoteles.politica]
+    fil_areas: [politica.legitimidade]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text: >
         Tomás de Aquino, filósofo cristão que viveu no século XIII, afirma: a lei é uma regra ou um preceito 
@@ -1413,13 +1453,14 @@
 
 - id: 44
   test: enem_2015_2apl
-  test_type: branco
+  test_type: branca
   test_part: ch
   test_item: 21
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [platao]
-  fil_temas: [classica.platao]
+  classificacao:
+    fil_periodos: [antiga.platao.conhecimento]
+    fil_areas: [conhecimento.verdade]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Suponha homens numa morada subterrânea, em forma de caverna, cuja entrada, aberta à luz, se estende 
@@ -1454,9 +1495,10 @@
   test_part: ch
   test_item: 82
   materias: [fil]
-  fil_areas: [logica, epistemologia]
-  fil_filosofos: [platao]
-  fil_temas: [classica.platao]
+  classificacao:
+    fil_periodos: [antiga.platao.metodo]
+    fil_areas: [filosofia.o_que_e]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text: >
         Sócrates: “Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, que coisa afirmas ser a virtude?”.
@@ -1484,9 +1526,10 @@
   test_part: ch
   test_item: 77
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Vemos que toda cidade é uma espécie de 
@@ -1521,9 +1564,10 @@
   test_part: ch
   test_item: 69
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [epicteto]
-  fil_temas: [helenistica.estoicismo]
+  classificacao:
+    fil_periodos: [antiga.helenistica.estoicismo]
+    fil_areas: [etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         XI. Jamais, a respeito de coisa alguma, digas: "Eu
@@ -1560,9 +1604,10 @@
   test_part: ch
   test_item: 67
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.logica]
+    fil_areas: [conhecimento.verdade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Dado que, dos hábitos racionais com os quais
@@ -1603,9 +1648,10 @@
   test_part: ch
   test_item: 88
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [seneca]
-  fil_temas: [helenistica.estoicismo]
+  classificacao:
+    fil_periodos: [antiga.helenistica.estoicismo]
+    fil_areas: [etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Entretanto, nosso amigo Basso tem o ânimo alegre. 
@@ -1636,9 +1682,10 @@
   test_part: ch
   test_item: 80
   materias: [fil]
-  fil_areas: [historia_filosofia]
-  fil_filosofos: []
-  fil_temas: [origens.mito_razao]
+  classificacao:
+    fil_periodos: [antiga.origens.mito_logos]
+    fil_areas: [filosofia.mito_senso_comum]
+    fil_habilidades: [contextualizar]
   question_elements:
     - question_text: >
         Advento da Polis, nascimento da filosofia: entre as 
@@ -1677,9 +1724,10 @@
   test_part: ch
   test_item: 27
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.etica]
+    fil_areas: [etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A felicidade é, portanto, a melhor, a mais nobre e a
@@ -1710,13 +1758,14 @@
 
 - id: 52
   test: enem_2015_2apl
-  test_type: branco
+  test_type: branca
   test_part: ch
   test_item: 42
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         A utilidade do escravo é semelhante à do animal.
@@ -1750,9 +1799,10 @@
   test_part: ch
   test_item: 88
   materias: [fil]
-  fil_areas: [etica, politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [etica.felicidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Se, pois, para as coisas que fazemos existe um fim
@@ -1799,9 +1849,10 @@
   test_part: ch
   test_item: 90
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [politica.justica]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text: >
         Vimos que o homem sem lei é injusto e o respeitador
@@ -1836,13 +1887,14 @@
 
 - id: 55
   test: enem_2015_2apl
-  test_type: branco
+  test_type: branca
   test_part: ch
   test_item: 22
   materias: [fil]
-  fil_areas: [filosofia_religiao]
-  fil_filosofos: [agostinho]
-  fil_temas: [medieval.patristica]
+  classificacao:
+    fil_periodos: [medieval.patristica.agostinho_mal]
+    fil_areas: [metafisica.deus_religiao]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Se os nossos adversários, que admitem a existência de uma natureza\
@@ -1874,9 +1926,10 @@
   test_part: ch
   test_item: 17
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [tomas_aquino]
-  fil_temas: [medieval.escolastica]
+  classificacao:
+    fil_periodos: [medieval.escolastica.tomas_etica_politica]
+    fil_areas: [politica.governo_democracia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Ora, em todas as coisas ordenadas a algum fim, é preciso haver\
@@ -1914,9 +1967,10 @@
   test_part: ch
   test_item: 49
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [derrida]
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
+    fil_areas: [etica.natureza]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "O perdão não é o esquecimento. Ao contrário, ele requer a memória\
@@ -1951,9 +2005,10 @@
   test_part: ch
   test_item: 67
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.etica]
+    fil_areas: [etica.virtudes]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Pensa-se que é característico de uma pessoa de discernimento ser\
@@ -1989,9 +2044,10 @@
   test_part: ch
   test_item: 82
   materias: [fil]
-  fil_areas: [filosofia_religiao]
-  fil_filosofos: [agostinho]
-  fil_temas: [medieval.patristica]
+  classificacao:
+    fil_periodos: [medieval.patristica.agostinho_mal]
+    fil_areas: [metafisica.liberdade_determinismo, metafisica.deus_religiao]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Sem negar que Deus prevê todos os acontecimentos futuros, entretanto\
@@ -2022,9 +2078,10 @@
   test_part: ch
   test_item: 54
   materias: [fil]
-  fil_areas: [metafisica, filosofia_mente]
-  fil_filosofos: [merleau_ponty, descartes]
-  fil_temas: [moderna.mente_corpo]
+  classificacao:
+    fil_periodos: [contemporanea.fenomenologia.merleau_ponty, moderna.racionalismo.descartes_cogito]
+    fil_areas: [antropologia.mente_corpo]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text:
         "Eu poderia concluir que a raiva é um pensamento, que estar com\
@@ -2059,9 +2116,10 @@
   test_part: ch
   test_item: 57
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [ricoeur]
-  fil_temas: [etica_moral.teorias_normativas]
+  classificacao:
+    fil_periodos: [contemporanea.fenomenologia.hermeneutica]
+    fil_areas: [etica.natureza]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Quem se mete pelo caminho do pedido de perdão deve estar pronto\
@@ -2093,9 +2151,10 @@
   test_part: ch
   test_item: 81
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [foucault]
-  fil_temas: [contemporanea.poder_biopolitica]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A economia das ilegalidades se reestruturou com o desenvolvimento\
@@ -2136,9 +2195,10 @@
   test_part: ch
   test_item: 55
   materias: [fil]
-  fil_areas: [etica, estetica]
-  fil_filosofos: [adorno, horkheimer]
-  fil_temas: [contemporanea.marxismo_critica]
+  classificacao:
+    fil_periodos: [contemporanea.frankfurt.industria_cultural]
+    fil_areas: [estetica.industria_cultural, cultura.contemporaneidade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A diversão é o prolongamento do trabalho sob o capitalismo tardio.\
@@ -2172,9 +2232,10 @@
   test_part: ch
   test_item: 79
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [sartre]
-  fil_temas: [contemporanea.existencialismo]
+  classificacao:
+    fil_periodos: [contemporanea.existencialismo.sartre]
+    fil_areas: [metafisica.liberdade_determinismo, antropologia.existencia]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2224,9 +2285,10 @@
   test_part: ch
   test_item: 46
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [etica.virtudes]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "O Estado surge pelo fato de ser o homem um animal naturalmente\
@@ -2259,9 +2321,10 @@
   test_part: ch
   test_item: 48
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: []
-  fil_temas: [etica_moral.teorias_normativas]
+  classificacao:
+    fil_periodos: []
+    fil_areas: [etica.natureza]
+    fil_habilidades: [aplicar]
   question_elements:
     - question_text:
         "Estudiosos do Instituto de Antropologia Evolucionária de Leipzig,\
@@ -2296,9 +2359,10 @@
   test_part: ch
   test_item: 59
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [sandel]
-  fil_temas: [contemporanea.justica_democracia]
+  classificacao:
+    fil_periodos: [contemporanea.politica.libertarismo_comunitarismo]
+    fil_areas: [politica.governo_democracia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A concepção tecnocrata está associada à fé em mercados — não necessariamente\
@@ -2337,9 +2401,10 @@
   test_part: ch
   test_item: 81
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [rawls]
-  fil_temas: [contemporanea.justica_democracia]
+  classificacao:
+    fil_periodos: [contemporanea.politica.rawls]
+    fil_areas: [politica.justica, politica.governo_democracia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Os valores políticos são valores efetivamente superiores, que\
@@ -2375,9 +2440,10 @@
   test_part: ch
   test_item: 87
   materias: [fil]
-  fil_areas: [logica]
-  fil_filosofos: []
-  fil_temas: [logica_conhecimento.falacias_retorica]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.logica]
+    fil_areas: [logica.falacias]
+    fil_habilidades: [analisar_argumento]
   question_elements:
     - question_text:
         "As propostas dele não devem ser levadas a sério, pois foi visto\
@@ -2408,9 +2474,10 @@
   test_part: ch
   test_item: 66
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [hume]
-  fil_temas: [moderna.epistemologia]
+  classificacao:
+    fil_periodos: [moderna.empirismo.hume]
+    fil_areas: [conhecimento.razao_experiencia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Suponha-se que seja trazida de súbito a este mundo uma pessoa\
@@ -2444,9 +2511,10 @@
   test_part: ch
   test_item: 57
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [foucault]
-  fil_temas: [contemporanea.poder_biopolitica]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "O leproso é visto dentro de uma prática da rejeição, do exílio-cerca;\
@@ -2483,9 +2551,10 @@
   test_part: ch
   test_item: 84
   materias: [fil]
-  fil_areas: [estetica]
-  fil_filosofos: [merleau_ponty, deleuze]
-  fil_temas: [contemporanea.estetica_arte]
+  classificacao:
+    fil_periodos: [contemporanea.fenomenologia.merleau_ponty, contemporanea.estruturalismo.pos_modernidade]
+    fil_areas: [estetica]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2524,9 +2593,10 @@
   test_part: ch
   test_item: 47
   materias: [fil]
-  fil_areas: [politica, filosofia_linguagem]
-  fil_filosofos: [arendt]
-  fil_temas: [contemporanea.justica_democracia]
+  classificacao:
+    fil_periodos: [contemporanea.politica.arendt]
+    fil_areas: [linguagem.comunicacao]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Sempre que a relevância do discurso entra em jogo, a questão torna-se\
@@ -2564,9 +2634,10 @@
   test_part: ch
   test_item: 86
   materias: [fil]
-  fil_areas: [metafisica, fisica]
-  fil_filosofos: [empedocles]
-  fil_temas: [origens.pre_socraticos]
+  classificacao:
+    fil_periodos: [antiga.presocraticos.pluralistas]
+    fil_areas: [metafisica.principio_real]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Empédocles estabelece quatro elementos corporais — fogo, ar, água\
@@ -2600,9 +2671,10 @@
   test_part: ch
   test_item: 63
   materias: [fil]
-  fil_areas: [politica, etica]
-  fil_filosofos: [maquiavel]
-  fil_temas: [moderna.realismo_politico]
+  classificacao:
+    fil_periodos: [moderna.renascimento.maquiavel]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A um príncipe, portanto, não é necessário ter de fato todas as\
@@ -2637,9 +2709,10 @@
   test_part: ch
   test_item: 84
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [abbagnano]
-  fil_temas: [contemporanea.existencialismo]
+  classificacao:
+    fil_periodos: [contemporanea.existencialismo]
+    fil_areas: [antropologia.existencia, filosofia.o_que_e]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "Em primeiro lugar, é preciso libertar-se do preconceito segundo\
@@ -2674,9 +2747,10 @@
   test_part: ch
   test_item: 88
   materias: [fil]
-  fil_areas: [etica, filosofia_mente]
-  fil_filosofos: []
-  fil_temas: []
+  classificacao:
+    fil_periodos: []
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2718,9 +2792,10 @@
   test_part: ch
   test_item: 62
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [foucault]
-  fil_temas: [contemporanea.poder_biopolitica]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A velha potência de morte em que se simbolizava o poder soberano\
@@ -2753,9 +2828,10 @@
   test_part: ch
   test_item: 51
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [abbagnano]
-  fil_temas: []
+  classificacao:
+    fil_periodos: []
+    fil_areas: [politica.liberdade_direitos]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Em sentido geral e fundamental, Direito é a técnica da coexistência\
@@ -2788,9 +2864,10 @@
   test_part: ch
   test_item: 58
   materias: [fil]
-  fil_areas: [filosofia_religiao]
-  fil_filosofos: [agostinho]
-  fil_temas: [medieval.patristica]
+  classificacao:
+    fil_periodos: [medieval.patristica.agostinho_mal]
+    fil_areas: [metafisica.liberdade_determinismo]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "De fato, não é porque o homem pode usar a vontade livre para pecar\
@@ -2828,9 +2905,10 @@
   test_part: ch
   test_item: 65
   materias: [fil]
-  fil_areas: [etica, politica]
-  fil_filosofos: [maquiavel]
-  fil_temas: [moderna.realismo_politico]
+  classificacao:
+    fil_periodos: [moderna.renascimento.maquiavel]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [contextualizar]
   question_elements:
     - question_text:
         "Para Maquiavel, quando um homem decide dizer a verdade pondo em\
@@ -2866,9 +2944,10 @@
   test_part: ch
   test_item: 67
   materias: [fil]
-  fil_areas: [filosofia_religiao]
-  fil_filosofos: [descartes]
-  fil_temas: [moderna.filosofia_religiao]
+  classificacao:
+    fil_periodos: [moderna.racionalismo.descartes_cogito]
+    fil_areas: [metafisica.deus_religiao]
+    fil_habilidades: [contextualizar]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2909,9 +2988,10 @@
   test_part: ch
   test_item: 74
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [foucault]
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.foucault]
+    fil_areas: [antropologia.subjetividade]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Penso que não há um sujeito soberano, fundador, uma forma universal\
@@ -2944,9 +3024,10 @@
   test_part: ch
   test_item: 78
   materias: [fil]
-  fil_areas: [epistemologia, etica]
-  fil_filosofos: [kant]
-  fil_temas: [moderna.epistemologia, moderna.etica]
+  classificacao:
+    fil_periodos: [moderna.kant.etica, moderna.kant.conhecimento]
+    fil_areas: [etica.dever, conhecimento.razao_experiencia]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2985,9 +3066,10 @@
   test_part: ch
   test_item: 64
   materias: [fil]
-  fil_areas: [filosofia_ciencia]
-  fil_filosofos: []
-  fil_temas: [moderna.filosofia_ciencia]
+  classificacao:
+    fil_periodos: [moderna.revolucao_cientifica.newton]
+    fil_areas: [ciencia.metodo]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A lenda diz que, em um belo dia ensolarado, Newton estava relaxando\
@@ -3024,9 +3106,10 @@
   test_part: ch
   test_item: 76
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [arendt]
-  fil_temas: [contemporanea.justica_democracia]
+  classificacao:
+    fil_periodos: [contemporanea.politica.arendt]
+    fil_areas: [politica.totalitarismo]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Essa atmosfera de loucura e irrealidade, criada pela aparente\
@@ -3063,9 +3146,10 @@
   test_part: ch
   test_item: 50
   materias: [fil]
-  fil_areas: [filosofia_linguagem, logica]
-  fil_filosofos: [aristoteles]
-  fil_temas: [classica.aristoteles]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica]
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Sem dúvida, os sons da voz (phone) exprimem a dor e o prazer;\
@@ -3101,9 +3185,10 @@
   test_part: ch
   test_item: 51
   materias: [fil]
-  fil_areas: [estetica]
-  fil_filosofos: [adorno, horkheimer]
-  fil_temas: [contemporanea.marxismo_critica]
+  classificacao:
+    fil_periodos: [contemporanea.frankfurt.industria_cultural]
+    fil_areas: [estetica.industria_cultural]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Por força da industrialização da cultura, desde o começo do filme\
@@ -3136,9 +3221,10 @@
   test_part: ch
   test_item: 52
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [platao]
-  fil_temas: [classica.platao]
+  classificacao:
+    fil_periodos: [antiga.platao.politica]
+    fil_areas: [politica.justica]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Se os filósofos não forem reis nas cidades ou se os que hoje são\
@@ -3173,9 +3259,10 @@
   test_part: ch
   test_item: 57
   materias: [fil]
-  fil_areas: [metafisica, epistemologia]
-  fil_filosofos: [descartes]
-  fil_temas: [moderna.metodo_metafisica]
+  classificacao:
+    fil_periodos: [moderna.racionalismo.descartes_metodo]
+    fil_areas: [conhecimento.razao_experiencia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Na primeira meditação, eu exponho as razões pelas quais nós podemos\
@@ -3209,9 +3296,10 @@
   test_part: ch
   test_item: 73
   materias: [fil]
-  fil_areas: [metafisica]
-  fil_filosofos: [derrida]
-  fil_temas: [contemporanea.critica_sujeito]
+  classificacao:
+    fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
+    fil_areas: [antropologia.subjetividade]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "humanidade, a humanidade do homem, ainda é um conceito completamente\
@@ -3246,9 +3334,10 @@
   test_part: ch
   test_item: 89
   materias: [fil]
-  fil_areas: [politica]
-  fil_filosofos: [rousseau]
-  fil_temas: [moderna.contratualismo]
+  classificacao:
+    fil_periodos: [moderna.contratualismo.rousseau]
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Antes que a arte polisse nossas maneiras e ensinasse nossas paixões\
@@ -3282,9 +3371,10 @@
   test_part: ch
   test_item: 86
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [descartes]
-  fil_temas: [moderna.metodo_metafisica]
+  classificacao:
+    fil_periodos: [moderna.racionalismo.descartes_metodo]
+    fil_areas: [filosofia.o_que_e]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "A filosofia é como uma árvore, cujas raízes são a metafísica;\
@@ -3318,9 +3408,10 @@
   test_part: ch
   test_item: 29
   materias: [fil]
-  fil_areas: [filosofia_ciencia]
-  fil_filosofos: [galileu]
-  fil_temas: [moderna.filosofia_ciencia]
+  classificacao:
+    fil_periodos: [moderna.revolucao_cientifica.galileu]
+    fil_areas: [ciencia.metodo]
+    fil_habilidades: [contextualizar]
   question_elements:
     - question_text:
         "A filosofia encontra-se escrita neste grande livro que continuamente\
@@ -3355,9 +3446,10 @@
   test_part: ch
   test_item: 36
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [kant]
-  fil_temas: [moderna.epistemologia]
+  classificacao:
+    fil_periodos: [moderna.kant.conhecimento]
+    fil_areas: [conhecimento.razao_experiencia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Até hoje admitia-se que nosso conhecimento se devia regular pelos\
@@ -3397,9 +3489,10 @@
   test_part: ch
   test_item: 8
   materias: [fil]
-  fil_areas: [epistemologia]
-  fil_filosofos: [platao]
-  fil_temas: [classica.platao]
+  classificacao:
+    fil_periodos: [antiga.platao.conhecimento]
+    fil_areas: [conhecimento.verdade, metafisica.substancia]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "Estamos, pois, de acordo quando, ao ver algum objeto, dizemos:\
@@ -3430,9 +3523,10 @@
   test_part: ch
   test_item: 48
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [bentham]
-  fil_temas: [moderna.etica]
+  classificacao:
+    fil_periodos: [sec19.utilitarismo.bentham]
+    fil_areas: [etica.utilitarismo]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "A moralidade, Bentham exortava, não é uma questão de agradar a\
@@ -3464,9 +3558,10 @@
   test_part: ch
   test_item: 53
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: []
-  fil_temas: [contemporanea.filosofias_nao_ocidentais]
+  classificacao:
+    fil_periodos: [contemporanea.decolonial.africana]
+    fil_areas: [etica.natureza, cultura.relativismo]
+    fil_habilidades: [comparar]
   question_elements:
     - question_text:
         "Ubuntu é um sistema de crenças, uma epistemologia, uma ética coletiva\
@@ -3505,9 +3600,10 @@
   test_part: ch
   test_item: 57
   materias: [fil]
-  fil_areas: [etica]
-  fil_filosofos: [kant]
-  fil_temas: [moderna.etica]
+  classificacao:
+    fil_periodos: [moderna.kant.etica]
+    fil_areas: [etica.dever]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "Princípios práticos são subjetivos, ou máximas, quando a condição\
@@ -3538,9 +3634,10 @@
   test_part: ch
   test_item: 45
   materias: [fil]
-  fil_areas: [metafisica, filosofia_religiao]
-  fil_filosofos: [agostinho]
-  fil_temas: [medieval.patristica]
+  classificacao:
+    fil_periodos: [medieval.patristica.agostinho_mal]
+    fil_areas: [metafisica.liberdade_determinismo]
+    fil_habilidades: [identificar]
   question_elements:
     - question_text:
         "Quando Édipo nasceu, seus pais, Laio e Jocasta, os reis de Tebas,\
@@ -3591,9 +3688,10 @@
   test_part: ch
   test_item: 30
   materias: [fil]
-  fil_areas: [politica, etica]
-  fil_filosofos: [maquiavel]
-  fil_temas: [moderna.realismo_politico]
+  classificacao:
+    fil_periodos: [moderna.renascimento.maquiavel]
+    fil_areas: [politica.poder_estado]
+    fil_habilidades: [interpretar]
   question_elements:
     - question_text:
         "O príncipe, portanto, não deve se incomodar com a reputação de\

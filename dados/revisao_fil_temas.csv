@@ -1,0 +1,102 @@
+id,fil_temas_antigo,fil_temas_novo,fil_habilidade,confianca,justificativa
+
+13,moderna.etica,moderna.iluminismo; etica.natureza; politica.trabalho_capital,interpretar,baixa,Adam Smith (sem nó próprio) sobre empatia e responsabilidade moral no mercado; classificado no Iluminismo.
+15,etica_moral.teorias_normativas,sec19.positivismo.comte; etica.natureza,identificar,baixa,"Texto literário (Clarice Lispector) sobre altruísmo; o termo vem de Comte, mas nenhum nó cobre bem a doutrina."
+27,,antiga.origens; politica.governo_democracia,identificar,baixa,"Konder sobre a democracia grega; nenhum nó P cobre a pólis democrática, usei a corrente Origens."
+68,etica_moral.teorias_normativas,contemporanea.etica_aplicada.singer; etica.natureza,aplicar,baixa,"Experimento com chimpanzés ilustra altruísmo; nenhum nó cobre bem a ética do altruísmo, usei Singer (ética animal, altruísmo)."
+79,,sec19.outras.darwinismo; antropologia.natureza_humana,comparar,baixa,"Muller (cultura) × Gray (biologia) sobre a condição humana; autores sem nó, usei o darwinismo para o determinismo biológico."
+81,,contemporanea.existencialismo; politica.liberdade_direitos,interpretar,baixa,Abbagnano define o Direito como técnica da coexistência; o autor não tem nó e o tema (filosofia do direito) não tem subtema próprio.
+
+1,moderna.mente_corpo,contemporanea.estruturalismo.foucault; antiga.platao.alma_etica; antropologia.mente_corpo,interpretar,media,"Texto de Foucault, mas a questão cobra o dualismo alma × corpo da metafísica clássica (Platão)."
+3,contemporanea.existencialismo,contemporanea.existencialismo; antropologia.existencia,interpretar,media,"Texto literário sem autor filosófico; cobra a finitude humana, tema existencialista."
+4,contemporanea.filosofia_analitica,contemporanea.analitica; contemporanea.analitica.circulo_viena; linguagem.significado; conhecimento.razao_experiencia,comparar,media,"Quine (sem nó próprio, classificado na corrente analítica) × Carnap (Círculo de Viena) sobre o estatuto da linguagem."
+5,moderna.iluminismo,contemporanea.frankfurt.habermas; moderna.iluminismo.geral; linguagem.comunicacao,contextualizar,media,Habermas descreve salões e cafés do Iluminismo como espaços públicos de circulação de ideias.
+8,logica_conhecimento.inducao_deducao,contemporanea.analitica.logicismo; logica.argumento; ciencia.metodo,identificar,media,Peru de Russell: reconhecer o raciocínio indutivo; o autor importa pouco para a resposta.
+9,contemporanea.marxismo_critica,sec19.marxismo.alienacao; politica.trabalho_capital,interpretar,media,"Castoriadis (sem nó próprio) sobre alienação do trabalho no capitalismo, de matriz marxista."
+22,contemporanea.critica_sujeito,contemporanea.estruturalismo; cultura.contemporaneidade,interpretar,media,Baudrillard (sem nó próprio) sobre consumo e capital simbólico; classificado na corrente pós-estruturalista.
+23,medieval.patristica,medieval.patristica.agostinho_fe; metafisica.deus_religiao; etica.felicidade,interpretar,media,"Agostinho: felicidade plena depende de Deus (interioridade, amor a Deus)."
+30,etica_moral.teorias_normativas,contemporanea.etica_aplicada.jonas; etica.aplicada; metafisica.substancia,interpretar,media,Hans Jonas: fundamentação ontológica da ética na totalidade do ser.
+31,classica.platao,antiga.platao.politica; politica.governo_democracia; antropologia.natureza_humana,interpretar,media,Platão (O Político): a natureza como paradigma para a ordem política.
+48,classica.aristoteles,antiga.aristoteles.logica; conhecimento.verdade,interpretar,media,"Segundos Analíticos: os princípios pertencem à intuição, não à ciência demonstrativa."
+57,contemporanea.critica_sujeito,contemporanea.estruturalismo.pos_modernidade; etica.natureza,interpretar,media,Derrida: aporia do perdão do imperdoável como exigência ética.
+63,etica_moral.teorias_normativas,contemporanea.fenomenologia.hermeneutica; etica.natureza,interpretar,media,Ricoeur: perdão como relação entre indivíduos autônomos.
+71,logica_conhecimento.falacias_retorica,antiga.aristoteles.logica; logica.falacias,analisar_argumento,media,"Falácia ad hominem; sem autor no texto, classificado na lógica aristotélica (Refutações sofísticas)."
+74,contemporanea.estetica_arte,contemporanea.fenomenologia.merleau_ponty; contemporanea.estruturalismo.pos_modernidade; estetica,comparar,media,Merleau-Ponty e Deleuze: arte e olhar como formas de conhecimento; nenhum subtema estético cobre arte como conhecimento.
+84,moderna.filosofia_religiao,moderna.racionalismo.descartes_cogito; metafisica.deus_religiao,contextualizar,media,Descartes (Deus pela razão) e Rachels: modernidade centrada na razão humana.
+86,moderna.epistemologia; moderna.etica,moderna.kant.etica; moderna.kant.conhecimento; etica.dever; conhecimento.razao_experiencia,comparar,media,Releitura poética que inverte lei moral interior e mundo fenomênico em Kant.
+95,moderna.metodo_metafisica,moderna.racionalismo.descartes_metodo; filosofia.o_que_e,interpretar,media,Descartes: árvore do saber e unidade do conhecimento.
+102,medieval.patristica,medieval.patristica.agostinho_mal; metafisica.liberdade_determinismo,identificar,media,Mito de Édipo e determinismo; frase de Agostinho sobre submissão à vontade divina.
+
+2,classica.aristoteles,antiga.aristoteles.etica; etica.virtudes; etica.felicidade,interpretar,alta,Virtude como aperfeiçoamento da conduta e eudaimonia em Aristóteles.
+6,contemporanea.critica_sujeito,contemporanea.estruturalismo.pos_modernidade; cultura.contemporaneidade,aplicar,alta,Rizoma de Deleuze aplicado à pluralidade de interações da cultura contemporânea.
+7,moderna.etica,moderna.kant.etica; etica.dever,identificar,alta,Regra de ouro associada ao imperativo categórico kantiano.
+10,moderna.epistemologia,moderna.empirismo.hume; antiga.socratico.sofistas; linguagem.retorica,comparar,alta,"Hume sobre a eloquência como persuasão, comparada à crítica platônica aos sofistas."
+11,contemporanea.critica_sujeito,contemporanea.estruturalismo.pos_modernidade; politica.justica,aplicar,alta,Derrida distingue direito e justiça; aplica-se à desobediência civil.
+12,contemporanea.poder_biopolitica,contemporanea.estruturalismo.foucault; politica.poder_estado,interpretar,alta,Foucault: disciplina como capilarização das práticas de controle.
+14,classica.aristoteles,antiga.aristoteles.politica; politica.governo_democracia,identificar,alta,"Formas de governo de Aristóteles (monarquia, aristocracia, democracia)."
+16,contemporanea.marxismo_critica,contemporanea.frankfurt.marcuse; cultura.contemporaneidade,interpretar,alta,Marcuse: sociedade industrial unidimensional que neutraliza a crítica.
+17,origens.pre_socraticos,antiga.presocraticos.heraclito; metafisica.principio_real,interpretar,alta,Fragmentos de Heráclito sobre a unidade dos contrários.
+18,moderna.etica,sec19.utilitarismo.bentham; etica.utilitarismo; politica.justica,interpretar,alta,Bentham: punição como meio para a felicidade (utilitarismo).
+19,classica.platao,antiga.platao.politica; politica.justica,interpretar,alta,Cidade justa de Platão governada por filósofos: ética e poder indissociáveis.
+20,contemporanea.justica_democracia,contemporanea.politica.arendt; politica.poder_estado,interpretar,alta,Arendt: poder despótico pré-político × persuasão na pólis.
+21,moderna.realismo_politico,moderna.renascimento.maquiavel; politica.poder_estado,interpretar,alta,Maquiavel: virtù/livre-arbítrio diante da fortuna.
+24,classica.aristoteles,antiga.aristoteles.politica; politica.governo_democracia,aplicar,alta,Pólis democrática (Wolff sobre Aristóteles) relacionada à legitimidade eleitoral atual.
+25,contemporanea.critica_sujeito,contemporanea.estruturalismo.sociedade_atual; cultura.contemporaneidade,interpretar,alta,Byung-Chul Han: smartphone e informação geram dispersão.
+26,moderna.contratualismo,moderna.contratualismo.hobbes; moderna.contratualismo.rousseau; antropologia.natureza_humana,comparar,alta,Hobbes × Rousseau: igualdade como traço comum do estado de natureza.
+28,contemporanea.poder_biopolitica,contemporanea.estruturalismo.foucault; politica.poder_estado,identificar,alta,Foucault: poder disciplinar sobre o corpo.
+34,origens.pre_socraticos,antiga.presocraticos.jonicos; medieval.patristica; metafisica.principio_real,comparar,alta,Anaxímenes (ar) × Basílio Magno (Deus): ambos postulam um princípio originário.
+35,helenistica.epicurismo,antiga.helenistica.epicurismo; etica.felicidade,interpretar,alta,Epicuro: classificação dos desejos e prazer moderado.
+36,origens.pre_socraticos,antiga.presocraticos.jonicos; metafisica.principio_real; filosofia.mito_senso_comum,identificar,alta,Tales: explicação racional da physis.
+37,origens.pre_socraticos,antiga.presocraticos.heraclito; antiga.presocraticos.eleatas; metafisica.principio_real,comparar,alta,Heráclito (devir) × Parmênides (ser imutável): oposição ontológica.
+38,classica.socrates_sofistas,antiga.socratico.sofistas; linguagem.retorica,aplicar,alta,Personagem de Machado de Assis comparado aos sofistas pelo uso persuasivo do discurso.
+39,classica.socrates_sofistas,antiga.socratico.socrates; filosofia.o_que_e,identificar,alta,Modo de vida socrático baseado no método dialético.
+40,classica.socrates_sofistas,antiga.socratico.socrates; etica.natureza,identificar,alta,"Texto de Foucault, mas a questão cobra o princípio socrático do exame de si."
+41,origens.mito_razao,antiga.origens.mito_logos; filosofia.mito_senso_comum; metafisica.principio_real,interpretar,alta,Nietzsche sobre Tales: a filosofia nasce da busca racional da causa primeira.
+42,classica.socrates_sofistas,antiga.socratico.sofistas; politica.justica,interpretar,alta,Trasímaco: justiça como convenção resultante de interesses humanos.
+43,medieval.escolastica,medieval.escolastica.tomas_etica_politica; antiga.aristoteles.politica; politica.legitimidade,comparar,alta,Tomás de Aquino retoma o bem comum de Aristóteles na teoria da lei.
+44,classica.platao,antiga.platao.conhecimento; conhecimento.verdade,identificar,alta,Alegoria da caverna como teoria do conhecimento.
+45,classica.platao,antiga.platao.metodo; filosofia.o_que_e,identificar,alta,Diálogo Mênon como exemplo do método dialético.
+46,classica.aristoteles,antiga.aristoteles.politica; etica.felicidade,interpretar,alta,Aristóteles: a cidade visa ao bem supremo; ética e política ligadas pela eudaimonia.
+47,helenistica.estoicismo,antiga.helenistica.estoicismo; etica.felicidade,interpretar,alta,Epicteto: aceitar perdas com serenidade.
+49,helenistica.estoicismo,antiga.helenistica.estoicismo; etica.felicidade,interpretar,alta,Sêneca: filosofia como moderação das paixões diante da morte.
+50,origens.mito_razao,antiga.origens.mito_logos; filosofia.mito_senso_comum,contextualizar,alta,"Vernant: nascimento da filosofia ligado à pólis, em oposição ao mito dos rapsodos."
+51,classica.aristoteles,antiga.aristoteles.etica; etica.felicidade,interpretar,alta,Aristóteles: felicidade como finalidade das ações humanas.
+52,classica.aristoteles,antiga.aristoteles.politica; antropologia.natureza_humana,interpretar,alta,Aristóteles: escravidão natural e trabalho braçal.
+53,classica.aristoteles,antiga.aristoteles.politica; etica.felicidade,interpretar,alta,Aristóteles: política como ciência arquitetônica que visa ao bem humano.
+54,classica.aristoteles,antiga.aristoteles.politica; politica.justica,interpretar,alta,Aristóteles: leis justas visam à vantagem comum e à felicidade da comunidade.
+55,medieval.patristica,medieval.patristica.agostinho_mal; metafisica.deus_religiao,interpretar,alta,"Agostinho: Deus, sumo bem, não pode ser autor do mal."
+56,medieval.escolastica,medieval.escolastica.tomas_etica_politica; politica.governo_democracia,interpretar,alta,Tomás de Aquino justifica a monarquia pela realização do bem comum.
+59,classica.aristoteles,antiga.aristoteles.etica; etica.virtudes,interpretar,alta,Aristóteles: discernimento (phrónesis) orienta as escolhas.
+61,medieval.patristica,medieval.patristica.agostinho_mal; metafisica.liberdade_determinismo; metafisica.deus_religiao,interpretar,alta,Agostinho: presciência divina compatível com o livre-arbítrio.
+62,moderna.mente_corpo,contemporanea.fenomenologia.merleau_ponty; moderna.racionalismo.descartes_cogito; antropologia.mente_corpo,comparar,alta,Merleau-Ponty (raiva no corpo) × dualismo cartesiano.
+64,contemporanea.poder_biopolitica,contemporanea.estruturalismo.foucault; politica.poder_estado,interpretar,alta,Foucault: gestão diferencial das ilegalidades pelo sistema judicial.
+65,contemporanea.marxismo_critica,contemporanea.frankfurt.industria_cultural; estetica.industria_cultural; cultura.contemporaneidade,interpretar,alta,Adorno e Horkheimer: lazer como consumo da indústria cultural.
+66,contemporanea.existencialismo,contemporanea.existencialismo.sartre; metafisica.liberdade_determinismo; antropologia.existencia,comparar,alta,Personagem determinista de García Márquez × liberdade e transcendência em Sartre.
+67,classica.aristoteles,antiga.aristoteles.politica; etica.virtudes,interpretar,alta,Aristóteles: fim do Estado é promover a virtude e a felicidade.
+69,contemporanea.justica_democracia,contemporanea.politica.libertarismo_comunitarismo; politica.governo_democracia,interpretar,alta,Sandel: tecnocracia esvazia o debate moral e a participação política.
+70,contemporanea.justica_democracia,contemporanea.politica.rawls; politica.justica; politica.governo_democracia,interpretar,alta,Rawls: justiça como equidade e regime democrático.
+72,moderna.epistemologia,moderna.empirismo.hume; conhecimento.razao_experiencia,interpretar,alta,Hume: ideia de causa e efeito nasce do hábito.
+73,contemporanea.poder_biopolitica,contemporanea.estruturalismo.foucault; politica.poder_estado,identificar,alta,Foucault: modelos da lepra e da peste e a sociedade disciplinar.
+75,contemporanea.justica_democracia,contemporanea.politica.arendt; linguagem.comunicacao,interpretar,alta,Arendt: discurso como fundamento da vida política e da sociabilidade.
+76,origens.pre_socraticos,antiga.presocraticos.pluralistas; metafisica.principio_real,interpretar,alta,"Empédocles: quatro elementos, Amor e Ódio como cosmogonia."
+77,moderna.realismo_politico,moderna.renascimento.maquiavel; politica.poder_estado,interpretar,alta,Maquiavel: o príncipe deve parecer virtuoso (flexibilidade moral).
+78,contemporanea.existencialismo,contemporanea.existencialismo; antropologia.existencia; filosofia.o_que_e,identificar,alta,Abbagnano sobre o existencialismo: a filosofia como ato existencial.
+80,contemporanea.poder_biopolitica,contemporanea.estruturalismo.foucault; politica.poder_estado,interpretar,alta,Foucault: biopoder como administração calculista da vida.
+82,medieval.patristica,medieval.patristica.agostinho_mal; metafisica.liberdade_determinismo,interpretar,alta,Agostinho: livre-arbítrio dado para agir bem; punição pelo mau uso.
+83,moderna.realismo_politico,moderna.renascimento.maquiavel; politica.poder_estado,contextualizar,alta,Maquiavel: separação entre moral ideal e eficácia política como inovação moderna.
+85,contemporanea.critica_sujeito,contemporanea.estruturalismo.foucault; antropologia.subjetividade,interpretar,alta,Foucault: sujeito constituído por práticas de sujeição e liberdade.
+87,moderna.filosofia_ciencia,moderna.revolucao_cientifica.newton; ciencia.metodo,interpretar,alta,Lenda de Newton: a ciência moderna propõe hipóteses.
+88,contemporanea.justica_democracia,contemporanea.politica.arendt; politica.totalitarismo,interpretar,alta,Arendt: campos de concentração e naturalização da segregação.
+89,classica.aristoteles,antiga.aristoteles.politica; antropologia.natureza_humana,interpretar,alta,Aristóteles: lógos distingue o homem e funda a cidade.
+90,contemporanea.marxismo_critica,contemporanea.frankfurt.industria_cultural; estetica.industria_cultural,interpretar,alta,Adorno e Horkheimer: padronização da arte pela indústria cultural.
+91,classica.platao,antiga.platao.politica; politica.justica,interpretar,alta,Platão: rei-filósofo e cidade justa.
+92,moderna.metodo_metafisica,moderna.racionalismo.descartes_metodo; conhecimento.razao_experiencia,interpretar,alta,Descartes: dúvida metódica em busca de um ponto de partida seguro.
+93,contemporanea.critica_sujeito,contemporanea.estruturalismo.pos_modernidade; antropologia.subjetividade,identificar,alta,Derrida: crise do sujeito.
+94,moderna.contratualismo,moderna.contratualismo.rousseau; antropologia.natureza_humana,interpretar,alta,Rousseau: estado de natureza antes da corrupção pelas artes e ciências.
+96,moderna.filosofia_ciencia,moderna.revolucao_cientifica.galileu; ciencia.metodo,contextualizar,alta,Galileu: natureza escrita em linguagem matemática contra a escolástica.
+97,moderna.epistemologia,moderna.kant.conhecimento; conhecimento.razao_experiencia,interpretar,alta,Kant: revolução copernicana na teoria do conhecimento.
+98,classica.platao,antiga.platao.conhecimento; conhecimento.verdade; metafisica.substancia,interpretar,alta,Platão (Fédon): conhecer é relacionar o objeto ao seu ser (reminiscência).
+99,moderna.etica,sec19.utilitarismo.bentham; etica.utilitarismo,identificar,alta,Bentham: maior felicidade para os afetados.
+100,contemporanea.filosofias_nao_ocidentais,contemporanea.decolonial.africana; etica.natureza; cultura.relativismo,comparar,alta,Ubuntu e ética comunitária africana em contraste com a tradição eurocêntrica.
+101,moderna.etica,moderna.kant.etica; etica.dever,identificar,alta,Kant: máximas subjetivas × princípios objetivos; universalidade do dever.
+103,moderna.realismo_politico,moderna.renascimento.maquiavel; politica.poder_estado,interpretar,alta,Maquiavel: crueldade conveniente para manter a ordem.

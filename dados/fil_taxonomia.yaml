@@ -1,0 +1,1220 @@
+# =============================================================================
+# fil_taxonomia.yaml — Taxonomia de Filosofia para classificar questões e aulas
+# =============================================================================
+#
+# Este arquivo reúne toda a taxonomia usada para classificar questões e aulas
+# da matéria `fil` (Filosofia): os três eixos descritos abaixo, cujos nomes
+# são as chaves usadas no dicionário `classificacao` da questão ou aula. Ele é
+# declarado em `materias.yaml`, na chave `taxonomia` da matéria `fil`.
+#
+# Substitui os antigos `fil_temas.yaml` (que continha só a taxonomia de
+# temas), `fil_areas.yaml` e `fil_filosofos.yaml`, já removidos.
+#
+# -----------------------------------------------------------------------------
+# 1. ESTRUTURA: TRÊS EIXOS
+# -----------------------------------------------------------------------------
+#
+#   fil_periodos     Eixo P: quando e de quem?
+#                    Formato: periodo.corrente.nucleo
+#                    Raízes: antiga, medieval, moderna, sec19, contemporanea
+#                    Ex.: moderna.renascimento.maquiavel
+#                    Substitui a antiga taxonomia de `fil_temas` e o antigo
+#                    campo `fil_filosofos`.
+#
+#   fil_areas        Eixo A: sobre o quê?
+#                    Formato: area.subtema
+#                    Raízes: etica, politica, conhecimento, ciencia, metafisica,
+#                            antropologia, logica, estetica, linguagem, cultura,
+#                            educacao, filosofia
+#                    Ex.: politica.poder_estado
+#                    Substitui o antigo campo `fil_areas` das questões (as
+#                    raízes coincidem com as áreas antigas, como `politica`).
+#
+#   fil_habilidades  Eixo H: o que a questão pede ao aluno?
+#                    Formato: um verbo. Ex.: interpretar, comparar, aplicar.
+#
+# Os eixos levam o prefixo `fil_` porque são exclusivos da matéria `fil`.
+#
+# Cada nó tem `codigo`, `ordem` e `nome`. Nós com filhos têm a lista `temas`.
+#
+#   codigo   identificador estável, usado nas questões. Nunca muda.
+#   ordem    posição do nó para exibição, com dois dígitos por nível
+#            (ex.: "03.01.02" = 3º período, 1ª corrente, 2º núcleo).
+#            Serve só para ordenar listas mostradas ao usuário; ordenar por
+#            este texto reproduz a ordem do arquivo, inclusive entre níveis.
+#            A numeração é independente em cada eixo (fil_periodos,
+#            fil_areas, fil_habilidades). Não use `ordem` para classificar
+#            questões.
+#
+# Campos opcionais:
+#   conceitos      palavras-chave que ajudam a decidir a etiqueta (eixo P)
+#   relacionados   códigos P onde o tema mais aparece (eixo A)
+#   descricao      o que a questão pede (eixo H)
+#   aprofundamento true = autor ou tema de baixa incidência no Enem
+#
+# Cada código começa pelo código do nó pai. As raízes dos eixos P e A não se
+# repetem, por isso todo código identifica sozinho o seu eixo.
+#
+# -----------------------------------------------------------------------------
+# 2. COMO CLASSIFICAR UMA QUESTÃO OU AULA
+# -----------------------------------------------------------------------------
+#
+# A questão (ou a aula) tem uma única chave `classificacao`, um dicionário.
+# Para cada matéria listada em `materias`, ele pode receber os eixos da
+# taxonomia dessa matéria; o valor de cada eixo é uma lista de códigos desse
+# eixo. Em Filosofia:
+#
+#   fil_periodos     códigos do eixo P
+#   fil_areas        códigos do eixo A
+#   fil_habilidades  código do eixo H
+#
+# Regras:
+#   a) Pelo menos um código em `fil_periodos`, no nível mais específico
+#      possível. Use o nível de corrente (ex.: moderna.empirismo) quando não
+#      houver autor central. Exceção: uma questão teórica sobre uma área da
+#      filosofia em abstrato, sem menção a um autor nem a um conceito com
+#      origem datada na história da filosofia, fica sem período
+#      (`fil_periodos: []`).
+#   b) Questões comparativas recebem até três códigos em `fil_periodos`; o
+#      primeiro é o autor do texto-base.
+#   c) Um ou dois códigos em `fil_areas`.
+#   d) Exatamente um código em `fil_habilidades`. Em aulas, esse eixo é
+#      opcional.
+#   e) Um autor sem nó próprio é classificado pela corrente mais próxima.
+#
+# Exemplo (Enem 2010, Maquiavel):
+#
+#   - id: 103
+#     materias: [fil]
+#     classificacao:
+#       fil_periodos: [moderna.renascimento.maquiavel]
+#       fil_areas: [politica.poder_estado]
+#       fil_habilidades: [interpretar]
+#
+# Antes, essa mesma questão usava:
+#   fil_areas: [politica, etica]
+#   fil_filosofos: [maquiavel]
+#   fil_temas: [moderna.realismo_politico]
+#
+# -----------------------------------------------------------------------------
+# 3. MIGRAÇÃO DA TAXONOMIA ANTIGA
+# -----------------------------------------------------------------------------
+#
+# A chave `migracao`, ao final do arquivo, liga cada código do antigo campo
+# `fil_temas` a um ou mais códigos novos dos eixos P e A. Ela serve de ponto de partida para
+# um script de conversão.
+#
+# Códigos antigos amplos caem num nível genérico (ex.: moderna.racionalismo,
+# etica). Essas questões devem ser revisadas e refinadas até o autor ou o
+# núcleo correto. A lista `revisar` aponta os casos em que o código antigo não
+# permite escolher o período sem ler a questão.
+#
+# Para os campos antigos:
+#   fil_filosofos  troque cada filósofo pelo nó P do autor, se houver; senão,
+#                  pelo nó da corrente.
+#   fil_areas      troque cada área pela raiz A correspondente e, na revisão,
+#                  refine para o subtema.
+#
+# -----------------------------------------------------------------------------
+# 4. MANUTENÇÃO
+# -----------------------------------------------------------------------------
+#
+# Códigos novos são acrescentados sem renomear os existentes, para não
+# quebrar etiquetas já atribuídas. Use letras minúsculas, sem acentos, com
+# palavras unidas por `_` e níveis separados por ponto.
+#
+# O campo `ordem`, ao contrário de `codigo`, pode ser renumerado à vontade
+# para mudar a posição de exibição: questões não guardam `ordem`. Ao inserir
+# um nó, dê a ele a posição desejada e renumere os irmãos seguintes. Mantenha
+# sempre dois dígitos por nível e o valor entre aspas.
+# =============================================================================
+
+
+# =============================================================================
+# EIXO P — PERÍODOS, CORRENTES E AUTORES
+# =============================================================================
+fil_periodos:
+
+  - codigo: antiga
+    ordem: "01"
+    nome: "Filosofia Antiga (séc. VII a.C. – V d.C.)"
+    temas:
+      - codigo: antiga.origens
+        ordem: "01.01"
+        nome: "Origens da filosofia"
+        temas:
+          - codigo: antiga.origens.mito_logos
+            ordem: "01.01.01"
+            nome: "Passagem do mito ao logos"
+            conceitos: "mito, logos, pólis, condições históricas do surgimento"
+          - codigo: antiga.origens.atitude_filosofica
+            ordem: "01.01.02"
+            nome: "Filosofia e outras formas de saber"
+            conceitos: "senso comum, religião, ciência, atitude filosófica, espanto (thaumázein)"
+      - codigo: antiga.presocraticos
+        ordem: "01.02"
+        nome: "Pré-socráticos"
+        temas:
+          - codigo: antiga.presocraticos.jonicos
+            ordem: "01.02.01"
+            nome: "Escola jônica: Tales, Anaximandro, Anaxímenes"
+            conceitos: "physis, arché, água, ápeiron, ar"
+          - codigo: antiga.presocraticos.pitagoricos
+            ordem: "01.02.02"
+            nome: "Pitágoras e pitagóricos"
+            conceitos: "número como princípio, harmonia, alma"
+          - codigo: antiga.presocraticos.heraclito
+            ordem: "01.02.03"
+            nome: "Heráclito"
+            conceitos: "devir, fluxo, unidade dos contrários, fogo, logos"
+          - codigo: antiga.presocraticos.eleatas
+            ordem: "01.02.04"
+            nome: "Eleatas: Parmênides, Zenão"
+            conceitos: "ser e não-ser, imobilidade, via da verdade e da opinião, paradoxos"
+          - codigo: antiga.presocraticos.pluralistas
+            ordem: "01.02.05"
+            nome: "Pluralistas: Empédocles, Anaxágoras"
+            conceitos: "quatro elementos, amor e ódio, nous"
+          - codigo: antiga.presocraticos.atomistas
+            ordem: "01.02.06"
+            nome: "Atomistas: Leucipo, Demócrito"
+            conceitos: "átomo, vazio, materialismo, necessidade"
+      - codigo: antiga.socratico
+        ordem: "01.03"
+        nome: "Período socrático"
+        temas:
+          - codigo: antiga.socratico.sofistas
+            ordem: "01.03.01"
+            nome: "Sofistas: Protágoras, Górgias"
+            conceitos: "relativismo, “homem medida”, retórica, physis × nómos"
+          - codigo: antiga.socratico.socrates
+            ordem: "01.03.02"
+            nome: "Sócrates"
+            conceitos: "ironia, maiêutica, “só sei que nada sei”, conhecimento de si, virtude como saber, julgamento e morte"
+      - codigo: antiga.platao
+        ordem: "01.04"
+        nome: "Platão"
+        temas:
+          - codigo: antiga.platao.metodo
+            ordem: "01.04.01"
+            nome: "Platão: método e diálogos"
+            conceitos: "dialética, diálogo socrático, mito filosófico"
+          - codigo: antiga.platao.ideias
+            ordem: "01.04.02"
+            nome: "Platão: teoria das Ideias"
+            conceitos: "mundo sensível × inteligível, participação, Bem"
+          - codigo: antiga.platao.conhecimento
+            ordem: "01.04.03"
+            nome: "Platão: conhecimento"
+            conceitos: "reminiscência, doxa × epistéme, linha dividida, alegoria da caverna"
+          - codigo: antiga.platao.alma_etica
+            ordem: "01.04.04"
+            nome: "Platão: alma e ética"
+            conceitos: "tripartição da alma, virtudes, justiça na alma"
+          - codigo: antiga.platao.politica
+            ordem: "01.04.05"
+            nome: "Platão: política"
+            conceitos: "República, cidade ideal, rei-filósofo, crítica à democracia"
+          - codigo: antiga.platao.arte_amor
+            ordem: "01.04.06"
+            nome: "Platão: estética e amor"
+            conceitos: "arte como mímesis, crítica aos poetas, Eros (Banquete)"
+      - codigo: antiga.aristoteles
+        ordem: "01.05"
+        nome: "Aristóteles"
+        temas:
+          - codigo: antiga.aristoteles.logica
+            ordem: "01.05.01"
+            nome: "Aristóteles: lógica (Órganon)"
+            conceitos: "silogismo, categorias, princípio de não contradição"
+          - codigo: antiga.aristoteles.metafisica
+            ordem: "01.05.02"
+            nome: "Aristóteles: metafísica e física"
+            conceitos: "substância, ato e potência, quatro causas, motor imóvel, hilemorfismo"
+          - codigo: antiga.aristoteles.etica
+            ordem: "01.05.03"
+            nome: "Aristóteles: ética"
+            conceitos: "eudaimonia, virtude como justo meio, hábito, prudência (phrónesis)"
+          - codigo: antiga.aristoteles.politica
+            ordem: "01.05.04"
+            nome: "Aristóteles: política"
+            conceitos: "animal político, formas de governo e desvios, cidadania, escravidão natural"
+          - codigo: antiga.aristoteles.poetica
+            ordem: "01.05.05"
+            nome: "Aristóteles: poética e retórica"
+            conceitos: "mímesis, tragédia, catarse, ethos/pathos/logos"
+      - codigo: antiga.helenistica
+        ordem: "01.06"
+        nome: "Período helenístico e romano"
+        temas:
+          - codigo: antiga.helenistica.epicurismo
+            ordem: "01.06.01"
+            nome: "Epicurismo"
+            conceitos: "prazer como ausência de dor (ataraxia), tetrafármaco, amizade, morte"
+          - codigo: antiga.helenistica.estoicismo
+            ordem: "01.06.02"
+            nome: "Estoicismo: Zenão, Sêneca, Epicteto, Marco Aurélio"
+            conceitos: "logos universal, viver segundo a natureza, apatheia, o que depende de nós, cosmopolitismo"
+          - codigo: antiga.helenistica.ceticismo
+            ordem: "01.06.03"
+            nome: "Ceticismo: Pirro, Sexto Empírico"
+            conceitos: "suspensão do juízo (epoché), tropos, ataraxia"
+          - codigo: antiga.helenistica.cinismo
+            ordem: "01.06.04"
+            nome: "Cinismo: Diógenes"
+            conceitos: "autarquia, vida simples, crítica às convenções"
+          - codigo: antiga.helenistica.neoplatonismo
+            ordem: "01.06.05"
+            nome: "Neoplatonismo: Plotino"
+            conceitos: "Uno, emanação, retorno da alma"
+            aprofundamento: true
+
+  - codigo: medieval
+    ordem: "02"
+    nome: "Filosofia Medieval (séc. II – XIV)"
+    temas:
+      - codigo: medieval.geral
+        ordem: "02.01"
+        nome: "Contexto geral da filosofia medieval"
+        conceitos: "relação fé e razão, Igreja e universidades, herança greco-romana"
+      - codigo: medieval.patristica
+        ordem: "02.02"
+        nome: "Patrística"
+        temas:
+          - codigo: medieval.patristica.agostinho_fe
+            ordem: "02.02.01"
+            nome: "Agostinho: fé e razão"
+            conceitos: "“crer para compreender”, iluminação divina, interioridade"
+          - codigo: medieval.patristica.agostinho_mal
+            ordem: "02.02.02"
+            nome: "Agostinho: mal e livre-arbítrio"
+            conceitos: "mal como privação, pecado, graça, vontade"
+          - codigo: medieval.patristica.agostinho_tempo
+            ordem: "02.02.03"
+            nome: "Agostinho: tempo e história"
+            conceitos: "tempo como distensão da alma, Cidade de Deus × cidade dos homens"
+          - codigo: medieval.patristica.boecio
+            ordem: "02.02.04"
+            nome: "Boécio"
+            conceitos: "consolação da filosofia, providência, problema dos universais"
+            aprofundamento: true
+      - codigo: medieval.arabe_judaica
+        ordem: "02.03"
+        nome: "Filosofia árabe e judaica"
+        temas:
+          - codigo: medieval.arabe_judaica.avicena_averrois
+            ordem: "02.03.01"
+            nome: "Avicena, Averróis"
+            conceitos: "recepção de Aristóteles, dupla verdade, intelecto"
+            aprofundamento: true
+          - codigo: medieval.arabe_judaica.maimonides
+            ordem: "02.03.02"
+            nome: "Maimônides"
+            conceitos: "conciliação entre razão e revelação"
+            aprofundamento: true
+      - codigo: medieval.escolastica
+        ordem: "02.04"
+        nome: "Escolástica"
+        temas:
+          - codigo: medieval.escolastica.anselmo
+            ordem: "02.04.01"
+            nome: "Anselmo"
+            conceitos: "argumento ontológico, “fé que busca compreender”"
+          - codigo: medieval.escolastica.universais
+            ordem: "02.04.02"
+            nome: "Querela dos universais: Abelardo"
+            conceitos: "realismo, nominalismo, conceitualismo"
+          - codigo: medieval.escolastica.tomas_fe_razao
+            ordem: "02.04.03"
+            nome: "Tomás de Aquino: fé e razão"
+            conceitos: "harmonia entre teologia e filosofia, aristotelismo cristão"
+          - codigo: medieval.escolastica.tomas_cinco_vias
+            ordem: "02.04.04"
+            nome: "Tomás de Aquino: cinco vias"
+            conceitos: "provas da existência de Deus, causa primeira, contingência"
+          - codigo: medieval.escolastica.tomas_etica_politica
+            ordem: "02.04.05"
+            nome: "Tomás de Aquino: ética e política"
+            conceitos: "lei eterna, natural e humana, bem comum, guerra justa"
+          - codigo: medieval.escolastica.ockham
+            ordem: "02.04.06"
+            nome: "Guilherme de Ockham"
+            conceitos: "navalha de Ockham, nominalismo, separação entre fé e razão"
+          - codigo: medieval.escolastica.mistica
+            ordem: "02.04.07"
+            nome: "Mística e outros: Bernardo, Hildegarda de Bingen"
+            conceitos: "experiência mística, presença feminina no pensamento medieval"
+            aprofundamento: true
+
+  - codigo: moderna
+    ordem: "03"
+    nome: "Renascimento e Filosofia Moderna (séc. XV – XVIII)"
+    temas:
+      - codigo: moderna.renascimento
+        ordem: "03.01"
+        nome: "Renascimento e humanismo"
+        temas:
+          - codigo: moderna.renascimento.humanismo
+            ordem: "03.01.01"
+            nome: "Humanismo: Pico della Mirandola, Erasmo"
+            conceitos: "dignidade humana, antropocentrismo, retorno aos clássicos"
+          - codigo: moderna.renascimento.maquiavel
+            ordem: "03.01.02"
+            nome: "Maquiavel"
+            conceitos: "virtù e fortuna, autonomia da política, realismo político, “fins e meios”"
+          - codigo: moderna.renascimento.montaigne
+            ordem: "03.01.03"
+            nome: "Montaigne"
+            conceitos: "ceticismo moderno, ensaio, relativismo cultural (“Dos canibais”)"
+          - codigo: moderna.renascimento.utopias
+            ordem: "03.01.04"
+            nome: "Utopias: Thomas More, Campanella"
+            conceitos: "sociedade ideal, crítica social"
+          - codigo: moderna.renascimento.reforma
+            ordem: "03.01.05"
+            nome: "Reforma e Contrarreforma"
+            conceitos: "livre exame, autoridade, tolerância religiosa"
+      - codigo: moderna.revolucao_cientifica
+        ordem: "03.02"
+        nome: "Revolução científica"
+        temas:
+          - codigo: moderna.revolucao_cientifica.galileu
+            ordem: "03.02.01"
+            nome: "Copérnico, Kepler, Galileu"
+            conceitos: "heliocentrismo, matematização da natureza, experimento, fim do cosmos fechado"
+          - codigo: moderna.revolucao_cientifica.bacon
+            ordem: "03.02.02"
+            nome: "Francis Bacon"
+            conceitos: "método indutivo, ídolos, “saber é poder”"
+          - codigo: moderna.revolucao_cientifica.newton
+            ordem: "03.02.03"
+            nome: "Newton"
+            conceitos: "mecanicismo, leis universais, ciência moderna"
+      - codigo: moderna.racionalismo
+        ordem: "03.03"
+        nome: "Racionalismo"
+        temas:
+          - codigo: moderna.racionalismo.descartes_metodo
+            ordem: "03.03.01"
+            nome: "Descartes: método"
+            conceitos: "dúvida metódica, regras do método, evidência, clareza e distinção"
+          - codigo: moderna.racionalismo.descartes_cogito
+            ordem: "03.03.02"
+            nome: "Descartes: cogito e substâncias"
+            conceitos: "“penso, logo existo”, res cogitans × res extensa, dualismo, Deus como garantia"
+          - codigo: moderna.racionalismo.espinosa
+            ordem: "03.03.03"
+            nome: "Espinosa"
+            conceitos: "substância única, Deus ou Natureza, conatus, afetos, liberdade como compreensão da necessidade"
+          - codigo: moderna.racionalismo.leibniz
+            ordem: "03.03.04"
+            nome: "Leibniz"
+            conceitos: "mônadas, harmonia preestabelecida, melhor dos mundos possíveis"
+            aprofundamento: true
+          - codigo: moderna.racionalismo.pascal
+            ordem: "03.03.05"
+            nome: "Pascal"
+            conceitos: "razões do coração, aposta, condição humana"
+            aprofundamento: true
+      - codigo: moderna.empirismo
+        ordem: "03.04"
+        nome: "Empirismo"
+        temas:
+          - codigo: moderna.empirismo.locke
+            ordem: "03.04.01"
+            nome: "Locke: conhecimento"
+            conceitos: "tábula rasa, ideias simples e complexas, qualidades primárias e secundárias"
+          - codigo: moderna.empirismo.berkeley
+            ordem: "03.04.02"
+            nome: "Berkeley"
+            conceitos: "“ser é ser percebido”, imaterialismo"
+            aprofundamento: true
+          - codigo: moderna.empirismo.hume
+            ordem: "03.04.03"
+            nome: "Hume"
+            conceitos: "impressões e ideias, crítica à causalidade, hábito, problema da indução, ceticismo, “é” × “deve”"
+      - codigo: moderna.contratualismo
+        ordem: "03.05"
+        nome: "Contratualismo"
+        temas:
+          - codigo: moderna.contratualismo.hobbes
+            ordem: "03.05.01"
+            nome: "Hobbes"
+            conceitos: "estado de natureza como guerra, Leviatã, soberania absoluta"
+          - codigo: moderna.contratualismo.locke
+            ordem: "03.05.02"
+            nome: "Locke: política"
+            conceitos: "direitos naturais, propriedade, governo civil, direito de resistência, liberalismo"
+          - codigo: moderna.contratualismo.rousseau
+            ordem: "03.05.03"
+            nome: "Rousseau"
+            conceitos: "bom selvagem, origem da desigualdade, vontade geral, soberania popular, educação (Emílio)"
+      - codigo: moderna.iluminismo
+        ordem: "03.06"
+        nome: "Iluminismo"
+        temas:
+          - codigo: moderna.iluminismo.geral
+            ordem: "03.06.01"
+            nome: "Esclarecimento: ideias gerais"
+            conceitos: "razão, progresso, crítica à autoridade, Enciclopédia"
+          - codigo: moderna.iluminismo.montesquieu
+            ordem: "03.06.02"
+            nome: "Montesquieu"
+            conceitos: "separação dos poderes, espírito das leis"
+          - codigo: moderna.iluminismo.voltaire_diderot
+            ordem: "03.06.03"
+            nome: "Voltaire, Diderot"
+            conceitos: "tolerância, crítica religiosa, liberdade de expressão"
+          - codigo: moderna.iluminismo.wollstonecraft
+            ordem: "03.06.04"
+            nome: "Mary Wollstonecraft"
+            conceitos: "direitos das mulheres, educação feminina"
+            aprofundamento: true
+      - codigo: moderna.kant
+        ordem: "03.07"
+        nome: "Kant"
+        temas:
+          - codigo: moderna.kant.esclarecimento
+            ordem: "03.07.01"
+            nome: "Kant: O que é Esclarecimento?"
+            conceitos: "menoridade, autonomia, uso público da razão"
+          - codigo: moderna.kant.conhecimento
+            ordem: "03.07.02"
+            nome: "Kant: teoria do conhecimento"
+            conceitos: "revolução copernicana, juízos analíticos e sintéticos a priori, fenômeno × númeno, formas da sensibilidade, categorias"
+          - codigo: moderna.kant.etica
+            ordem: "03.07.03"
+            nome: "Kant: ética"
+            conceitos: "dever, imperativo categórico e hipotético, autonomia, dignidade, pessoa como fim"
+          - codigo: moderna.kant.estetica_politica
+            ordem: "03.07.04"
+            nome: "Kant: estética e política"
+            conceitos: "belo e sublime, juízo de gosto, paz perpétua"
+            aprofundamento: true
+
+  - codigo: sec19
+    ordem: "04"
+    nome: "Século XIX"
+    temas:
+      - codigo: sec19.idealismo
+        ordem: "04.01"
+        nome: "Idealismo alemão"
+        temas:
+          - codigo: sec19.idealismo.hegel
+            ordem: "04.01.01"
+            nome: "Hegel"
+            conceitos: "dialética (tese, antítese, síntese), Espírito absoluto, razão na história, senhor e escravo, Estado"
+          - codigo: sec19.idealismo.fichte_schelling
+            ordem: "04.01.02"
+            nome: "Fichte, Schelling"
+            conceitos: "eu absoluto, filosofia da natureza, romantismo"
+            aprofundamento: true
+      - codigo: sec19.marxismo
+        ordem: "04.02"
+        nome: "Marx e marxismo"
+        temas:
+          - codigo: sec19.marxismo.materialismo_historico
+            ordem: "04.02.01"
+            nome: "Materialismo histórico-dialético"
+            conceitos: "infraestrutura e superestrutura, modos de produção, luta de classes"
+          - codigo: sec19.marxismo.alienacao
+            ordem: "04.02.02"
+            nome: "Trabalho e alienação"
+            conceitos: "alienação, mais-valia, fetichismo da mercadoria"
+          - codigo: sec19.marxismo.ideologia
+            ordem: "04.02.03"
+            nome: "Ideologia e práxis"
+            conceitos: "ideologia, consciência de classe, transformação do mundo (11ª tese sobre Feuerbach)"
+          - codigo: sec19.marxismo.engels
+            ordem: "04.02.04"
+            nome: "Engels"
+            conceitos: "origem da família, da propriedade privada e do Estado"
+            aprofundamento: true
+      - codigo: sec19.positivismo
+        ordem: "04.03"
+        nome: "Positivismo"
+        temas:
+          - codigo: sec19.positivismo.comte
+            ordem: "04.03.01"
+            nome: "Comte"
+            conceitos: "lei dos três estados, ciência positiva, ordem e progresso, positivismo no Brasil"
+      - codigo: sec19.utilitarismo
+        ordem: "04.04"
+        nome: "Utilitarismo e liberalismo"
+        temas:
+          - codigo: sec19.utilitarismo.bentham
+            ordem: "04.04.01"
+            nome: "Bentham"
+            conceitos: "princípio de utilidade, cálculo hedonista, panóptico"
+          - codigo: sec19.utilitarismo.mill
+            ordem: "04.04.02"
+            nome: "John Stuart Mill"
+            conceitos: "prazeres superiores, liberdade individual, princípio do dano, sujeição das mulheres"
+      - codigo: sec19.critica_razao
+        ordem: "04.05"
+        nome: "Críticas à razão e ao sistema"
+        temas:
+          - codigo: sec19.critica_razao.schopenhauer
+            ordem: "04.05.01"
+            nome: "Schopenhauer"
+            conceitos: "vontade e representação, pessimismo, sofrimento, arte como alívio"
+          - codigo: sec19.critica_razao.kierkegaard
+            ordem: "04.05.02"
+            nome: "Kierkegaard"
+            conceitos: "existência, angústia, desespero, estágios estético, ético e religioso"
+          - codigo: sec19.critica_razao.nietzsche_moral
+            ordem: "04.05.03"
+            nome: "Nietzsche: crítica à moral"
+            conceitos: "genealogia, moral de senhores e de escravos, ressentimento, transvaloração"
+          - codigo: sec19.critica_razao.nietzsche_niilismo
+            ordem: "04.05.04"
+            nome: "Nietzsche: niilismo e vida"
+            conceitos: "morte de Deus, niilismo, vontade de poder, além-do-homem, eterno retorno"
+          - codigo: sec19.critica_razao.nietzsche_arte
+            ordem: "04.05.05"
+            nome: "Nietzsche: arte e verdade"
+            conceitos: "apolíneo e dionisíaco, perspectivismo, crítica à verdade"
+      - codigo: sec19.outras
+        ordem: "04.06"
+        nome: "Outras correntes"
+        temas:
+          - codigo: sec19.outras.pragmatismo
+            ordem: "04.06.01"
+            nome: "Pragmatismo: Peirce, William James, Dewey"
+            conceitos: "verdade como utilidade, consequências práticas, educação democrática"
+            aprofundamento: true
+          - codigo: sec19.outras.darwinismo
+            ordem: "04.06.02"
+            nome: "Darwinismo e seu impacto filosófico"
+            conceitos: "evolução, seleção natural, darwinismo social (crítica)"
+            aprofundamento: true
+
+  - codigo: contemporanea
+    ordem: "05"
+    nome: "Filosofia Contemporânea: séculos XX e XXI"
+    temas:
+      - codigo: contemporanea.psicanalise
+        ordem: "05.01"
+        nome: "Psicanálise e filosofia"
+        temas:
+          - codigo: contemporanea.psicanalise.freud
+            ordem: "05.01.01"
+            nome: "Freud"
+            conceitos: "inconsciente, id/ego/superego, mal-estar na civilização, descentramento do sujeito"
+      - codigo: contemporanea.fenomenologia
+        ordem: "05.02"
+        nome: "Fenomenologia e hermenêutica"
+        temas:
+          - codigo: contemporanea.fenomenologia.husserl
+            ordem: "05.02.01"
+            nome: "Husserl"
+            conceitos: "intencionalidade, “voltar às coisas mesmas”, epoché fenomenológica"
+          - codigo: contemporanea.fenomenologia.heidegger
+            ordem: "05.02.02"
+            nome: "Heidegger"
+            conceitos: "ser-aí (Dasein), ser-para-a-morte, angústia, inautenticidade, técnica"
+          - codigo: contemporanea.fenomenologia.merleau_ponty
+            ordem: "05.02.03"
+            nome: "Merleau-Ponty"
+            conceitos: "corpo próprio, percepção"
+            aprofundamento: true
+          - codigo: contemporanea.fenomenologia.hermeneutica
+            ordem: "05.02.04"
+            nome: "Gadamer, Ricoeur"
+            conceitos: "hermenêutica, interpretação, fusão de horizontes"
+            aprofundamento: true
+      - codigo: contemporanea.existencialismo
+        ordem: "05.03"
+        nome: "Existencialismo"
+        temas:
+          - codigo: contemporanea.existencialismo.sartre
+            ordem: "05.03.01"
+            nome: "Sartre"
+            conceitos: "“a existência precede a essência”, liberdade, responsabilidade, má-fé, angústia, engajamento"
+          - codigo: contemporanea.existencialismo.beauvoir
+            ordem: "05.03.02"
+            nome: "Simone de Beauvoir"
+            conceitos: "“não se nasce mulher”, o Outro, construção social do gênero, moral da ambiguidade"
+          - codigo: contemporanea.existencialismo.camus
+            ordem: "05.03.03"
+            nome: "Camus"
+            conceitos: "absurdo, Sísifo, revolta, suicídio filosófico"
+      - codigo: contemporanea.frankfurt
+        ordem: "05.04"
+        nome: "Escola de Frankfurt e teoria crítica"
+        temas:
+          - codigo: contemporanea.frankfurt.industria_cultural
+            ordem: "05.04.01"
+            nome: "Adorno e Horkheimer"
+            conceitos: "indústria cultural, razão instrumental, dialética do esclarecimento, cultura de massa"
+          - codigo: contemporanea.frankfurt.benjamin
+            ordem: "05.04.02"
+            nome: "Walter Benjamin"
+            conceitos: "reprodutibilidade técnica, aura, filosofia da história"
+          - codigo: contemporanea.frankfurt.marcuse
+            ordem: "05.04.03"
+            nome: "Marcuse"
+            conceitos: "homem unidimensional, sociedade de consumo"
+            aprofundamento: true
+          - codigo: contemporanea.frankfurt.habermas
+            ordem: "05.04.04"
+            nome: "Habermas"
+            conceitos: "razão comunicativa, ação comunicativa, esfera pública, democracia deliberativa"
+          - codigo: contemporanea.frankfurt.honneth
+            ordem: "05.04.05"
+            nome: "Axel Honneth"
+            conceitos: "luta por reconhecimento"
+            aprofundamento: true
+      - codigo: contemporanea.analitica
+        ordem: "05.05"
+        nome: "Filosofia analítica e da linguagem"
+        temas:
+          - codigo: contemporanea.analitica.logicismo
+            ordem: "05.05.01"
+            nome: "Frege, Russell"
+            conceitos: "lógica simbólica, sentido e referência, atomismo lógico"
+            aprofundamento: true
+          - codigo: contemporanea.analitica.wittgenstein
+            ordem: "05.05.02"
+            nome: "Wittgenstein"
+            conceitos: "Tractatus, limites da linguagem, jogos de linguagem, significado como uso"
+          - codigo: contemporanea.analitica.circulo_viena
+            ordem: "05.05.03"
+            nome: "Círculo de Viena"
+            conceitos: "positivismo lógico, verificacionismo"
+          - codigo: contemporanea.analitica.atos_fala
+            ordem: "05.05.04"
+            nome: "Austin, Searle"
+            conceitos: "atos de fala, filosofia da mente"
+            aprofundamento: true
+      - codigo: contemporanea.ciencia
+        ordem: "05.06"
+        nome: "Epistemologia da ciência"
+        temas:
+          - codigo: contemporanea.ciencia.popper
+            ordem: "05.06.01"
+            nome: "Popper"
+            conceitos: "falseabilidade, demarcação, crítica ao indutivismo, sociedade aberta"
+          - codigo: contemporanea.ciencia.kuhn
+            ordem: "05.06.02"
+            nome: "Kuhn"
+            conceitos: "paradigma, ciência normal, revolução científica, incomensurabilidade"
+          - codigo: contemporanea.ciencia.bachelard_feyerabend
+            ordem: "05.06.03"
+            nome: "Bachelard, Feyerabend"
+            conceitos: "obstáculo epistemológico, ruptura, anarquismo metodológico"
+            aprofundamento: true
+      - codigo: contemporanea.politica
+        ordem: "05.07"
+        nome: "Filosofia política do século XX"
+        temas:
+          - codigo: contemporanea.politica.arendt
+            ordem: "05.07.01"
+            nome: "Hannah Arendt"
+            conceitos: "totalitarismo, banalidade do mal, condição humana (labor, trabalho, ação), espaço público"
+          - codigo: contemporanea.politica.rawls
+            ordem: "05.07.02"
+            nome: "Rawls"
+            conceitos: "véu da ignorância, posição original, justiça como equidade"
+          - codigo: contemporanea.politica.libertarismo_comunitarismo
+            ordem: "05.07.03"
+            nome: "Nozick, Sandel"
+            conceitos: "libertarismo, comunitarismo, debate sobre justiça distributiva"
+            aprofundamento: true
+          - codigo: contemporanea.politica.berlin
+            ordem: "05.07.04"
+            nome: "Isaiah Berlin"
+            conceitos: "liberdade negativa e positiva"
+            aprofundamento: true
+      - codigo: contemporanea.estruturalismo
+        ordem: "05.08"
+        nome: "Estruturalismo e pós-estruturalismo"
+        temas:
+          - codigo: contemporanea.estruturalismo.levi_strauss
+            ordem: "05.08.01"
+            nome: "Lévi-Strauss"
+            conceitos: "estruturalismo, etnocentrismo, pensamento selvagem"
+          - codigo: contemporanea.estruturalismo.foucault
+            ordem: "05.08.02"
+            nome: "Foucault"
+            conceitos: "poder disciplinar, vigilância, biopoder, saber-poder, sociedade disciplinar"
+          - codigo: contemporanea.estruturalismo.pos_modernidade
+            ordem: "05.08.03"
+            nome: "Deleuze, Derrida, Lyotard"
+            conceitos: "diferença, desconstrução, pós-modernidade, fim das grandes narrativas"
+            aprofundamento: true
+          - codigo: contemporanea.estruturalismo.sociedade_atual
+            ordem: "05.08.04"
+            nome: "Bauman, Han"
+            conceitos: "modernidade líquida, sociedade do cansaço, sociedade do desempenho"
+      - codigo: contemporanea.etica_aplicada
+        ordem: "05.09"
+        nome: "Ética contemporânea e aplicada"
+        temas:
+          - codigo: contemporanea.etica_aplicada.jonas
+            ordem: "05.09.01"
+            nome: "Hans Jonas"
+            conceitos: "princípio responsabilidade, ética para a civilização tecnológica"
+          - codigo: contemporanea.etica_aplicada.singer
+            ordem: "05.09.02"
+            nome: "Peter Singer"
+            conceitos: "especismo, ética animal, altruísmo eficaz"
+          - codigo: contemporanea.etica_aplicada.levinas
+            ordem: "05.09.03"
+            nome: "Levinas"
+            conceitos: "ética da alteridade, rosto do Outro"
+            aprofundamento: true
+      - codigo: contemporanea.feminismos
+        ordem: "05.10"
+        nome: "Feminismos e estudos de gênero"
+        temas:
+          - codigo: contemporanea.feminismos.butler
+            ordem: "05.10.01"
+            nome: "Judith Butler"
+            conceitos: "performatividade de gênero"
+          - codigo: contemporanea.feminismos.interseccionalidade
+            ordem: "05.10.02"
+            nome: "Angela Davis, bell hooks"
+            conceitos: "interseccionalidade entre raça, classe e gênero"
+          - codigo: contemporanea.feminismos.feminismo_negro_br
+            ordem: "05.10.03"
+            nome: "Lélia Gonzalez, Sueli Carneiro, Djamila Ribeiro"
+            conceitos: "feminismo negro brasileiro, amefricanidade, lugar de fala, epistemicídio"
+      - codigo: contemporanea.decolonial
+        ordem: "05.11"
+        nome: "Pensamento decolonial e filosofias não ocidentais"
+        temas:
+          - codigo: contemporanea.decolonial.fanon_mbembe
+            ordem: "05.11.01"
+            nome: "Frantz Fanon, Achille Mbembe"
+            conceitos: "colonialismo, racismo, necropolítica"
+          - codigo: contemporanea.decolonial.decolonialidade
+            ordem: "05.11.02"
+            nome: "Decolonialidade: Quijano, Dussel, Mignolo"
+            conceitos: "colonialidade do poder, filosofia da libertação"
+            aprofundamento: true
+          - codigo: contemporanea.decolonial.africana
+            ordem: "05.11.03"
+            nome: "Filosofias africanas"
+            conceitos: "ubuntu, tradição oral, filosofia africana como campo"
+          - codigo: contemporanea.decolonial.oriental
+            ordem: "05.11.04"
+            nome: "Filosofias orientais"
+            conceitos: "confucionismo, taoismo, budismo, pensamento indiano"
+          - codigo: contemporanea.decolonial.indigena
+            ordem: "05.11.05"
+            nome: "Pensamento indígena"
+            conceitos: "Ailton Krenak, Davi Kopenawa, perspectivismo ameríndio (Viveiros de Castro)"
+      - codigo: contemporanea.brasil
+        ordem: "05.12"
+        nome: "Filosofia no Brasil e na América Latina"
+        temas:
+          - codigo: contemporanea.brasil.freire
+            ordem: "05.12.01"
+            nome: "Paulo Freire"
+            conceitos: "pedagogia do oprimido, educação bancária × libertadora, conscientização"
+          - codigo: contemporanea.brasil.pensadores
+            ordem: "05.12.02"
+            nome: "Pensadores brasileiros"
+            conceitos: "Marilena Chaui (ideologia, autoritarismo), Vilém Flusser, Sérgio Buarque (homem cordial)"
+
+
+# =============================================================================
+# EIXO A — ÁREAS TEMÁTICAS
+# =============================================================================
+fil_areas:
+
+  - codigo: etica
+    ordem: "01"
+    nome: "Ética e moral"
+    temas:
+      - codigo: etica.natureza
+        ordem: "01.01"
+        nome: "Natureza da filosofia moral (moral × ética, liberdade e responsabilidade)"
+        relacionados: [antiga.socratico.socrates, contemporanea.existencialismo.sartre]
+      - codigo: etica.felicidade
+        ordem: "01.02"
+        nome: "Felicidade e prazer (eudaimonismo, hedonismo)"
+        relacionados: [antiga.aristoteles.etica, antiga.helenistica.epicurismo, antiga.helenistica.estoicismo]
+      - codigo: etica.virtudes
+        ordem: "01.03"
+        nome: "Ética das virtudes"
+        relacionados: [antiga.platao.alma_etica, antiga.aristoteles.etica]
+      - codigo: etica.dever
+        ordem: "01.04"
+        nome: "Ética do dever (deontologia)"
+        relacionados: [moderna.kant.etica]
+      - codigo: etica.utilitarismo
+        ordem: "01.05"
+        nome: "Consequencialismo e utilitarismo"
+        relacionados: [sec19.utilitarismo, contemporanea.etica_aplicada.singer]
+      - codigo: etica.critica_moral
+        ordem: "01.06"
+        nome: "Crítica da moral e niilismo"
+        relacionados: [sec19.critica_razao.nietzsche_moral, sec19.critica_razao.nietzsche_niilismo]
+      - codigo: etica.aplicada
+        ordem: "01.07"
+        nome: "Ética aplicada (bioética, ética animal, ambiental, tecnologia e IA)"
+        relacionados: [contemporanea.etica_aplicada]
+
+  - codigo: politica
+    ordem: "02"
+    nome: "Filosofia política"
+    temas:
+      - codigo: politica.legitimidade
+        ordem: "02.01"
+        nome: "Origem e legitimidade do poder (contratualismo)"
+        relacionados: [moderna.contratualismo]
+      - codigo: politica.governo_democracia
+        ordem: "02.02"
+        nome: "Formas de governo e democracia"
+        relacionados: [antiga.platao.politica, antiga.aristoteles.politica, moderna.iluminismo.montesquieu, contemporanea.frankfurt.habermas]
+      - codigo: politica.justica
+        ordem: "02.03"
+        nome: "Justiça e igualdade"
+        relacionados: [antiga.platao.politica, moderna.contratualismo.rousseau, contemporanea.politica.rawls, contemporanea.politica.libertarismo_comunitarismo]
+      - codigo: politica.liberdade_direitos
+        ordem: "02.04"
+        nome: "Liberdade e direitos"
+        relacionados: [moderna.contratualismo.locke, sec19.utilitarismo.mill, contemporanea.politica.berlin]
+      - codigo: politica.poder_estado
+        ordem: "02.05"
+        nome: "Poder, Estado e violência"
+        relacionados: [moderna.renascimento.maquiavel, contemporanea.politica.arendt, contemporanea.estruturalismo.foucault, contemporanea.decolonial.fanon_mbembe]
+      - codigo: politica.trabalho_capital
+        ordem: "02.06"
+        nome: "Trabalho, classes e capitalismo"
+        relacionados: [sec19.marxismo]
+      - codigo: politica.totalitarismo
+        ordem: "02.07"
+        nome: "Totalitarismo e autoritarismo"
+        relacionados: [contemporanea.politica.arendt, contemporanea.brasil.pensadores]
+
+  - codigo: conhecimento
+    ordem: "03"
+    nome: "Teoria do conhecimento (epistemologia)"
+    temas:
+      - codigo: conhecimento.ceticismo
+        ordem: "03.01"
+        nome: "Possibilidade do conhecimento e ceticismo"
+        relacionados: [antiga.socratico.sofistas, antiga.helenistica.ceticismo, moderna.renascimento.montaigne, moderna.empirismo.hume]
+      - codigo: conhecimento.razao_experiencia
+        ordem: "03.02"
+        nome: "Razão × experiência (racionalismo, empirismo, criticismo)"
+        relacionados: [moderna.racionalismo, moderna.empirismo, moderna.kant.conhecimento]
+      - codigo: conhecimento.verdade
+        ordem: "03.03"
+        nome: "Verdade e opinião"
+        relacionados: [antiga.platao.conhecimento, sec19.critica_razao.nietzsche_arte, sec19.outras.pragmatismo]
+
+  - codigo: ciencia
+    ordem: "04"
+    nome: "Filosofia da ciência"
+    temas:
+      - codigo: ciencia.metodo
+        ordem: "04.01"
+        nome: "Método científico (indução, dedução, experimento)"
+        relacionados: [moderna.revolucao_cientifica.bacon, moderna.racionalismo.descartes_metodo, contemporanea.ciencia.popper]
+      - codigo: ciencia.paradigmas
+        ordem: "04.02"
+        nome: "Ciência, progresso e paradigmas"
+        relacionados: [sec19.positivismo.comte, contemporanea.ciencia.kuhn, contemporanea.ciencia.bachelard_feyerabend]
+      - codigo: ciencia.tecnica_sociedade
+        ordem: "04.03"
+        nome: "Ciência, técnica e sociedade"
+        relacionados: [contemporanea.fenomenologia.heidegger, contemporanea.frankfurt.industria_cultural, contemporanea.etica_aplicada.jonas]
+
+  - codigo: metafisica
+    ordem: "05"
+    nome: "Metafísica e ontologia"
+    temas:
+      - codigo: metafisica.principio_real
+        ordem: "05.01"
+        nome: "Princípio e natureza do real (arché, ser e devir)"
+        relacionados: [antiga.presocraticos]
+      - codigo: metafisica.substancia
+        ordem: "05.02"
+        nome: "Essência, substância e realidade"
+        relacionados: [antiga.platao.ideias, antiga.aristoteles.metafisica, moderna.racionalismo.descartes_cogito, moderna.racionalismo.espinosa]
+      - codigo: metafisica.deus_religiao
+        ordem: "05.03"
+        nome: "Existência de Deus e filosofia da religião"
+        relacionados: [medieval.escolastica.anselmo, medieval.escolastica.tomas_cinco_vias, moderna.racionalismo.pascal, sec19.critica_razao.nietzsche_niilismo]
+      - codigo: metafisica.liberdade_determinismo
+        ordem: "05.04"
+        nome: "Liberdade × determinismo"
+        relacionados: [antiga.helenistica.estoicismo, medieval.patristica.agostinho_mal, moderna.racionalismo.espinosa, contemporanea.existencialismo.sartre]
+
+  - codigo: antropologia
+    ordem: "06"
+    nome: "Antropologia filosófica e existência"
+    temas:
+      - codigo: antropologia.natureza_humana
+        ordem: "06.01"
+        nome: "Natureza humana"
+        relacionados: [moderna.contratualismo.hobbes, moderna.contratualismo.rousseau, antiga.aristoteles.politica]
+      - codigo: antropologia.mente_corpo
+        ordem: "06.02"
+        nome: "Mente, alma e corpo"
+        relacionados: [antiga.platao.alma_etica, moderna.racionalismo.descartes_cogito, contemporanea.fenomenologia.merleau_ponty]
+      - codigo: antropologia.existencia
+        ordem: "06.03"
+        nome: "Sentido da vida, angústia, morte e absurdo"
+        relacionados: [antiga.helenistica.epicurismo, sec19.critica_razao.kierkegaard, contemporanea.fenomenologia.heidegger, contemporanea.existencialismo]
+      - codigo: antropologia.subjetividade
+        ordem: "06.04"
+        nome: "Subjetividade, inconsciente e identidade"
+        relacionados: [moderna.racionalismo.descartes_cogito, contemporanea.psicanalise.freud]
+
+  - codigo: logica
+    ordem: "07"
+    nome: "Lógica e argumentação"
+    temas:
+      - codigo: logica.argumento
+        ordem: "07.01"
+        nome: "Argumento, premissas e conclusão; dedução e indução"
+        relacionados: [antiga.aristoteles.logica]
+      - codigo: logica.falacias
+        ordem: "07.02"
+        nome: "Falácias"
+        relacionados: [antiga.socratico.sofistas, antiga.aristoteles.poetica]
+      - codigo: logica.simbolica
+        ordem: "07.03"
+        nome: "Lógica formal e simbólica"
+        relacionados: [contemporanea.analitica.logicismo]
+
+  - codigo: estetica
+    ordem: "08"
+    nome: "Estética e filosofia da arte"
+    temas:
+      - codigo: estetica.belo_gosto
+        ordem: "08.01"
+        nome: "Belo, gosto e juízo estético"
+        relacionados: [antiga.platao.arte_amor, moderna.kant.estetica_politica]
+      - codigo: estetica.mimesis_expressao
+        ordem: "08.02"
+        nome: "Arte como imitação e expressão"
+        relacionados: [antiga.platao.arte_amor, antiga.aristoteles.poetica, sec19.critica_razao.nietzsche_arte]
+      - codigo: estetica.industria_cultural
+        ordem: "08.03"
+        nome: "Arte, técnica e indústria cultural"
+        relacionados: [contemporanea.frankfurt.industria_cultural, contemporanea.frankfurt.benjamin]
+
+  - codigo: linguagem
+    ordem: "09"
+    nome: "Linguagem e comunicação"
+    temas:
+      - codigo: linguagem.significado
+        ordem: "09.01"
+        nome: "Linguagem, significado e realidade"
+        relacionados: [contemporanea.analitica.wittgenstein, contemporanea.analitica.atos_fala]
+      - codigo: linguagem.retorica
+        ordem: "09.02"
+        nome: "Retórica, discurso e persuasão"
+        relacionados: [antiga.socratico.sofistas, antiga.aristoteles.poetica]
+      - codigo: linguagem.comunicacao
+        ordem: "09.03"
+        nome: "Comunicação, mídia e esfera pública"
+        relacionados: [contemporanea.frankfurt.habermas, contemporanea.estruturalismo.sociedade_atual]
+
+  - codigo: cultura
+    ordem: "10"
+    nome: "Cultura, sociedade e alteridade"
+    temas:
+      - codigo: cultura.relativismo
+        ordem: "10.01"
+        nome: "Cultura, etnocentrismo e relativismo"
+        relacionados: [moderna.renascimento.montaigne, contemporanea.estruturalismo.levi_strauss, contemporanea.decolonial.indigena]
+      - codigo: cultura.genero
+        ordem: "10.02"
+        nome: "Gênero e feminismos"
+        relacionados: [moderna.iluminismo.wollstonecraft, contemporanea.existencialismo.beauvoir, contemporanea.feminismos]
+      - codigo: cultura.raca
+        ordem: "10.03"
+        nome: "Raça, racismo e colonialidade"
+        relacionados: [contemporanea.feminismos.interseccionalidade, contemporanea.feminismos.feminismo_negro_br, contemporanea.decolonial.fanon_mbembe, contemporanea.decolonial.decolonialidade]
+      - codigo: cultura.contemporaneidade
+        ordem: "10.04"
+        nome: "Consumo, tecnologia e vida contemporânea"
+        relacionados: [contemporanea.frankfurt.marcuse, contemporanea.estruturalismo.sociedade_atual]
+
+  - codigo: educacao
+    ordem: "11"
+    nome: "Educação"
+    relacionados: [antiga.platao.conhecimento, moderna.contratualismo.rousseau, moderna.kant.esclarecimento, sec19.outras.pragmatismo, contemporanea.brasil.freire]
+
+  - codigo: filosofia
+    ordem: "12"
+    nome: "Natureza da filosofia"
+    temas:
+      - codigo: filosofia.o_que_e
+        ordem: "12.01"
+        nome: "O que é filosofia; atitude filosófica"
+        relacionados: [antiga.origens.atitude_filosofica, antiga.socratico.socrates]
+      - codigo: filosofia.mito_senso_comum
+        ordem: "12.02"
+        nome: "Mito, religião, senso comum e filosofia"
+        relacionados: [antiga.origens.mito_logos, antiga.origens.atitude_filosofica]
+
+
+# =============================================================================
+# EIXO H — HABILIDADES
+# =============================================================================
+fil_habilidades:
+
+  - codigo: identificar
+    ordem: "01"
+    nome: "Identificar conceito"
+    descricao: "Reconhecer a definição ou o termo correto de um autor ou corrente."
+  - codigo: interpretar
+    ordem: "02"
+    nome: "Interpretar texto filosófico"
+    descricao: "Extrair a tese de um fragmento e reconhecer sua paráfrase fiel."
+  - codigo: comparar
+    ordem: "03"
+    nome: "Comparar autores ou correntes"
+    descricao: "Apontar convergências e divergências entre posições."
+  - codigo: contextualizar
+    ordem: "04"
+    nome: "Contextualizar historicamente"
+    descricao: "Relacionar ideias ao seu período e às condições sociais em que surgiram."
+  - codigo: aplicar
+    ordem: "05"
+    nome: "Aplicar a situação atual"
+    descricao: "Usar um conceito para analisar um caso, notícia, charge ou dilema."
+  - codigo: analisar_argumento
+    ordem: "06"
+    nome: "Analisar argumento"
+    descricao: "Identificar premissas, conclusão, validade ou falácias."
+  - codigo: avaliar
+    ordem: "07"
+    nome: "Avaliar e problematizar"
+    descricao: "Julgar a força de uma posição e formular objeções."
+  - codigo: dissertar
+    ordem: "08"
+    nome: "Argumentar por escrito"
+    descricao: "Produzir texto dissertativo com posição fundamentada (questões abertas e redação)."
+
+
+# =============================================================================
+# MIGRAÇÃO — código antigo de `fil_temas` → códigos novos
+# =============================================================================
+# `para`: códigos (eixos P e A) que substituem o antigo código de `fil_temas`.
+# `revisar`: true quando o código antigo não basta para escolher o autor ou o
+#            período; a questão precisa ser lida para refinar a etiqueta.
+migracao:
+
+  origens.mito_razao:
+    para: [antiga.origens.mito_logos, filosofia.mito_senso_comum]
+  origens.pre_socraticos:
+    para: [antiga.presocraticos, metafisica.principio_real]
+    revisar: true
+
+  classica.socrates_sofistas:
+    para: [antiga.socratico]
+    revisar: true
+  classica.platao:
+    para: [antiga.platao]
+    revisar: true
+  classica.aristoteles:
+    para: [antiga.aristoteles]
+    revisar: true
+
+  helenistica.estoicismo:
+    para: [antiga.helenistica.estoicismo]
+  helenistica.epicurismo:
+    para: [antiga.helenistica.epicurismo]
+  helenistica.ceticismo:
+    para: [antiga.helenistica.ceticismo, conhecimento.ceticismo]
+
+  medieval.fe_razao:
+    para: [medieval.geral]
+    revisar: true
+  medieval.patristica:
+    para: [medieval.patristica]
+    revisar: true
+  medieval.escolastica:
+    para: [medieval.escolastica]
+    revisar: true
+
+  moderna.metodo_metafisica:
+    para: [moderna.racionalismo]
+    revisar: true
+  moderna.epistemologia:
+    para: [conhecimento.razao_experiencia]
+    revisar: true
+  moderna.contratualismo:
+    para: [moderna.contratualismo, politica.legitimidade]
+    revisar: true
+  moderna.realismo_politico:
+    para: [moderna.renascimento.maquiavel, politica.poder_estado]
+  moderna.iluminismo:
+    para: [moderna.iluminismo]
+    revisar: true
+  moderna.etica:
+    para: [etica]
+    revisar: true
+  moderna.mente_corpo:
+    para: [moderna.racionalismo.descartes_cogito, antropologia.mente_corpo]
+  moderna.filosofia_religiao:
+    para: [metafisica.deus_religiao]
+    revisar: true
+  moderna.filosofia_ciencia:
+    para: [moderna.revolucao_cientifica, ciencia.metodo]
+    revisar: true
+  moderna.idealismo_alemao:
+    para: [sec19.idealismo.hegel]
+  moderna.pessimismo_schopenhauer:
+    para: [sec19.critica_razao.schopenhauer]
+
+  contemporanea.existencialismo:
+    para: [contemporanea.existencialismo, antropologia.existencia]
+    revisar: true
+  contemporanea.fenomenologia:
+    para: [contemporanea.fenomenologia]
+    revisar: true
+  contemporanea.marxismo_critica:
+    para: []
+    revisar: true   # escolher entre sec19.marxismo.* e contemporanea.frankfurt.*
+  contemporanea.nietzsche_critica_valores:
+    para: [sec19.critica_razao, etica.critica_moral]
+    revisar: true   # refinar para nietzsche_moral, nietzsche_niilismo ou nietzsche_arte
+  contemporanea.freud_inconsciente:
+    para: [contemporanea.psicanalise.freud, antropologia.subjetividade]
+  contemporanea.poder_biopolitica:
+    para: [contemporanea.estruturalismo.foucault, politica.poder_estado]
+  contemporanea.critica_sujeito:
+    para: [contemporanea.estruturalismo]
+    revisar: true
+  contemporanea.filosofia_analitica:
+    para: [contemporanea.analitica]
+    revisar: true
+  contemporanea.justica_democracia:
+    para: [contemporanea.politica]
+    revisar: true   # acrescentar politica.justica ou politica.governo_democracia
+  contemporanea.filosofias_nao_ocidentais:
+    para: [contemporanea.decolonial]
+    revisar: true
+  contemporanea.filosofia_linguagem:
+    para: [linguagem.significado]
+    revisar: true
+  contemporanea.estetica_arte:
+    para: [estetica]
+    revisar: true
+
+  etica_moral.teorias_normativas:
+    para: [etica]
+    revisar: true
+  etica_moral.relativismo:
+    para: [antiga.socratico.sofistas, cultura.relativismo]
+  etica_moral.bioetica:
+    para: [contemporanea.etica_aplicada, etica.aplicada]
+    revisar: true
+
+  logica_conhecimento.logica_formal:
+    para: [antiga.aristoteles.logica, logica.argumento]
+  logica_conhecimento.inducao_deducao:
+    para: [logica.argumento, ciencia.metodo]
+    revisar: true
+  logica_conhecimento.falacias_retorica:
+    para: [logica.falacias]

@@ -1,0 +1,142 @@
+# Normalização dos valores da chave `test` em questoes_enem.yaml.
+# Cada item decompõe um código de prova (ex.: enem_2025_2apl) em:
+#
+#   test_class      exame (ex.: enem)
+#   test_year       ano de aplicação
+#   test_name       aplicação específica: 2apl (2ª aplicação), digital,
+#                   belem (aplicação de Belém, remarcada por causa da COP30);
+#                   null para a aplicação regular
+#   test_full_name  nome por extenso, para exibição
+#
+# Ao cadastrar uma questão de uma prova nova, acrescente a prova aqui.
+
+- test: enem_2010
+  test_class: enem
+  test_year: 2010
+  test_name: null
+  test_full_name: "ENEM 2010"
+- test: enem_2010_2apl
+  test_class: enem
+  test_year: 2010
+  test_name: 2apl
+  test_full_name: "ENEM 2010 - 2ª Aplicação"
+- test: enem_2012
+  test_class: enem
+  test_year: 2012
+  test_name: null
+  test_full_name: "ENEM 2012"
+- test: enem_2013
+  test_class: enem
+  test_year: 2013
+  test_name: null
+  test_full_name: "ENEM 2013"
+- test: enem_2014
+  test_class: enem
+  test_year: 2014
+  test_name: null
+  test_full_name: "ENEM 2014"
+- test: enem_2015
+  test_class: enem
+  test_year: 2015
+  test_name: null
+  test_full_name: "ENEM 2015"
+- test: enem_2015_2apl
+  test_class: enem
+  test_year: 2015
+  test_name: 2apl
+  test_full_name: "ENEM 2015 - 2ª Aplicação"
+- test: enem_2016
+  test_class: enem
+  test_year: 2016
+  test_name: null
+  test_full_name: "ENEM 2016"
+- test: enem_2016_2apl
+  test_class: enem
+  test_year: 2016
+  test_name: 2apl
+  test_full_name: "ENEM 2016 - 2ª Aplicação"
+- test: enem_2017
+  test_class: enem
+  test_year: 2017
+  test_name: null
+  test_full_name: "ENEM 2017"
+- test: enem_2017_2apl
+  test_class: enem
+  test_year: 2017
+  test_name: 2apl
+  test_full_name: "ENEM 2017 - 2ª Aplicação"
+- test: enem_2019
+  test_class: enem
+  test_year: 2019
+  test_name: null
+  test_full_name: "ENEM 2019"
+- test: enem_2019_2apl
+  test_class: enem
+  test_year: 2019
+  test_name: 2apl
+  test_full_name: "ENEM 2019 - 2ª Aplicação"
+- test: enem_2020
+  test_class: enem
+  test_year: 2020
+  test_name: null
+  test_full_name: "ENEM 2020"
+- test: enem_2020_2apl
+  test_class: enem
+  test_year: 2020
+  test_name: 2apl
+  test_full_name: "ENEM 2020 - 2ª Aplicação"
+- test: enem_2020_digital
+  test_class: enem
+  test_year: 2020
+  test_name: digital
+  test_full_name: "ENEM 2020 - Digital"
+- test: enem_2021
+  test_class: enem
+  test_year: 2021
+  test_name: null
+  test_full_name: "ENEM 2021"
+- test: enem_2022
+  test_class: enem
+  test_year: 2022
+  test_name: null
+  test_full_name: "ENEM 2022"
+- test: enem_2022_2apl
+  test_class: enem
+  test_year: 2022
+  test_name: 2apl
+  test_full_name: "ENEM 2022 - 2ª Aplicação"
+- test: enem_2023
+  test_class: enem
+  test_year: 2023
+  test_name: null
+  test_full_name: "ENEM 2023"
+- test: enem_2023_2apl
+  test_class: enem
+  test_year: 2023
+  test_name: 2apl
+  test_full_name: "ENEM 2023 - 2ª Aplicação"
+- test: enem_2024
+  test_class: enem
+  test_year: 2024
+  test_name: null
+  test_full_name: "ENEM 2024"
+- test: enem_2024_2apl
+  test_class: enem
+  test_year: 2024
+  test_name: 2apl
+  test_full_name: "ENEM 2024 - 2ª Aplicação"
+- test: enem_2025
+  test_class: enem
+  test_year: 2025
+  test_name: null
+  test_full_name: "ENEM 2025"
+- test: enem_2025_2apl
+  test_class: enem
+  test_year: 2025
+  test_name: 2apl
+  test_full_name: "ENEM 2025 - 2ª Aplicação"
+- test: enem_2025_belem
+  test_class: enem
+  test_year: 2025
+  test_name: belem
+  test_full_name: "ENEM 2025 - Aplicação Belém (COP30)"
