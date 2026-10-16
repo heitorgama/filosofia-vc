@@ -14,3 +14,4 @@ Turma do período vespertino, 2026.
 - [25/08] [Modernidade: Epistemologia](/slides/aula07_epistemologia.html)
 - [15/09] [Modernidade: Política](/slides/aula08_politica_moderna.html)
 - [01/10] [Modernidade: Ética](/slides/aula09_etica_moderna.html)
+- [15/10] [Crítica à Modernidade](/slides/aula10_critica_modernidade.html)
