@@ -3302,7 +3302,7 @@
     fil_habilidades: [identificar]
   question_elements:
     - question_text:
-        "humanidade, a humanidade do homem, ainda é um conceito completamente\
+        "A humanidade, a humanidade do homem, ainda é um conceito completamente\
         \ novo para o filósofo que não cochila em pé. A velha questão do próprio homem\
         \ continua por ser inteiramente reelaborada, não apenas em relação às ciências\
         \ do vivo, não apenas em relação ao que se nomeia com essa palavra geral, homogênea\
@@ -3718,3 +3718,117 @@
     C: "Não se trata de transgressões religiosas, mas de crimes contra a ordem civil (assassínio, roubo) que a crueldade exemplar visa coibir."
     D: "O texto não propõe neutralidade: recomenda ação punitiva ativa (poucos exemplos duros) para evitar desordens maiores."
     E: "Maquiavel subordina a moral convencional (ser visto como clemente ou cruel) à conveniência política de manter o Estado unido e leal: o poder do príncipe se ajusta ao que é útil, mesmo que pareça tirânico, e não a um padrão moral fixo."
+
+- id: 104
+  test: enem_2017_libras
+  test_type: verde
+  test_part: ch
+  test_item: 85
+  materias: [fil]
+  classificacao:
+    fil_periodos: [contemporanea.existencialismo.camus]
+    fil_areas: [antropologia.existencia]
+    fil_habilidades: [interpretar]
+  question_elements:
+  - question_text: "Galileu, que detinha uma verdade científica importante, abjurou-a\
+      \ com a maior facilidade, quando ela lhe pôs a vida em perigo. Em um certo sentido,\
+      \ ele fez bem. Essa verdade valia-lhe a fogueira. Se for a Terra ou o Sol que\
+      \ gira em torno um do outro é algo profundamente irrelevante. Resumindo as coisas,\
+      \ é um problema fútil. Em compensação, vejo que muitas pessoas morrem por achar\
+      \ que a vida não vale a pena ser vivida. Vejo outras que se fazem matar pelas\
+      \ ideias ou ilusões que lhes proporcionam uma razão de viver (o que se chama\
+      \ de razão de viver é, ao mesmo tempo, uma excelente razão de morrer). Julgo,\
+      \ portanto, que o sentido da vida é a questão mais decisiva de todas. E como\
+      \ responder a isso?"
+    question_text_reference: "CAMUS, A. **O mito de Sísifo: ensaio sobre o absurdo.**\
+      \ Rio de Janeiro: Record, 2004 (adaptado)."
+  statement: "O texto apresenta uma questão fundamental, na perspectiva da filosofia\
+    \ contemporânea, que consiste na reflexão sobre os vínculos entre a realidade\
+    \ concreta e a"
+  answers:
+    A: "condição da existência no mundo."
+    B: "abrangência dos valores religiosos."
+    C: "percepção da experiência no tempo."
+    D: "transitoriedade das paixões humanas."
+    E: "insuficiência do conhecimento empírico."
+  correct_answer: A
+  comments:
+    A: "Para Camus, o problema decisivo é saber se a vida vale a pena ser vivida diante do absurdo, ou seja, refletir sobre a condição concreta da existência humana no mundo, e não sobre verdades científicas abstratas."
+    B: "O texto não discute valores religiosos; as 'razões de viver' mencionadas são ideias ou ilusões em geral, e o foco é o sentido da existência num mundo sem garantias transcendentes."
+    C: "Embora a existência se dê no tempo, o texto não trata da percepção temporal da experiência, mas da questão de saber se a vida tem sentido."
+    D: "O trecho não aborda a fugacidade das paixões; ele contrapõe a irrelevância de certas verdades teóricas à urgência da pergunta pelo sentido da vida."
+    E: "Camus não critica os limites do conhecimento empírico; afirma apenas que a verdade sobre o movimento da Terra é irrelevante diante do problema existencial."
+
+- id: 105
+  test: enem_2017_libras
+  test_type: verde
+  test_part: ch
+  test_item: 79
+  materias: [fil]
+  classificacao:
+    fil_periodos: [moderna.racionalismo.espinosa]
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [interpretar]
+  question_elements:
+  - question_text: "Os filósofos concebem as emoções que se combatem entre si, em\
+      \ nós, como vícios em que os homens caem por erro próprio; é por isso que se\
+      \ habituaram a ridicularizá-los, deplorá-los, reprová-los ou, quando querem\
+      \ parecer mais morais, detestá-los. Concebem os homens, efetivamente, não tais\
+      \ como são, mas como eles próprios gostariam que fossem."
+    question_text_reference: "ESPINOSA, B. **Tratado político.** São Paulo: Abril\
+      \ Cultural, 1973."
+  statement: "No trecho, Espinosa critica a herança filosófica no que diz respeito\
+    \ à idealização de uma"
+  answers:
+    A: "estrutura da interpretação fenomenológica."
+    B: "natureza do comportamento humano."
+    C: "dicotomia do conhecimento prático."
+    D: "manifestação do caráter religioso."
+    E: "reprodução do saber tradicional."
+  correct_answer: B
+  comments:
+    A: "A fenomenologia é uma corrente do século XX, posterior a Espinosa; o texto não trata de método de interpretação, mas da maneira de conceber os homens."
+    B: "Espinosa critica os filósofos que tratam os afetos como vícios voluntários e concebem os homens 'como gostariam que fossem', e não como são; ou seja, idealizam a natureza humana em vez de compreendê-la a partir de suas causas."
+    C: "O trecho não opõe formas de conhecimento prático; a crítica recai sobre a visão moralizante e idealizada do comportamento humano."
+    D: "Não há referência ao caráter religioso; o alvo são os filósofos que ridicularizam e reprovam as emoções humanas."
+    E: "Espinosa não discute a transmissão do saber tradicional, mas o erro de descrever o ser humano de modo idealizado, ignorando a força real dos afetos."
+
+- id: 106
+  test: enem_2017_libras
+  test_type: verde
+  test_part: ch
+  test_item: 90
+  materias: [fil]
+  classificacao:
+    fil_periodos: [antiga.aristoteles.politica, contemporanea.politica.arendt]
+    fil_areas: [antropologia.natureza_humana]
+    fil_habilidades: [comparar]
+  question_elements:
+  - question_text_title: "TEXTO I"
+    question_text: "Aquele que não é capaz de pertencer a uma comunidade ou que dela\
+      \ não tem necessidade, porque se basta a si mesmo, não é em nada parte da cidade,\
+      \ embora seja quer um animal, quer um deus."
+    question_text_reference: "ARISTÓTELES. **A política.** São Paulo: Martins Fontes,\
+      \ 2002."
+  - question_text_title: "TEXTO II"
+    question_text: "Nenhuma vida humana, nem mesmo a vida de um eremita em meio à\
+      \ natureza selvagem, é possível sem um mundo que, direta ou indiretamente, testemunhe\
+      \ a presença de outros seres humanos."
+    question_text_reference: "ARENDT, H. **A condição humana.** Rio de Janeiro: Forense,\
+      \ 1995."
+  statement: "Associados a contextos históricos distintos, os fragmentos convergem\
+    \ para uma particularidade do ser humano, caracterizada por uma condição naturalmente\
+    \ propensa à"
+  answers:
+    A: "atividade contemplativa."
+    B: "produção econômica."
+    C: "articulação coletiva."
+    D: "criação artística."
+    E: "crença religiosa."
+  correct_answer: C
+  comments:
+    A: "Nenhum dos textos trata da vida teórica ou contemplativa; ambos destacam que o ser humano depende da convivência com outros, e o eremita de Arendt é justamente um contraexemplo de isolamento."
+    B: "Os fragmentos não falam de trabalho nem de produção; o ponto comum é a necessidade da comunidade e da presença de outros seres humanos."
+    C: "Para Aristóteles, o homem é por natureza um animal político, que só se realiza na pólis; para Arendt, nenhuma vida humana é possível sem um mundo partilhado com outros. Ambos apontam a sociabilidade, isto é, a articulação coletiva."
+    D: "A criação artística não é mencionada; os textos tratam da dependência do ser humano em relação à vida em comum."
+    E: "Nenhum dos fragmentos se refere à religião; a menção a 'um deus' em Aristóteles serve apenas para indicar quem estaria fora da cidade por bastar-se a si mesmo."

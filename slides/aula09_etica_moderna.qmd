@@ -191,12 +191,12 @@ bit.ly/filosofia-vc
 #| echo: false
 #| output: asis
 
-from scripts.render_questoes import render_questao
+from scripts.render_questoes import carregar_ids_aula, render_questao
 from IPython.display import HTML
 
 arquivo_yaml = "../dados/questoes_enem.yaml"
 
-questoes = [18, 99, 101, 100, 7, 13, 86]
+questoes = carregar_ids_aula("aula09_etica_moderna")
 
 for i, questao_id in enumerate(questoes, start=1):
 

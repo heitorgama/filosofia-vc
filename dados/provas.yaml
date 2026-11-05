@@ -4,6 +4,7 @@
 #   test_class      exame (ex.: enem)
 #   test_year       ano de aplicação
 #   test_name       aplicação específica: 2apl (2ª aplicação), digital,
+#                   libras (videoprova traduzida para Libras),
 #                   belem (aplicação de Belém, remarcada por causa da COP30);
 #                   null para a aplicação regular
 #   test_full_name  nome por extenso, para exibição
@@ -65,6 +66,11 @@
   test_year: 2017
   test_name: 2apl
   test_full_name: "ENEM 2017 - 2ª Aplicação"
+- test: enem_2017_libras
+  test_class: enem
+  test_year: 2017
+  test_name: libras
+  test_full_name: "ENEM 2017 - Libras"
 - test: enem_2019
   test_class: enem
   test_year: 2019

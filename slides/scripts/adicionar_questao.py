@@ -1,5 +1,6 @@
 """Script interativo para adicionar uma nova questão a dados/questoes_enem.yaml
-e registrar seu `id` na lista `questoes` do slide de aula escolhido.
+e registrar seu `id` na lista `questoes` da aula escolhida em dados/fil_aulas.yaml
+(que os slides de aula leem).
 
 Ao final, os comentários de cada alternativa (chave `comments`) são gerados
 automaticamente pela API da Anthropic, o que exige uma chave de API configurada.
@@ -17,7 +18,6 @@ Como configurar a chave:
 Sem essa chave configurada, o script ainda funciona normalmente, mas a questão
 é salva sem a chave `comments`."""
 
-import ast
 import re
 from pathlib import Path
 
@@ -28,7 +28,7 @@ PASTA_SLIDES = Path(__file__).parent.parent
 PASTA_DADOS = PASTA_SLIDES.parent / "dados"
 CAMINHO_YAML = PASTA_DADOS / "questoes_enem.yaml"
 CAMINHO_MATERIAS = PASTA_DADOS / "materias.yaml"
-PADRAO_QUESTOES = re.compile(r"^questoes\s*=\s*(\[.*?\])", re.MULTILINE | re.DOTALL)
+CAMINHO_AULAS = PASTA_DADOS / "fil_aulas.yaml"
 
 load_dotenv(PASTA_SLIDES.parent / ".env")
 
@@ -131,6 +131,108 @@ def perguntar_materias(padrao=None):
             print(f"Código(s) inválido(s): {', '.join(invalidos)}. Escolha entre {', '.join(codigos_validos)}.")
         else:
             return ListaEmLinha(codigos)
+
+
+# Quantidade mínima e máxima de códigos por eixo, conforme as regras do
+# cabeçalho de cada arquivo de taxonomia. Eixos não listados aceitam
+# qualquer quantidade (inclusive nenhuma).
+LIMITES_EIXOS = {
+    "fil_periodos": (0, 3),
+    "fil_areas": (1, 2),
+    "fil_habilidades": (1, 1),
+}
+
+# Eixos com até esta quantidade de códigos têm todas as opções exibidas;
+# nos maiores, o usuário busca com `?termo`.
+MAX_CODIGOS_EXIBIDOS = 20
+
+
+def achatar_nos(nos):
+    """Percorre a árvore de um eixo (nós com `codigo`, `nome` e, opcionalmente,
+    `temas`) e devolve a lista plana [(codigo, nome), ...], na ordem do arquivo."""
+    resultado = []
+    for no in nos or []:
+        resultado.append((no["codigo"], no.get("nome", "")))
+        resultado.extend(achatar_nos(no.get("temas")))
+    return resultado
+
+
+def carregar_taxonomia(arquivo):
+    """Lê o arquivo de taxonomia de uma matéria e devolve {eixo: [(codigo, nome), ...]}.
+    São eixos as chaves de primeiro nível cujo valor é uma lista de nós
+    (o que exclui, por exemplo, o dicionário `migracao`)."""
+    with open(PASTA_DADOS / arquivo, encoding="utf-8") as f:
+        dados = yaml.safe_load(f) or {}
+    return {
+        eixo: achatar_nos(nos)
+        for eixo, nos in dados.items()
+        if isinstance(nos, list) and nos and isinstance(nos[0], dict) and "codigo" in nos[0]
+    }
+
+
+def mostrar_codigos(codigos):
+    for codigo, nome in codigos:
+        print(f"  {codigo}: {nome}")
+
+
+def perguntar_eixo(eixo, codigos):
+    validos = {codigo for codigo, _ in codigos}
+    minimo, maximo = LIMITES_EIXOS.get(eixo, (0, None))
+    if maximo == 1:
+        quantidade = "exatamente 1 código" if minimo == 1 else "até 1 código"
+    elif maximo:
+        quantidade = f"de {minimo} a {maximo} códigos"
+    else:
+        quantidade = "códigos"
+
+    if len(codigos) <= MAX_CODIGOS_EXIBIDOS:
+        print(f"{CIANO}Códigos de {eixo}:{RESET}")
+        mostrar_codigos(codigos)
+
+    while True:
+        entrada = perguntar(
+            f"{eixo} ({quantidade}{'' if maximo == 1 else ', separados por vírgula'}; `?termo` para buscar"
+            f"{', Enter para nenhum' if minimo == 0 else ''}): "
+        )
+        if entrada.startswith("?"):
+            termo = entrada[1:].strip().lower()
+            encontrados = [
+                (c, n) for c, n in codigos if termo in c.lower() or termo in n.lower()
+            ]
+            if encontrados:
+                mostrar_codigos(encontrados)
+            else:
+                print(f"Nenhum código de {eixo} contém '{termo}'.")
+            continue
+
+        escolhidos = [c.strip() for c in entrada.split(",") if c.strip()]
+        invalidos = [c for c in escolhidos if c not in validos]
+        if invalidos:
+            print(f"Código(s) inválido(s) em {eixo}: {', '.join(invalidos)}. Use `?termo` para buscar.")
+        elif len(escolhidos) < minimo or (maximo is not None and len(escolhidos) > maximo):
+            print(f"Informe {quantidade} em {eixo}.")
+        else:
+            return ListaEmLinha(escolhidos)
+
+
+def perguntar_classificacao(materias):
+    """Para cada matéria da questão que declara `taxonomia` em materias.yaml,
+    pergunta os códigos de cada eixo dessa taxonomia. Devolve o dicionário
+    `classificacao`, ou None se nenhuma das matérias tiver taxonomia."""
+    taxonomias = {
+        materia["codigo"]: materia["taxonomia"]
+        for materia in carregar_materias()
+        if materia.get("taxonomia")
+    }
+    classificacao = {}
+    for codigo_materia in materias:
+        arquivo = taxonomias.get(codigo_materia)
+        if not arquivo:
+            continue
+        print(f"\n{CIANO}Classificação da matéria `{codigo_materia}` (regras no cabeçalho de {arquivo}):{RESET}")
+        for eixo, codigos in carregar_taxonomia(arquivo).items():
+            classificacao[eixo] = perguntar_eixo(eixo, codigos)
+    return classificacao or None
 
 
 def proximo_id(questoes):
@@ -281,37 +383,42 @@ def gerar_comments(novo_item):
     return resultado
 
 
-def nome_aula(arquivo):
-    return arquivo.name.removeprefix("aula").removesuffix(".qmd")
-
-
 def selecionar_aula():
-    aulas = sorted(PASTA_SLIDES.glob("aula*.qmd"))
+    """Pergunta em qual aula de dados/fil_aulas.yaml a questão será usada e
+    devolve o `id_textual` dela, ou None se o usuário pular."""
+    with open(CAMINHO_AULAS, encoding="utf-8") as f:
+        aulas = yaml.safe_load(f) or []
     print("Aulas disponíveis:")
-    for arquivo in aulas:
-        print(f"  {nome_aula(arquivo)}")
+    for aula in aulas:
+        print(f"  {aula['id']:02d}: {aula['titulo']} ({aula['id_textual']})")
 
     numero = perguntar(
         "Número da aula em que a questão será inserida (ex.: 04; opcional, Enter para pular): "
     )
     if not numero:
         return None
-    for arquivo in aulas:
-        if nome_aula(arquivo)[:2] == numero:
-            return arquivo
+    for aula in aulas:
+        if numero.isdigit() and aula["id"] == int(numero):
+            return aula["id_textual"]
     raise SystemExit(f"Nenhuma aula encontrada com o número '{numero}'.")
 
 
-def adicionar_id_na_aula(arquivo, novo_id):
-    texto = arquivo.read_text(encoding="utf-8")
-    match = PADRAO_QUESTOES.search(texto)
+def adicionar_id_na_aula(id_textual, novo_id):
+    """Acrescenta `novo_id` ao fim da lista `questoes` da aula em
+    dados/fil_aulas.yaml, editando só essa linha para preservar a formatação
+    (e os comentários) do arquivo."""
+    texto = CAMINHO_AULAS.read_text(encoding="utf-8")
+    padrao = re.compile(
+        rf"(id_textual: {re.escape(id_textual)}\n(?:  .*\n)*?  questoes: \[)([^\]]*)\]"
+    )
+    match = padrao.search(texto)
     if not match:
-        raise SystemExit(f"Não foi encontrada a variável `questoes` em {arquivo.name}.")
+        raise SystemExit(f"Não foi encontrada a lista `questoes` da aula {id_textual} em {CAMINHO_AULAS.name}.")
 
-    ids = ast.literal_eval(match.group(1))
-    ids.append(novo_id)
-    texto_novo = texto[: match.start(1)] + str(ids) + texto[match.end(1) :]
-    arquivo.write_text(texto_novo, encoding="utf-8")
+    ids = [item.strip() for item in match.group(2).split(",") if item.strip()]
+    ids.append(str(novo_id))
+    texto_novo = texto[: match.start(2)] + ", ".join(ids) + "]" + texto[match.end() :]
+    CAMINHO_AULAS.write_text(texto_novo, encoding="utf-8")
 
 
 def adicionar_questao_no_yaml(novo_item):
@@ -348,6 +455,7 @@ def main():
         if continuar != "s":
             raise SystemExit("Cadastro cancelado.")
 
+    classificacao = perguntar_classificacao(materias)
     question_elements = perguntar_question_elements()
     statement = Texto(perguntar_texto("statement"))
     answers = perguntar_answers()
@@ -360,6 +468,10 @@ def main():
         "test_part": test_part,
         "test_item": test_item,
         "materias": materias,
+    }
+    if classificacao:
+        novo_item["classificacao"] = classificacao
+    novo_item |= {
         "question_elements": question_elements,
         "statement": statement,
         "answers": answers,
@@ -373,10 +485,10 @@ def main():
     adicionar_questao_no_yaml(novo_item)
     print(f"\nQuestão {novo_id} adicionada a {CAMINHO_YAML.name}.")
 
-    arquivo_aula = selecionar_aula()
-    if arquivo_aula:
-        adicionar_id_na_aula(arquivo_aula, novo_id)
-        print(f"id {novo_id} adicionado à lista `questoes` em {arquivo_aula.name}.")
+    id_aula = selecionar_aula()
+    if id_aula:
+        adicionar_id_na_aula(id_aula, novo_id)
+        print(f"id {novo_id} adicionado à lista `questoes` de {id_aula} em {CAMINHO_AULAS.name}.")
 
 
 if __name__ == "__main__":

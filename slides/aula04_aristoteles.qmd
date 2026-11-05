@@ -370,12 +370,12 @@ mindmap
 #| echo: false
 #| output: asis
 
-from scripts.render_questoes import render_questao
+from scripts.render_questoes import carregar_ids_aula, render_questao
 from IPython.display import HTML
 
 arquivo_yaml = "../dados/questoes_enem.yaml"
 
-questoes = [2, 14, 15, 35, 46, 47, 48, 49, 50, 51, 52, 53, 54, 59, 67, 71, 89]
+questoes = carregar_ids_aula("aula04_aristoteles")
 
 print("# Questões do Enem")
 

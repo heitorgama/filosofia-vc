@@ -2,6 +2,14 @@ import markdown
 import re
 import yaml
 import os
+from pathlib import Path
+
+# Caminhos absolutos dos dados, para que os .qmd que importam este módulo
+# funcionem de qualquer pasta (slides/ ou listas/).
+PASTA_DADOS = Path(__file__).resolve().parent.parent.parent / "dados"
+CAMINHO_QUESTOES = PASTA_DADOS / "questoes_enem.yaml"
+CAMINHO_LISTAS = PASTA_DADOS / "listas.yaml"
+CAMINHO_AULAS = PASTA_DADOS / "fil_aulas.yaml"
 
 
 def md_filter(text):
@@ -12,7 +20,35 @@ def md_filter(text):
     """
     return markdown.markdown(text, extensions=['attr_list']) + '\n'
 
-def carregar_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
+def carregar_ids_lista(id_textual, arquivo_yaml=CAMINHO_LISTAS):
+    """Retorna os ids das questões da lista de exercícios `id_textual` (nome
+    do arquivo .qmd da lista, sem a extensão), na ordem definida em
+    dados/listas.yaml."""
+    with open(arquivo_yaml, "r", encoding="utf-8") as f:
+        listas = yaml.safe_load(f) or []
+
+    for lista in listas:
+        if lista["id_textual"] == id_textual:
+            return lista["questoes"]
+
+    raise ValueError(f"Lista '{id_textual}' não encontrada em {arquivo_yaml}")
+
+
+def carregar_ids_aula(id_textual, arquivo_yaml=CAMINHO_AULAS):
+    """Retorna os ids das questões da aula `id_textual` (nome do arquivo .qmd
+    da aula, sem a extensão), na ordem definida em dados/fil_aulas.yaml, que
+    é a fonte da verdade sobre quais questões cada aula usa."""
+    with open(arquivo_yaml, "r", encoding="utf-8") as f:
+        aulas = yaml.safe_load(f) or []
+
+    for aula in aulas:
+        if aula["id_textual"] == id_textual:
+            return aula["questoes"]
+
+    raise ValueError(f"Aula '{id_textual}' não encontrada em {arquivo_yaml}")
+
+
+def carregar_questao(questao_id, arquivo_yaml=CAMINHO_QUESTOES):
     """
     Loads a single ENEM question from a YAML file by its ID.
 
@@ -21,7 +57,7 @@ def carregar_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
     questao_id : int
         The ID of the question to load
     arquivo_yaml : str, optional
-        Path to the YAML file containing questions (default: "../dados/questoes_enem.yaml")
+        Path to the YAML file containing questions (default: dados/questoes_enem.yaml)
 
     Returns:
     --------
@@ -50,7 +86,7 @@ def carregar_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
     raise ValueError(f"Questão com ID {questao_id} não encontrada em '{arquivo_yaml}'")
 
 
-def render_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
+def render_questao(questao_id, arquivo_yaml=CAMINHO_QUESTOES):
     """
     Renders an ENEM question as HTML from a YAML file.
 
@@ -59,7 +95,7 @@ def render_questao(questao_id, arquivo_yaml="../dados/questoes_enem.yaml"):
     questao_id : int
         The ID of the question to render
     arquivo_yaml : str, optional
-        Path to the YAML file containing questions (default: "../dados/questoes_enem.yaml")
+        Path to the YAML file containing questions (default: dados/questoes_enem.yaml)
 
     Returns:
     --------
@@ -133,7 +169,7 @@ def formatar_fonte(test):
     return rotulo
 
 
-def render_questao_md(questao_id, arquivo_yaml="../dados/questoes_enem.yaml", numero=None):
+def render_questao_md(questao_id, arquivo_yaml=CAMINHO_QUESTOES, numero=None):
     """
     Renders an ENEM question as plain Markdown, adequado para documentos PDF
     (ex.: listas de exercícios), diferente de `render_questao`, que gera HTML
@@ -144,7 +180,7 @@ def render_questao_md(questao_id, arquivo_yaml="../dados/questoes_enem.yaml", nu
     questao_id : int
         The ID of the question to render
     arquivo_yaml : str, optional
-        Path to the YAML file containing questions (default: "../dados/questoes_enem.yaml")
+        Path to the YAML file containing questions (default: dados/questoes_enem.yaml)
     numero : int, optional
         Número de exibição da questão na lista (padrão: o próprio `questao_id`)
 
@@ -168,8 +204,7 @@ def render_questao_md(questao_id, arquivo_yaml="../dados/questoes_enem.yaml", nu
     # é descartado por estar no topo da caixa do `minipage`.
     md = _iniciar_minipage()
     md += "\\vspace*{1em}\n"
-    md += f"\\subsubsection*{{Questão {numero_exibido}}}\n\n"
-    md += f"\\textit{{{_negrito_para_latex(fonte)}}}\n\n"
+    md += f"\\subsubsection*{{Questão {numero_exibido} --- {_negrito_para_latex(fonte)}}}\n\n"
     md += _render_elemento_md(primeiro_elemento)
     md += "\\end{minipage}\n\n"
 
@@ -182,13 +217,47 @@ def render_questao_md(questao_id, arquivo_yaml="../dados/questoes_enem.yaml", nu
 
     statement = questao.get("statement", "").strip()
     if statement:
-        md += f"{_negrito_para_latex(statement)}\n\n"
+        md += f"\\textbf{{{_negrito_para_latex(statement)}}}\n\n"
 
+    # Alternativas mais próximas entre si do que os demais parágrafos. Como o
+    # `\parskip` também valeria entre o enunciado e a alternativa A, essa
+    # distância é restaurada com um `\vspace` explícito.
+    md += "\\setlength{\\parskip}{2.5pt}\\vspace{3.5pt}\n"
     for chave, resposta in questao.get("answers", {}).items():
         if resposta:
             md += f"\\textbf{{{chave})}} {_negrito_para_latex(resposta.strip())}\n\n"
 
     md += "\\end{minipage}\n\n"
+
+    return md
+
+
+def render_gabarito_comentado_md(questoes, arquivo_yaml=CAMINHO_QUESTOES):
+    """
+    Gera, em Markdown, o gabarito de uma lista de exercícios: uma linha com
+    todas as respostas (ex.: "1-A, 2-C") e, para cada questão, o comentário de
+    cada alternativa, com a correta destacada.
+
+    Parameters:
+    -----------
+    questoes : list of int
+        Ids das questões, na ordem da lista (a questão N é a de posição N)
+    arquivo_yaml : str, optional
+        Caminho do YAML com as questões (padrão: dados/questoes_enem.yaml)
+    """
+    carregadas = [carregar_questao(questao_id, arquivo_yaml) for questao_id in questoes]
+
+    md = ", ".join(f"{i}-{q['correct_answer']}" for i, q in enumerate(carregadas, start=1)) + "\n\n"
+
+    for i, questao in enumerate(carregadas, start=1):
+        correta = questao["correct_answer"]
+        fonte = formatar_fonte(questao.get("test", ""))
+        md += f"### Questão {i} --- {fonte} --- Resposta: {correta}\n\n"
+        for letra, comentario in questao.get("comments", {}).items():
+            if comentario:
+                marca = " **(correta)**" if letra == correta else ""
+                md += f"- **{letra})** {comentario.strip()}{marca}\n"
+        md += "\n"
 
     return md
 
@@ -254,7 +323,7 @@ def _negrito_para_latex(texto):
 if __name__ == "__main__":
     # Example usage
     try:
-        resultado = render_questao(1, "../dados/questoes_enem.yaml")
+        resultado = render_questao(1)
         print(resultado)
     except (FileNotFoundError, ValueError) as e:
         print(f"Error: {e}")

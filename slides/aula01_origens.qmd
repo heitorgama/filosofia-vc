@@ -206,12 +206,12 @@ Parmênides ou Heráclito?
 #| echo: false
 #| output: asis
 
-from scripts.render_questoes import render_questao
+from scripts.render_questoes import carregar_ids_aula, render_questao
 from IPython.display import HTML
 
 arquivo_yaml = "../dados/questoes_enem.yaml"
 
-questoes = [37, 36, 17, 1, 76]
+questoes = carregar_ids_aula("aula01_origens")
 
 print("# Questões do Enem")
 

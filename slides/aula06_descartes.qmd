@@ -154,12 +154,12 @@ bit.ly/filosofia-vc
 #| echo: false
 #| output: asis
 
-from scripts.render_questoes import render_questao
+from scripts.render_questoes import carregar_ids_aula, render_questao
 from IPython.display import HTML
 
 arquivo_yaml = "../dados/questoes_enem.yaml"
 
-questoes = [84, 62, 92, 95, 96]
+questoes = carregar_ids_aula("aula06_descartes")
 
 print("# Questões do Enem")
 
