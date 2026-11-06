@@ -8,6 +8,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault, antiga.platao.alma_etica]
     fil_areas: [antropologia.mente_corpo]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101, EM13CHS105]
   question_elements:
     - question_text: >
         A alma funciona no meu corpo de maneira maravilhosa. Nele se aloja, certamente,
@@ -42,6 +45,9 @@
     fil_periodos: [antiga.aristoteles.etica]
     fil_areas: [etica.virtudes, etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -88,6 +94,9 @@
     fil_periodos: [contemporanea.existencialismo]
     fil_areas: [antropologia.existencia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H3]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Eu sentia falta do futuro. É claro que eu sabia, muito mesmo antes da recorrência dele, que nunca envelheceria.
@@ -124,6 +133,9 @@
     fil_periodos: [contemporanea.analitica, contemporanea.analitica.circulo_viena]
     fil_areas: [linguagem.significado, conhecimento.razao_experiencia]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -168,6 +180,9 @@
     fil_periodos: [contemporanea.frankfurt.habermas, moderna.iluminismo.geral]
     fil_areas: [linguagem.comunicacao]
     fil_habilidades: [contextualizar]
+    enem_habilidades: [CH.C3.H11, CH.C5.H21]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Os salões permitiam aos escritores da época do Iluminismo adentrar no universo dos poderosos.
@@ -207,6 +222,9 @@
     fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
     fil_areas: [cultura.contemporaneidade]
     fil_habilidades: [aplicar]
+    enem_habilidades: [CH.C1.H3]
+    enem_eixos_cognitivos: [CF, SP]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Resumamos os principais caracteres de um rizoma: diferentemente das árvores ou de suas raízes,
@@ -243,6 +261,9 @@
     fil_periodos: [moderna.kant.etica]
     fil_areas: [etica.dever]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         A regra de ouro, popularmente conhecida pelo provérbio "Trate os outros como gostaria de ser tratado",
@@ -277,6 +298,9 @@
     fil_periodos: [contemporanea.analitica.logicismo]
     fil_areas: [logica.argumento, ciencia.metodo]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [DL, CF]
+    bncc_habilidades: [EM13CHS103]
   question_elements:
     - question_text: >
         Bertrand Russell conta a história de um peru que descobrira, em sua primeira manhã na fazenda de perus,
@@ -313,6 +337,9 @@
     fil_periodos: [sec19.marxismo.alienacao]
     fil_areas: [politica.trabalho_capital]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS401]
   question_elements:
     - question_text: >
         Uma fábrica na qual os operários fossem, efetiva e integralmente, simples peças de máquinas executando
@@ -347,6 +374,9 @@
     fil_periodos: [moderna.empirismo.hume, antiga.socratico.sofistas]
     fil_areas: [linguagem.retorica]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         A credulidade dos ouvintes aumenta o descaramento do narrador, e o descaramento deste conquista-lhes a credulidade.
@@ -380,6 +410,9 @@
     fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
     fil_areas: [politica.justica]
     fil_habilidades: [aplicar]
+    enem_habilidades: [CH.C3.H12]
+    enem_eixos_cognitivos: [CF, SP]
+    bncc_habilidades: [EM13CHS605]
   question_elements:
     - question_text: >
         O direito não é a justiça. O direito é o elemento do cálculo, é justo que haja um direito, mas a justiça é incalculável,
@@ -413,6 +446,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         A “invenção” dessa nova anatomia política não deve ser entendida como uma descoberta súbita.
@@ -448,6 +484,9 @@
     fil_periodos: [moderna.iluminismo]
     fil_areas: [etica.natureza, politica.trabalho_capital]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Adam Smith via o açougueiro e o padeiro não só como indivíduos buscando seus interesses financeiros,
@@ -481,6 +520,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [politica.governo_democracia]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C5.H24]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         O corpo de cidadãos é o poder supremo dos Estados. A supremacia pode residir ou num homem, ou na minoria,
@@ -515,6 +557,9 @@
     fil_periodos: []
     fil_areas: [etica.natureza]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text_title: O que eu queria ter sido
       question_text: >
@@ -552,6 +597,9 @@
     fil_periodos: [contemporanea.frankfurt.marcuse]
     fil_areas: [cultura.contemporaneidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS504]
   question_elements:
     - question_text: >
         Independência de pensamento, autonomia e direito à oposição política estão perdendo sua função crítica básica
@@ -586,6 +634,9 @@
     fil_periodos: [antiga.presocraticos.heraclito]
     fil_areas: [metafisica.principio_real]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -624,6 +675,9 @@
     fil_periodos: [sec19.utilitarismo.bentham]
     fil_areas: [etica.utilitarismo, politica.justica]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C3.H12]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         A missão dos governantes consiste em promover a felicidade da sociedade, punindo e recompensando.
@@ -659,6 +713,9 @@
     fil_periodos: [antiga.platao.politica]
     fil_areas: [politica.justica]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603, EM13CHS501]
   question_elements:
     - question_text: >
         A cidade justa é governada pelos filósofos, administrada pelos cientistas, protegida pelos guerreiros
@@ -693,6 +750,9 @@
     fil_periodos: [contemporanea.politica.arendt]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         Para os gregos, forçar alguém mediante violência, ordenar ao invés de persuadir, eram modos
@@ -727,6 +787,9 @@
     fil_periodos: [moderna.renascimento.maquiavel]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         Não ignoro que muitos foram e são de opinião de que as coisas do mundo são governadas de
@@ -761,6 +824,9 @@
     fil_periodos: [contemporanea.estruturalismo]
     fil_areas: [cultura.contemporaneidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H3]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS504]
   question_elements:
     - question_text: >
         O *homo economicus* contemporâneo é dotado de intenso princípio de racionalidade formal
@@ -795,6 +861,9 @@
     fil_periodos: [medieval.patristica.agostinho_fe]
     fil_areas: [metafisica.deus_religiao, etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         É com certeza, Senhor, e não com dúvida que em minha consciência eu Vos amo. Vós
@@ -828,6 +897,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [politica.governo_democracia]
     fil_habilidades: [aplicar]
+    enem_habilidades: [CH.C5.H24, CH.C1.H3]
+    enem_eixos_cognitivos: [CF, SP]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         O que define a polis é que, contrariamente à tribo ou às grandes monarquias,
@@ -863,6 +935,9 @@
     fil_periodos: [contemporanea.estruturalismo.sociedade_atual]
     fil_areas: [cultura.contemporaneidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H20, CH.C5.H21]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS202]
   question_elements:
     - question_text: >
         O smartphone não é uma coisa. Eu o caracterizo como um infômata (coisa informatizada)
@@ -898,6 +973,9 @@
     fil_periodos: [moderna.contratualismo.hobbes, moderna.contratualismo.rousseau]
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C3.H14]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -944,6 +1022,9 @@
     fil_periodos: [antiga.origens]
     fil_areas: [politica.governo_democracia]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C5.H24]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         Antigamente, existiam duas maneiras de governar: ou a sociedade era comandada pelo
@@ -979,6 +1060,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Ainda que instituições não recorram a castigos violentos ou sangrentos,\
@@ -1013,6 +1097,9 @@
     fil_periodos: [contemporanea.etica_aplicada.jonas]
     fil_areas: [etica.aplicada, metafisica.substancia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         A ontologia como fundamento da ética foi o ponto de vista original da filosofia. A
@@ -1054,6 +1141,9 @@
     fil_periodos: [antiga.platao.politica]
     fil_areas: [politica.governo_democracia, antropologia.natureza_humana]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         Na obra O Político, Platão faz uma sutil distinção entre plantas e animais. As
@@ -1094,6 +1184,9 @@
     fil_periodos: [antiga.presocraticos.jonicos, medieval.patristica]
     fil_areas: [metafisica.principio_real]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -1143,6 +1236,9 @@
     fil_periodos: [antiga.helenistica.epicurismo]
     fil_areas: [etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Alguns dos desejos são naturais e necessários; outros, naturais e não necessários;
@@ -1179,6 +1275,9 @@
     fil_periodos: [antiga.presocraticos.jonicos]
     fil_areas: [metafisica.principio_real, filosofia.mito_senso_comum]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Aquilo que é quente necessita de umidade para viver, e o que é morto seca,
@@ -1214,6 +1313,9 @@
     fil_periodos: [antiga.presocraticos.heraclito, antiga.presocraticos.eleatas]
     fil_areas: [metafisica.principio_real]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: TEXTO I
       question_text: >
@@ -1254,6 +1356,9 @@
     fil_periodos: [antiga.socratico.sofistas]
     fil_areas: [linguagem.retorica]
     fil_habilidades: [aplicar]
+    enem_habilidades: [CH.C1.H3]
+    enem_eixos_cognitivos: [CF, SP]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Não tinha outra filosofia. Nem eu. Não digo que a Universidade me não tivesse ensinado alguma; mas eu decorei-lhe 
@@ -1289,6 +1394,9 @@
     fil_periodos: [antiga.socratico.socrates]
     fil_areas: [filosofia.o_que_e]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Uma conversação de tal natureza transforma o ouvinte; o contato de Sócrates paralisa e embaraça; 
@@ -1324,6 +1432,9 @@
     fil_periodos: [antiga.socratico.socrates]
     fil_areas: [etica.natureza]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Tomemos o exemplo de Sócrates: é precisamente ele quem interpela as pessoas na rua, os jovens no 
@@ -1358,6 +1469,9 @@
     fil_periodos: [antiga.origens.mito_logos]
     fil_areas: [filosofia.mito_senso_comum, metafisica.principio_real]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz 
@@ -1393,6 +1507,9 @@
     fil_periodos: [antiga.socratico.sofistas]
     fil_areas: [politica.justica]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C3.H12]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Trasímaco estava impaciente porque Sócrates e os seus amigos presumiam que a justiça era algo real e 
@@ -1427,6 +1544,9 @@
     fil_periodos: [medieval.escolastica.tomas_etica_politica, antiga.aristoteles.politica]
     fil_areas: [politica.legitimidade]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C3.H12]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text: >
         Tomás de Aquino, filósofo cristão que viveu no século XIII, afirma: a lei é uma regra ou um preceito 
@@ -1461,6 +1581,9 @@
     fil_periodos: [antiga.platao.conhecimento]
     fil_areas: [conhecimento.verdade]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Suponha homens numa morada subterrânea, em forma de caverna, cuja entrada, aberta à luz, se estende 
@@ -1499,6 +1622,9 @@
     fil_periodos: [antiga.platao.metodo]
     fil_areas: [filosofia.o_que_e]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Sócrates: “Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, que coisa afirmas ser a virtude?”.
@@ -1530,6 +1656,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Vemos que toda cidade é uma espécie de 
@@ -1568,6 +1697,9 @@
     fil_periodos: [antiga.helenistica.estoicismo]
     fil_areas: [etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         XI. Jamais, a respeito de coisa alguma, digas: "Eu
@@ -1608,6 +1740,9 @@
     fil_periodos: [antiga.aristoteles.logica]
     fil_areas: [conhecimento.verdade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Dado que, dos hábitos racionais com os quais
@@ -1652,6 +1787,9 @@
     fil_periodos: [antiga.helenistica.estoicismo]
     fil_areas: [etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Entretanto, nosso amigo Basso tem o ânimo alegre. 
@@ -1686,6 +1824,9 @@
     fil_periodos: [antiga.origens.mito_logos]
     fil_areas: [filosofia.mito_senso_comum]
     fil_habilidades: [contextualizar]
+    enem_habilidades: [CH.C3.H11]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text: >
         Advento da Polis, nascimento da filosofia: entre as 
@@ -1728,6 +1869,9 @@
     fil_periodos: [antiga.aristoteles.etica]
     fil_areas: [etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         A felicidade é, portanto, a melhor, a mais nobre e a
@@ -1766,6 +1910,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS404]
   question_elements:
     - question_text: >
         A utilidade do escravo é semelhante à do animal.
@@ -1803,6 +1950,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [etica.felicidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Se, pois, para as coisas que fazemos existe um fim
@@ -1853,6 +2003,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [politica.justica]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text: >
         Vimos que o homem sem lei é injusto e o respeitador
@@ -1895,6 +2048,9 @@
     fil_periodos: [medieval.patristica.agostinho_mal]
     fil_areas: [metafisica.deus_religiao]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Se os nossos adversários, que admitem a existência de uma natureza\
@@ -1930,6 +2086,9 @@
     fil_periodos: [medieval.escolastica.tomas_etica_politica]
     fil_areas: [politica.governo_democracia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Ora, em todas as coisas ordenadas a algum fim, é preciso haver\
@@ -1971,6 +2130,9 @@
     fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
     fil_areas: [etica.natureza]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "O perdão não é o esquecimento. Ao contrário, ele requer a memória\
@@ -2009,6 +2171,9 @@
     fil_periodos: [antiga.aristoteles.etica]
     fil_areas: [etica.virtudes]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "Pensa-se que é característico de uma pessoa de discernimento ser\
@@ -2048,6 +2213,9 @@
     fil_periodos: [medieval.patristica.agostinho_mal]
     fil_areas: [metafisica.liberdade_determinismo, metafisica.deus_religiao]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Sem negar que Deus prevê todos os acontecimentos futuros, entretanto\
@@ -2082,6 +2250,9 @@
     fil_periodos: [contemporanea.fenomenologia.merleau_ponty, moderna.racionalismo.descartes_cogito]
     fil_areas: [antropologia.mente_corpo]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS105]
   question_elements:
     - question_text:
         "Eu poderia concluir que a raiva é um pensamento, que estar com\
@@ -2120,6 +2291,9 @@
     fil_periodos: [contemporanea.fenomenologia.hermeneutica]
     fil_areas: [etica.natureza]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "Quem se mete pelo caminho do pedido de perdão deve estar pronto\
@@ -2155,6 +2329,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C3.H12]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "A economia das ilegalidades se reestruturou com o desenvolvimento\
@@ -2199,6 +2376,9 @@
     fil_periodos: [contemporanea.frankfurt.industria_cultural]
     fil_areas: [estetica.industria_cultural, cultura.contemporaneidade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS303]
   question_elements:
     - question_text:
         "A diversão é o prolongamento do trabalho sob o capitalismo tardio.\
@@ -2236,6 +2416,9 @@
     fil_periodos: [contemporanea.existencialismo.sartre]
     fil_areas: [metafisica.liberdade_determinismo, antropologia.existencia]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2289,6 +2472,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [etica.virtudes]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "O Estado surge pelo fato de ser o homem um animal naturalmente\
@@ -2325,6 +2511,9 @@
     fil_periodos: []
     fil_areas: [etica.natureza]
     fil_habilidades: [aplicar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF, SP]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "Estudiosos do Instituto de Antropologia Evolucionária de Leipzig,\
@@ -2363,6 +2552,9 @@
     fil_periodos: [contemporanea.politica.libertarismo_comunitarismo]
     fil_areas: [politica.governo_democracia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H24]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "A concepção tecnocrata está associada à fé em mercados — não necessariamente\
@@ -2405,6 +2597,9 @@
     fil_periodos: [contemporanea.politica.rawls]
     fil_areas: [politica.justica, politica.governo_democracia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H24]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Os valores políticos são valores efetivamente superiores, que\
@@ -2444,6 +2639,9 @@
     fil_periodos: [antiga.aristoteles.logica]
     fil_areas: [logica.falacias]
     fil_habilidades: [analisar_argumento]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [DL, CA]
+    bncc_habilidades: [EM13CHS103]
   question_elements:
     - question_text:
         "As propostas dele não devem ser levadas a sério, pois foi visto\
@@ -2478,6 +2676,9 @@
     fil_periodos: [moderna.empirismo.hume]
     fil_areas: [conhecimento.razao_experiencia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Suponha-se que seja trazida de súbito a este mundo uma pessoa\
@@ -2515,6 +2716,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "O leproso é visto dentro de uma prática da rejeição, do exílio-cerca;\
@@ -2555,6 +2759,9 @@
     fil_periodos: [contemporanea.fenomenologia.merleau_ponty, contemporanea.estruturalismo.pos_modernidade]
     fil_areas: [estetica]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2597,6 +2804,9 @@
     fil_periodos: [contemporanea.politica.arendt]
     fil_areas: [linguagem.comunicacao]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Sempre que a relevância do discurso entra em jogo, a questão torna-se\
@@ -2638,6 +2848,9 @@
     fil_periodos: [antiga.presocraticos.pluralistas]
     fil_areas: [metafisica.principio_real]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Empédocles estabelece quatro elementos corporais — fogo, ar, água\
@@ -2675,6 +2888,9 @@
     fil_periodos: [moderna.renascimento.maquiavel]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "A um príncipe, portanto, não é necessário ter de fato todas as\
@@ -2713,6 +2929,9 @@
     fil_periodos: [contemporanea.existencialismo]
     fil_areas: [antropologia.existencia, filosofia.o_que_e]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Em primeiro lugar, é preciso libertar-se do preconceito segundo\
@@ -2751,6 +2970,9 @@
     fil_periodos: []
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS105]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2796,6 +3018,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C4.H16]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "A velha potência de morte em que se simbolizava o poder soberano\
@@ -2832,6 +3057,9 @@
     fil_periodos: []
     fil_areas: [politica.liberdade_direitos]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C3.H12]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Em sentido geral e fundamental, Direito é a técnica da coexistência\
@@ -2868,6 +3096,9 @@
     fil_periodos: [medieval.patristica.agostinho_mal]
     fil_areas: [metafisica.liberdade_determinismo]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "De fato, não é porque o homem pode usar a vontade livre para pecar\
@@ -2909,6 +3140,9 @@
     fil_periodos: [moderna.renascimento.maquiavel]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [contextualizar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Para Maquiavel, quando um homem decide dizer a verdade pondo em\
@@ -2948,6 +3182,9 @@
     fil_periodos: [moderna.racionalismo.descartes_cogito]
     fil_areas: [metafisica.deus_religiao]
     fil_habilidades: [contextualizar]
+    enem_habilidades: [CH.C1.H3]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -2992,6 +3229,9 @@
     fil_periodos: [contemporanea.estruturalismo.foucault]
     fil_areas: [antropologia.subjetividade]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Penso que não há um sujeito soberano, fundador, uma forma universal\
@@ -3028,6 +3268,9 @@
     fil_periodos: [moderna.kant.etica, moderna.kant.conhecimento]
     fil_areas: [etica.dever, conhecimento.razao_experiencia]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text_title: "TEXTO I"
       question_text:
@@ -3070,6 +3313,9 @@
     fil_periodos: [moderna.revolucao_cientifica.newton]
     fil_areas: [ciencia.metodo]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "A lenda diz que, em um belo dia ensolarado, Newton estava relaxando\
@@ -3110,6 +3356,9 @@
     fil_periodos: [contemporanea.politica.arendt]
     fil_areas: [politica.totalitarismo]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C3.H15]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS503]
   question_elements:
     - question_text:
         "Essa atmosfera de loucura e irrealidade, criada pela aparente\
@@ -3150,6 +3399,9 @@
     fil_periodos: [antiga.aristoteles.politica]
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Sem dúvida, os sons da voz (phone) exprimem a dor e o prazer;\
@@ -3189,6 +3441,9 @@
     fil_periodos: [contemporanea.frankfurt.industria_cultural]
     fil_areas: [estetica.industria_cultural]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H21]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS303]
   question_elements:
     - question_text:
         "Por força da industrialização da cultura, desde o começo do filme\
@@ -3225,6 +3480,9 @@
     fil_periodos: [antiga.platao.politica]
     fil_areas: [politica.justica]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Se os filósofos não forem reis nas cidades ou se os que hoje são\
@@ -3263,6 +3521,9 @@
     fil_periodos: [moderna.racionalismo.descartes_metodo]
     fil_areas: [conhecimento.razao_experiencia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Na primeira meditação, eu exponho as razões pelas quais nós podemos\
@@ -3300,6 +3561,9 @@
     fil_periodos: [contemporanea.estruturalismo.pos_modernidade]
     fil_areas: [antropologia.subjetividade]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "A humanidade, a humanidade do homem, ainda é um conceito completamente\
@@ -3338,6 +3602,9 @@
     fil_periodos: [moderna.contratualismo.rousseau]
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "Antes que a arte polisse nossas maneiras e ensinasse nossas paixões\
@@ -3375,6 +3642,9 @@
     fil_periodos: [moderna.racionalismo.descartes_metodo]
     fil_areas: [filosofia.o_que_e]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "A filosofia é como uma árvore, cujas raízes são a metafísica;\
@@ -3412,6 +3682,9 @@
     fil_periodos: [moderna.revolucao_cientifica.galileu]
     fil_areas: [ciencia.metodo]
     fil_habilidades: [contextualizar]
+    enem_habilidades: [CH.C3.H15]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "A filosofia encontra-se escrita neste grande livro que continuamente\
@@ -3450,6 +3723,9 @@
     fil_periodos: [moderna.kant.conhecimento]
     fil_areas: [conhecimento.razao_experiencia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Até hoje admitia-se que nosso conhecimento se devia regular pelos\
@@ -3493,6 +3769,9 @@
     fil_periodos: [antiga.platao.conhecimento]
     fil_areas: [conhecimento.verdade, metafisica.substancia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Estamos, pois, de acordo quando, ao ver algum objeto, dizemos:\
@@ -3527,6 +3806,9 @@
     fil_periodos: [sec19.utilitarismo.bentham]
     fil_areas: [etica.utilitarismo]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "A moralidade, Bentham exortava, não é uma questão de agradar a\
@@ -3562,6 +3844,9 @@
     fil_periodos: [contemporanea.decolonial.africana]
     fil_areas: [etica.natureza, cultura.relativismo]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H5, CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "Ubuntu é um sistema de crenças, uma epistemologia, uma ética coletiva\
@@ -3604,6 +3889,9 @@
     fil_periodos: [moderna.kant.etica]
     fil_areas: [etica.dever]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS501]
   question_elements:
     - question_text:
         "Princípios práticos são subjetivos, ou máximas, quando a condição\
@@ -3638,6 +3926,9 @@
     fil_periodos: [medieval.patristica.agostinho_mal]
     fil_areas: [metafisica.liberdade_determinismo]
     fil_habilidades: [identificar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
     - question_text:
         "Quando Édipo nasceu, seus pais, Laio e Jocasta, os reis de Tebas,\
@@ -3692,6 +3983,9 @@
     fil_periodos: [moderna.renascimento.maquiavel]
     fil_areas: [politica.poder_estado]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C5.H23]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS603]
   question_elements:
     - question_text:
         "O príncipe, portanto, não deve se incomodar com a reputação de\
@@ -3729,6 +4023,9 @@
     fil_periodos: [contemporanea.existencialismo.camus]
     fil_areas: [antropologia.existencia]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
   - question_text: "Galileu, que detinha uma verdade científica importante, abjurou-a\
       \ com a maior facilidade, quando ela lhe pôs a vida em perigo. Em um certo sentido,\
@@ -3769,6 +4066,9 @@
     fil_periodos: [moderna.racionalismo.espinosa]
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [interpretar]
+    enem_habilidades: [CH.C1.H1]
+    enem_eixos_cognitivos: [CF]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
   - question_text: "Os filósofos concebem as emoções que se combatem entre si, em\
       \ nós, como vícios em que os homens caem por erro próprio; é por isso que se\
@@ -3803,6 +4103,9 @@
     fil_periodos: [antiga.aristoteles.politica, contemporanea.politica.arendt]
     fil_areas: [antropologia.natureza_humana]
     fil_habilidades: [comparar]
+    enem_habilidades: [CH.C1.H4]
+    enem_eixos_cognitivos: [CF, CA]
+    bncc_habilidades: [EM13CHS101]
   question_elements:
   - question_text_title: "TEXTO I"
     question_text: "Aquele que não é capaz de pertencer a uma comunidade ou que dela\

@@ -1,0 +1,193 @@
+# BNCC do Ensino Médio: competências específicas e habilidades, por área do conhecimento
+# Códigos oficiais das habilidades: EM13 + sigla da área + competência + número (ex.: EM13CHS101)
+# Por enquanto, só Ciências Humanas e Sociais Aplicadas está preenchida.
+
+areas:
+  linguagens_e_suas_tecnologias:
+    codigo: LGG
+    nome: Linguagens e suas Tecnologias
+    competencias: []
+
+  matematica_e_suas_tecnologias:
+    codigo: MAT
+    nome: Matemática e suas Tecnologias
+    competencias: []
+
+  ciencias_da_natureza_e_suas_tecnologias:
+    codigo: CNT
+    nome: Ciências da Natureza e suas Tecnologias
+    competencias: []
+
+  ciencias_humanas_e_sociais_aplicadas:
+    codigo: CHS
+    nome: Ciências Humanas e Sociais Aplicadas
+    competencias:
+      - cod: 1
+        nome_amigavel: 🧠 Compreender o mundo e pensar criticamente
+        subtitulo: "Análise de processos políticos, sociais, econômicos e culturais"
+        nome_oficial: "Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir da pluralidade de procedimentos epistemológicos, científicos e tecnológicos, de modo a compreender e posicionar-se criticamente em relação a eles, considerando diferentes pontos de vista e tomando decisões baseadas em argumentos e fontes de natureza científica."
+        descricao_oficial: "Nessa competência específica, pretende-se ampliar as capacidades dos estudantes de elaborar hipóteses e compor argumentos com base na sistematização de dados (de natureza quantitativa e qualitativa); compreender e utilizar determinados procedimentos metodológicos para discutir criticamente as circunstâncias históricas favoráveis à emergência de matrizes conceituais dicotômicas (modernidade/atraso, Ocidente/Oriente, civilização/barbárie, nomadismo/sedentarismo etc.), contextualizando-as de modo a identificar seu caráter redutor da complexidade efetiva da realidade; e operacionalizar conceitos como etnicidade, temporalidade, memória, identidade, sociedade, territorialidade, espacialidade etc. e diferentes linguagens e narrativas que expressem culturas, conhecimentos, crenças, valores e práticas."
+        habilidades:
+          - cod: '1.01'
+            nome_amigavel: 🧠 Leitura crítica do mundo
+            cod_oficial: EM13CHS101
+            descricao_oficial: "Identificar, analisar e comparar diferentes fontes e narrativas em diversas linguagens, para compreender ideias filosóficas e processos históricos, geográficos, políticos, econômicos, sociais, ambientais e culturais."
+          - cod: '1.02'
+            nome_amigavel: 🔍 Análise de ideias e conceitos
+            cod_oficial: EM13CHS102
+            descricao_oficial: "Identificar, analisar e discutir as circunstâncias de matrizes conceituais (como etnocentrismo, racismo, modernidade etc.), avaliando criticamente seu significado histórico e comparando diferentes narrativas e perspectivas."
+          - cod: '1.03'
+            nome_amigavel: 🗣️ Construção de argumentos
+            cod_oficial: EM13CHS103
+            descricao_oficial: "Elaborar hipóteses, selecionar evidências e construir argumentos sobre processos políticos, econômicos, sociais, ambientais, culturais e epistemológicos, com base em diferentes tipos de dados e fontes."
+          - cod: '1.04'
+            nome_amigavel: 🫆 Cultura e identidade
+            cod_oficial: EM13CHS104
+            descricao_oficial: "Analisar objetos e vestígios da cultura material e imaterial para identificar conhecimentos, valores, crenças e práticas que caracterizam identidades e diversidades culturais ao longo do tempo e do espaço."
+          - cod: '1.05'
+            nome_amigavel: ❓ Questionamento de padrões e oposições
+            cod_oficial: EM13CHS105
+            descricao_oficial: "Identificar, contextualizar e criticar classificações evolutivas e oposições dicotômicas (como cidade/campo, cultura/natureza, razão/emoção), evidenciando suas ambiguidades."
+          - cod: '1.06'
+            nome_amigavel: 📢 Comunicação e protagonismo digital
+            cod_oficial: EM13CHS106
+            descricao_oficial: "Utilizar linguagens cartográfica, gráfica e iconográfica, diferentes gêneros textuais e tecnologias digitais de forma crítica, reflexiva e ética para comunicar, acessar informações, produzir conhecimento e exercer protagonismo."
+
+      - cod: 2
+        nome_amigavel: 🌍 Entender territórios e relações de poder
+        subtitulo: Formação de territórios, fronteiras e geopolítica
+        nome_oficial: "Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão das relações de poder que determinam as territorialidades e o papel geopolítico dos Estados-nações."
+        descricao_oficial: "Nessa competência específica, pretende-se comparar e avaliar a ocupação do espaço e a delimitação de fronteiras, como também o papel dos agentes responsáveis por essas transformações. Os atores sociais (na cidade, no campo, nas zonas limítrofes, em uma região, em um Estado ou mesmo na relação entre Estados) são produtores de diferentes territorialidades nas quais se desenvolvem diferentes formas de negociação e conflito, igualdade e desigualdade, inclusão e exclusão. Dada a complexidade das relações de poder que determinam as territorialidades, dos fluxos populacionais e da circulação de mercadorias, é prioritário considerar o raciocínio geográfico e estratégico, bem como o significado da história, da economia e da política na produção do espaço."
+        habilidades:
+          - cod: '2.01'
+            nome_amigavel: ✈️ Movimentos de pessoas, mercadorias e capital
+            cod_oficial: EM13CHS201
+            descricao_oficial: "Analisar e caracterizar as dinâmicas das populações, das mercadorias e do capital nos diversos continentes, com destaque para a mobilidade e a fixação de pessoas, grupos humanos e povos, em função de eventos naturais, políticos, econômicos, sociais, religiosos e culturais, de modo a compreender e posicionar-se criticamente em relação a esses processos e às possíveis relações entre eles."
+          - cod: '2.02'
+            nome_amigavel: 💻 Tecnologia e transformações sociais
+            cod_oficial: EM13CHS202
+            descricao_oficial: "Analisar e avaliar os impactos das tecnologias na estruturação e nas dinâmicas de grupos, povos e sociedades contemporâneos (fluxos populacionais, financeiros, de mercadorias, de informações, de valores éticos e culturais etc.), bem como suas interferências nas decisões políticas, sociais, ambientais, econômicas e culturais."
+          - cod: '2.03'
+            nome_amigavel: 🧭 Território, fronteiras e diferentes perspectivas
+            cod_oficial: EM13CHS203
+            descricao_oficial: "Comparar os significados de território, fronteiras e vazio (espacial, temporal e cultural) em diferentes sociedades, contextualizando e relativizando visões dualistas (civilização/barbárie, nomadismo/sedentarismo, esclarecimento/obscurantismo, cidade/campo, entre outras)."
+          - cod: '2.04'
+            nome_amigavel: ⚔️ Ocupação do espaço e conflitos
+            cod_oficial: EM13CHS204
+            descricao_oficial: "Comparar e avaliar os processos de ocupação do espaço e a formação de territórios, territorialidades e fronteiras, identificando o papel de diferentes agentes (como grupos sociais e culturais, impérios, Estados Nacionais e organismos internacionais) e considerando os conflitos populacionais (internos e externos), a diversidade étnico-cultural e as características socioeconômicas, políticas e tecnológicas."
+          - cod: '2.05'
+            nome_amigavel: 🎒 Cultura, economia e juventude no território
+            cod_oficial: EM13CHS205
+            descricao_oficial: "Analisar a produção de diferentes territorialidades em suas dimensões culturais, econômicas, ambientais, políticas e sociais, no Brasil e no mundo contemporâneo, com destaque para as culturas juvenis."
+          - cod: '2.06'
+            nome_amigavel: 📐 Organização do espaço e raciocínio geográfico
+            cod_oficial: EM13CHS206
+            descricao_oficial: "Analisar a ocupação humana e a produção do espaço em diferentes tempos, aplicando os princípios de localização, distribuição, ordem, extensão, conexão, arranjos, casualidade, entre outros que contribuem para o raciocínio geográfico."
+
+      - cod: 3
+        nome_amigavel: 🌱 Cuidar do planeta com consciência
+        subtitulo: Relação sociedade-natureza e sustentabilidade
+        nome_oficial: "Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) e seus impactos econômicos e socioambientais, com vistas à proposição de alternativas que respeitem e promovam a consciência, a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global."
+        descricao_oficial: "Nessa competência específica, propõe-se analisar os paradigmas que refletem pensamentos e saberes de diferentes grupos, povos e sociedades (incluindo-se os indígenas, quilombolas e demais povos e populações tradicionais), levando em consideração suas formas de apropriação da natureza, extração, transformação e comercialização de recursos naturais, suas formas de organização social e política, as relações de trabalho, os significados da produção de sua cultura material e imaterial e suas linguagens. Considerando a presença, na contemporaneidade, da cultura de massa e das culturas juvenis, é importante compreender os significados de objetos derivados da indústria cultural, os instrumentos publicitários utilizados, o funcionamento da propaganda e do marketing, sua semiótica e seus elementos persuasivos, os papéis das novas tecnologias e os aspectos psicológicos e afetivos do consumismo."
+        habilidades:
+          - cod: '3.01'
+            nome_amigavel: ♻️ Consumo consciente e gestão de resíduos
+            cod_oficial: EM13CHS301
+            descricao_oficial: "Problematizar hábitos e práticas individuais e coletivos de produção, reaproveitamento e descarte de resíduos em metrópoles, áreas urbanas e rurais, e comunidades com diferentes características socioeconômicas, e elaborar e/ou selecionar propostas de ação que promovam a sustentabilidade socioambiental, o combate à poluição sistêmica e o consumo responsável."
+          - cod: '3.02'
+            nome_amigavel: 🎣 Recursos naturais e comunidades tradicionais
+            cod_oficial: EM13CHS302
+            descricao_oficial: "Analisar e avaliar criticamente os impactos econômicos e socioambientais de cadeias produtivas ligadas à exploração de recursos naturais e às atividades agropecuárias em diferentes ambientes e escalas de análise, considerando o modo de vida das populações locais – entre elas as indígenas, quilombolas e demais comunidades tradicionais –, suas práticas agroextrativistas e o compromisso com a sustentabilidade."
+          - cod: '3.03'
+            nome_amigavel: 🛍️ Indústria cultural e consumo responsável
+            cod_oficial: EM13CHS303
+            descricao_oficial: "Debater e avaliar o papel da indústria cultural e das culturas de massa no estímulo ao consumismo, seus impactos econômicos e socioambientais, com vistas à percepção crítica das necessidades criadas pelo consumo e à adoção de hábitos sustentáveis."
+          - cod: '3.04'
+            nome_amigavel: 🏭 Impactos socioambientais e ética
+            cod_oficial: EM13CHS304
+            descricao_oficial: "Analisar os impactos socioambientais decorrentes de práticas de instituições governamentais, de empresas e de indivíduos, discutindo as origens dessas práticas, selecionando, incorporando e promovendo aquelas que favoreçam a consciência e a ética socioambiental e o consumo responsável."
+          - cod: '3.05'
+            nome_amigavel: 📜 Regulação ambiental e acordos internacionais
+            cod_oficial: EM13CHS305
+            descricao_oficial: "Analisar e discutir o papel e as competências legais dos organismos nacionais e internacionais de regulação, controle e fiscalização ambiental e dos acordos internacionais para a promoção e a garantia de práticas ambientais sustentáveis."
+          - cod: '3.06'
+            nome_amigavel: 🌿 Modelos socioeconômicos e sustentabilidade
+            cod_oficial: EM13CHS306
+            descricao_oficial: "Contextualizar, comparar e avaliar os impactos de diferentes modelos socioeconômicos no uso dos recursos naturais e na promoção da sustentabilidade econômica e socioambiental do planeta (como a adoção dos sistemas da agrobiodiversidade e agroflorestal por diferentes comunidades, entre outros)."
+
+      - cod: 4
+        nome_amigavel: 💼 Entender trabalho e economia
+        subtitulo: Relações de produção, capital e trabalho
+        nome_oficial: "Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades."
+        descricao_oficial: "Nessa competência específica, pretende-se que os estudantes compreendam o significado de trabalho em diferentes culturas e sociedades, suas especificidades e os processos de estratificação social caracterizados por uma maior ou menor desigualdade econômico-social e participação política. Além disso, é importante que os indicadores de emprego, trabalho e renda sejam analisados em contextos específicos que favoreçam a compreensão tanto da sociedade e suas implicações sociais quanto das dinâmicas de mercado delas decorrentes. Já a investigação a respeito das transformações técnicas, tecnológicas e informacionais deve enfatizar as novas formas de trabalho, bem como seus efeitos, especialmente em relação aos jovens e às futuras gerações."
+        habilidades:
+          - cod: '4.01'
+            nome_amigavel: 🔧 Sociedade, tecnologia e trabalho
+            cod_oficial: EM13CHS401
+            descricao_oficial: "Identificar e analisar as relações entre sujeitos, grupos, classes sociais e sociedades com culturas distintas diante das transformações técnicas, tecnológicas e informacionais e das novas formas de trabalho ao longo do tempo, em diferentes espaços (urbanos e rurais) e contextos."
+          - cod: '4.02'
+            nome_amigavel: 📊 Desigualdade e condições de vida
+            cod_oficial: EM13CHS402
+            descricao_oficial: "Analisar e comparar indicadores de emprego, trabalho e renda em diferentes espaços, escalas e tempos, associando-os a processos de estratificação e desigualdade socioeconômica."
+          - cod: '4.03'
+            nome_amigavel: ⚙️ Tecnologia, trabalho e justiça social
+            cod_oficial: EM13CHS403
+            descricao_oficial: "Caracterizar e analisar os impactos das transformações tecnológicas nas relações sociais e de trabalho próprias da contemporaneidade, promovendo ações voltadas à superação das desigualdades sociais, da opressão e da violação dos Direitos Humanos."
+          - cod: '4.04'
+            nome_amigavel: ⏳ O trabalho ao longo do tempo
+            cod_oficial: EM13CHS404
+            descricao_oficial: "Identificar e discutir os múltiplos aspectos do trabalho em diferentes circunstâncias e contextos históricos e/ou geográficos e seus efeitos sobre as gerações, em especial, os jovens, levando em consideração, na atualidade, as transformações técnicas, tecnológicas e informacionais."
+
+      - cod: 5
+        nome_amigavel: ⚖️ Promover justiça e respeito
+        subtitulo: Combate às desigualdades, preconceitos e violências
+        nome_oficial: "Identificar e combater as diversas formas de injustiça, preconceito e violência, adotando princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos."
+        descricao_oficial: "O exercício de reflexão, que preside a construção do pensamento filosófico, permite aos jovens compreender os fundamentos da ética em diferentes culturas, estimulando o respeito às diferenças (linguísticas, culturais, religiosas, étnico-raciais etc.), à cidadania e aos Direitos Humanos. Ao realizar esse exercício na abordagem de circunstâncias da vida cotidiana, os estudantes podem desnaturalizar condutas, relativizar costumes e perceber a desigualdade, o preconceito e a discriminação presentes em atitudes, gestos e silenciamentos, avaliando as ambiguidades e contradições presentes em políticas públicas tanto de âmbito nacional como internacional."
+        habilidades:
+          - cod: '5.01'
+            nome_amigavel: 🤝 Fundamentos da ética e convivência
+            cod_oficial: EM13CHS501
+            descricao_oficial: "Analisar os fundamentos da ética em diferentes culturas, tempos e espaços, identificando processos que contribuem para a formação de sujeitos éticos que valorizem a liberdade, a cooperação, a autonomia, o empreendedorismo, a convivência democrática e a solidariedade."
+          - cod: '5.02'
+            nome_amigavel: 🏳️‍🌈 Direitos Humanos e respeito às diferenças
+            cod_oficial: EM13CHS502
+            descricao_oficial: "Analisar situações da vida cotidiana, estilos de vida, valores, condutas etc., desnaturalizando e problematizando formas de desigualdade, preconceito, intolerância e discriminação, e identificar ações que promovam os Direitos Humanos, a solidariedade e o respeito às diferenças e às liberdades individuais."
+          - cod: '5.03'
+            nome_amigavel: ⚖️ Violência e justiça social
+            cod_oficial: EM13CHS503
+            descricao_oficial: "Identificar diversas formas de violência (física, simbólica, psicológica etc.), suas principais vítimas, suas causas sociais, psicológicas e afetivas, seus significados e usos políticos, sociais e culturais, discutindo e avaliando mecanismos para combatê-las, com base em argumentos éticos."
+          - cod: '5.04'
+            nome_amigavel: 🧩 Desafios ético-políticos na contemporaneidade
+            cod_oficial: EM13CHS504
+            descricao_oficial: "Analisar e avaliar os impasses ético-políticos decorrentes das transformações culturais, sociais, históricas, científicas e tecnológicas no mundo contemporâneo e seus desdobramentos nas atitudes e nos valores de indivíduos, grupos sociais, sociedades e culturas."
+
+      - cod: 6
+        nome_amigavel: 🗳️ Exercer a cidadania ativa
+        subtitulo: Participação crítica na sociedade e no debate público
+        nome_oficial: "Participar do debate público de forma crítica, respeitando diferentes posições e fazendo escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade."
+        descricao_oficial: "A construção da cidadania é um exercício contínuo, dinâmico e que demanda a participação de todos para assegurar seus direitos e fazer cumprir deveres pactuados por princípios constitucionais e de respeito aos direitos humanos. Assim, para que os estudantes compreendam a importância de sua participação e sejam estimulados a atuar como cidadãos responsáveis e críticos, essa competência específica propõe que percebam o papel da política na vida pública, discutam a natureza e as funções do Estado e o papel de diferentes sujeitos e organismos no funcionamento social, e analisem experiências políticas à luz de conceitos políticos básicos. Para o desenvolvimento dessa competência específica, a política será explorada como instrumento que permite às pessoas explicitar e debater ideias, abrindo caminho para o respeito a diferentes posicionamentos em uma dada sociedade. Desse modo, espera-se que os estudantes reconheçam que o debate público – marcado pelo respeito à liberdade, autonomia e consciência crítica – orienta escolhas e fortalece o exercício da cidadania e o respeito a diferentes projetos de vida."
+        habilidades:
+          - cod: '6.01'
+            nome_amigavel: ✊ Protagonismo e igualdade étnico-racial
+            cod_oficial: EM13CHS601
+            descricao_oficial: "Identificar e analisar as demandas e os protagonismos políticos, sociais e culturais dos povos indígenas e das populações afrodescendentes (incluindo as quilombolas) no Brasil contemporâneo considerando a história das Américas e o contexto de exclusão e inclusão precária desses grupos na ordem social e econômica atual, promovendo ações para a redução das desigualdades étnico-raciais no país."
+          - cod: '6.02'
+            nome_amigavel: 🏛️ Autoritarismo, democracia e cidadania
+            cod_oficial: EM13CHS602
+            descricao_oficial: "Identificar e caracterizar a presença do paternalismo, do autoritarismo e do populismo na política, na sociedade e nas culturas brasileira e latino-americana, em períodos ditatoriais e democráticos, relacionando-os com as formas de organização e de articulação das sociedades em defesa da autonomia, da liberdade, do diálogo e da promoção da democracia, da cidadania e dos direitos humanos na sociedade atual."
+          - cod: '6.03'
+            nome_amigavel: 👥 Países, povos e conceitos políticos
+            cod_oficial: EM13CHS603
+            descricao_oficial: "Analisar a formação de diferentes países, povos e nações e de suas experiências políticas e de exercício da cidadania, aplicando conceitos políticos básicos (Estado, poder, formas, sistemas e regimes de governo, soberania etc.)."
+          - cod: '6.04'
+            nome_amigavel: 🌐 Organismos internacionais e impactos globais
+            cod_oficial: EM13CHS604
+            descricao_oficial: "Discutir o papel dos organismos internacionais no contexto mundial, com vistas à elaboração de uma visão crítica sobre seus limites e suas formas de atuação nos países, considerando os aspectos positivos e negativos dessa atuação para as populações locais."
+          - cod: '6.05'
+            nome_amigavel: 🕊️ Direitos Humanos e justiça social
+            cod_oficial: EM13CHS605
+            descricao_oficial: "Analisar os princípios da declaração dos Direitos Humanos, recorrendo às noções de justiça, igualdade e fraternidade, identificar os progressos e entraves à concretização desses direitos nas diversas sociedades contemporâneas e promover ações concretas diante da desigualdade e das violações desses direitos em diferentes espaços de vivência, respeitando a identidade de cada grupo e de cada indivíduo."
+          - cod: '6.06'
+            nome_amigavel: "🇧🇷 Sociedade brasileira: análise e soluções"
+            cod_oficial: EM13CHS606
+            descricao_oficial: "Analisar as características socioeconômicas da sociedade brasileira – com base na análise de documentos (dados, tabelas, mapas etc.) de diferentes fontes – e propor medidas para enfrentar os problemas identificados e construir uma sociedade mais próspera, justa e inclusiva, que valorize o protagonismo de seus cidadãos e promova o autoconhecimento, a autoestima, a autoconfiança e a empatia."
