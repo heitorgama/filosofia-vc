@@ -6,7 +6,7 @@ description: Cria, passo a passo e com aprovação do usuário a cada etapa, uma
 # Nova Aula
 
 Produz um novo arquivo `slides/aulaNN_slug.qmd` (revealjs) para o curso, e
-registra a aula em `dados/fil_aulas.yaml`. O público-alvo de **toda** aula
+registra a aula em `dados/aulas.yaml` (seção `fil`). O público-alvo de **toda** aula
 deste curso é sempre o mesmo: estudantes de um **cursinho popular
 preparatório para o Enem** — escreva com esse leitor em mente (direto,
 didático, sem pressupor vocabulário técnico não explicado).
@@ -51,7 +51,7 @@ longo do projeto — siga-os de propósito, não por acaso:**
 
 1. Rode `ls slides/aula*.qmd` para achar o maior número de aula já criado
    como arquivo (hoje, `aula09_etica_moderna.qmd` → próximo seria `10`).
-2. Leia `dados/fil_aulas.yaml` também. Às vezes já existe uma entrada
+2. Leia `dados/aulas.yaml` também. Às vezes já existe uma entrada
    "planejada" ali para o próximo número (com `titulo` e `questoes`
    definidos) sem o `.qmd` correspondente ainda existir — isso é normal
    neste projeto. Se for o caso, mostre esse planejamento ao usuário e
@@ -61,7 +61,7 @@ longo do projeto — siga-os de propósito, não por acaso:**
    passo 1. Deixe o usuário confirmar ou escolher outro número/título.
 4. Confirme também o `id_textual` que isso gera (`aulaNN_slug`, no mesmo
    padrão dos arquivos existentes — veja a coluna `id_textual` em
-   `dados/fil_aulas.yaml` para exemplos) e o caminho final:
+   `dados/aulas.yaml` para exemplos) e o caminho final:
    `slides/aulaNN_slug.qmd`.
 5. Pergunte a data planejada para o início dessa aula (campo `date` do
    frontmatter, formato `AAAA-MM-DD`). Rode `grep -h '^date:' slides/aula*.qmd`
@@ -106,12 +106,12 @@ longo do projeto — siga-os de propósito, não por acaso:**
    substituindo `IDS` pela lista escolhida — uma lista vazia impressa confirma
    que todas existem).
 4. Verifique também se algum ID já é usado em outra aula (basta olhar as
-   listas `questoes` em `dados/fil_aulas.yaml`). Isso **não é proibido**
+   listas `questoes` em `dados/aulas.yaml`). Isso **não é proibido**
    (já aconteceu antes no projeto, ex.: a questão 10 aparece em duas aulas),
    mas avise o usuário para que a repetição seja intencional.
 5. Guarde a lista final **na ordem exata** que o usuário quer — essa ordem
    vira a numeração "Questão 1", "Questão 2" etc. dentro da aula, e é
-   também a ordem salva em `dados/fil_aulas.yaml`.
+   também a ordem salva em `dados/aulas.yaml`.
 
 ## Etapa 4 — Assunto da aula
 
@@ -238,20 +238,23 @@ Só depois do conteúdo aprovado:
    nos slides — ajustes nesse ponto são esperados e rápidos de aplicar
    (edite o valor no `<style>` e rode `quarto render` de novo).
 
-## Etapa 9 — Registrar em `dados/fil_aulas.yaml`
+## Etapa 9 — Registrar em `dados/aulas.yaml`
 
 1. Se já existia uma entrada planejada para esse `id` (ver Etapa 1), edite-a
    para refletir o que foi efetivamente criado (`titulo`, `id_textual`,
    `questoes` na ordem final). Caso contrário, acrescente uma nova entrada
-   ao final do arquivo, no mesmo formato das existentes:
+   ao final da seção `fil:` (as aulas ficam aninhadas sob o código da
+   matéria), no mesmo formato e indentação das existentes:
    ```yaml
-   - id: NN
-     id_textual: aulaNN_slug
-     titulo: "Título da aula"
-     questoes: [id1, id2, id3]
+   fil:
+     # ...aulas existentes...
+     - id: NN
+       id_textual: aulaNN_slug
+       titulo: "Título da aula"
+       questoes: [id1, id2, id3]
    ```
 2. Confira que não há `id` duplicado depois da edição:
-   `python3 -c "import yaml; a=yaml.safe_load(open('dados/fil_aulas.yaml')); ids=[x['id'] for x in a]; assert len(ids)==len(set(ids)); print('ok', len(a))"`.
+   `python3 -c "import yaml; a=yaml.safe_load(open('dados/aulas.yaml'))['fil']; ids=[x['id'] for x in a]; assert len(ids)==len(set(ids)); print('ok', len(a))"`.
 
 ## Etapa 10 (opcional) — `README.md`
 

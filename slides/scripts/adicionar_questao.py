@@ -1,5 +1,5 @@
 """Script interativo para adicionar uma nova questão a dados/questoes_enem.yaml
-e registrar seu `id` na lista `questoes` da aula escolhida em dados/fil_aulas.yaml
+e registrar seu `id` na lista `questoes` da aula escolhida em dados/aulas.yaml
 (que os slides de aula leem).
 
 Ao final, os comentários de cada alternativa (chave `comments`) são gerados
@@ -28,7 +28,8 @@ PASTA_SLIDES = Path(__file__).parent.parent
 PASTA_DADOS = PASTA_SLIDES.parent / "dados"
 CAMINHO_YAML = PASTA_DADOS / "questoes_enem.yaml"
 CAMINHO_MATERIAS = PASTA_DADOS / "materias.yaml"
-CAMINHO_AULAS = PASTA_DADOS / "fil_aulas.yaml"
+CAMINHO_AULAS = PASTA_DADOS / "aulas.yaml"
+MATERIA = "fil"  # seção de dados/aulas.yaml com as aulas do curso
 
 load_dotenv(PASTA_SLIDES.parent / ".env")
 
@@ -384,10 +385,10 @@ def gerar_comments(novo_item):
 
 
 def selecionar_aula():
-    """Pergunta em qual aula de dados/fil_aulas.yaml a questão será usada e
+    """Pergunta em qual aula de dados/aulas.yaml a questão será usada e
     devolve o `id_textual` dela, ou None se o usuário pular."""
     with open(CAMINHO_AULAS, encoding="utf-8") as f:
-        aulas = yaml.safe_load(f) or []
+        aulas = (yaml.safe_load(f) or {}).get(MATERIA) or []
     print("Aulas disponíveis:")
     for aula in aulas:
         print(f"  {aula['id']:02d}: {aula['titulo']} ({aula['id_textual']})")
@@ -405,11 +406,12 @@ def selecionar_aula():
 
 def adicionar_id_na_aula(id_textual, novo_id):
     """Acrescenta `novo_id` ao fim da lista `questoes` da aula em
-    dados/fil_aulas.yaml, editando só essa linha para preservar a formatação
-    (e os comentários) do arquivo."""
+    dados/aulas.yaml, editando só essa linha para preservar a formatação
+    (e os comentários) do arquivo. As aulas ficam aninhadas na seção da
+    matéria, então a indentação das chaves não é fixa."""
     texto = CAMINHO_AULAS.read_text(encoding="utf-8")
     padrao = re.compile(
-        rf"(id_textual: {re.escape(id_textual)}\n(?:  .*\n)*?  questoes: \[)([^\]]*)\]"
+        rf"(id_textual: {re.escape(id_textual)}\n(?:[ ]+.*\n)*?[ ]+questoes: \[)([^\]]*)\]"
     )
     match = padrao.search(texto)
     if not match:

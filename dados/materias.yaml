@@ -10,14 +10,12 @@
 # cabeçalho do arquivo traz as regras para preenchê-las. Uma matéria sem
 # classificação própria (ex.: Matemática) simplesmente não declara `taxonomia`.
 #
-# Uma matéria também pode ter uma chave opcional `aulas`: o nome do arquivo
-# YAML (na mesma pasta deste arquivo, no padrão `<codigo>_aulas.yaml`) que
-# lista as aulas dessa matéria e as questões usadas em cada uma.
+# As aulas de cada matéria (e as questões usadas em cada uma) ficam em
+# aulas.yaml, na seção cujo nome é o `codigo` da matéria (ex.: `fil`).
 
 - codigo: fil
   nome: Filosofia
   taxonomia: fil_taxonomia.yaml
-  aulas: fil_aulas.yaml
 - codigo: soc
   nome: Sociologia
 - codigo: his

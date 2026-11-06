@@ -9,7 +9,8 @@ from pathlib import Path
 PASTA_DADOS = Path(__file__).resolve().parent.parent.parent / "dados"
 CAMINHO_QUESTOES = PASTA_DADOS / "questoes_enem.yaml"
 CAMINHO_LISTAS = PASTA_DADOS / "listas.yaml"
-CAMINHO_AULAS = PASTA_DADOS / "fil_aulas.yaml"
+CAMINHO_FILAS = PASTA_DADOS / "filas.yaml"
+CAMINHO_AULAS = PASTA_DADOS / "aulas.yaml"
 
 
 def md_filter(text):
@@ -34,18 +35,32 @@ def carregar_ids_lista(id_textual, arquivo_yaml=CAMINHO_LISTAS):
     raise ValueError(f"Lista '{id_textual}' não encontrada em {arquivo_yaml}")
 
 
-def carregar_ids_aula(id_textual, arquivo_yaml=CAMINHO_AULAS):
+def carregar_ids_aula(id_textual, arquivo_yaml=CAMINHO_AULAS, materia="fil"):
     """Retorna os ids das questões da aula `id_textual` (nome do arquivo .qmd
-    da aula, sem a extensão), na ordem definida em dados/fil_aulas.yaml, que
-    é a fonte da verdade sobre quais questões cada aula usa."""
+    da aula, sem a extensão), na ordem definida na seção `materia` de
+    dados/aulas.yaml, que é a fonte da verdade sobre quais questões cada aula
+    usa."""
     with open(arquivo_yaml, "r", encoding="utf-8") as f:
-        aulas = yaml.safe_load(f) or []
+        aulas = (yaml.safe_load(f) or {}).get(materia) or []
 
     for aula in aulas:
         if aula["id_textual"] == id_textual:
             return aula["questoes"]
 
     raise ValueError(f"Aula '{id_textual}' não encontrada em {arquivo_yaml}")
+
+
+def carregar_ids_fila(nome, arquivo_yaml=CAMINHO_FILAS):
+    """Retorna os ids das questões da fila de projeção `nome`, na ordem
+    definida em dados/filas.yaml (filas montadas no navegador de questões)."""
+    with open(arquivo_yaml, "r", encoding="utf-8") as f:
+        filas = yaml.safe_load(f) or []
+
+    for fila in filas:
+        if fila["nome"] == nome:
+            return fila["questoes"]
+
+    raise ValueError(f"Fila '{nome}' não encontrada em {arquivo_yaml}")
 
 
 def carregar_questao(questao_id, arquivo_yaml=CAMINHO_QUESTOES):

@@ -1,8 +1,6 @@
 """Lista a frequência de itens por valor da chave `test` em dados/questoes_enem.yaml,
-e quantas dessas questões já apareceram nos slides de aula (slides/aula*.qmd)."""
+e quantas dessas questões já foram atribuídas a aulas (seção `fil` de dados/aulas.yaml)."""
 
-import ast
-import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -10,7 +8,8 @@ import yaml
 
 PASTA_SLIDES = Path(__file__).parent.parent
 CAMINHO_YAML = PASTA_SLIDES.parent / "dados" / "questoes_enem.yaml"
-PADRAO_QUESTOES = re.compile(r"^questoes\s*=\s*(\[.*?\])", re.MULTILINE | re.DOTALL)
+CAMINHO_AULAS = PASTA_SLIDES.parent / "dados" / "aulas.yaml"
+MATERIA = "fil"  # seção de dados/aulas.yaml com as aulas do curso
 
 CIANO = "\033[36m"
 VERDE = "\033[32m"
@@ -21,22 +20,20 @@ NEGRITO = "\033[1m"
 RESET = "\033[0m"
 
 
-def nome_aula(arquivo):
-    """Remove o prefixo `aula` e o sufixo `.qmd` do nome do arquivo, mantendo só a parte central."""
-    return arquivo.name.removeprefix("aula").removesuffix(".qmd")
+def nome_aula(id_textual):
+    """Remove o prefixo `aula` do `id_textual` da aula, mantendo só a parte central."""
+    return id_textual.removeprefix("aula")
 
 
 def arquivos_por_id_questao():
-    """Lê os slides de aula (slides/aula*.qmd) e mapeia cada `id` de questão
+    """Lê as aulas de dados/aulas.yaml e mapeia cada `id` de questão
     do Enem aos nomes (abreviados) das aulas em que ele aparece."""
     arquivos_por_id = defaultdict(list)
-    for arquivo in sorted(PASTA_SLIDES.glob("aula*.qmd")):
-        texto = arquivo.read_text(encoding="utf-8")
-        match = PADRAO_QUESTOES.search(texto)
-        if not match:
-            continue
-        for id_questao in ast.literal_eval(match.group(1)):
-            arquivos_por_id[id_questao].append(nome_aula(arquivo))
+    with open(CAMINHO_AULAS, encoding="utf-8") as f:
+        aulas = (yaml.safe_load(f) or {}).get(MATERIA) or []
+    for aula in aulas:
+        for id_questao in aula.get("questoes") or []:
+            arquivos_por_id[id_questao].append(nome_aula(aula["id_textual"]))
     return arquivos_por_id
 
 
